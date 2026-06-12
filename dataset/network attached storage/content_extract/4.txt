@@ -1,0 +1,41 @@
+Seagate Delivers Industry’s First Enterprise-Ready Exos 16TB Hard Drive And Raises The Bar With IronWolf 16TB For NAS
+
+16TB Exos
+®
+ X16 Hard Drive Provides Solution for High Density Storage Supporting Accelerated Hyperscale Demand and IronWolf 16TB Delivers Highest Capacity for NAS
+
+CUPERTINO, Calif. 
+- June 4, 2019 - Seagate Technology plc (NASDAQ: STX), a world leader in data storage solutions, today announced it has been actively shipping 16TB helium-based enterprise drives as part of the 
+Exos
+®
+ X16
+ family, delivering high performance and record capacity for hyperscale data centers to efficiently and cost-effectively manage ever-increasing amounts of data. The company also updated the 
+IronWolf
+®
+ and IronWolf Pro
+ Network Attached Storage (NAS) drive lines with new 16TB capacity models.
+
+The need for hyperscale, cloud, and NAS storage solutions continues to rise to unprecedented levels. In fact, a 
+recent IDC whitepaper
+ sponsored by Seagate predicts that the Global Datasphere - the amount of data created, captured or replicated across the globe – will grow from 33 zettabytes (ZB) in 2018 to 175 ZB by 2025. Seagate’s Exos X16 hard drive delivers the highest storage density available with the field-proven reliability and continuous high performance to support a broad range of workload requirements and high-availability use cases.
+
+Exos X16 HDD
+ is the world’s highest capacity 3.5-inch 7200 RPM drive designed to solve challenges by enabling hyperscale, datacenter, OEM and distribution channel businesses to maximize storage capacities, provide customer flexibility, and reduce complexity with uses in multiple workloads with increased I/O and enhanced caching capabilities. Seagate’s new Exos X16 16TB drive delivers 33 percent more petabytes per rack compared to 12TB drives while maintaining the same small footprint for a reduced overall total cost of ownership. Exos X16 offers built-in data protection, including 
+Seagate Secure™
+ Instant Secure Erase for safe, affordable, fast, and easy drive retirement.
+
+“The Exos X16 is key in reducing total cost of ownership for enterprise system developers and cloud data centers while supporting multiple applications with varying workloads,” said Sai Varanasi, vice president of product line marketing at Seagate Technology. “The Exos X16 is the industry’s leading helium-based 16TB capacity drive. We are partnering with our cloud/enterprise customers to bring this product to the market to fulfill the pent-up exabyte demand in data centers.”
+
+Seagate continues to establish new benchmarks in speed and capacity with the additional announcement of 
+IronWolf
+ and 
+IronWolf Pro 16TB
+ drives, built for multi-user NAS environments and supporting workloads up to 300TB/year. IronWolf is the ideal drive for home and small office NAS systems that deliver performance, low noise and low power consumption, making it efficient for everyday use such as back up, remote access and file sharing. IronWolf Pro drives are robust for NAS that operate in creative pro and small-medium business environments that demand heavy workloads to support their data needs.
+
+Zheng Yafeng, vice president at Tencent Cloud, said, “At Tencent Cloud, we are committed to creating a ‘digital ecosystem’, by boosting the Industrial Internet sector and serving various industries as a ‘digital assistant’. For the data lifecycle, from generation to capture, storage and application, we are working seamlessly with Seagate to understand how to cope with the exponential rise in data volumes, with new innovative architectures, from edge to cloud. Seagate’s 16TB Exos X16 hard drive has been incorporated into our cloud solution, significantly improving its storage density and performance, while cutting down the cost. Not only does this solution fulfill the ever-increasing demand of data centers for storage, but it helps us to efficiently address the emerging scenarios, applications, and challenges.”
+
+Peng Zhen, vice president at Inspur Group, said, “The era of smart computing is coming, and at Inspur we are striving to create a converged, open, and agile AI industry ecosystem so that we can provide customers with integrated solutions. Inspur and Seagate are working together in multiple fields, including cloud computing, big data and artificial intelligence, all to drive enterprise digital transformation. For Seagate’s 16TB helium-based Exos X16 enterprise drive, we have completed a series of joint tests, which indicate it delivers high performance with support for varying workloads, allowing us to increase system capacity and reduce deployment complexity, whilst considerably lowering total cost of ownership. In the future, we will continue to partner with Seagate to drive industries to transform further, and empower customers to embrace the upcoming era of artificial intelligence.”
+
+The Exos X16 16TB HDD has an MSRP of $629 and will be available June 4.
+
+For more information on the new Seagate Exos X16, Iron

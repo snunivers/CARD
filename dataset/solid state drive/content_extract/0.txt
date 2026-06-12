@@ -1,0 +1,123 @@
+AS350 PANTHER SATA III
+
+SATA III SSD
+
+AS350 PANTHER SATA III
+
+SATA III SSD
+
+AS350 PANTHER SATA III
+
+ Compatible with SATA III 6.0 Gb/s Interface
+
+ Sequential Read/Write Speed up to 560/540MB/s
+
+ Supports SATA Power Management
+
+                                    Explore the Peaks of High Speed
+                                
+
+                                        AS350X is Apacer's latest mid-to-high-end SSD. It uses a new generation of SATA III interface and provides 6Gb/s transmission speeds, enabling it to reach read/write speeds of up to 560/540 MB/s.
+                                    
+
+                                    First Choice for Computer Upgrades
+                                
+
+                                        The high-speed access performance of the AS350X offers users a superior computing experience. Bootups and program runtimes will take place in just a few seconds. The AS350X offers options including 128GB, 256GB, 512GB and 1TB. Thanks to Apacer's SSD Utility software, users are able to monitor all the relevant information about the status of their drives without extra cost.
+                                    
+
+                                    Excellent Performance with Optimized Durability and Stability
+                                
+
+                                        AS350X has an extended lifespan with improved operation stability, maintaining consistent performance even after years of use.
+                                    
+
+Spec
+
+Product Name
+
+AS350 PANTHER
+
+Capacity
+
+128GB~1TB
+
+Interface
+
+SATA III
+
+NAND Flash
+
+3D NAND
+
+Sequential Read Performance
+
+128GB：Up to 560MB/s
+
+256GB：Up to 560MB/s
+
+512GB：Up to 560MB/s
+
+1TB：Up to 560MB/s
+
+Sequential Write Performance
+
+128GB：Up to 540MB/s
+
+256GB：Up to 540MB/s
+
+512GB：Up to 540MB/s
+
+1TB：Up to 540MB/s
+
+*The performance may vary due to host hardware, software , usage and storage capacity.
+
+IOPs (4K Random Write)
+
+Up to 30,176IOPs
+
+ECC Support
+
+Up to 72bit/1KB
+
+Shock
+
+1,500G/0.5msec
+
+Vibration
+
+5~2000Hz/20G
+
+Low Power Consumption (Active/Idle)
+
+275/80mA
+
+MTBF
+
+1,500,000 hours
+
+Humidity
+
+5% ~95%
+
+Standard Operating Temperature
+
+0°C ~ +70°C
+
+Storage Temperature
+
+-40 ~ +85°C
+
+Dimensions
+
+(L)100 x (W)69.9 x (H)7 mm
+
+Certificate
+
+CE, FCC, VCCI, BSMI, RoHS
+
+Warranty
+
+3 Years
+
+*The SSD is based on the TBW or Warranty period.

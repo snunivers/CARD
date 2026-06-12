@@ -1,0 +1,45 @@
+Transcend's SATA III 6Gb/s SSD230S uses the latest 3D NAND technology that features vertical, stacked expansion of storage cells. By using high-quality flash memory and enhanced firmware algorithms, the SSD230S delivers greater performance and reliability.
+
+3D expansion to break through limits
+
+Unlike planar NAND memory, 3D NAND flash features memory cells stacked vertically in multiple layers. 3D NAND overcomes density limitations of 2D planar NAND, and delivers a higher level of performance and endurance.
+
+Performance boost for everyday computing
+
+Taking full advantage of the SATA III 6Gb/s interface and built-in SLC caching technology, Transcend's SSD230S achieves exceptional transfer speeds of up to 560MB/s read and 520MB/s write.
+
+Guaranteed endurance and reliability
+
+Transcend's SSD230S offers great Terabytes Written (TBW) values (up to 2,240 TB) indicating the total amount of data you can write into the drive over its lifetime.
+
+RAID engine and LDPC coding
+
+Detects and corrects transfer errors to prevent data corruption in TLC-based SSD products.
+
+Garbage Collection
+
+Relocates existing data to release memory blocks.
+
+Wear-leveling
+
+Distributes data evenly across memory cells to prolong SSD's lifespan.
+
+DevSleep
+
+Intelligently shuts down SATA interface when not in use to prolong device's battery life.
+
+DDR3 DRAM cache
+
+Stores a temporary copy of the most active data to shorten access times.
+
+A better choice than HDD
+
+Solid-state drives dominate the market for PC upgrades because they are faster and lighter than hard disk drives. SSDs also feature less power, create less noise when in operation, and are more shock-resistant than traditional hard drives.
+
+SSD Scope software
+
+Transcend SSD Scope is advanced, user-friendly software that makes it easy to ensure your Transcend SSD remains healthy, and continues to run fast and error-free by determining the condition and optimizing the performance of your drive.
+
+Guaranteed quality
+
+Transcend’s solid state drives are built to the highest standards and rigorously tested, and offer outstanding quality, performance, and reliability.

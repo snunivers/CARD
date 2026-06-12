@@ -1,0 +1,108 @@
+Number of Screens
+1
+
+Viewable Screen Size
+27"
+
+Screen Mode
+WQHD
+
+Panel Technology
+Agile-Splendor In-plane Switching (AS-IPS)
+
+Response Time
+1 ms
+
+Aspect Ratio
+16:9
+
+Pixel Pitch
+9.2 mil
+
+Horizontal Viewing Angle
+178°
+
+Vertical Viewing Angle
+178°
+
+Backlight Technology
+LED
+
+Mount Type
+Wall Mountable
+
+Screen Size Class
+27"
+
+Display Screen Type
+Flat Panel TFT
+
+Maximum Adjustable Height
+4.72"
+
+Adjustable Display Pivot
+Yes
+
+Audio
+Speakers
+Yes
+
+Physical Characteristics
+VESA Mount Compatible
+Yes
+
+VESA Mount Standard
+100 x 100
+
+Color
+Black
+
+Height
+14.4"
+
+Width
+24.2"
+
+Depth
+2.6"
+
+Height with Stand
+20.51"
+
+Width with Stand
+24.17"
+
+Depth with Stand
+9.17"
+
+Weight (Approximate)
+9.37 lb
+
+Video
+Maximum Resolution
+2560 x 1440
+
+Standard Refresh Rate
+170 Hz
+
+Color Supported
+16.7 Million Colors
+
+Color Depth
+8-bit
+
+Dynamic Contrast Ratio
+100,000,000:1
+
+Brightness
+400 Nit
+
+Tearing Prevention Technology
+AMD FreeSync™ Premium (DisplayPort/HDMI)
+
+Color Gamut
+95% DCI-P3
+
+Miscellaneous
+Package Contents
+1 x Nitro 

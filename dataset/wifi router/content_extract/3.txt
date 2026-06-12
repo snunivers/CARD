@@ -1,0 +1,173 @@
+The Cisco
+®
+ Small Business RV260, RV260P, and RV260W VPN routers are high-performance models combining business-class features with performance, security, reliability, and overall value at a great price point. These models are perfect for the small business, small enterprise, branch, or small home office network.
+
+Product overview
+
+Easy to configure and install, the RV260 routers can be remotely deployed using Plug and Play (PnP), are supported by the Cisco FindIT network platform, and feature a new user interface.
+
+These models have a dual-core processor that provides performance usually found only in more expensive solutions. A Small Form-Factor Pluggable (SFP) WAN port provides flexible connectivity and investment protection. Like the other models in the portfolio, the RV260, 260P, and 260W include standard features such as a business-grade Stateful Packet Inspection (SPI) firewall, VPN security (IP Security [IPsec], Point-to-Point Tunneling Protocol [PPTP], and OpenVPN), content filtering, and device wizards to make an easy setup even easier.
+
+The wired RV260 offers a high-performance user experience at an attractive cost point. The RV260P adds Power over Ethernet (PoE) to four of the eight ports. The RV260W adds 3x3 wireless 802.11ac. Like the RV160W but with better performance and more ports, this network-in-a-box offers fantastic wireless performance and range for the small business and teleworker network solution.
+
+These models come with one year of web filtering service. This feature provides the ability to categorize different types of websites at different levels, and keeps your business users away from harmful websites.
+
+Prominent feature/Differentiator/Capability
+
+The Cisco Small Business RV260 VPN routers are high-performance models combining business-class features with performance, security, reliability, and overall value at a great price point. They are perfect for the small business, small enterprise, branch, or small home office network.
+
+A new graphical user interface helps you get your VPN router up and running in minutes. Your business will enjoy reliable, highly secure connectivity that is so transparent you may not be aware of it.
+
+Features and benefits
+
+●
+   
+The RV260 provides wired connectivity with eight Gigabit Ethernet ports
+
+●
+   
+The RV260P has eight Gigabit Ethernet ports with four ports of PoE and a 60W power budget
+
+●
+   
+The RV260W is a wireless VPN router with 3x3 802.11ac Wave 2 wireless and a switch with eight Gigabit Ethernet ports 
+
+●
+   
+Flexible SFP/RJ-45 combination WAN ports
+
+●
+   
+High-performance Gigabit Ethernet ports, enabling large file transfers and multiple users 
+
+●
+   
+Includes one year of web filtering to keep users and the business away from harmful websites and maintain a high level of productivity
+
+●
+   
+IPsec, PPTP, and OpenVPN server enable secure connectivity for remote employees and multiple office sites
+
+●
+   
+Strong security: Proven SPI firewall and hardware encryption
+
+●
+   
+New user interface design for easier configuration and device management
+
+●
+   
+Simple setup with wizard-based configuration 
+
+●
+   
+Updated with a new hardware enclosure design
+
+●
+   
+FindIT network management support
+
+Product specifications
+
+Description
+
+Specification
+
+Ethernet WAN 
+
+1 RJ-45 SFP Gigabit combination port
+
+Ethernet LAN
+
+8 RJ-45 Gigabit Ethernet ports
+
+RV260P has 4 PoE ports with a 60W power budget
+
+Console port
+
+1 RJ-45 port
+
+Switch
+
+Power on/off
+
+Cabling type
+
+Category 5 or better
+
+LEDs
+
+Power, VPN, WAN, LAN
+
+Operating system
+
+Linux
+
+LAN
+
+VLANs
+
+16
+
+Port security
+
+Yes, 802.1X
+
+IPv6
+
+Dual stack, 6rd,6in4
+
+WAN
+
+Dynamic Host Configuration Protocol (DHCP) client, static IP, Point-to-Point Protocol over Ethernet (PPPoE), PPTP, Layer 2 Tunneling Protocol (L2TP)
+
+WLAN
+
+3x3 802.11ac Wave 2
+
+Security
+
+Firewall
+
+SPI firewall
+
+Port forwarding and triggering
+
+Denial-of-Service prevention (DoS)
+
+Access control
+
+IP access control lists
+
+Secure management
+
+HTTPS, username/password complexity
+
+User privileges
+
+Two levels of access: Admin and guest
+
+Network
+
+Network protocols
+
+Dynamic Host Configuration Protocol (DHCP) server      
+
+Point-to-Point Protocol over Ethernet (PPPoE)      
+
+Point-to-Point Tunneling Protocol (PPTP)      
+
+Layer 2 Tunneling Protocol (L2TP)       
+
+DNS proxy      
+
+DHCP relay agent      
+
+Internet Group Management Protocol (IGMP) proxy and multicast forwarding      
+
+Rapid Spanning Tree Protocol (RSTP)      
+
+Dynamic DNS (DynDNS, No-IP, ChangeIP)      
+
+Network Address Translation (NAT), Port Address Translation

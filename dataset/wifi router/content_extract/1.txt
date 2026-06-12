@@ -1,0 +1,110 @@
+RT2600ac
+
+"The best router any savvy user could ask for." – 
+CNET
+
+"…top picks for VPN routers in 2023." – 
+ZDNet
+
+Features
+
+Powered by Synology Router Manager (SRM), an intuitive OS built for security and performance
+
+Up to five networks
+Create up to 5 separate networks and 15 Wi-Fi SSIDs to distribute your devices based on their role or purpose.
+
+Network segmentation
+Isolate networks or set one-way access rules to limit connectivity to and from vulnerable devices.
+
+VLAN tagging
+Integrate the RT2600ac into existing networks with full VLAN support in router, AP, and mesh configurations.
+
+Make everything work together to fit your network needs
+
+Home Network
+
+Guest Network
+
+IoT Network
+
+Office Network
+
+Surveillance Network
+
+Your primary network is probably where most of your devices reside: laptops, tablets, smartphones, and smart TVs or speakers. Using Safe Access, you can easily create a default network profile that blocks malicious content and applies more restrictive filtering on shopping, adult, or other offensive content — ideal to manage how children spend their time online.
+
+Need to share internet access with visiting friends or with the neighbors? Synology SRM enables you to easily isolate guest networks and configure access for the occasional connection to your Chromecast or AirPlay device. Apply more stringent bandwidth constraints and web filtering to ensure your network and connection quality are not affected by compromised devices.
+
+Smart sensors and other IoT devices are convenient, but often easy to compromise because they receive less frequent updates. Keep these devices separated from your primary network to prevent them from providing backdoors for potential malicious attacks. For more advanced management, configure one-way firewall rules to allow limited access for specific devices.
+
+Whether you are running your own business or just have a well-equipped studio or home lab setup, you can isolate your servers and devices to help prevent interference or security issues if your network is hosting external resources or is often accessed by remote colleagues.
+
+Keep IP cameras and devices storing security footage isolated, preventing unauthorized access should one of your other networks be hacked. One-way firewall rules allow you to conveniently manage these sensitive devices without compromising security, while independent traffic control rules ensure that surveillance tasks never get interrupted or slowed down.
+
+How convenience can meet security
+
+IoT products can easily be segregated, avoiding potential exploitation without affecting functionality.
+
+Garage
+
+Living room and kitchen
+
+Gardens and yards
+
+Bedrooms and bathrooms
+
+Newer vehicles, dashcams, HVAC systems, and battery/solar power systems are increasingly equipped with network connectivity for greater control and insight into their performance (e.g., energy generated from your solar installation).
+
+Many TVs and speakers can now respond to voice commands, making them an ideal fit for smart home platforms with multi-room playback capabilities and hands-free access. Smart connectivity also makes it possible to receive recipes or timely reminders about the condition of food stored in your smart fridge.
+
+Video doorbells introduce convenient and safe ways to check who is at your door. No matter how busy you are, smart gardening systems can optimize irrigation. And when you get visitors, multiple PIR sensors and lights can be linked together to increase illumination and create more comfortable environments.
+
+Modern bedrooms can be furnished with networked window blinds, smart lighting, and HVAC controls to improve the atmosphere. Next-generation fire, smoke, and carbon monoxide sensors are easier to link together and can work in conjunction with your smartphone to send out critical alerts.
+
+With safe access to the internet using built-in security and parental controls
+
+We want kids to be safe online, even when we’re not there. With RT2600ac, you can lay down rules for each kid without having to setup parental control solutions on each of their devices.
+
+Featuring powerful web filtering, threat detection, and more
+
+User and network profiles
+
+Quickly enable default profiles or tailor them to your devices for maximum control over what happens on your network.
+
+Quotas, scheduling, and safer searches
+
+Keep offensive content out of reach and limit internet access with schedules or a quota-based system.
+
+Alerts and reporting
+
+Get notified when quotas are reached or when users try to access blocked websites. Automatically generated reports provide additional insights about how your network is used.
+
+More than just VPN for secure remote network access
+
+Synology SSL VPN
+
+High-performance connection using the dedicated VPN Plus client enables seamless remote connectivity through SMB, RDP, SSH, and other protocols.
+
+WebVPN and Remote Desktop
+
+Convenient client-free connection to intranet-only websites. Built-in RDP/VNC client functionality enables remote operation of PCs and servers on your network.
+
+Site-to-site VPN
+
+Bridge separate locations and let families or teams connect to the same network.
+
+Be mobile
+
+Easy setup
+
+Install the app and follow the on-screen instructions for a computer-free setup from the comfort of your couch.
+
+Remote parental control
+
+Access parental controls from your phone. Create profiles, monitor use, freeze internet access, and approve requests for access to specific pages.
+
+Traffic monitoring
+
+Find out if users are saturating the network or visiting inappropriate websites and restrict access if necessary.
+
+Manage

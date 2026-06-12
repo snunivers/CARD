@@ -1,0 +1,226 @@
+{
+  "category": "cordless drill",
+  "model_name": "gemma3-12b",
+  "rewriter_model": null,
+  "num_brands": 16,
+  "num_docs": 16,
+  "total_combinations": 256,
+  "brands": [
+    {
+      "brand_index": 0,
+      "brand": "DeWalt",
+      "model": "DCD791D2",
+      "knowledge_strength": 0.8511330270560437,
+      "is_fictional": false,
+      "rank": 1
+    },
+    {
+      "brand_index": 1,
+      "brand": "Milwaukee",
+      "model": "M18 FUEL™ Drill/Driver Kit",
+      "knowledge_strength": 0.7847794619514183,
+      "is_fictional": false,
+      "rank": 2
+    },
+    {
+      "brand_index": 2,
+      "brand": "Makita",
+      "model": "XPH12Z",
+      "knowledge_strength": 0.7345975567388755,
+      "is_fictional": false,
+      "rank": 3
+    },
+    {
+      "brand_index": 3,
+      "brand": "Bosch",
+      "model": "GDX180-Li",
+      "knowledge_strength": 0.7786001938095117,
+      "is_fictional": false,
+      "rank": 4
+    },
+    {
+      "brand_index": 4,
+      "brand": "Ryobi",
+      "model": "P260B",
+      "knowledge_strength": 0.783135331627762,
+      "is_fictional": false,
+      "rank": 5
+    },
+    {
+      "brand_index": 5,
+      "brand": "Black+Decker",
+      "model": "A17140-JP",
+      "knowledge_strength": 0.7082630635617378,
+      "is_fictional": false,
+      "rank": 6
+    },
+    {
+      "brand_index": 6,
+      "brand": "Skil",
+      "model": "PS7211-00",
+      "knowledge_strength": 0.4901858963276813,
+      "is_fictional": false,
+      "rank": 7
+    },
+    {
+      "brand_index": 7,
+      "brand": "Craftsman",
+      "model": "CMCD775B",
+      "knowledge_strength": 0.482517296829856,
+      "is_fictional": false,
+      "rank": 8
+    },
+    {
+      "brand_index": 8,
+      "brand": "S_Brand",
+      "model": "S_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 9,
+      "brand": "T_Brand",
+      "model": "T_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 10,
+      "brand": "U_Brand",
+      "model": "U_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 11,
+      "brand": "V_Brand",
+      "model": "V_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 12,
+      "brand": "W_Brand",
+      "model": "W_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 13,
+      "brand": "X_Brand",
+      "model": "X_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 14,
+      "brand": "Y_Brand",
+      "model": "Y_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 15,
+      "brand": "Z_Brand",
+      "model": "Z_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    }
+  ],
+  "documents": [
+    {
+      "doc_index": 0,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 1,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 2,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 3,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 4,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 5,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 6,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 7,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 8,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 9,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 10,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 11,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 12,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 13,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 14,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 15,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    }
+  ],
+  "combination_mode": "generic_template",
+  "generic_doc_base_dir": "./out/generic_product_documents",
+  "fictional_brands_dir": "out/fictional_brands",
+  "top8_include_fictional": true,
+  "placeholder_brand_token": "[BRAND]",
+  "placeholder_model_token": "[MODEL]"
+}

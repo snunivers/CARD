@@ -1,0 +1,20 @@
+BQ 850
+
+Compliance with ATX 12V V2.52 & EPS 12 V2.92 standards
+Conformal Coating Application
+Global Safety Approved
+High efficiency ≧ 92%
+Powerful +12V single rail design
+Quiet and durable cooling
+Japanese electrolytic capacitors
+Intelligent fan speed control circuit design
+Full protections OCP,OVP, SCP,OPP,OTP, UVP
+High Wattages with 80PLUS® Platinum Certification
+Unique product ID with changeable side stickers for DIY enthusiasts and gamers
+
+Conformal Coating Application
+Off-Wet, Off-Dust and Off-Stain
+The conformal coating which protects the power supply and its internal components from dust, humidity, stains. The BQ 850 series are covered with conformal coating to guarantee reliable performance in a harsh environment and tested to work perfectly even in 95% relative humidity.
+
+LLC Full-Bridge Topology with DC-DC Module Design
+BQ 850 Pro series features extremely tight voltage regulation to make the output voltage regulation under +/- 1% above 10% load change a

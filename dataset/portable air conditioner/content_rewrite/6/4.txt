@@ -1,0 +1,81 @@
+whynter arc-12sd 12,000 btu (6,936 btu sacc) dual hose cooling portable air conditioner
+Manufacturer
+Model Number
+AP1019CW1G
+Description
+12,000 btu (6,936 btu sacc) dual hose cooling portable air conditioner
+Whynter
+K1560993
+Guard Filter
+ 6.95 - 
+In Stock
+Add to Cart
+Parts List
+Category
+Part Number
+Description
+Demand
+Availability
+Wire
+K1895726
+Whynter Ac Power Wire
+Schematic Location: 16
+Y
+In Stock 
+In stock
+ 
+34.00
+Add to Cart
+Cover,Cap
+K1558162
+Whynter Drain Cover
+Schematic Location: 17
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1276890
+Whynter Drain Hose (Heat Pump)
+Schematic Location: 22
+Y
+In Stock 
+In stock
+ 
+6.95
+Add to Cart
+K1248751
+Whynter Drain Hose Clip (Heat Pump)
+Schematic Location: 23
+Y
+In Stock 
+In stock
+ 
+6.00
+Add to Cart
+FOAMKIT
+Whynter Foam Kit (1A+2l+2m)
+Schematic Location: 20
+No
+K1263071
+Whynter Foam Seal (A)
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1825600
+Whynter Foam Seal Long (L)
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1825599
+Whynter Foam Seal Short (M)
+Y
+In Stock 
+In stock

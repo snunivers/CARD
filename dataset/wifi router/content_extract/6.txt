@@ -1,0 +1,176 @@
+Archer C7 V5
+
+                      Archer C7 V4
+
+                      Archer C7 V5
+
+AC1750 Wireless Dual Band Gigabit Router
+
+Supports 802.11ac standard - Faster than wireless N speeds*
+
+Simultaneous 2.4GHz 450 Mbps and 5GHz 1300 Mbps connections for 1.75Gbps of total available bandwidth*
+
+USB Port - easily shares files & media with networked devices or remotely via FTP server
+
+Guest Network Access - provides secure Wi-Fi access for guests sharing your home or office network
+
+Easy setup and management with Tether App
+
+BUY NOW
+
+AC1750 Wireless Dual Band Gigabit Router - Archer C7
+
+Why 802.11ac
+
+Overview
+
+The New York Times
+
+“The Best Router
+
+for Most People”
+
+AC1750 Wireless Dual Band Gigabit Router
+
+Archer C7
+
+*A review of dozens of wireless routers by the New York Times in collaboration with The Wirecutter concluded that the Archer C7 is the best option for most consumers.
+
+The New WiFi Standard for an Advanced Online Experience
+
+The Archer C7 is a fast 802.11ac router with incredible range. It's better than many routers that are twice as expensive. This advanced WiFi is designed for high-traffic online activities and can help to run applications at triple the speed of the previous 802.11n standard.*
+
+1300Mbps
+
+450Mbps
+
+Concurrent Dual Band Connections for Lag-Free Work and Entertainment
+
+The Archer C7 operates both the 2.4GHz and 5GHz bands, ensuring amazing wireless performance. Simple tasks like sending e-mails or web browsing can be handled by the 2.4GHz band while bandwidth intensive tasks like online gaming or HD video streaming can be processed by the 5GHz band – all at the same time.
+
+External Antennas with Dual Band WiFi Greatly Expand Wireless Coverage
+
+Three external antennas with advanced connection technology allow you to maintain impressive speeds. With antennas serving both the 2.4GHz and 5GHz band, you can enjoy incredible wireless coverage and reliability in any part of your large home or office.
+
+5GHz
+
+The crystal clean 5GHz band is ideal for HD streaming and gaming, creating a blazing-fast network.
+
+2.4GHz
+
+The 2.4GHz band provide stable and strong WiFi signal for everyday tasks, like browsing and surfing.
+
+Versatile USB Connectivity
+
+A USB 2.0 port makes the Archer C7 a truly resourceful gateway. Share a hard drive full of media through your home network, or via an ftp server whenever you’re away.
+
+FTP Server
+
+Media Server
+
+Storage Sharing
+
+Full Gigabit Wired Connections for Ultrafast Data Transfer Speeds
+
+With one Gigabit WAN port and four Gigabit LAN ports, speeds can be up to 10× faster than standard Ethernet connections.
+
+The Archer C7 is a powerful hub to support a robust and extremely fast wired network.
+
+Power
+
+Power On/Off
+
+Reset
+
+Gigabit WAN Port
+
+4 Gigabit LAN Ports
+
+WPS/WiFi
+
+TP-Link OneMesh™ :
+
+Flexibly Create a Whole-Home WiFi
+
+OneMesh™ is a simple way to form a Mesh network with a single WiFi name for seamless whole-home coverage. Just connect a OneMeshTM range extender to a OneMesh™ router. No more searching around for a stable connection.**
+
+Learn More about OneMesh™ >>
+
+WiFi Dead-Zone Killer
+
+Eliminate weak signal areas with WiFi coverage for the whole house
+
+Smart Roaming
+
+Uninterrupted streaming when moving around your home
+
+One WiFi Name
+
+No more switching WiFi network names
+
+Unified Management
+
+Manage the whole-home WiFi by managing the central node via Tether app/Web UI
+
+Traditional Router with Extender
+
+OneMesh™ Router + Range Extender
+
+Enjoy a Mesh Network with Your Existing Router
+
+Want a Mesh network? Hesitate on whether to replace your existing router and buy a Mesh set?
+
+TP-Link OneMesh™ resolves your dilemma.
+
+Check whether your existing router supports OneMesh >>
+
+Parental Controls
+
+Manage when and how connected devices can access the internet
+
+IPv6 Supported
+
+Supports IPv6, the next generation of Internet protocol, helping you to future-proof your network.
+
+Quality of Service
+
+Prioritizes devices or applications to give faster performance where you need it.
+
+Specifications
+
+WIRELESS
+
+Standards
+
+Wi-Fi 5
+IEEE 802.11ac/n/a 5 GHz
+IEEE 802.11n/b/g 2.4 GHz
+
+WiFi Speeds
+
+AC1750
+5 GHz: 1300 Mbps (802.11ac)
+2.4 GHz: 450 Mbps (802.11n)
+
+WiFi Range
+
+3 Bedroom Houses
+3× Fixed High-Performance Antennas
+Multiple antennas form a signal-boosting array to cover more directions and large areas
+
+WiFi Capacity
+
+Medium
+Dual-Band
+Allocate devices to different bands for optimal performance
+
+Working Modes
+
+Router Mode
+Access Point Mode
+
+SECURITY
+
+Network Security
+
+SPI Firewall

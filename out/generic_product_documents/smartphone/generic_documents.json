@@ -1,0 +1,86 @@
+{
+  "category": "smartphone",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is a balanced smartphone built for everyday use. It features a 6.5-inch FHD+ display with a smooth 120Hz refresh rate, making scrolling and video playback feel fluid. Powered by an octa-core processor with 8GB RAM and 128GB storage, it handles messaging, streaming, and multitasking with ease. A 50MP main camera captures clear daytime shots, while the 8MP front camera supports sharp selfies and video calls. The 5,000mAh battery is designed for all-day use and supports fast charging through USB-C. Dual SIM, 5G, and fingerprint unlock complete the package."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 88,
+      "text": "Designed for mobile photography fans, the [BRAND] [MODEL] combines a slim profile with advanced camera hardware. Its 6.7-inch AMOLED screen offers deep contrast and vivid color, protected by durable glass. On the rear, a 108MP primary sensor is paired with ultra-wide and macro lenses for flexible shooting. The device records 4K video and includes night, portrait, and pro modes. With 12GB RAM and 256GB storage, performance stays responsive even during editing. Stereo speakers, NFC, 5G support, and a 4,800mAh battery with 67W fast charging add practical everyday convenience."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] is a compact smartphone aimed at users who prefer one-handed comfort without sacrificing essential features. It has a 6.1-inch OLED display with crisp resolution and accurate color reproduction. Inside, a power-efficient chipset works with 6GB RAM and 128GB internal storage to keep apps running smoothly. The dual rear camera system includes a 48MP main sensor and an ultra-wide lens for landscapes and group shots. A 4,200mAh battery offers reliable daily life, while wireless charging, face unlock, and IP-rated splash resistance make the phone especially convenient to carry."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 89,
+      "text": "Built for gaming and heavy multitasking, the [BRAND] [MODEL] delivers high-speed performance through a flagship-grade processor, 16GB RAM, and 512GB storage. The large 6.78-inch AMOLED display supports a 144Hz refresh rate and fast touch sampling for responsive play. An advanced cooling system helps maintain stable frame rates during long sessions. The 6,000mAh battery is paired with ultra-fast charging to minimize downtime. Rear cameras include a 64MP primary lens, while front-facing stereo speakers and a vibration motor enhance immersion. The phone also supports 5G, Wi-Fi 6, and customizable game controls."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a practical entry-level smartphone for users who want dependable core features at an accessible price. It offers a 6.6-inch HD+ display, a clean interface, and a straightforward design with a textured back for better grip. Equipped with 4GB RAM and 64GB storage, it handles calls, browsing, social apps, and light entertainment comfortably. The 13MP rear camera and 5MP selfie camera are suitable for casual photos and video chat. A 5,000mAh battery supports long standby times, and expandable storage, dual SIM capability, and a headphone jack increase its everyday versatility."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 93,
+      "text": "For users who spend long hours away from a charger, the [BRAND] [MODEL] focuses on battery life above all else. Its massive 7,000mAh battery is built to last through extended travel, work shifts, or streaming sessions, and fast charging helps refill quickly. The 6.72-inch FHD+ display provides a roomy viewing area for maps, productivity, and media. An octa-core processor, 8GB RAM, and 256GB storage keep daily tasks moving smoothly. Camera hardware includes a 50MP main lens and depth sensor. USB-C, side fingerprint scanning, 5G support, and stereo speakers round out the feature set."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is a rugged smartphone made for demanding conditions. It features a reinforced body with dust and water resistance, drop protection, and a textured frame that is easy to hold with gloves. The 6.58-inch display uses strengthened glass and offers increased brightness for outdoor visibility. Inside, 8GB RAM and 128GB storage support navigation, field reporting, and work apps. A 50MP rear camera captures jobsite or travel images clearly, while the large 5,500mAh battery is designed for dependable all-day power. GPS, NFC, dual SIM support, and programmable shortcut keys add utility."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] brings a premium foldable design to users who want both portability and a larger screen experience. Closed, it remains pocket-friendly; opened, the 7.4-inch inner AMOLED display gives extra space for streaming, reading, and multitasking. A secondary outer screen makes quick replies and notifications easy without unfolding the device. Performance comes from a high-end processor with 12GB RAM and 512GB storage. The triple camera setup includes a stabilized 50MP main sensor for detailed shots. Fast charging, wireless charging, 5G, and a refined hinge mechanism help the phone feel polished and practical."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 91,
+      "text": "Created for content creators, the [BRAND] [MODEL] pairs strong performance with advanced recording tools. Its 6.73-inch LTPO OLED display adapts refresh rate dynamically, improving smoothness while helping battery efficiency. A 1-inch 50MP main camera sensor captures richer light and detail, supported by ultra-wide and telephoto lenses for versatile framing. The phone records stabilized 4K footage and includes professional controls for exposure, focus, and color. With 12GB RAM and 256GB storage, editing and uploads remain fast. A 5,000mAh battery, 80W charging, Wi-Fi 6E, and dual speakers make it ideal for mobile production."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is designed as a stylish mid-range smartphone with features that feel premium in daily use. It has a slim body, matte finish, and a bright 6.55-inch OLED display with 120Hz refresh rate for smoother browsing. Powered by an efficient 5G chipset, 8GB RAM, and 256GB storage, the phone balances speed and battery life well. The rear camera array combines a 64MP main sensor, ultra-wide lens, and macro lens for flexible shooting. A 4,700mAh battery supports fast wired charging, while in-display fingerprint security and stereo audio improve the overall experience."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is tailored for business users who need security, reliability, and strong communication tools. Its 6.4-inch FHD+ display is easy to read indoors and outdoors, and the clean software environment supports productivity without unnecessary clutter. A capable octa-core processor works with 8GB RAM and 128GB storage for email, conferencing, and document handling. The 50MP rear camera and 16MP front camera provide clear images for scanning, snapshots, and video meetings. Additional features include eSIM support, NFC, biometric authentication, 5G connectivity, and a 4,500mAh battery with fast charging for busy workdays."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 90,
+      "text": "With an emphasis on media consumption, the [BRAND] [MODEL] offers a vivid 6.8-inch AMOLED display and dual stereo speakers tuned for fuller sound. Whether streaming films, browsing social feeds, or playing casual games, the large screen and balanced audio create an enjoyable experience. The device uses a mid-to-high tier processor with 8GB RAM and 128GB storage, plus microSD expansion for extra files. A 50MP main camera and 13MP front camera handle everyday photography reliably. The 5,200mAh battery supports extended playback, while 5G, Bluetooth 5.3, and fast charging ensure modern connectivity."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a lightweight smartphone built for users who want simplicity, speed, and clean design. Its 6.3-inch OLED display delivers sharp text and strong contrast in a form factor that slips easily into a pocket. The phone combines 6GB RAM with 128GB storage and an efficient processor for responsive navigation, messaging, and app switching. A dual camera system with a 50MP main lens captures natural-looking photos, while AI scene optimization helps in different lighting conditions. The 4,300mAh battery, USB-C charging, 5G support, and face unlock make it a smart everyday companion."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is engineered for users who prioritize charging speed and uninterrupted daily performance. It features a 6.67-inch AMOLED display with narrow bezels and a 120Hz refresh rate for a modern, fluid feel. Under the hood, a capable chipset works alongside 12GB RAM and 256GB storage to support gaming, streaming, and heavy app use. The rear camera setup is led by a 50MP sensor with optical stabilization for cleaner photos and steadier video. Its 5,000mAh battery supports 120W rapid charging, while 5G, infrared control, and an in-display fingerprint reader add convenience."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 91,
+      "text": "A good choice for students and general users, the [BRAND] [MODEL] combines solid specifications with practical features. The 6.6-inch FHD+ screen offers enough space for class notes, web browsing, and entertainment. An octa-core processor with 8GB RAM keeps multiple apps open comfortably, and the 256GB storage provides room for media, documents, and downloads. Camera hardware includes a 50MP main sensor, 2MP depth sensor, and an 8MP front camera for online meetings and selfies. The 5,000mAh battery is built for full-day use, and expandable storage, dual speakers, and 5G connectivity improve value."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] targets premium smartphone buyers with a refined build, advanced display technology, and flagship-level speed. It features a 6.82-inch QHD+ AMOLED panel with adaptive refresh rate, high peak brightness, and excellent clarity for gaming and video. A top-tier processor, 16GB RAM, and 512GB storage provide fast performance across demanding apps and multitasking. The triple rear camera system includes a 50MP main lens, periscope telephoto, and ultra-wide sensor for flexible photography. A 5,100mAh battery supports wired and wireless fast charging, while IP resistance, 5G, and Wi-Fi 7 complete the package."
+    }
+  ]
+}

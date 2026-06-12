@@ -1,0 +1,4 @@
+Accelerate your business with an affordable all-flash solution
+
+Fast and scalable all-flash NAS
+ETERNUS AF250 is a 24-bay all-flash Fujitsu NAS for enterprise use that boosts the performance of I/O sensitive applications, such as databases, virtual machines, or online transaction processing (OLTP). Featuring a 12-core CPU and high-speed network connection, ETERNUS AF250 delivers over 195,000 iSCSI 4K random write IOPS to satisfy enterprise demand for high-speed infrastructure.

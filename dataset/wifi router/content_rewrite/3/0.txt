@@ -1,0 +1,97 @@
+RV260W
+RV260W
+RV260W
+$299.00
+All-in-one Cisco Gateway and access point designed to support LAN and WiFi networks.
+ Built-in WiFi 5 AP
+
+  Includes Cisco Network for device management
+
+ Full Gigabit routing
+
+ (4) GbE RJ45 LAN ports
+
+Add to Cart
+Installation Guide
+Technical Specifications
+
+Mechanical
+
+Dimensions
+
+Ø110 x 184.1 mm (Ø4.3 x 7.3")
+
+Weight
+
+1.1 kg (2.3 lb)
+
+Enclosure material
+Polycarbonate
+
+Hardware
+
+Processor
+
+Quad-core Arm® Cortex® A57 at 1.7 GHz
+
+System memory
+
+2 GB DDR RAM
+
+Management interface
+
+Ethernet
+Bluetooth
+
+Networking interface
+
+LAN: 
+(4) GbE RJ45 ports
+WAN: 
+(1) GbE RJ45 port
+
+Power method
+
+ Universal AC input, 100—240V AC, 0.6A Max., 50/60 Hz
+
+Power supply
+
+AC/DC, internal, 50W
+
+Supported voltage range
+
+100—240V AC
+
+Max. power consumption
+
+26W
+
+Max. TX power
+2.4 GHz
+5 GHz
+
+23 dBm
+26 dBm
+
+MIMO
+2.4 GHz
+5 GHz
+2 x 2
+4 x 4
+
+Throughput rate
+2.4 GHz
+5 GHz
+300 Mbps
+1.7 Gbps
+
+Antenna gain
+2.4 GHz
+5 GHz
+
+3 dBi
+4.5 dBi
+
+Antenna
+
+(1) Internal, dual-band, quad-polar

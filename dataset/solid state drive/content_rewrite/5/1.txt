@@ -1,0 +1,17 @@
+Crucial's BX500 uses the latest 3D NAND technology that features vertical, stacked expansion of storage cells. By using high-quality flash memory and enhanced firmware algorithms, the BX500 delivers greater performance and reliability.
+
+3D expansion to break through limits
+
+Unlike planar NAND memory, 3D NAND flash features memory cells stacked vertically in multiple layers. 3D NAND overcomes density limitations of 2D planar NAND, and delivers a higher level of performance and endurance.
+
+Performance boost for everyday computing
+
+Taking full advantage of the SATA III 6Gb/s interface and built-in SLC caching technology, Crucial's BX500 achieves exceptional transfer speeds of up to 560MB/s read and 520MB/s write.
+
+Guaranteed endurance and reliability
+
+Crucial's BX500 offers great Terabytes Written (TBW) values (up to 2,240 TB) indicating the total amount of data you can write into the drive over its lifetime.
+
+RAID engine and LDPC coding
+
+Detects and corrects

@@ -1,0 +1,2120 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- be_ixf, sdk, gho-->
+<meta name="be:sdk" content="dotnet_sdk_1.4.18" />
+<meta name="be:timer" content="31ms" />
+<meta name="be:orig_url" content="https://www.polarispool.com/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-vac-sweep-280" />
+<meta name="be:capsule_url" content="https://ixfd-api.bc0a.com/api/ixf/1.0.0/get_capsule/f00000000228478/578666632" />
+<meta name="be:norm_url" content="https://www.polarispool.com/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-vac-sweep-280" />
+<meta name="be:api_dt" content="py_2023; pm_11; pd_10; ph_19; pmh_33; p_epoch:1699673637602" />
+<meta name="be:mod_dt" content="py_2023; pm_11; pd_10; ph_19; pmh_33; p_epoch:1699673637602" />
+<meta name="be:messages" content="0" />
+<script type='text/javascript'>
+if (window.BEJSSDKObserver === undefined) {
+  (function(BEJSSDKObserver, $, undefined) {
+    var observer = void 0;
+    var listeners = [];
+    var readySet = [];
+    var doc = window.document;
+    var MutationObserver = window.MutationObserver || window.WebKitMutationObserver;
+
+    function checkSelector(selector, fn, indexList) {
+      var elements = doc.querySelectorAll(selector);
+  /**
+    issues on IE @see https://www.codesd.com/item/javascript-es6-not-a-function-error.html
+    elements = Array.from(elements);
+
+    */
+    for (var i = 0, len = elements.length; i < len; i++) {
+      /* -1 means all instances */
+      if (indexList != -1 && !(i in indexList)) {
+        continue;
+      }
+      var element = elements[i];
+      for (var j = 0; j < readySet.length; j++) {
+        if (readySet[j] == element.className || readySet[j] == element.id) {
+          return;
+        }
+      }
+      if (element.className) {
+        readySet.push(element.className);
+      }
+      if (element.id) {
+        readySet.push(element.id);
+      }
+
+      if (!element.ready || MutationObserver==null) {
+        element.ready = true;
+        fn.call(element, element);
+      }
+    }
+  }
+
+  function checkListeners() {
+    listeners.forEach(function (listener) {
+      return checkSelector(listener.selector, listener.fn, listener.indexList);
+    });
+  }
+
+  function removeListener(selector, fn) {
+    var i = listeners.length;
+    while (i--) {
+      var listener = listeners[i];
+      if (listener.selector === selector && listener.fn === fn) {
+        listeners.splice(i, 1);
+        if (!listeners.length && observer) {
+          observer.disconnect();
+          observer = null;
+        }
+      }
+    }
+  }
+
+/**
+ * Fire event on first js selector
+ * @param selector string to watch on
+ * @param fn       callback function
+ * @param index_list can be undefined which means only first one
+ *                   or -1 which means all
+ *                   or a list of allowable indexes
+ */
+ BEJSSDKObserver.jsElementReady = function(selector, fn, index_list) {
+  if (index_list === undefined) {
+    index_list = [];
+    index_list.push(0);
+  }
+
+  if (MutationObserver != null) {
+    if (!observer) {
+      observer = new MutationObserver(checkListeners);
+      observer.observe(doc.documentElement, {
+        childList: true,
+        subtree: true
+      });
+    }
+    listeners.push({ selector: selector, fn: fn, indexList: index_list });
+  } else {
+    /* <= IE8 */
+    if (!document.addEventListener) {
+      /* log("<=IE8 attachEvent assignment"); */
+      document.addEventListener = document.attachEvent;
+    }
+    document.addEventListener("DOMContentLoaded", function(event) {
+      var elements = doc.querySelectorAll(selector);
+      for (var i = 0, len = elements.length; i < len; i++) {
+        /* -1 means all instances */
+        if (index_list != -1 && !(i in index_list)) {
+          continue;
+        }
+        var element = elements[i];
+        element.ready = true;
+        fn.call(element, element);
+      }
+    });
+  }
+
+  checkSelector(selector, fn, index_list);
+  return function () {
+    return removeListener(selector, fn);
+  };
+};
+}(window.BEJSSDKObserver = window.BEJSSDKObserver || {}));
+}
+var jsElementReady = window.BEJSSDKObserver.jsElementReady;
+
+if (window.BELinkBlockGenerator === undefined) {
+  (function(BELinkBlockGenerator, $, undefined) {
+    BELinkBlockGenerator.MAXIMUM_HEADLINE_LENGTH = 100;
+    BELinkBlockGenerator.MAXIMUM_DESC_LENGTH = 200;
+
+    BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_URL_TYPE = 0;
+    BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_HEADLINE_TYPE = 1;
+    BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_DESCRIPTION_TYPE = 2;
+    BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_IMAGE_TYPE = 3;
+
+    BELinkBlockGenerator.REPLACEMENT_STRATEGY_OVERWRITE = 0;
+    BELinkBlockGenerator.REPLACEMENT_STRATEGY_POST_APPEND_ELEMENT = 1;
+    BELinkBlockGenerator.REPLACEMENT_STRATEGY_PRE_APPEND_ELEMENT = 2;
+    BELinkBlockGenerator.REPLACEMENT_STRATEGY_PRE_APPEND_PARENT = 3;
+
+    BELinkBlockGenerator.setMaximumHeadlineLength = function(length) {
+      BELinkBlockGenerator.MAXIMUM_HEADLINE_LENGTH = length;
+    };
+
+    BELinkBlockGenerator.setMaximumDescriptionLength = function(length) {
+      BELinkBlockGenerator.MAXIMUM_DESC_LENGTH = length;
+    };
+
+    BELinkBlockGenerator.generateIndividualLinks = function(parentElement, linkStructure, link) {
+      var link_level_element_tag = linkStructure[0];
+      var link_level_element = document.createElement(link_level_element_tag);
+      var link_attribute_dictionary = linkStructure[1];
+      var allowable_elements = linkStructure[2];
+      var children_link_structures = linkStructure[3];
+      for (var link_attribute_key in link_attribute_dictionary) {
+        link_level_element.setAttribute(link_attribute_key, link_attribute_dictionary[link_attribute_key]);
+      }
+
+      var added_something = false;
+      if (allowable_elements.indexOf(BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_URL_TYPE)>=0) {
+        link_level_element.setAttribute('href', link.url);
+        added_something = true;
+      }
+      if (allowable_elements.indexOf(BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_HEADLINE_TYPE)>=0 && link.h1) {
+        var headline_text = link.h1;
+        if (headline_text.length > BELinkBlockGenerator.MAXIMUM_HEADLINE_LENGTH) {
+          headline_text = headline_text.substring(0, BELinkBlockGenerator.MAXIMUM_HEADLINE_LENGTH) + '...';
+        }
+        var text_node = document.createTextNode(headline_text);
+        link_level_element.appendChild(text_node);
+        added_something = true;
+      }
+      if (allowable_elements.indexOf(BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_DESCRIPTION_TYPE)>=0 && link.desc) {
+        var desc_text = link.desc;
+        if (desc_text.length > BELinkBlockGenerator.MAXIMUM_DESC_LENGTH) {
+          desc_text = desc_text.substring(0, BELinkBlockGenerator.MAXIMUM_DESC_LENGTH) + '...';
+        }
+        var text_node = document.createTextNode(desc_text);
+        link_level_element.appendChild(text_node);
+        added_something = true;
+      }
+      if (allowable_elements.indexOf(BELinkBlockGenerator.IND_LINK_BLOCK_TYPE_IMAGE_TYPE)>=0 && link.image) {
+        link_level_element.setAttribute('src', link.image);
+        added_something = true;
+      }
+/**
+    don't emit for empty links, desc, headline, image
+    except for parent structures where allowable_length=0
+    */
+    if (!added_something && allowable_elements.length != 0) {
+
+      return;
+    }
+    /* go depth first */
+    for (var childrenIndex=0; childrenIndex<children_link_structures.length; childrenIndex++) {
+      var childLinkStructure = children_link_structures[childrenIndex];
+      BELinkBlockGenerator.generateIndividualLinks(link_level_element, childLinkStructure, link);
+    }
+    parentElement.appendChild(link_level_element);
+  };
+
+  BELinkBlockGenerator.insertLinkBlocks = function(targetElement, replacementStrategy, overallStructure, linkStructure, links,
+                                                   titleStructure) {
+    if (targetElement == null) {
+      return;
+    }
+
+    if (replacementStrategy == BELinkBlockGenerator.REPLACEMENT_STRATEGY_OVERWRITE) {
+      while (targetElement.firstChild) {
+        targetElement.removeChild(targetElement.firstChild);
+      }
+    }
+
+    var previousElement = targetElement;
+    for (var i=0;i<overallStructure.length;i++) {
+      var level_definition = overallStructure[i];
+      var level_element_tag = level_definition[0];
+      var level_element = document.createElement(level_element_tag);
+      var attribute_dictionary = level_definition[1];
+      for (var attribute_key in attribute_dictionary) {
+        level_element.setAttribute(attribute_key, attribute_dictionary[attribute_key]);
+      }
+
+      /* need to place title structure */
+      if (titleStructure && titleStructure[0] == i) {
+        var title_element_tag = titleStructure[1];
+        var title_element = document.createElement(title_element_tag);
+        var title_attribute_dictionary = titleStructure[2];
+        var title_text_content = titleStructure[3];
+        for (var title_attribute_key in title_attribute_dictionary) {
+          title_element.setAttribute(title_attribute_key, title_attribute_dictionary[title_attribute_key]);
+        }
+
+        var title_text_node = document.createTextNode(title_text_content);
+        title_element.appendChild(title_text_node);
+
+
+        level_element.appendChild(title_element);
+      }
+
+      /* last level place links */
+      if (i == overallStructure.length-1) {
+        for (var link_i=0; link_i < links.length; link_i++) {
+          var link = links[link_i];
+          for (var linkStructureIndex=0;linkStructureIndex < linkStructure.length; linkStructureIndex++) {
+            BELinkBlockGenerator.generateIndividualLinks(level_element, linkStructure[linkStructureIndex], link)
+          }
+        }
+      }
+
+      /* first level child we need to check placement */
+      if (previousElement == targetElement) {
+        if (replacementStrategy == BELinkBlockGenerator.REPLACEMENT_STRATEGY_PRE_APPEND_ELEMENT) {
+          /* 2 means insert right before */
+          previousElement.insertBefore(level_element, targetElement.firstChild);
+        } else if (replacementStrategy == BELinkBlockGenerator.REPLACEMENT_STRATEGY_PRE_APPEND_PARENT) {
+          /* 3 means insert right before at parent level */
+          var parentElement = previousElement.parentElement;
+          parentElement.insertBefore(level_element, previousElement);
+        } else {
+          previousElement.appendChild(level_element);
+        }
+      } else {
+        previousElement.appendChild(level_element);
+      }
+      previousElement = level_element;
+    }
+  };
+}(window.BELinkBlockGenerator = window.BELinkBlockGenerator || {}))
+};
+</script>
+
+
+
+<script data-cfasync="false" id="marvel" data-customerid="f00000000228478" data-url="/Spins/" src="https://marvel-b2-cdn.bc0a.com/marvel.js"></script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Polaris 280: Pressure-Side Pool Cleaner | Polaris Pool</title>
+	<link rel="canonical" href="https://www.polarispool.com/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-vac-sweep-280" />
+
+	<meta name="description" content="Looking for the Polaris 280 Vac-Sweep? Find this Pressure-Side Pool Cleaner and Buy Best-in-Class Cleaners Today!">
+	<meta name="keywords" content="Polaris 280, Pressure-Side Pool Cleaner">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link href="https://cdn.fluidrausa.com/polarispoolwebsite/dist/polaris.css?v=20231127065127" rel="stylesheet"/>
+
+	<link href="https://use.typekit.net/xws6dvq.css" rel="stylesheet" />
+<link rel="shortcut icon" type="image/x-icon" href="-/media/1CC27549DC1944DA8A6DFC9EE4D93573.ashx">	
+<meta name="VIcurrentDateTime" content="638373616614687584" />
+<meta name="VirtualFolder" content="/" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KQT3PG');</script>
+<!-- End Google Tag Manager -->
+
+
+<meta name="facebook-domain-verification" content="r3okdh7uotc8yghiijbrvee39p15za" />
+	
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQT3PG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+<header class="nav--global d-none d-lg-block w-100" >
+	  <nav class="d-flex py-1 navbar navbar-expand navbar-dark justify-content-between">
+        <div class="container-fluid px-lg-7">
+            <ul class="navbar-nav">
+                
+		<li class="nav-item">
+			<a href="https://www.fluidrausa.com/en/" class="nav-link" target="_blank">Corporate</a>
+		</li>
+		<li class="nav-item jandy">
+			<a href="https://www.jandy.com/en/" class="nav-link" target="_blank">Jandy<sup>®</sup></a>
+		</li>
+		<li class="nav-item polaris active">
+			<a href="/en/" class="nav-link" target="_blank">Polaris<sup>®</sup></a>
+		</li>
+		<li class="nav-item zps">
+			<a href="https://www.zodiacpoolsystems.com/en/" class="nav-link" target="_blank">Zodiac<sup>®</sup> Pool</a>
+		</li>
+		<li class="nav-item iaqualink">
+			<a href="https://www.iaqualink.com/en/" class="nav-link" target="_blank">iAquaLink<sup>®</sup></a>
+		</li>
+		<li class="nav-item dropdown">
+			<button class="nav-link js-dropdown__toggle appearance-none border-0 bg-transparent" type="button" data-bs-toggle="dropdown" data-toggle="dropdown">More Brands <span class="fal fa-chevron-down"></span></button>
+			<div class="dropdown-menu ">
+<a href="https://www.aquaproducts.com/en/" class="dropdown-item" target="_blank">Aqua Products</a><a href="https://www.blueriiot.com/us-en" rel="noopener noreferrer" class="dropdown-item" target="_blank">Blueriiot</a><a href="https://www.grandeffects.com/en/" class="dropdown-item" target="_blank">Grand Effects</a><a href="https://www.nature2.com/en/" class="dropdown-item" target="_blank">Nature2<sup>®</sup></a><a href="http://www.coverpools.com/" rel="noopener noreferrer" class="dropdown-item" target="_blank">Cover-Pools<sup>®</sup></a>			</div>
+		</li>
+
+            </ul>
+            <ul class="navbar-nav">
+                
+		<li class="nav-item">
+			<a href="https://register.fluidrausa.com/en/" class="nav-link" target="_blank">Product Registration</a>
+		</li>
+		<li class="nav-item">
+			<a href="https://www.zodiacpoolblog.com/en/" class="nav-link" target="_blank">Blog</a>
+		</li>
+		<li class="nav-item dropdown">
+			<button class="nav-link js-dropdown__toggle appearance-none border-0 bg-transparent" type="button" data-bs-toggle="dropdown" data-toggle="dropdown">Pool Pros <span class="fal fa-chevron-down"></span></button>
+			<div class="dropdown-menu  dropdown-menu-end">
+<a href="https://www.fluidrarewards.com/en/" class="dropdown-item" target="_blank">Fluidra Rewards</a><a href="https://www.fluidrarewards.com/en/sign-up" class="dropdown-item" target="_blank">Become a Partner</a><a href="https://www.fluidrausa.com/en/support" class="dropdown-item" target="_blank">Pro Support</a><a href="http://www.fluidraproacademy.com/" rel="noopener noreferrer" class="dropdown-item" target="_blank">Fluidra Pro Academy</a><a href="https://fluidrapro.hubs.vidyard.com/" rel="noopener noreferrer" class="dropdown-item" target="_blank">Video Hub</a>			</div>
+		</li>
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+	
+<header class="nav__wrapper nav__wrapper--site js-sticky-nav">
+    <div class="navbar navbar--site navbar-expand-lg">
+        <div class="navbar-nav navbar__inner px-lg-7">
+            <div class="navbar__list">
+                <button class="navbar-toggler navbar-toggler__text d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarToggleContent" aria-controls="navbarToggleContent" aria-label="Toggle navigation">
+                    <i class="fal fa-bars f-base pe-none"></i>
+                    Menu
+                </button>
+<a href="/en/" class="navbar-brand mx-auto ms-lg-0"><img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/polaris_logo_4c_png.png?h=244&amp;iar=0&amp;w=1160&amp;rev=0eb8a164d9b14f21ae0217d0293cf2ee" class="navbar-brand__img" alt="Polaris Home" loading="lazy"></a>                                    <input type="text" class="js-disable-scroll-trigger opacity-0 h-0 w-0" aria-hidden="true" tabindex="-1" />
+                    <mobile-auto-suggest-search></mobile-auto-suggest-search>
+            </div>
+            <nav class="d-none d-lg-flex justify-content-center">
+                
+<ul class="navbar-nav align-items-center">
+			<li class="nav-item js-nav-item__dropdown js-dropdown__toggle js-header-site-dropdown-button">
+				<button type="button" class="nav-link has-indicator text-nowrap" id="navDropdown0" data-bs-toggle="dropdown" aria-expanded="false">
+				  Products<i class="fal fa-plus"></i>
+				</button>
+				<div class="dropdown-menu position-lg-fixed max-w-100 js-header-site-dropdown-menu py-0" aria-labelledby="productsDropdown">
+                    <div class="row dropdown__row">
+                        <div class="dropdown__list-wrapper">
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/poolspacleaners2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=5038ca688a2f4141b13462ecc5917af6" class="img-fluid" alt="Pool and Spa Cleaners" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/products/pool-cleaners" class="text-body">Pool & Spa Cleaners</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Pool &amp; Spa Cleaners<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/pool-cleaners/robotic-pool-cleaners">
+                                                                <span>Robotic Pool Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners">
+                                                                <span>Pressure Pool Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/pool-cleaners/suction-pool-cleaners">
+                                                                <span>Suction Pool Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/spa-cleaners">
+                                                                <span>Spa Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/pool-cleaners/commercial-pool-cleaners">
+                                                                <span>Commercial Pool Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/pool-cleaners">
+                                                                <span>All Pool & Spa Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/abovegroundpoolproducts2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=d59d908a3c8a4f8190bdc1923a56922a" class="img-fluid" alt="Aboveground pool products" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/products/above-ground-pool-products" class="text-body">Above Ground Pool Products</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Above Ground Pool Products<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/cleaners">
+                                                                <span>Above-Ground Pool Cleaners</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/filters">
+                                                                <span>Filters</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/pumps">
+                                                                <span>Pumps</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/system-packs">
+                                                                <span>System Packs</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/water-sanitizers">
+                                                                <span>Water Sanitizers</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products/automation">
+                                                                <span>Automation</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/above-ground-pool-products">
+                                                                <span>All Above Ground Pool Products</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/media-database/products/pumps/pb4sq/05_pb4sq_boosterm2.png?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=16877d9e53f74448a0244ec1657fb545" class="img-fluid" alt="" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/products/booster-pumps" class="text-body">Booster Pumps</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Booster Pumps<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/products/booster-pumps">
+                                                                <span>All Booster Pumps</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/partsaccessories2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=07807d5d4e534c43a2118fc0c43ae508" class="img-fluid" alt="Polaris Pool parts and accessories" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/support/parts" class="text-body">Parts & Accessories</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Parts &amp; Accessories<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/support/parts">
+                                                                <span>All Spare Parts & Accessories</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                        </div>
+                                <div class="dropdown__col list-unstyled p-0 d-none d-xl-flex flex-column min-w-0" style="flex-basis:50%; max-width:440px">
+                                    <div class="dropdown__content p-0 h-100">
+                                        <div class="bg-gray-000 p-5 h-100">
+<img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/specialoffers416x312.jpg?h=312&amp;iar=0&amp;mh=500&amp;mw=500&amp;w=416&amp;rev=72fa0d280f554729a82625b8fe0262a8" class="img-fluid object-contain mb-3" alt="Polaris Pool special offers" width="416" height="312" style="max-height:300px" loading="lazy">                                                                                            <p class="fw-bolder mb-1">Rebates are here!</p>
+                                                                                            <p class="text-body-2 mb-5">Save up to $150 on qualifying Polaris pool cleaners! </p>
+                                            <a href="/en/offers" class="btn-link mt-5"><span>Shop Now</span><i class='fal fa-arrow-right'></i></a>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+				</div>
+			</li>
+			<li class="nav-item js-nav-item__dropdown js-dropdown__toggle js-header-site-dropdown-button">
+				<button type="button" class="nav-link has-indicator text-nowrap" id="navDropdown1" data-bs-toggle="dropdown" aria-expanded="false">
+				  Why Polaris<i class="fal fa-plus"></i>
+				</button>
+				<div class="dropdown-menu position-lg-fixed max-w-100 js-header-site-dropdown-menu py-0" aria-labelledby="productsDropdown">
+                    <div class="row dropdown__row">
+                        <div class="dropdown__list-wrapper">
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/whypolaris2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=0f010bddd58a43d5b558c5e05f736d31" class="img-fluid" alt="Why Polaris Pool Products?" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/why-polaris" class="text-body">Why Polaris?</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Why Polaris?<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris/technology">
+                                                                <span>Technology & Innovation</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris/warranty">
+                                                                <span>Warranty</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris/buy-local">
+                                                                <span>Buy Local</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris">
+                                                                <span>Why Polaris</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/roboticpressurebundle.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=de8d6447d803400699ba7de861808b77" class="img-fluid" alt="Special Offers and Savings on Pool Cleaners" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/offers" class="text-body">Special Offers & Savings</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Special Offers &amp; Savings<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/offers/try-me">
+                                                                <span>Try Me Program</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/offers">
+                                                                <span>Rebates</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/rebate-terms">
+                                                                <span>Rebate Terms</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/offers">
+                                                                <span>Special Offers & Savings</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris/made-for-your-mode">
+                                                                <span>Made for Your Mode</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                        </div>
+                                <div class="dropdown__col list-unstyled p-0 d-none d-xl-flex flex-column min-w-0" style="flex-basis:50%; max-width:440px">
+                                    <div class="dropdown__content p-0 h-100">
+                                        <div class="bg-gray-000 p-5 h-100">
+<img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/banner-bgs/500x281.jpg?h=281&amp;iar=0&amp;mh=500&amp;mw=500&amp;w=500&amp;rev=8b41b6d2d4a3497aa5b734699a0a3182" class="img-fluid object-contain mb-3" alt="polaris pool rebates" width="500" height="281" style="max-height:300px" loading="lazy">                                                                                            <p class="fw-bolder mb-1">Save Up to $150 on Qualifying Cleaners</p>
+                                                                                            <p class="text-body-2 mb-5">From now until December 31, 2023.</p>
+                                            <a href="/en/why-polaris/made-for-your-mode" class="btn-link mt-5"><span>Learn More</span><i class='fal fa-arrow-right'></i></a>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+				</div>
+			</li>
+			<li class="nav-item js-nav-item__dropdown js-dropdown__toggle js-header-site-dropdown-button">
+				<button type="button" class="nav-link has-indicator text-nowrap" id="navDropdown2" data-bs-toggle="dropdown" aria-expanded="false">
+				  Support<i class="fal fa-plus"></i>
+				</button>
+				<div class="dropdown-menu position-lg-fixed max-w-100 js-header-site-dropdown-menu py-0" aria-labelledby="productsDropdown">
+                    <div class="row dropdown__row">
+                        <div class="dropdown__list-wrapper">
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/customersupport2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=453959390562489e8a5d01eb368235d8" class="img-fluid" alt="Polaris Pool customer support" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header"><a href="/en/support" class="text-body">Customer Support</a></strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Customer Support<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/support/parts">
+                                                                <span>Spare Parts & Manuals</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/support/troubleshooting-faqs">
+                                                                <span>Troubleshooting & FAQs</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/why-polaris/warranty">
+                                                                <span>Warranty</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="https://www.fluidrausa.com/en/support/rebate-support">
+                                                                <span>Rebate Support</span>
+                                                                    <i class="fal fa-external-link"></i>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/register">
+                                                                <span>Product Registration</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+<a href="https://app.redpepperdigital.net/a10/publications/2023-product-catalog-without-price/1" rel="noopener noreferrer" class="dropdown-item" target="_blank"><span>Product Catalog</span><i class='fa fa-arrow-up-right-from-square'></i></a>                                                    </li>
+                                                    <li>
+                                                            <a class="dropdown-item" href="/en/support">
+                                                                <span>Support</span>
+                                                            </a>
+                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <ul class="dropdown__col list-unstyled px-0 py-lg-5">
+                                            <div class="d-none d-xxl-flex px-5 pb-2 w-100" style="max-width:267px">
+                                                <img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/contactus2x.jpg?h=200&amp;iar=0&amp;mh=200&amp;mw=300&amp;w=267&amp;rev=ec6593bf412a40848dcb3b06d787e77f" class="img-fluid" alt="Woman Sitting Poolside Contacting Polaris On Her Phone" width="267" height="200" loading="lazy">
+                                            </div>
+                                                                                    <li><strong class="dropdown-header">Contact Us</strong></li>
+                                        <li class="js-dropdown__toggle">
+                                            <button type="button" class="nav-link text-nowrap ps-9 d-lg-none" id="sublevel2-item" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Contact Us<i class="fal fa-plus"></i>
+                                            </button>
+                                            <ul class="dropdown-menu sublevel py-0" aria-labelledby="sublevel2-item">
+                                                    <li>
+                                                            <a class="dropdown-item position-relative text-link" href="tel:800-822-7933">
+                                                                <span class="stretched-link text-decoration-underline-hover">800.822.7933</span>
+                                                            </a>
+                                                    </li>
+                                                    <li>
+<a href="mailto:productsupport@fluidra.com?subject=Polaris Support" class="dropdown-item"><span>Email us</span></a>                                                    </li>
+                                                    <li>
+<!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_follow_toolbox_ddox"></div>                                                    </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                        </div>
+                                <div class="dropdown__col list-unstyled p-0 d-none d-xl-flex flex-column min-w-0" style="flex-basis:50%; max-width:440px">
+                                    <div class="dropdown__content p-0 h-100">
+                                        <div class="bg-gray-000 p-5 h-100">
+<img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/ui-shell-images/specialoffers416x312.jpg?h=312&amp;iar=0&amp;mh=500&amp;mw=500&amp;w=416&amp;rev=72fa0d280f554729a82625b8fe0262a8" class="img-fluid object-contain mb-3" alt="Polaris Pool special offers" width="416" height="312" style="max-height:300px" loading="lazy">                                                                                            <p class="fw-bolder mb-1">Submit Your Polaris Rebate</p>
+                                                                                            <p class="text-body-2 mb-5">If you’ve already purchased an eligible product, register it here to redeem your Polaris rebate.</p>
+                                            <a href="/en/register" class="btn-link mt-5" target="_blank"><span>Register Now</span><i class='fal fa-arrow-right'></i></a>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+				</div>
+			</li>
+        <div class="d-flex gap-5 ps-5 align-items-center">
+            <a href="/en/locator" class="btn btn-primary btn-sm">Find a Retailer</a>        </div>
+</ul>
+
+            </nav>
+            <ul class="navbar-nav d-none d-lg-flex justify-content-end" style="height:55px">
+                    <li class="min-w-15">
+                        <input type="hidden" id="hdSearchSettings" value="{7CD370B2-BBFD-4E9C-843C-7193F324D6C8}" />
+                        <auto-suggest-search></auto-suggest-search>
+                    </li>
+                                    <li class="nav-item js-nav-item__dropdown js-dropdown__toggle js-header-site-dropdown-button">
+                        <button type="button" class="nav-link text-nowrap" aria-current="page" id="navDropdown5" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="flag-icon flag-icon-us"></span>
+                            <span>US/EN</span>
+                            <i class="fal fa-chevron-down d-inline-block ml-2"></i>
+                        </button>
+                        <div class="dropdown-menu js-header-site-dropdown-menu py-0" aria-labelledby="productsDropdown">
+                                <div class="dropdown__row">
+                                    <ul class="dropdown__col list-unstyled">
+                                                <li><strong class="dropdown-header text-wrap">Americas</strong></li>
+                                                    <li><a href="/en/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-us"></span> United States</a></li>
+                                                    <li><a href="https://www.polarispool.ca/en-ca/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-ca"></span> Canada - English</a></li>
+                                                    <li><a href="https://www.polarispool.ca/fr-ca/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-ca"></span> Canada - Français</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="offcanvas offcanvas-start navbar__offcanvas bg-white js-offcanvas-header-site-menu" id="navbarToggleContent" tabindex="-1" aria-labelledby="brandName">
+    <div class="offcanvas-header p-5">
+        <div class="navbar__header--mobile">
+            <div id="brandName">
+<a href="/en/" class="navbar-brand"><img src="https://cdn.fluidrausa.com/-/media/website-assets/polarispool/polaris_logo_4c_png.png?h=244&amp;iar=0&amp;w=1160&amp;rev=0eb8a164d9b14f21ae0217d0293cf2ee" class="navbar-brand__img" alt="Polaris Home" loading="lazy"></a>            </div>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body p-0 h-100">
+        <div class="navbar navbar--site navbar--mobile d-flex flex-column">
+            <div class="bg-neutral position-relative">
+
+                    <ul class="navbar-nav d-inline-flex">
+                        <li class="nav-item">
+                            <button type="button" class="js-nav-item__dropdown js-dropdown__toggle bg-transparent border-0 text-body d-flex align-items-center px-5 py-4 box-shadow-none-hover rounded-0" aria-current="page" id="navDropdown5" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="flag-icon flag-icon-us"></span>
+                                <span>&nbsp;US/EN</span>
+                                <i class="fal fa-chevron-down d-inline-block ms-2"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu--country bg-neutral" aria-labelledby="productsDropdown">
+                                    <ul class="list-unstyled mb-0">
+                                                <li><strong class="dropdown-header text-wrap">Americas</strong></li>
+                                                    <li><a href="/en/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-us"></span> United States</a></li>
+                                                    <li><a href="https://www.polarispool.ca/en-ca/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-ca"></span> Canada - English</a></li>
+                                                    <li><a href="https://www.polarispool.ca/fr-ca/" target="_blank" class="dropdown-item"><span class="flag-icon flag-icon-ca"></span> Canada - Français</a></li>
+                                    </ul>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav d-inline-flex flex-wrap top-0 end-0 position-absolute">
+                        <li class="nav-item">
+                            <a href="/en/locator" class="text-body d-flex align-items-center px-5 py-4 fw-normal"><i class='fal fa-map-marker-alt me-2'></i>Find a Dealer</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+        <div class="js-multi-menu navbar navbar--site navbar--mobile">
+            <ul class="navbar-nav">
+                
+
+
+    <li class="nav-item">
+                <a href="/en/products" class="nav-link fw-normal has-indicator" target="">Products </a>
+            <ul class="list-unstyled mb-0">
+                <li class="nav-item border-bottom">
+                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Main Menu</a>
+                </li>
+                <li class="nav-item">
+                        <a href="/en/products" class="nav-link fw-bolder has-indicator show" target="">Products </a>
+                </li>
+                    <li class="nav-item">
+                            <a href="/en/products/pool-cleaners" class="nav-link fw-normal ps-9" target="">Pool & Spa Cleaners </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Products</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/products/pool-cleaners" class="nav-link fw-bolder has-indicator show" target="">Pool & Spa Cleaners </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/pool-cleaners/robotic-pool-cleaners" target="">Robotic Pool Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners" target="">Pressure Pool Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/pool-cleaners/suction-pool-cleaners" target="">Suction Pool Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/spa-cleaners" target="">Spa Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/pool-cleaners/commercial-pool-cleaners" target="">Commercial Pool Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/pool-cleaners" target="">All Pool & Spa Cleaners </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a href="/en/products/above-ground-pool-products" class="nav-link fw-normal ps-9" target="">Above Ground Pool Products </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Products</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/products/above-ground-pool-products" class="nav-link fw-bolder has-indicator show" target="">Above Ground Pool Products </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/cleaners" target="">Above-Ground Pool Cleaners </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/filters" target="">Filters </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/pumps" target="">Pumps </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/system-packs" target="">System Packs </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/water-sanitizers" target="">Water Sanitizers </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products/automation" target="">Automation </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/above-ground-pool-products" target="">All Above Ground Pool Products </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a href="/en/products/booster-pumps" class="nav-link fw-normal ps-9" target="">Booster Pumps </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Products</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/products/booster-pumps" class="nav-link fw-bolder has-indicator show" target="">Booster Pumps </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/products/booster-pumps" target="">All Booster Pumps </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a href="/en/support/parts" class="nav-link fw-normal ps-9" target="">Parts & Accessories </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Products</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/support/parts" class="nav-link fw-bolder has-indicator show" target="">Parts & Accessories </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/support/parts" target="">All Spare Parts & Accessories </a>
+                                </li>
+                            </ul>
+                    </li>
+            </ul>
+    </li>
+    <li class="nav-item">
+                <a href="/en/why-polaris" class="nav-link fw-normal has-indicator" target="">Why Polaris </a>
+            <ul class="list-unstyled mb-0">
+                <li class="nav-item border-bottom">
+                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Main Menu</a>
+                </li>
+                <li class="nav-item">
+                        <a href="/en/why-polaris" class="nav-link fw-bolder has-indicator show" target="">Why Polaris </a>
+                </li>
+                    <li class="nav-item">
+                            <a href="/en/why-polaris" class="nav-link fw-normal ps-9" target="">Why Polaris? </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Why Polaris</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/why-polaris" class="nav-link fw-bolder has-indicator show" target="">Why Polaris? </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris/technology" target="">Technology & Innovation </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris/warranty" target="">Warranty </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris/buy-local" target="">Buy Local </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris" target="">Why Polaris </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a href="/en/offers" class="nav-link fw-normal ps-9" target="">Special Offers & Savings </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Why Polaris</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/offers" class="nav-link fw-bolder has-indicator show" target="">Special Offers & Savings </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/offers/try-me" target="">Try Me Program </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/offers" target="">Rebates </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/rebate-terms" target="">Rebate Terms </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/offers" target="">Special Offers & Savings </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris/made-for-your-mode" target="">Made for Your Mode </a>
+                                </li>
+                            </ul>
+                    </li>
+            </ul>
+    </li>
+    <li class="nav-item">
+                <a href="/en/support" class="nav-link fw-normal has-indicator" target="">Support </a>
+            <ul class="list-unstyled mb-0">
+                <li class="nav-item border-bottom">
+                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Main Menu</a>
+                </li>
+                <li class="nav-item">
+                        <a href="/en/support" class="nav-link fw-bolder has-indicator show" target="">Support </a>
+                </li>
+                    <li class="nav-item">
+                            <a href="/en/support" class="nav-link fw-normal ps-9" target="">Customer Support </a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Support</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="/en/support" class="nav-link fw-bolder has-indicator show" target="">Customer Support </a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link fw-normal ps-9" href="/en/support/parts" target="">Spare Parts & Manuals </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/support/troubleshooting-faqs" target="">Troubleshooting & FAQs </a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/why-polaris/warranty" target="">Warranty </a>
+                                            <a class="nav-link fw-normal ps-9" href="https://www.fluidrausa.com/en/support/rebate-support" target="_blank">Rebate Support  <i class="fal fa-external-link"></i></a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/register" target="">Product Registration </a>
+                                            <a class="nav-link fw-normal ps-9" href="" target="_blank">Product Catalog  <i class="fal fa-external-link"></i></a>
+                                            <a class="nav-link fw-normal ps-9" href="/en/support" target="">Support </a>
+                                </li>
+                            </ul>
+                    </li>
+                    <li class="nav-item">
+                            <a href="" class="nav-link fw-normal ps-9">Contact Us</a>
+
+                            <ul class="list-unstyled">
+                                <li class="nav-item border-bottom">
+                                    <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Support</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="" class="nav-link fw-bolder has-indicator show">Contact Us</a>
+
+                                </li>
+                                <li class="nav-item">
+                                            <a class="nav-link has-indicator position-relative text-link ps-9" href="tel:800-822-7933"><span class="stretched-link text-decoration-underline-hover">800.822.7933</span></a>
+                                            <a class="nav-link fw-normal ps-9" href="mailto:productsupport@fluidra.com?subject=Polaris Support"><span class="stretched-link text-decoration-underline-hover">Email us </span></a>
+                                            <a class="nav-link fw-normal ps-9" href="" target=""> </a>
+                                </li>
+                            </ul>
+                    </li>
+            </ul>
+    </li>
+<div class="navbar-nav--offcanvas">
+        <li class="nav-item">
+                    <a href="" class="nav-link fw-normal has-indicator">Brands</a>
+                <ul class="list-unstyled mb-0">
+                    <div class="navbar-nav--offcanvas">
+                        <li class="nav-item border-bottom">
+                            <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Main Menu</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="" class="nav-link has-indicator fw-bolder show">Brands</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="https://www.fluidrausa.com/en/" class="nav-link fw-normal ps-9" target="_blank">Corporate</a>
+                                <a href="https://www.aquaproducts.com/en/" class="nav-link fw-normal ps-9" target="_blank">Aqua Products</a>
+                                <a href="https://www.blueriiot.com/us-en" class="nav-link fw-normal ps-9" target="_blank">Blueriiot</a>
+                                <a href="https://www.grandeffects.com/en/" class="nav-link fw-normal ps-9" target="_blank">Grand Effects</a>
+                                <a href="https://www.jandy.com/en/" class="nav-link fw-normal ps-9" target="_blank">Jandy®</a>
+                                <a href="/en/" class="nav-link fw-normal ps-9" target="">Polaris®</a>
+                                <a href="https://www.zodiacpoolsystems.com/en/" class="nav-link fw-normal ps-9" target="_blank">Zodiac® Pool</a>
+                                <a href="https://www.iaqualink.com/en/" class="nav-link fw-normal ps-9" target="_blank">iAquaLink®</a>
+                                <a href="https://www.zodiacpoolblog.com/en/" class="nav-link fw-normal ps-9" target="_blank">Blog</a>
+                                <a href="https://www.nature2.com/en/" class="nav-link fw-normal ps-9" target="_blank">Nature2®</a>
+                                <a href="http://www.coverpools.com/" class="nav-link fw-normal ps-9" target="_blank">Cover-Pools®</a>
+                        </li>
+                    </div>
+                </ul>
+        </li>
+        <li class="nav-item">
+                    <a href="https://register.fluidrausa.com/en/" class="nav-link fw-normal has-indicator" target="_blank">Product Registration</a>
+        </li>
+        <li class="nav-item">
+                    <a href="" class="nav-link fw-normal has-indicator">Pool Pros</a>
+                <ul class="list-unstyled mb-0">
+                    <div class="navbar-nav--offcanvas">
+                        <li class="nav-item border-bottom">
+                            <a href="" class="js-menu-back nav-link text-body-1 text-uppercase text-decoration-none link-body fw-bolder justify-content-start"><i class="fal fa-arrow-left me-3"></i>Main Menu</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="" class="nav-link has-indicator fw-bolder show">Pool Pros</a>
+                        </li>
+                        <li class="nav-item">
+                                <a href="https://www.fluidrarewards.com/en/" class="nav-link fw-normal ps-9" target="_blank">Fluidra Rewards</a>
+                                <a href="https://www.fluidrarewards.com/en/sign-up" class="nav-link fw-normal ps-9" target="_blank">Become a Partner</a>
+                                <a href="https://www.fluidrausa.com/en/support" class="nav-link fw-normal ps-9" target="_blank">Pro Support</a>
+                                <a href="http://www.fluidraproacademy.com/" class="nav-link fw-normal ps-9" target="_blank">Fluidra Pro Academy</a>
+                                <a href="https://fluidrapro.hubs.vidyard.com/" class="nav-link fw-normal ps-9" target="_blank">Video Hub</a>
+                        </li>
+                    </div>
+                </ul>
+        </li>
+</div>
+            </ul>
+        </div>
+    </div>
+
+
+        <div class="px-6 pb-7 d-flex gap-5 align-items-center">
+            <a href="/en/locator" class="btn btn-primary btn-sm">Find a Retailer</a>        </div>
+</div>
+
+	<main class="page">
+		
+<div class="bg-gray-000">
+    <div class="container-fluid">
+        <div class="row">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-group mb-0 bg-neutral overflow-x-auto flex-nowrap">
+                        <li class="breadcrumb-item d-flex align-items-center text-nowrap"><a class="breadcrumb-link fs-small text-nowrap" href="/en/">United States</a></li>
+                        <li class="breadcrumb-item d-flex align-items-center text-nowrap"><a class="breadcrumb-link fs-small text-nowrap" href="/en/products">Products</a></li>
+                        <li class="breadcrumb-item d-flex align-items-center text-nowrap"><a class="breadcrumb-link fs-small text-nowrap" href="/en/products/pool-cleaners">All Pool & Spa Cleaners</a></li>
+                        <li class="breadcrumb-item d-flex align-items-center text-nowrap"><a class="breadcrumb-link fs-small text-nowrap" href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners">Pressure Pool Cleaners</a></li>
+                    <li class="breadcrumb-item active d-flex align-items-center text-nowrap" aria-current="page"><span class="mb-0 breadcrumb-link fs-small text-nowrap">Polaris Vac-Sweep 280</span></li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+</div>
+
+		
+<input type="hidden" id="hdPageId" value="{9BD32C01-7E21-4A6F-B168-AC6A1069834A}" />
+
+<nav class="nav--product-detail js-sticky-nav z-2 overflow-visible">
+    <div class="border-1 border-bottom">
+        <div class="container">
+            <div class="row">
+				<div class="col d-md-flex justify-content-md-between align-items-md-center py-5">
+					<div class="mb-5 mb-md-0">
+						<h1 class="h6 text-wrap">Polaris Vac-Sweep 280</h1>
+						
+
+    <a href="#product-detail-reviews-section" class="d-flex flex-wrap cursor-pointer js-smooth-scroll-trigger f-small text-decoration-none">
+            <span class="me-3 text-body">
+                    <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                    <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                    <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                    <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                    <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+
+    </span>
+
+        <span class="d-inline-block me-3 text-decoration-underline-hover">4.8 Stars</span>
+        <span class="d-inline-block me-3 text-decoration-underline-hover">(1000 Reviews)</span>
+    </a>
+
+
+
+					</div>
+						<div class="d-flex flex-wrap align-items-start gap-5">
+							<a href="https://a.co/d/84nR8eS" rel="noopener noreferrer" class="btn btn-primary" target="_blank">Buy Now</a>						</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="container overflow-x-auto" style="min-height:52px">
+			<nav class="nav__list list-unstyled d-flex mb-0 js-stickynavwrapper ps-0-first-child"></nav>
+    </div>
+</nav>
+<section class="js-productsstickynavtarget pt-7 pb-3 pb-md-5" id="productdetailoverview" data-stickynav="Overview">
+	<div class="container">
+		<div class="row">
+				<div class="col-lg-7">
+					<image-carousel></image-carousel>
+				</div>
+				<div class="col-lg-5">
+															<h1 id="productTitle" class="h2 f-base f-md-2">Polaris Vac-Sweep 280</h1>
+						<h2 class="h6">Our most popular automatic pool cleaner</h2>
+											<p class="text-body-2 my-6">SKU #<span id="spanSKU">F5</span></p>
+																				<div class="d-flex flex-wrap gap-5 my-6">
+					</div>
+						<div class="js-truncate line-clamp"><p>Our most popular pressure pool cleaner, the Polaris Vac-Sweep 280 pressure-side pool cleaner works in all in-ground pools and requires a booster pump. It is powered by double jets, providing greater vacuum power and faster cleaning (3 hours or less). The Polaris 280 easily connects to a dedicated pressure line and sweeps, scrubs, and vacuums all surfaces of the pool. The pressure cleaner is equipped with a single chamber filter bag where it captures large debris such as leaves, acorns, pebbles, and other small to large debris. Its unique filter bag removes debris before it reaches your pump basket or filter, prolonging the life of your filtration system.</p></div>
+						<p>
+							<button class="btn-link js-truncate__btn my-3 has-icon-bg" data-seeless="Read less" data-seemore="Read more">
+								Read more
+							</button>
+						</p>
+					<div class="mt-8 mt-lg-9">
+						<input type="hidden" id="hdDatasource" value="" />
+
+<product-attributes></product-attributes>
+					</div>
+						<div class="d-flex flex-wrap align-items-start gap-5 my-6">
+							<a href="https://a.co/d/84nR8eS" rel="noopener noreferrer" class="btn btn-primary" target="_blank">Buy Now</a>						</div>
+											<p class="mt-5"><a href="#productdetailspecs" class="js-smooth-scroll-trigger">View Specifications</a></p>
+				</div>
+		</div>
+	</div>
+</section><div id="vyLightbox" class="d-none"></div>
+<section class="d-flex align-items-center justify-content-center text-center mt-10 mb-5">
+	<div id="elem-to-scroll-to"></div>
+	<div class="container">
+		<div class="row g-0">
+			<div class="col-lg-10 position-relative m-auto">
+				<div class="overlay-low-dark"></div>
+				<img class="vidyard-player-embed" src="https://play.vidyard.com/zzGhrwN-sMTBMAxfLBd0Pg" data-uuid="zzGhrwN-sMTBMAxfLBd0Pg" data-v="4" data-type="lightbox" loading=&quot;lazy&quot;>
+			</div>
+		</div>
+	</div>
+	<div class="position-absolute z-1">
+		<button type="button" class="btn-link text-white mx-auto border-0 cursor-pointer" onclick="launchLightbox('zzGhrwN-sMTBMAxfLBd0Pg')">
+			<i class="fal fa-play-circle me-2"></i>See it in action!
+		</button>
+	</div>
+</section>
+<section class="banner position-relative overflow-hidden   bg-neutral ">
+	<div class="container">
+		<div class="row">
+            <div class="px-0 px-lg-5 d-lg-flex align-items-lg-center col-lg-6">
+                    <div class="ratio ratio-1x1">
+                        <img src="https://cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-280/280_uw_4.jpg?h=2000&amp;iar=0&amp;w=2000&amp;rev=83eb211231b146788bb536ad5655ab40" class="object-cover" alt="Polaris 280 Pressure Automatic Pool Cleaner Climbing Wall" loading="lazy">
+                    </div>
+                            </div>
+            <div class="col-lg-6 py-7 py-lg-11 z-1 mx-auto my-lg-auto order-lg-first me-lg-auto ">
+                <H1 class='text-body ' >Greater Vacuum Power and Faster Cleaning</H1>
+                <div class="mt-3 d-flex flex-column gap-5 text-body ">
+                    <ul>
+<li>Powered by double jets, cleans a pool faster (3 hours or less)</li>
+<li>Works in all in-ground pools of any size and shape</li>
+<li>Sweeps, scrubs, and vacuums the bottom and walls of your pool</li>
+<li>Runs off a separate booster pump</li>
+<li>Includes 31-feet of feed hose, and equipped with single chamber filter bag for capturing larger debris</li>
+<li>Available in a Black Max<sup>&trade;</sup> model to complement dark-bottom pools</li>
+<li>Available in a TankTrax model to get to those hard-to-reach places</li>
+</ul>
+                </div>
+                            </div>
+		</div>
+	</div>
+</section>
+
+<section class="container py-6 mt-4 mt-lg-8 js-productsstickynavtarget" id="productdetailspecs" data-stickynav="Specifications">
+        <h2>Polaris Vac-Sweep 280  Specifications</h2>
+</section>
+
+<part-specs></part-specs>
+<section id="productdetailbrochures" class="card-2a py-6 py-lg-9 js-productsstickynavtarget bg-brand-2" data-stickynav="User Guides">
+    <div class="container">
+            <h2 class="text-body mb-6">Polaris Vac-Sweep 280 User Guides</h2>
+		<div class="row">
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-1013.pdf?rev=3d17e6d22ce1439d8c734542241bbe3a" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">TL-1013</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris Hose Connector Replacement Instructions</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>478.49 KB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-1013.pdf?rev=3d17e6d22ce1439d8c734542241bbe3a?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/sl825.pdf?rev=20d648519397445383e1324aebf5db1a" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">SL825</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris Inground Cleaner Family Brochure</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>1.42 MB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/sl825.pdf?rev=20d648519397445383e1324aebf5db1a?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-200.pdf?rev=9a1c58d8815143b68ae4dd3faa20f838" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">TL-200</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris 280 I/O Manual</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>493.7 KB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-200.pdf?rev=9a1c58d8815143b68ae4dd3faa20f838?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/sl200.pdf?rev=f69fc5d3289249158d46c2087ba149c8" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">SL200</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris 280 Data Sheet</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>502.74 KB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/sl200.pdf?rev=f69fc5d3289249158d46c2087ba149c8?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-205.pdf?rev=bb48615e93ba49b4ba9395c83e57d015" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">TL-205</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris 280 Factory Rebuild Kit</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>136.04 KB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-205.pdf?rev=bb48615e93ba49b4ba9395c83e57d015?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-206.pdf?rev=b82bca6bc191403da0bc3408fa8e4f9a" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">TL-206</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris 280 TankTrax Conversion Kit Installation</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>654.23 KB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/tl-206.pdf?rev=b82bca6bc191403da0bc3408fa8e4f9a?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+				<div class="col-12 productbrochureitem" data-extension="pdf" data-material="">
+					<div class="row border border-2 border-dark justify-content-between my-3 mx-auto mx-lg-0">
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/h0409800.pdf?rev=f9c48c5fbd8e4acaa2c5fc8fff7037af" target="_blank" style="width: calc(100% - 66px)" class="box-shadow-focus text-body text-decoration-none align-items-center d-flex flex-wrap p-4 px-lg-6 justify-content-between bg-white bg-gray-000-hover">
+							<div class="d-flex flex-wrap mb-3 mb-xl-0 col-12 col-xl-auto p-0">
+									<div class="me-md-4" style="width:90px">
+										<span class="text-caption d-block">Document ID</span>
+										<span class="fw-bolder word-break-break-all">H0409800</span>
+									</div>
+																	<div class="col-12 col-xl-auto p-0">
+										<span class="text-caption d-block">Description</span>
+										<span class="fw-bolder">Polaris 280 Quick Start Guide</span>
+									</div>
+							</div>
+							<div class="d-flex">
+								<div class="d-flex flex-wrap">
+										<div class="me-3">
+											<span class="text-caption d-block">File Size</span>
+											<span>1.09 MB</span>
+										</div>
+										<div class="me-3 mt-5">|</div>
+																			<div class="me-3">
+											<span class="text-caption d-block">File Type</span>
+											<span>PDF <i class="fal fa-file-pdf ms-2"></i></span>
+										</div>
+								</div>
+							</div>
+						</a>
+						<a href="https://cdn.fluidrausa.com/-/media/zodiac/global/downloads/polaris/cleaners/h0409800.pdf?rev=f9c48c5fbd8e4acaa2c5fc8fff7037af?force=1" style="width:66px" class="box-shadow-focus border-start border-2 border-dark align-items-center d-flex justify-content-center card-2a__download--bg"><i class="fal fa-arrow-to-bottom card-2a__download--link"></i></a>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+
+<section class="container js-productsstickynavtarget" id="product-detail-reviews-section" data-stickynav="Reviews">
+	<product-reviews></product-reviews>
+</section>
+<section class=" py-8 py-lg-11 js-productsstickynavtarget" id="productdetailfaq" data-stickynav="Frequently asked questions">
+	<div class="container">
+		<div class="row">
+            <div class="col-lg-4">
+					<h2 class=" mb-6">Polaris Vac-Sweep 280 Frequently asked questions</h2>
+            </div>
+			<div class="col-lg-8 pt-0-first-child">
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-0" aria-expanded="false" aria-controls="collapseFaqs-0">
+							<span>Cleaner does not climb/goes in circles.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-0">
+							<p>Verify that the wheel RPM's are in the correct range and adjust the thrust jet. If the cleaner isn't climbing well then ensure the thrust jet is in the 11 o'clock position. If it is going in circles then angle the thrust jet so it is pointing opposite of the way the cleaner is turning. For example, if the cleaner is turning right then point the thrust jet to the left.</p>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-1" aria-expanded="false" aria-controls="collapseFaqs-1">
+							<span>Cleaner seems to slide over the tiles.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-1">
+							<ol>
+<li>Turn the appliance over and check the suction by making sure that all the jets located in the central pipework are working correctly. If they aren’t, make sure they are not blocked.</li>
+<li>Fit the special tires for smooth tiled surfaces (Ref. C-13).</li>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-2" aria-expanded="false" aria-controls="collapseFaqs-2">
+							<span>Hangs up on steps or other obstacles longer than 3 minutes.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-2">
+							<ol>
+<li>Check the wheel RPM.</li>
+<li>Verify the back-up valve is cycling.</li>
+<li>Adjust the thrust jet.</li>
+<li>Remove unnecessary pool hardware or install a Ladder Guard Kit (order part #G21 from a Polaris dealer).</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-3" aria-expanded="false" aria-controls="collapseFaqs-3">
+							<span>Hose(s) becomes tangled or coiled. </span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-3">
+							<p>Check swivels and make sure they are spinning freely. Lay the hose out in the sun for 24 hours to eliminate any potential hose memory.</p>
+
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-4" aria-expanded="false" aria-controls="collapseFaqs-4">
+							<span>Cleaner doesn't back up.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-4">
+							<p>Hold the back up valve out of the water and verify that it cycles on and off. A complete cycle takes about three minutes. If it stays on all the time or doesn't come on at all then replace the back up valve.</p>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-5" aria-expanded="false" aria-controls="collapseFaqs-5">
+							<span>Polaris flies around the pool and/or does not make contact with the bottom.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-5">
+							<ol>
+<li>Check the wheel RPM. If more than 32 RPM, unscrew the pressure relief valve to decrease water flow to cleaner.</li>
+<li>Confirm that the blue restrictor disc is installed in the UWF to decrease water flow. Or, install the red restrictor disc to decrease water flow even more.</li>
+<li>Verify the back-up valve is cycling. Hold the valve out of the water and watch the jet. It should come on and go off.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-6" aria-expanded="false" aria-controls="collapseFaqs-6">
+							<span>Polaris is sluggish, running with less power than normal.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-6">
+							<ol>
+<li> Check the filter screen in the Quick Disconnect and clean, if necessary.</li>
+<li>Clean the skimmer basket, pump basket, and pool filter.</li>
+<li>Check all of the hoses, connections, and swivels for leaks that cause loss of water pressure.</li>
+<li>Check the wheel RPM.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-7" aria-expanded="false" aria-controls="collapseFaqs-7">
+							<span>Polaris only turns in one direction.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-7">
+							<ol>
+<li>Adjust the thrust jet.</li>
+<li>Make sure feed hose is floating.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-8" aria-expanded="false" aria-controls="collapseFaqs-8">
+							<span>Sweep hose is sucked into the vacuum tube.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-8">
+							<ol>
+<li>Make sure the opening at the end of the sweep hose is not blocked by the sweep hose scrubber.</li>
+<li>Adjust the sweep hose to a gentle sweeping motion.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-9" aria-expanded="false" aria-controls="collapseFaqs-9">
+							<span>Sweep hose sprays too much water out of the pool.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-9">
+							<ol>
+<li>Adjust the speed of the sweep hose by tightening the adjustment screw.</li>
+<li>Replace the sweep hose scrubber if it is worn or missing.</li>
+<li>Add a sweep hose weight (Part No. B2) to keep the sweep hose from spraying.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-10" aria-expanded="false" aria-controls="collapseFaqs-10">
+							<span>The Cleaner does not clean the entire pool.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-10">
+							<ol>
+<li>Verify that feed hose reaches within 6" of the farthest point of the pool. If not, order a new hose section from your Polaris dealer.</li>
+<li>Check the thrust jet for straight back position that optimizes random turning.</li>
+<li>While the cleaner is operating, hold it upside down and look into the vacuum tube. There should be two distinct, even jets of water. If there are not, contact Customer Service or a Polaris authorized Service Center for assistance.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-11" aria-expanded="false" aria-controls="collapseFaqs-11">
+							<span>The cleaner is running in circles on its side.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-11">
+							<ol>
+<li>Check the filter bag, if full it can weigh the cleaner down on one side.</li>
+<li>Remove the head float and shake it. If there is water in the float, order a new one.</li>
+<li>Check the hose floats to make sure they are spaced evenly.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-12" aria-expanded="false" aria-controls="collapseFaqs-12">
+							<span>The wheels rotate less than 28 times a minute.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-12">
+							<ol>
+<li>Use the Polaris pressure tester to check the booster pump pressure.</li>
+<li>Check that the metal pre-filter is present and not clogged.</li>
+<li>Make sure that the hose weight adjustment nut is screwed down correctly.</li>
+<li>Make sure the hoses have been cut as indicated in the instructions.</li>
+<li>Make sure that the blue reducing disk has not been installed in the quick disconnect.</li>
+<li>Check that the booster pump is working normally.</li>
+<li>Clean the skimmer baskets, sand filter, and pump basket.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-13" aria-expanded="false" aria-controls="collapseFaqs-13">
+							<span>The wheels rotate less than 34 times a minute.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-13">
+							<ol>
+<li>Unscrew the hose-weight adjustment nut until the desired setting is obtained.</li>
+<li>Fit the flow limiter (red or blue) into the quick disconnect.</li>
+</ol>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-14" aria-expanded="false" aria-controls="collapseFaqs-14">
+							<span>Cleaner does not move but there is pressure going to the unit.</span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-14">
+							<p>Verify the wheel RPM's are in range. If they are low or the wheels are not spinning then check the in-line filter for debris. If clear and the wheels still aren't spinning then check the water management system for clogs. If the RPM's are slightly below the prescribed range then remove the restrictor disc from the wall connector. If the wheels are moving too quickly then install the red restrictor disc.</p>
+						</div>
+					</div>
+					<div class="py-4 py-lg-6">
+						<button type="button" class="js-accordion-toggle text-body  text-start bg-transparent border-0 p-0 d-flex w-100 align-items-center justify-content-between fw-bolder" data-bs-toggle="collapse" data-bs-target="#collapseFaqs-15" aria-expanded="false" aria-controls="collapseFaqs-15">
+							<span>The cleaner is tipping over/floating. </span>
+							<i class="fal fa-plus"></i>
+						</button>
+						<div class="collapse " id="collapseFaqs-15">
+							<p>Verify the wheel RPM's are in range. Ensure that the head float is not filled with water. Try running the cleaner without the bag and if it fixes the issue then clean the bag with soap and warm water. This will remove any biofilm/oils that may have accumulated in the bag.</p>
+
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="product-detail-relatedprods-section" class="pt-9 pt-lg-12 pb-5 pb-lg-9 js-productsstickynavtarget" data-stickynav="Related Products">
+    <div class="container">
+            <h2 class="mb-8">Polaris Vac-Sweep 280 Related Products</h2>
+    </div>
+    <div class="container">
+        <div class="swiper carousel-5a w-100 js-carousel-5a">
+            <div class="d-none d-lg-flex justify-content-end mb-4">
+                <div class="js-swiper-button-prev-5a swiper__btn">
+                    <i class="fal fa-chevron-left"></i>
+                </div>
+                <div class="js-swiper-button-next-5a swiper__btn ms-4">
+                    <i class="fal fa-chevron-right"></i>
+                </div>
+            </div>
+
+            <div class="swiper-wrapper pb-6">
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/pumps/pb4sq/new-images/01_pb4sq_booster_tse.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=62cf5cc4ce3143c6b75baf47a965f7a9" class="img-fluid mx-auto object-contain" alt="PB4SQ Booster" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                            <span class="text-overline-2 d-block mb-3"></span>
+                                <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">Polaris PB4SQ</h3>
+                            
+                                <div class="mt-2">
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+                                    <span class="text-caption d-block">4.9 Stars (77 Reviews)</span>
+                                </div>
+                            
+                                <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">The PB4SQ is an energy-efficient, multistage booster pump<br/>that operates quietly and is easy to install and service.</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/booster-pumps/polaris-pb4sq" class="d-inline-block stretched-link">
+                                    View details
+                                    <i class="fal fa-arrow-right"></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/pumps/pb4-60/pb4_60_boosterpump_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=a1aab40e2792456f9bb188dae749be3c" class="img-fluid mx-auto object-contain" alt="Polaris PB4-60 Booster Pool Pumps" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                            <span class="text-overline-2 d-block mb-3"></span>
+                                <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">Polaris PB4-60</h3>
+                            
+                                <div class="mt-2">
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+                                    <span class="text-caption d-block">4.9 Stars (1000 Reviews)</span>
+                                </div>
+                            
+                                <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">The PB4-60 delivers the best combination of high-performance power, quiet operation, and durability.</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/booster-pumps/polaris-pb4-60" class="d-inline-block stretched-link">
+                                    View details
+                                    <i class="fal fa-arrow-right"></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-tr28p/1-tr28p-tse.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=d0332a87d49147de9d79cf8d662905c3" class="img-fluid mx-auto object-contain" alt="Polaris Pool TR28P Pressure Pool Cleaner" title="Polaris TR280 TSE - Front" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                            <span class="text-overline-2 d-block mb-3"></span>
+                                <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">Polaris TR28P Pressure Pool Cleaner</h3>
+                            
+                                <div class="mt-2">
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+                                    <span class="text-caption d-block">4.7 Stars (68 Reviews)</span>
+                                </div>
+                            
+                                <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">The Polaris<sup>®</sup> TR28P vacuums and effectively sweeps and scrubs with the TailSweep PRO<sup>®</sup>, collecting debris into an attached debris bag to help prolong the longevity of your pool’s filtration system.</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-tr28p" class="d-inline-block stretched-link">
+                                    View details
+                                    <i class="fal fa-arrow-right"></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-380/f3_380angle_2.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=584373c621ce42db91a7f966eaebc7e7" class="img-fluid mx-auto object-contain" alt="Polaris 380 Pressure Automatic Pool Cleaners" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                            <span class="text-overline-2 d-block mb-3"></span>
+                                <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">Polaris Vac-Sweep 380</h3>
+                            
+                                <div class="mt-2">
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+                                    <span class="text-caption d-block">4.7 Stars (458 Reviews)</span>
+                                </div>
+                            
+                                <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">Powered by triple jets and a separate booster pump, the Polaris 380 is one of our most powerful, durable cleaners, is suitable for all in-ground pools, and requires a booster pump.</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-vac-sweep-380" class="d-inline-block stretched-link">
+                                    View details
+                                    <i class="fal fa-arrow-right"></i>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/cleaners/polaris-360/f1_360angle_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=b8414c56ac904c969eb3fa295623482f" class="img-fluid mx-auto object-contain" alt="Polaris 360 Pressure Pool Cleaner" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                            <span class="text-overline-2 d-block mb-3"></span>
+                                <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">Polaris Vac-Sweep 360</h3>
+                            
+                                <div class="mt-2">
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star stroke-20 stroke-body text-brand-1"></i>
+                                            <i class="fas fa-star-half-alt stroke-20 stroke-body text-brand-1"></i>
+                                    <span class="text-caption d-block">4.7 Stars (1000 Reviews)</span>
+                                </div>
+                            
+                                <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">Our most advanced pressure-side automatic pool cleaner that operates without a separate booster pump.</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/pool-cleaners/pressure-automatic-pool-cleaners/polaris-vac-sweep-360" class="d-inline-block stretched-link">
+                                    View details
+                                    <i class="fal fa-arrow-right"></i>
+                                </a>
+                            </div>
+                    </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+</section>
+
+<section id="product-detail-partsacc-section" class="pt-9 pt-lg-12 pb-5 pb-lg-9 js-productsstickynavtarget" data-stickynav="Spare Parts &amp; Accessories">
+    <div class="container">
+            <h2 class="mb-8">Polaris Vac-Sweep 280 Spare Parts & Accessories</h2>
+    </div>
+    <div class="container">
+        <div class="swiper carousel-5a w-100 js-carousel-5a">
+            <div class="d-none d-lg-flex justify-content-end mb-4">
+                <div class="js-swiper-button-prev-5a swiper__btn">
+                    <i class="fal fa-chevron-left"></i>
+                </div>
+                <div class="js-swiper-button-next-5a swiper__btn ms-4">
+                    <i class="fal fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="swiper-wrapper pb-6">
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/k13-all-purpose-zipper-bag/polaris-parts-k13-all-purpose-bag-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=ef1a7c7f1f8847eb96bf63b045ad2c20" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">K13</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">K13 All-Purpose Debris Bag With Zippered Closure</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/zippered-all-purpose-debris-bag-280" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/zodiac/global/parts/k14_r_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=60d6afb029f04c7ab7d87239fb5426e9&amp;sc_lang=en" class="img-fluid mx-auto object-contain" alt="White Polaris Sand/Silt Bag" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">K14</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">K14 Sand/Silt Debris Bag</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/sand-slit-debris-bag-380" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/k16-all-purpose-bag-pvs-280/polaris-parts-k16-all-purpose-bag-280-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=e7e12def98cd449386f0eef814108ff2" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">K16</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">K16 All-Purpose Debris Bag</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/all-purpose-debris-bag-280" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/zodiac/global/parts/k17_r_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=282c13dd34104db18d1b24075841c08b&amp;sc_lang=en" class="img-fluid mx-auto object-contain" alt="Black K17 All-Purpose Debris Bag" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">K17</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">K17 All-Purpose Debris Bag</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/all-purpose-debris-bag-black" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/g52-back-up-valve/polaris-parts-g52-backup-valve-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=e17b3627341c4a3daedd0a659037cef3" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">G52</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">G52 Back-Up Valve</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/back-up-valve" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/9-100-9001-uwf-connector/polaris-parts-91009001-uwf-connector-assembly-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=1860a625a9284c1a822bba6438578585" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">9-100-9001</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">9-100-9001 Universal Wall Fitting</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/universal-wall-fitting" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/c10-max-trax-tire/polaris-parts-c10-max-trax-tire-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=c806be82b10e44b890a4f910564b1532" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">C10</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">C10 Max Trax Tire</h3>
+                            
+                                                            <div class="d-none d-lg-block">
+                                    <p class="text-body-3 mt-5 line-clamp">Compatible Models<br/>Polaris 380, 360, 280, 180</p>
+                                </div>
+                        </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/max-trax-tire" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/c60-wheel-ball-bearing/polaris-parts-c60-wheel-ball-bearings-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=55e5a2769f1740e38d3996b8484314e8" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">C60</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">C60 Ball Bearing for Wheel</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/ball-bearing-for-wheel" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/zodiac/global/parts/c6_r_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=b5a50053f4464dfe9061df7b2a336307" class="img-fluid mx-auto object-contain" alt="Large Wheel" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">C6</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">C6 Large Wheel</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/large-wheel" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/b5-sweep-hose/polaris-parts-b5-sweep-hose-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=66a0af552cd54c89a3e37b40bb55e809" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">B5</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">B5 Sweep Hose</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/sweep-hose" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/g5-feed-hose/polaris-parts-g5-feed-hose-complete-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=f009d65828d24390b9e9f227665e1898" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">G5</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">G5 Feed Hose w/ UWF<sup>®</sup></h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/feed-hose" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/zodiac/global/parts/c86_r_1.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=0b6709e7d26b43678c8cb2cfe66d8465&amp;sc_lang=en" class="img-fluid mx-auto object-contain" alt="Polaris Drive Shaft Assembly" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">C86</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">C86 Drive Shaft Assembly</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/drive-shaft-assembly" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide d-flex flex-column">
+                        <div class="swiper js-carousel-5a-image position-relative mx-0">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide text-center w-100 bg-gray-000">
+                                    <div class="img-wrapper ratio ratio-1x1">
+<img src="https://cdn.fluidrausa.com/-/media/media-database/products/accessories/polaris-parts/a49-280-180-factory-tune-up-kit/polaris-parts-a49-factory-tune-up-kit-280180-mpi-final.png?h=348&amp;iar=0&amp;mh=348&amp;mw=348&amp;w=348&amp;rev=db30a401f6aa463bae29cc978226e124" class="img-fluid mx-auto object-contain" alt="" loading="lazy">                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column mb-6 pe-5 pt-6">
+                                <span class="text-overline-2 d-block">A49</span>
+                                                            <h3 class="text-h6 overflow-hidden text-nowrap" style="text-overflow:ellipsis">A49 Factory Tune-Up Kit</h3>
+                            
+                                                    </div>
+                            <div class="mt-auto">
+                                <a href="/en/products/parts-and-accessories/pressure-parts/factory-tune-up-kit-180" class="d-inline-block stretched-link"></a>
+                            </div>
+                    </div>
+            </div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<script src='https://cdn.fluidrausa.com/siteglobalproduct/sharedcomponents/dist/products-workspace/polyfills.7aaaf0b62e7c33e90ecd.js' type='text/javascript'></script>
+<script src='https://cdn.fluidrausa.com/siteglobalproduct/sharedcomponents/dist/products-workspace/main.fef6a9ded26408e64cc4.js' type='text/javascript'></script>
+	</main>
+	<footer class="footer" role="contentinfo">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="mb-6">
+					<a href="https://www.fluidrausa.com/en/" title="Fluidra" target="_blank"><i class='fab fa-fluidra text-white'></i></a>
+				</div>
+				<ul class="list-unstyled mb-5">
+							<li>
+<a href="mailto:productsupport@fluidra.com?subject=Polaris Pool support" class="footer__link">productsupport@fluidra.com</a>							</li>
+							<li>
+									<a href="tel:1-800-822-7933" class="footer__link">1.800.822.7933</a>
+							</li>
+				</ul>
+					<ul class="footer__social list-unstyled d-flex">
+							<li>
+								<a href="https://www.facebook.com/PolarisPool" rel="noopener noreferrer" title="Polaris on Facebook" target="_blank"><i class='fab fa-facebook-square'></i></a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/c/PolarisPool" rel="noopener noreferrer" title="Polaris on YouTube" target="_blank"><i class='fab fa-youtube'></i></a>
+							</li>
+					</ul>
+			</div>
+			<div class="col-md-4">
+				<div class="footer__row row">
+					<div class="footer__col col-12 col-md">
+						<div class="footer__toggle js-accordion-toggle d-flex" data-bs-toggle="collapse" data-bs-target="#accordion__collapse1" aria-expanded="false" aria-controls="accordion__collapse1">
+							<h3 class="footer__subtitle text-subtitle-2" id="footer__subtitle1">About Fluidra</h3>
+								<i class="fal fa-plus d-md-none"></i>
+						</div>
+							<div id="accordion__collapse1" class="collapse" aria-labelledby="footer__subtitle1">
+								<ul class="list-unstyled">
+										<li class="footer__list-item">
+											<a href="https://www.fluidrausa.com/en/" title="Corporate" class="footer__link" target="_blank">Corporate</a>
+										</li>
+										<li class="footer__list-item">
+											<a href="https://www.fluidrausa.com/en/support" title="Support" class="footer__link" target="_blank">Support</a>
+										</li>
+										<li class="footer__list-item">
+											<a href="https://locator.fluidrausa.com/en/" title="Find a Dealer" class="footer__link" target="_blank">Find a Dealer</a>
+										</li>
+										<li class="footer__list-item">
+											<a href="https://www.fluidrausa.com/en/careers" title="Careers" class="footer__link" target="_blank">Careers</a>
+										</li>
+										<li class="footer__list-item">
+											<a href="https://app.redpepperdigital.net/a10/publications/2023-product-catalog-without-price/1" rel="noopener noreferrer" class="footer__link" target="_blank">Product Catalog</a>
+										</li>
+								</ul>
+							</div>
+					</div>
+					<div class="footer__col col-12 col-md">
+							<div class="footer__toggle js-accordion-toggle d-flex" data-bs-toggle="collapse" data-bs-target="#accordion__collapse2" aria-expanded="false" aria-controls="accordion__collapse2">
+								<h3 class="footer__subtitle text-subtitle-2" id="footer__subtitle2">Quick Links</h3>
+								<i class="fal fa-plus d-md-none"></i>
+							</div>
+							<div id="accordion__collapse2" class="collapse" aria-labelledby="footer__subtitle2">
+								<ul class="list-unstyled">
+										<li class="footer__list-item">
+											<a href="https://register.fluidrausa.com/en/" title="Product Registration" class="footer__link" target="_blank">Product Registration</a>
+										</li>
+										<li class="footer__list-item">
+											<a href="https://www.fluidrausa.com/en/legal" title="Legal" class="footer__link" target="_blank">Legal</a>
+										</li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="footer__copyright">© 2023 Fluidra. All rights reserved. The trademarks and trade names used herein are the property of their respective owners.</p>
+	</div>
+</footer>
+	<script src="https://cdn.fluidrausa.com/siteglobaltheming/dist/universal.js?v=20231127065127"></script>
+
+	<script defer type="text/javascript" src="https://cdn.fluidrausa.com/siteglobaltheming/dist/fontawesome.js?v=20231127065127"></script>
+
+	<script src="https://scripts.sirv.com/sirv.js" defer></script>
+	
+	
+	
+	
+	<script src='https://cdn.fluidrausa.com/siteglobalsearch/sharedcomponents/dist/search-workspace/polyfills.7aaaf0b62e7c33e90ecd.js' type='text/javascript'></script>
+	<script src='https://cdn.fluidrausa.com/siteglobalsearch/sharedcomponents/dist/search-workspace/main.917ceba48ced9c7c7a8e.js' type='text/javascript'></script>
+	
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f4bce4961490ae5" async></script>
+</body>
+</html>

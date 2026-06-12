@@ -1,0 +1,86 @@
+{
+  "category": "wifi router",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] is a dual-band WiFi 6 router designed for small homes and apartments. It delivers combined speeds up to 1800 Mbps across 2.4 GHz and 5 GHz bands, making it suitable for streaming, video calls, and everyday gaming. Four external antennas help improve signal stability, while beamforming targets connected devices more efficiently. The router includes one Gigabit WAN port and four Gigabit LAN ports for wired connections. WPA3 security, parental controls, guest network support, and app-based setup make the [BRAND] [MODEL] easy to manage for daily home use."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 90,
+      "text": "Built for larger households, the [BRAND] [MODEL] is a tri-band router with mesh-ready support and strong whole-home coverage. It offers one 2.4 GHz band and two 5 GHz bands, helping reduce congestion when many devices are active at once. The unit supports MU-MIMO, OFDMA, and automatic band steering for smoother performance during 4K streaming and online gaming. Connectivity includes a 2.5 Gigabit WAN port, four Gigabit LAN ports, and USB 3.0 for network storage. The [BRAND] [MODEL] also features guest access, advanced QoS, WPA3 encryption, and web or app management."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is an affordable AC1200 router created for basic home networking needs. It combines 300 Mbps on 2.4 GHz with 867 Mbps on 5 GHz, providing enough bandwidth for browsing, HD streaming, and smart home devices. Two adjustable antennas extend wireless reach, and Fast Ethernet ports support simple wired connections for desktops or media boxes. The router includes WPS pairing, parental controls, and a separate guest network. With a compact design and straightforward setup wizard, the [BRAND] [MODEL] is a practical choice for students, renters, or smaller living spaces."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 90,
+      "text": "Designed with gamers in mind, the [BRAND] [MODEL] is a high-performance WiFi 6 router that prioritizes low-latency traffic. It supports combined wireless speeds up to 5400 Mbps and uses a fast multi-core processor to keep gameplay, voice chat, and streaming responsive. Dedicated QoS profiles help prioritize consoles and gaming PCs, while six antennas enhance coverage and signal consistency. The router includes a 2.5 Gigabit gaming port, four Gigabit LAN ports, and link aggregation support. The [BRAND] [MODEL] also offers WPA3 security, VPN options, RGB status lighting, and detailed traffic monitoring."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 94,
+      "text": "The compact [BRAND] [MODEL] is a travel-friendly wireless router suited for hotels, dorm rooms, and mobile work setups. It supports dual-band WiFi with speeds up to 1200 Mbps and can operate in router, access point, repeater, and hotspot modes. A USB-C power input allows use with portable battery packs, making it convenient for travel. Despite its size, the device includes one WAN/LAN port, one additional LAN port, and USB sharing support. The [BRAND] [MODEL] features captive portal handling, VPN client support, WPA3 security, and a simple mobile app for quick configuration on the go."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] is a mid-range WiFi 6 router that balances speed, coverage, and simple management. With AX3000-class performance, it handles multiple phones, laptops, TVs, and smart devices without frequent slowdowns. Four high-gain antennas and beamforming help extend coverage across medium-sized homes, while OFDMA improves efficiency when many devices connect at once. Ports include one Gigabit WAN and four Gigabit LAN connections for wired stability. The [BRAND] [MODEL] supports WPA3, parental scheduling, device prioritization, and automatic firmware updates. Setup is guided through a companion app with clear network monitoring tools."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 92,
+      "text": "For users needing both internet backup and wireless coverage, the [BRAND] [MODEL] combines standard routing with 4G LTE failover. It supports dual-band WiFi up to AC1200 speeds and automatically switches to a cellular connection if the main wired line goes down. This makes it useful for home offices, small shops, or remote locations. The router includes a SIM slot, Gigabit WAN port, and two LAN ports for essential wired devices. The [BRAND] [MODEL] also offers guest WiFi, firewall controls, SMS management through the interface, and basic antenna connectors for better mobile reception."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is a premium WiFi 7 router aimed at demanding networks with many connected devices. It supports operation across 2.4 GHz, 5 GHz, and 6 GHz bands, delivering extremely high throughput for 8K streaming, cloud gaming, and fast local transfers. Multi-Link Operation helps compatible devices use multiple bands for lower latency and improved reliability. The hardware includes a 10 Gigabit WAN/LAN port, one 2.5 Gigabit port, and four Gigabit LAN ports. The [BRAND] [MODEL] provides advanced security, VLAN support, parental controls, and performance tuning through an app or browser dashboard."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 95,
+      "text": "Made for families, the [BRAND] [MODEL] focuses on easy setup and dependable daily performance. This dual-band router delivers up to 1500 Mbps combined speed, enough for streaming, browsing, online classes, and smart speakers. Intelligent traffic management helps distribute bandwidth more evenly when several devices are active. Three external antennas assist with consistent coverage in small to medium homes, and the compact enclosure fits neatly on a shelf or desk. The [BRAND] [MODEL] includes one Gigabit WAN port, three Gigabit LAN ports, guest network support, parental controls, WPA3 security, and one-touch setup through a mobile app."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is a business-oriented router intended for small offices and retail spaces. It supports dual-band WiFi 6 with stable performance for point-of-sale systems, laptops, security cameras, and guest access. VLAN capability and multi-SSID broadcasting help separate employee traffic from customer networks, while WPA3 and firewall settings add another layer of protection. The unit provides one Gigabit WAN port, four Gigabit LAN ports, and USB backup connectivity. With scheduled reboots, remote administration, and bandwidth control, the [BRAND] [MODEL] is well suited for workplaces that need straightforward network management and reliable uptime."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a simple single-unit mesh router designed to expand later as network needs grow. On its own, it covers an apartment or modest home with dual-band WiFi 6 speeds up to AX1800 class. When paired with additional compatible nodes, it creates seamless roaming under one network name. Two internal antennas keep the appearance clean, while beamforming improves device connection quality. The [BRAND] [MODEL] includes one Gigabit WAN port and two Gigabit LAN ports, plus guest WiFi, basic parental controls, WPA3 encryption, and app-based diagnostics for signal strength and device activity."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 95,
+      "text": "The energy-efficient [BRAND] [MODEL] is a compact router built for users who want stable wireless performance without extra complexity. It offers AC1750 dual-band speeds, making it suitable for HD streaming, web browsing, and light multiplayer gaming. Four internal amplifiers help maintain good signal quality, and smart connect automatically places devices on the most appropriate band. The rear panel includes one Gigabit WAN port, four Gigabit LAN ports, and a USB 2.0 port for printer or file sharing. The [BRAND] [MODEL] supports guest access, IPv6, parental filters, and a browser-based setup interface with clear status indicators."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] targets users who need strong wired and wireless performance for media-heavy homes. It is a dual-band AX4200 router with a 2.5 Gigabit WAN port and four Gigabit LAN ports, ideal for fast broadband plans and wired entertainment systems. High-power antennas and beamforming help maintain wide coverage, while MU-MIMO improves performance for simultaneous users. The router includes adaptive QoS for streaming and gaming, plus USB 3.0 for storage sharing. On the software side, the [BRAND] [MODEL] offers WPA3 protection, guest networks, traffic analytics, and scheduled access controls for family devices."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 93,
+      "text": "Created for smart homes, the [BRAND] [MODEL] is optimized to support a large number of connected sensors, cameras, speakers, and appliances. Its WiFi 6 design improves efficiency with OFDMA, allowing many low-bandwidth devices to communicate without overwhelming the network. Combined wireless speeds reach up to 2400 Mbps, which is more than enough for normal family streaming and automation tasks. The router has one Gigabit WAN port, four Gigabit LAN ports, and straightforward app setup with device naming tools. The [BRAND] [MODEL] also includes guest access, WPA3 security, automatic updates, and scheduled internet rules."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 94,
+      "text": "The [BRAND] [MODEL] is a rugged indoor router intended for busy environments where dependable coverage matters more than flashy extras. It uses dual-band AC1900 wireless with strong front-end modules to improve signal penetration through walls and furniture. This makes it useful for older homes, shared apartments, or multi-room offices. Hardware features include detachable antennas, one Gigabit WAN port, and four Gigabit LAN ports for stable wired networking. The [BRAND] [MODEL] supports AP mode, repeater compatibility, MAC filtering, guest WiFi, and a straightforward web control panel that gives users access to security and traffic settings."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 94,
+      "text": "The [BRAND] [MODEL] is a feature-rich router for advanced users who want flexible network control at home. It supports tri-band WiFi 6E, adding a 6 GHz band for newer devices that need cleaner spectrum and reduced interference. A powerful processor and generous memory help maintain stable performance during heavy downloads, local backups, and multiple streams. The rear panel includes one 2.5 Gigabit WAN/LAN port, four Gigabit LAN ports, and USB 3.0. Software features on the [BRAND] [MODEL] include VPN server support, link aggregation, detailed QoS settings, WPA3, and custom scheduling for devices and services."
+    }
+  ]
+}

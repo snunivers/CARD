@@ -1,0 +1,8 @@
+3D NAND Technology for Enhanced Reliability and Power Efficiency
+Applying the advanced 3D NAND flash, Ace A55 features higher reliability and better power efficiency than traditional SSDs equipped with 2D NAND flash. The A55 offers improved endurance and longer battery life that you're able to work longer without frequently recharge your laptop.
+High Transfer Speeds for Fast Start-Up
+Powered by the high-quality controller and original synchronous NAND flash, the A55 delivers incredibly high transfer speeds that enable short boot time, fast application loading, and quick file processing.
+Absolutely Reliable with Bad Block Management
+The A55 is built with Bad Block Management, which can continually monitor and replace bad blocks to keep your system in good condition with prolonged lifespan of an SSD.
+Multiple Techniques Supported
+The A55 is one of the lightest and thinnest SSD of its kind yet it is shock- and vibration-proof since it contains no moving parts. Furthermore, S.M.A.R.T. monitoring system and ECC technology are equipped to promise higher data transmission safety.

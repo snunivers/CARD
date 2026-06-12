@@ -1,0 +1,5 @@
+Maytag
+
+Again, you are supposed to make the following replacements:
+- Replace all instances of 'Frigidaire' with 'Maytag'
+- Replace all instances of 'frigidaire professional series' with 'Stainless steel tub dishwasher with Dual Power Filtration'

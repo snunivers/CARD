@@ -1,0 +1,81 @@
+8,000 BTU U-shaped Air Conditioner
+Manufacturer
+Model Number
+AP1019CW1G
+Description
+8,000 BTU U-shaped Air Conditioner
+Midea
+K1560993
+Guard Filter
+ 6.95 - 
+In Stock
+Add to Cart
+Parts List
+Category
+Part Number
+Description
+Demand
+Availability
+Wire
+K1895726
+Midea Ac Power Wire
+Schematic Location: 16
+Y
+In Stock 
+In stock
+ 
+34.00
+Add to Cart
+Cover,Cap
+K1558162
+Midea Drain Cover
+Schematic Location: 17
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1276890
+Midea Drain Hose (Heat Pump)
+Schematic Location: 22
+Y
+In Stock 
+In stock
+ 
+6.95
+Add to Cart
+K1248751
+Midea Drain Hose Clip (Heat Pump)
+Schematic Location: 23
+Y
+In Stock 
+In stock
+ 
+6.00
+Add to Cart
+FOAMKIT
+Midea Foam Kit (1A+2l+2m)
+Schematic Location: 20
+No
+K1263071
+Midea Foam Seal (A)
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1825600
+Midea Foam Seal Long (L)
+Y
+In Stock 
+In stock
+ 
+5.95
+Add to Cart
+K1825599
+Midea Foam Seal Short (M)
+Y
+In Stock 
+In stock

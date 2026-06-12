@@ -1,0 +1,226 @@
+{
+  "category": "beard trimmer",
+  "model_name": "qwen3-8b",
+  "rewriter_model": null,
+  "num_brands": 16,
+  "num_docs": 16,
+  "total_combinations": 256,
+  "brands": [
+    {
+      "brand_index": 0,
+      "brand": "Philips",
+      "model": "SH7550/15",
+      "knowledge_strength": 0.6311386805584854,
+      "is_fictional": false,
+      "rank": 1
+    },
+    {
+      "brand_index": 1,
+      "brand": "Philips",
+      "model": "SH7550/10",
+      "knowledge_strength": 0.570280545117308,
+      "is_fictional": false,
+      "rank": 2
+    },
+    {
+      "brand_index": 2,
+      "brand": "Wahl",
+      "model": "51000",
+      "knowledge_strength": 0.5023531163502918,
+      "is_fictional": false,
+      "rank": 3
+    },
+    {
+      "brand_index": 3,
+      "brand": "Panasonic",
+      "model": "ER-GN555",
+      "knowledge_strength": 0.6257144269934709,
+      "is_fictional": false,
+      "rank": 4
+    },
+    {
+      "brand_index": 4,
+      "brand": "Remington",
+      "model": "9220",
+      "knowledge_strength": 0.4500216337587902,
+      "is_fictional": false,
+      "rank": 5
+    },
+    {
+      "brand_index": 5,
+      "brand": "Braun",
+      "model": "7550s",
+      "knowledge_strength": 0.48214100252532666,
+      "is_fictional": false,
+      "rank": 6
+    },
+    {
+      "brand_index": 6,
+      "brand": "Philips",
+      "model": "SH7550/25",
+      "knowledge_strength": 0.7319408573025626,
+      "is_fictional": false,
+      "rank": 7
+    },
+    {
+      "brand_index": 7,
+      "brand": "Panasonic",
+      "model": "ER-GN555S",
+      "knowledge_strength": 0.6769068851741131,
+      "is_fictional": false,
+      "rank": 8
+    },
+    {
+      "brand_index": 8,
+      "brand": "S_Brand",
+      "model": "S_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 9,
+      "brand": "T_Brand",
+      "model": "T_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 10,
+      "brand": "U_Brand",
+      "model": "U_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 11,
+      "brand": "V_Brand",
+      "model": "V_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 12,
+      "brand": "W_Brand",
+      "model": "W_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 13,
+      "brand": "X_Brand",
+      "model": "X_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 14,
+      "brand": "Y_Brand",
+      "model": "Y_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 15,
+      "brand": "Z_Brand",
+      "model": "Z_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    }
+  ],
+  "documents": [
+    {
+      "doc_index": 0,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 1,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 2,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 3,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 4,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 5,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 6,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 7,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 8,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 9,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 10,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 11,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 12,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 13,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 14,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 15,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    }
+  ],
+  "combination_mode": "generic_template",
+  "generic_doc_base_dir": "./out/generic_product_documents",
+  "fictional_brands_dir": "out/fictional_brands",
+  "top8_include_fictional": true,
+  "placeholder_brand_token": "[BRAND]",
+  "placeholder_model_token": "[MODEL]"
+}

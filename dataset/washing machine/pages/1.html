@@ -1,0 +1,1125 @@
+<!doctype html>
+<html lang="en-AU" class="no-js">
+
+<head><meta charset="UTF-8"><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.v="1.2.4",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",t=>{this.persisted=t.persisted}),window.addEventListener("DOMContentLoaded",()=>{this._preconnect3rdParties()}),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}_addUserInteractionListener(t){if(document.hidden){t._triggerListener();return}this.triggerEvents.forEach(e=>window.addEventListener(e,t.userEventHandler,{passive:!0})),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler)}_removeUserInteractionListener(){this.triggerEvents.forEach(t=>window.removeEventListener(t,this.userEventHandler,{passive:!0})),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"onclick","rocket-onclick"),this._pendingClickStarted())}_onTouchMove(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this._pendingClickFinished()}_onTouchEnd(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(t){t.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this._pendingClickFinished()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach(t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))})}_waitForPendingClicks(){return new Promise(t=>{this._isClickPending?this._pendingClickFinished=t:t()})}_pendingClickStarted(){this._isClickPending=!0}_pendingClickFinished(){this._isClickPending=!1}_renameDOMAttribute(t,e,r){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(r,event.target.getAttribute(e)),event.target.removeAttribute(e))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach(e=>{let r=e.getAttribute("data-rocket-src");if(r&&0!==r.indexOf("data:")){0===r.indexOf("//")&&(r=location.protocol+r);try{let i=new URL(r).origin;i!==location.origin&&t.push({src:i,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(n){}}}),t=[...new Map(t.map(t=>[JSON.stringify(t),t])).values()],this._batchInjectResourceHints(t,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._pendingWebpackRequests(this),await this._triggerWindowLoad()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._waitForPendingClicks().then(()=>{this._replayClicks()}),this._emptyTrash()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach(t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)})}async _transformScript(t){if(await this._littleBreath(),!0===t.noModule&&"noModule"in HTMLScriptElement.prototype){t.setAttribute("data-rocket-status","skipped");return}return new Promise(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor?e=>{let r=document.createElement("script");[...t.attributes].forEach(t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),r.setAttribute(e,t.nodeValue))}),t.text&&(r.text=t.text),r.hasAttribute("src")?(r.addEventListener("load",e),r.addEventListener("error",e)):(r.text=t.text,e());try{t.parentNode.replaceChild(r,t)}catch(i){e()}}:e=>{function r(){t.setAttribute("data-rocket-status","failed"),e()}try{let i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",function r(){t.setAttribute("data-rocket-status","executed"),e()}),t.addEventListener("error",r),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}catch(s){r()}})}async _loadScriptsFromList(t){let e=t.shift();return e&&e.isConnected?(await this._transformScript(e),this._loadScriptsFromList(t)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(t,e){var r=document.createDocumentFragment();t.forEach(t=>{let i=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(i){let n=document.createElement("link");n.href=i,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),r.appendChild(n),this.trash.push(n)}}),document.head.appendChild(r)}_delayEventListeners(){let t={};function e(e,r){!function e(r){!t[r]&&(t[r]={originalFunctions:{add:r.addEventListener,remove:r.removeEventListener},eventsToRewrite:[]},r.addEventListener=function(){arguments[0]=i(arguments[0]),t[r].originalFunctions.add.apply(r,arguments)},r.removeEventListener=function(){arguments[0]=i(arguments[0]),t[r].originalFunctions.remove.apply(r,arguments)});function i(e){return t[r].eventsToRewrite.indexOf(e)>=0?"rocket-"+e:e}}(e),t[e].eventsToRewrite.push(r)}function r(t,e){let r=t[e];Object.defineProperty(t,e,{get:()=>r||function(){},set(i){t["rocket"+e]=r=i}})}e(document,"DOMContentLoaded"),e(window,"DOMContentLoaded"),e(window,"load"),e(window,"pageshow"),e(document,"readystatechange"),r(document,"onreadystatechange"),r(window,"onload"),r(window,"onpageshow")}_delayJQueryReady(t){let e;function r(t){return t.split(" ").map(t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t).join(" ")}function i(i){if(i&&i.fn&&!t.allJQueries.includes(i)){i.fn.ready=i.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(i):document.addEventListener("rocket-DOMContentLoaded",()=>e.bind(document)(i)),i([])};let n=i.fn.on;i.fn.on=i.fn.init.prototype.on=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=r(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach(t=>{let e=arguments[0][t];delete arguments[0][t],arguments[0][r(t)]=e})),n.apply(this,arguments),this},t.allJQueries.push(i)}e=i}i(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){i(t)}})}async _pendingWebpackRequests(t){let e=document.querySelector("script[data-webpack]");async function r(){return new Promise(t=>{e.addEventListener("load",t),e.addEventListener("error",t)})}e&&(await r(),await t._requestAnimFrame(),await t._pendingWebpackRequests(t))}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach(t=>t(window).trigger("rocket-jquery-load")),await this._littleBreath();let t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){let t=new Map;document.write=document.writeln=function(e){let r=document.currentScript;r||console.error("WPRocket unable to document.write this: "+e);let i=document.createRange(),n=r.parentElement,s=t.get(r);void 0===s&&(s=r.nextSibling,t.set(r,s));let a=document.createDocumentFragment();i.setStart(a,0),a.appendChild(i.createContextualFragment(e)),n.insertBefore(a,s)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise(t=>setTimeout(t)):new Promise(t=>requestAnimationFrame(t))}_emptyTrash(){this.trash.forEach(t=>t.remove())}static run(){let t=new RocketLazyLoadScripts;t._addUserInteractionListener(t)}}RocketLazyLoadScripts.run();</script>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hisense Front Load Washer 10kg - Series 7 (2023) - Hisense Australia</title>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/Titillium-LightItalic.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumText25L-1wt.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumText25L-250wt.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumText25L-400wt.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumText25L-600wt.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumText25L-999wt.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/TitilliumWeb-Black.ttf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/HisenseAlfabet-Light.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/HisenseAlfabet-Medium.otf" crossorigin>
+<link rel="preload" as="font" href="https://hisense.com.au/wp-content/themes/hisense/dist/fonts/HisenseAlfabet-Regular.otf" crossorigin>
+<meta property="product:price:currency" content="AUD">
+<meta name="dc.title" content="Hisense Front Load Washer 10kg - Series 7 (2023) - Hisense Australia">
+<meta name="dc.description" content="Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry! Auto Dosing – This machine can store up to 24&hellip;">
+<meta name="dc.relation" content="https://hisense.com.au/product/hisense-front-load-washer-10kg-series-7-hwfs1015ab/">
+<meta name="dc.source" content="https://hisense.com.au/">
+<meta name="dc.language" content="en_AU">
+<meta name="description" content="Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry! Auto Dosing – This machine can store up to 24&hellip;">
+<meta name="thumbnail" content="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-150x150.jpg">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="canonical" href="https://hisense.com.au/product/hisense-front-load-washer-10kg-series-7-hwfs1015ab/">
+<meta property="og:url" content="https://hisense.com.au/product/hisense-front-load-washer-10kg-series-7-hwfs1015ab/">
+<meta property="og:site_name" content="Hisense Australia">
+<meta property="og:locale" content="en_AU">
+<meta property="og:type" content="og:product">
+<meta property="article:author" content="https://facebook.com/hisenseau">
+<meta property="article:publisher" content="https://facebook.com/hisenseau">
+<meta property="og:title" content="Hisense Front Load Washer 10kg - Series 7 (2023) - Hisense Australia">
+<meta property="og:description" content="Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry! Auto Dosing – This machine can store up to 24&hellip;">
+<meta property="og:image" content="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg">
+<meta property="og:image:secure_url" content="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg">
+<meta property="og:image:width" content="1400">
+<meta property="og:image:height" content="830">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="https://twitter.com/hisenseaus">
+<meta name="twitter:creator" content="https://twitter.com/hisenseaus">
+<meta name="twitter:title" content="Hisense Front Load Washer 10kg - Series 7 (2023) - Hisense Australia">
+<meta name="twitter:description" content="Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry! Auto Dosing – This machine can store up to 24&hellip;">
+<meta name="twitter:image" content="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-1024x607.jpg">
+<link rel='dns-prefetch' href='//apps.bazaarvoice.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","name":"Hisense Front Load Washer 10kg &#8211; Series 7 (2023)","image":"https:\/\/hisense.com.au\/wp-content\/uploads\/2023\/04\/1.Main-Image-HWFS1015AB.jpg","description":"Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry! Auto Dosing \u2013 This machine can store up to 24&hellip;","sku":"HWFS1015AB","brand":{"@type":"Brand","name":"Hisense Australia"},"review":{"@type":"Review","author":{"@type":"Person","name":"Peter Maricic"}},"offers":{"@type":"Offer","url":"https:\/\/hisense.com.au\/product\/hisense-front-load-washer-10kg-series-7-hwfs1015ab\/","priceCurrency":"AUD","price":"1099.00","priceValidUntil":"","itemCondition":"https:\/\/schema.org\/NewCondition","availability":"https:\/\/schema.org\/InStock"}}</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://hisense.com.au/wp-includes/css/dist/block-library/style.min.css?ver=6.4.1' type='text/css' media='all' />
+<style id='wp-block-library-inline-css' type='text/css'>
+.has-text-align-justify{text-align:justify;}
+</style>
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+
+</style>
+<style id='wpseopress-local-business-style-inline-css' type='text/css'>
+span.wp-block-wpseopress-local-business-field{margin-right:8px}
+
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://hisense.com.au/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=8.3.1' type='text/css' media='all' />
+<style id='woocommerce-layout-inline-css' type='text/css'>
+
+	.infinite-scroll .woocommerce-pagination {
+		display: none;
+	}
+</style>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://hisense.com.au/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=8.3.1' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://hisense.com.au/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=8.3.1' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='megamenu-css' href='https://hisense.com.au/wp-content/uploads/maxmegamenu/style.css?ver=fcc95f' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://hisense.com.au/wp-includes/css/dashicons.min.css?ver=6.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-genericons-css' href='https://hisense.com.au/wp-content/plugins/megamenu-pro/icons/genericons/genericons/genericons.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='megamenu-fontawesome6-css' href='https://hisense.com.au/wp-content/plugins/megamenu-pro/icons/fontawesome6/css/all.min.css?ver=2.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='legacy-css' href='https://hisense.com.au/wp-content/themes/hisense/dist/css/legacy.min.css?ver=1697075572' type='text/css' media='all' />
+<link rel='stylesheet' id='footer-css' href='https://hisense.com.au/wp-content/themes/hisense/dist/css/footer.min.css?ver=1696829885' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css' href='https://hisense.com.au/wp-content/themes/hisense/dist/css/main.min.css?ver=1700526651' type='text/css' media='all' />
+<link rel='stylesheet' id='product-cards-css-css' href='https://hisense.com.au/wp-content/themes/hisense/dist/css/product_cards.min.css?ver=1698729222' type='text/css' media='all' />
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/jquery/jquery.js?ver=latest" id="jquery-js"></script>
+<script type="text/javascript" id="wc-single-product-js-extra">
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"","zoom_options":[],"photoswipe_enabled":"","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=8.3.1" id="wc-single-product-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.8.3.1" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.8.3.1" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=8.3.1" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" async data-rocket-src="https://apps.bazaarvoice.com/deployments/hisense-anz/main_site/production/en_AU/bv.js?ver=1.0" id="bazaarvoice-loader-js"></script>
+<link rel="https://api.w.org/" href="https://hisense.com.au/wp-json/" /><link rel="alternate" type="application/json" href="https://hisense.com.au/wp-json/wp/v2/product/192105" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://hisense.com.au/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://hisense.com.au/?p=192105' />
+<link rel="alternate" type="application/json+oembed" href="https://hisense.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhisense.com.au%2Fproduct%2Fhisense-front-load-washer-10kg-series-7-hwfs1015ab%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://hisense.com.au/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhisense.com.au%2Fproduct%2Fhisense-front-load-washer-10kg-series-7-hwfs1015ab%2F&#038;format=xml" />
+		<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				(function(c,l,a,r,i,t,y){
+					c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;
+					t.src="https://www.clarity.ms/tag/"+i+"?ref=wordpress";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+				})(window, document, "clarity", "script", "bd2g8anp5h");
+		</script>
+			<style>img#wpstats{display:none}</style>
+		
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+				(function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+				vgo('setAccount', '25711570');
+				vgo('setTrackByDefault', true);
+
+				vgo('process');
+			</script>
+
+				<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="https://hisense.com.au/wp-content/uploads/2023/11/cropped-logo-favicon2-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://hisense.com.au/wp-content/uploads/2023/11/cropped-logo-favicon2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://hisense.com.au/wp-content/uploads/2023/11/cropped-logo-favicon2-180x180.png" />
+<meta name="msapplication-TileImage" content="https://hisense.com.au/wp-content/uploads/2023/11/cropped-logo-favicon2-270x270.png" />
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T74K42" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-T74K42');</script>
+<!-- End Google Tag Manager --><style type="text/css">/** Mega Menu CSS: fs **/</style>
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body class="product-template-default single single-product postid-192105 wp-embed-responsive antialiased font-titillium text-black m-0 theme-hisense woocommerce woocommerce-page woocommerce-no-js mega-menu-primary">
+
+	<header class="menu-holder">
+		<div class="menu-restrict">
+
+			<a href="/" id="logo">
+				<svg xmlns="http://www.w3.org/2000/svg" width="126px" height="21px" viewBox="0 0 100 17">
+	<g>
+		<path class="logo" d="M65.5,8.8L65,16.5h4.6l0.5-7.8c0.2-3.5-2.3-3.8-3.9-4c-0.1,0-1-0.1-2.2-0.1c-0.3,0-0.6,0-1,0
+			c-2.9,0.1-6.4,0.5-6.4,0.5l-0.1,0l-0.7,11.3h4.6L61,7.3c0,0,1.9-0.2,2.9-0.2C65,7.2,65.6,7.5,65.5,8.8"/>
+		<path class="logo" d="M13.7,0.3L13.7,0.3l-0.1,0.1L13.1,6H5.9l0.4-4.6c0-1-0.8-1-1.2-1c-0.1,0-0.3,0-0.3,0h0H1.4H1.3l0,0.1L0,16.3
+			l0,0.1h0.1H5h0.1l0-0.1l0.5-7h7.2l-0.5,7l0,0.1h0.1h4.8h0.1l0-0.1l1.2-15.9l0-0.1h-0.1H13.7z"/>
+		<polygon class="logo" points="20.3,4.7 20.2,4.7 20.2,4.8 19.3,16.4 19.2,16.4 19.4,16.4 24.1,16.4 24.2,16.4 24.2,16.4 25.1,4.8
+			25.1,4.7 25,4.7 	"/>
+		<path class="logo" d="M24.3,0.3h-3.7h-0.1l0,0.1l-0.2,2.8l0,0.1h0.1h4.7h0.1l0-0.1c0,0,0.1-1.6,0.1-1.9C25.4,0.7,25.1,0.3,24.3,0.3z
+			"/>
+		<path class="logo" d="M35.2,9.5l-1.8-0.7c-1.2-0.5-2.2-0.9-2-1.4c0.1-0.3,0.7-0.5,2.4-0.5c1.5,0,3.2,0.2,5.2,0.6l0.1,0l0-0.1
+			l0.2-2.2l0-0.1l-0.1,0c-0.8-0.1-2.8-0.5-5.4-0.6c-0.2,0-0.3,0-0.5,0c-1,0-1.9,0.1-2.7,0.2c-1.6,0.2-4.2,0.9-4.4,3.1
+			c-0.1,2.3,2.6,3.2,4.2,3.9l1.4,0.5c1.6,0.6,2.3,0.9,2.3,1.3c0,0.4-0.6,0.5-2,0.5c-0.2,0-0.4,0-0.5,0c-1.8,0-4.3-0.4-5.2-0.6l-0.1,0
+			l0,0.1L26,16l0,0.1l0.1,0c0,0,1.9,0.3,5.8,0.4c0.2,0,0.5,0,0.7,0c2.9,0,6.4-0.4,6.8-2.8C39.8,11.5,37.5,10.5,35.2,9.5z"/>
+		<path class="logo" d="M54.8,11.5c1-5.6-4-6.7-5.2-6.9c-0.4-0.1-0.9-0.1-1.4-0.1l-0.1,0c-5,0.1-6.9,2.6-7.7,4.5
+			c-0.1,0.1-0.2,0.6-0.3,1.3c0,0.1,0,0.2,0,0.2c0,0,0,0.1,0,0.1c-0.1,1.7,0.4,4.6,4.5,5.6c0.2,0.1,0.5,0.1,0.7,0.1
+			c0.9,0.1,1.5,0.3,3.2,0.3c2.8,0,4.7-0.4,5.4-0.6c0.1-0.5,0.3-1.6,0.4-2.4c-0.4,0.1-2.7,0.6-5.2,0.6c-0.1,0-0.2,0-0.2,0
+			c-3.5-0.1-4.2-1.8-4.2-2.6l0,0c0,0,0,0,0,0H54.8z M45,9.3c0.2-1.2,1.2-2.5,3.2-2.5c2.9,0,2.7,2.5,2.7,2.5H45z"/>
+		<path class="logo" d="M80.2,9.5l-1.8-0.7c-1.2-0.5-2.2-0.9-2-1.4c0.1-0.3,0.7-0.5,2.4-0.5c1.5,0,3.2,0.2,5.2,0.6l0.1,0l0-0.1
+			l0.2-2.2l0-0.1l-0.1,0c-0.8-0.1-2.8-0.5-5.4-0.6c-0.2,0-0.4,0-0.5,0c-1,0-1.9,0.1-2.7,0.2c-1.6,0.2-4.2,0.9-4.4,3.1
+			c-0.1,2.3,2.6,3.2,4.2,3.9l1.4,0.5c1.6,0.6,2.3,0.9,2.3,1.3c0,0.4-0.6,0.5-2,0.5c-0.2,0-0.4,0-0.5,0c-1.8,0-4.3-0.4-5.2-0.6l-0.1,0
+			l0,0.1L71,16l0,0.1l0.1,0c0,0,1.9,0.3,5.8,0.4c0.2,0,0.5,0,0.7,0c2.9,0,6.4-0.4,6.8-2.8C84.8,11.5,82.5,10.5,80.2,9.5z"/>
+		<path class="logo" d="M99.9,11.5c1-5.6-4-6.7-5.2-6.9c-0.4-0.1-0.9-0.1-1.4-0.1l-0.1,0c-5,0.1-6.9,2.6-7.7,4.5
+			c-0.1,0.1-0.2,0.6-0.3,1.3c0,0.1,0,0.2,0,0.2c0,0,0,0.1,0,0.1c-0.1,1.7,0.4,4.6,4.5,5.6c0.2,0.1,0.5,0.1,0.7,0.1
+			c0.9,0.1,1.5,0.3,3.2,0.3c2.8,0,4.7-0.4,5.4-0.6c0.1-0.5,0.2-1.6,0.4-2.4c-0.4,0.1-2.7,0.6-5.2,0.6c-0.1,0-0.2,0-0.2,0
+			c-3.5-0.1-4.2-1.8-4.2-2.6l0,0c0,0,0,0,0,0H99.9z M90,9.3c0.2-1.2,1.2-2.5,3.2-2.5c2.9,0,2.7,2.5,2.7,2.5H90z"/>
+	</g>
+</svg>			</a>
+
+			<nav class="mainnav" role="navigation">
+
+				<div id="mega-menu-wrap-primary" class="mega-menu-wrap"><div class="mega-menu-toggle"><div class="mega-toggle-blocks-left"><div class='mega-toggle-block mega-logo-block mega-toggle-block-1' id='mega-toggle-block-1'><a class="mega-menu-logo" href="https://hisense.com.au" target="_self"><img width="168" height="27" class="mega-menu-logo" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20168%2027'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2019/09/hisense-mobile-1.svg" /><noscript><img width="168" height="27" class="mega-menu-logo" src="https://hisense.com.au/wp-content/uploads/2019/09/hisense-mobile-1.svg" /></noscript></a></div></div><div class="mega-toggle-blocks-center"></div><div class="mega-toggle-blocks-right"><div class='mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-2' id='mega-toggle-block-2'><button aria-label="Toggle Menu" class="mega-toggle-animated mega-toggle-animated-slider" type="button" aria-expanded="false">
+                  <span class="mega-toggle-animated-box">
+                    <span class="mega-toggle-animated-inner"></span>
+                  </span>
+                </button></div></div></div><ul id="mega-menu-primary" class="mega-menu max-mega-menu mega-menu-horizontal mega-no-js" data-event="hover_intent" data-effect="slide" data-effect-speed="200" data-effect-mobile="slide_left" data-effect-speed-mobile="400" data-mobile-force-width="body" data-second-click="go" data-document-click="collapse" data-vertical-behaviour="accordion" data-breakpoint="1330" data-unbind="true" data-mobile-state="collapse_all" data-hover-intent-timeout="300" data-hover-intent-interval="100" data-sticky-enabled="true" data-sticky-desktop="true" data-sticky-mobile="true" data-sticky-offset="0" data-sticky-expand="false" data-sticky-expand-mobile="false" data-sticky-transition="true" data-sticky-hide="true" data-sticky-hide-tolerance="10" data-sticky-hide-offset="0"><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-185703' id='mega-menu-item-185703'><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">TV & Entertainment<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-186794' id='mega-menu-item-186794'><a class="mega-menu-link" href="https://hisense.com.au/electronics/tv/">Televisions<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-188608' id='mega-menu-item-188608'><a class="mega-menu-link" href="https://hisense.com.au/product/75-uled-8k-mini-led-series-u90g/">Mini-LED 8K</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191402' id='mega-menu-item-191402'><a class="mega-menu-link" href="https://hisense.com.au/electronics/tv/all/?filter=oled-4k">OLED 4K</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-189647' id='mega-menu-item-189647'><a class="mega-menu-link" href="https://hisense.com.au/electronics/tv/all/?filter=type-4k-mini-led">Mini-LED 4K</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185714' id='mega-menu-item-185714'><a class="mega-menu-link" href="/electronics/uled-8k">ULED 8K</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185711' id='mega-menu-item-185711'><a class="mega-menu-link" href="/electronics/tv/all/?filter=type-uled">ULED</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185713' id='mega-menu-item-185713'><a class="mega-menu-link" href="/electronics/tv/all/?filter=type-4k-ultra-hd">4K Ultra HD</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185715' id='mega-menu-item-185715'><a class="mega-menu-link" href="/electronics/tv/all/?filter=type-full-hd">Full HD</a></li><li class='mega-viewall mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185716 viewall' id='mega-menu-item-185716'><a class="mega-menu-link" href="/electronics/tv/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-185704' id='mega-menu-item-185704'><a class="mega-menu-link" href="/electronics/laser/">Laser<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-192459' id='mega-menu-item-192459'><a class="mega-menu-link" href="https://hisense.com.au/product/120-trichroma-laser-tv-series-l9h-120l9h/">120″ TriChroma Laser TV Series L9H</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-189250' id='mega-menu-item-189250'><a class="mega-menu-link" href="https://hisense.com.au/product/100-trichroma-laser-tv-series-l9h-100l9h/">100" TriChroma Laser TV Series L9H</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-192847' id='mega-menu-item-192847'><a class="mega-menu-link" href="https://hisense.com.au/product/trichroma-laser-cinema-series-px2-pro/">Laser Cinema Series PX2-PRO</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191660' id='mega-menu-item-191660'><a class="mega-menu-link" href="https://hisense.com.au/product/laser-cinema-series-pl1h/">Laser Cinema Series PL1H</a></li><li class='mega-viewall mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185709 viewall' id='mega-menu-item-185709'><a class="mega-menu-link" href="https://hisense.com.au/electronics/tv/all/?filter=type-laser">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-4 mega-menu-item-186878' id='mega-menu-item-186878'><a class="mega-menu-link" href="https://hisense.com.au/electronics/soundbars/">Sound Bars<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-193008' id='mega-menu-item-193008'><a class="mega-menu-link" href="https://hisense.com.au/product/2-1ch-soundbar-with-wireless-subwoofer-hs2100/">2.1 CH (2023)</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-189572' id='mega-menu-item-189572'><a class="mega-menu-link" href="https://hisense.com.au/product/dolby-atmos-5-1-2-sound-bar-u5120g/">Dolby Atmos 5.1.2CH</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191378' id='mega-menu-item-191378'><a class="mega-menu-link" href="https://hisense.com.au/product/dolby-atmos-5-1-sound-bar-ax5100g/">Dolby Atmos 5.1CH (2022)</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191379' id='mega-menu-item-191379'><a class="mega-menu-link" href="https://hisense.com.au/product/dolby-atmos-3-1-sound-bar-ax3100g/">Dolby Atmos 3.1CH (2022)</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-186872' id='mega-menu-item-186872'><a class="mega-menu-link" href="https://hisense.com.au/product/3-1-sound-bar-hs312/">Dolby Atmos 3.1CH</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-186873' id='mega-menu-item-186873'><a class="mega-menu-link" href="https://hisense.com.au/product/2-1-sound-bar-hs218/">Dolby 2.1CH</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-186973' id='mega-menu-item-186973'><a class="mega-menu-link" href="/electronics/soundbars/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-columns-1-of-4 mega-menu-item-media_image-2' id='mega-menu-item-media_image-2'><h4 class="mega-block-title">What&#8217;s New</h4><a href="https://hisense.com.au/product/100-trichroma-laser-tv-series-l9h-100l9h/"><img width="740" height="592" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20740%20592'%3E%3C/svg%3E" class="image wp-image-192502  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" fetchpriority="high" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg 740w, https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1-300x240.jpg 300w" data-lazy-sizes="(max-width: 740px) 100vw, 740px" data-attachment-id="192502" data-permalink="https://hisense.com.au/?attachment_id=192502" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" data-orig-size="740,592" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="L9H-Mega-menu_Tile" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1-300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" /><noscript><img width="740" height="592" src="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" class="image wp-image-192502  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" fetchpriority="high" srcset="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg 740w, https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1-300x240.jpg 300w" sizes="(max-width: 740px) 100vw, 740px" data-attachment-id="192502" data-permalink="https://hisense.com.au/?attachment_id=192502" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" data-orig-size="740,592" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="L9H-Mega-menu_Tile" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1-300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/05/L9H-Mega-menu_Tile-1.jpg" /></noscript></a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-185720' id='mega-menu-item-185720'><a class="mega-menu-link" aria-haspopup="true" aria-expanded="false" tabindex="0">Home Appliances<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-185721' id='mega-menu-item-185721'><a class="mega-menu-link" href="/appliances/fridge/">Fridges<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185722' id='mega-menu-item-185722'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-french-door">French Door</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185723' id='mega-menu-item-185723'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-bottom-mount">Bottom Mount</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-187863' id='mega-menu-item-187863'><a class="mega-menu-link" href="https://hisense.com.au/appliances/fridge/all/?filter=type-top-mount">Top Mount</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185724' id='mega-menu-item-185724'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-side-by-side">Side by Side</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185725' id='mega-menu-item-185725'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-1-door-freezer">Single Door Freezer</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185726' id='mega-menu-item-185726'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-1-door-refrigerator">Single Door Refrigerator</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185727' id='mega-menu-item-185727'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-bar-fridge">Bar Fridge</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185728' id='mega-menu-item-185728'><a class="mega-menu-link" href="/appliances/fridge/all/?filter=type-chest-freezer">Chest Freezer</a></li><li class='mega-viewall mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185729 viewall' id='mega-menu-item-185729'><a class="mega-menu-link" href="/appliances/fridge/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-185735' id='mega-menu-item-185735'><a class="mega-menu-link" href="/appliances/wine-cabinets/all/">Wine Cabinets<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191952' id='mega-menu-item-191952'><a class="mega-menu-link" href="https://hisense.com.au/product/hisense-30-bottle-wine-cabinet-black-hrwc31/">30 Bottle Wine Cabinet</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-product mega-menu-item-189992' id='mega-menu-item-189992'><a class="mega-menu-link" href="https://hisense.com.au/product/46-bottle-dual-zone-wine-cellar/">46 Bottle Dual Zone Wine Cellar</a></li><li class='mega-viewall mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185738 viewall' id='mega-menu-item-185738'><a class="mega-menu-link" href="/appliances/wine-cabinets/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-188609' id='mega-menu-item-188609'><a class="mega-menu-link" href="https://hisense.com.au/appliances/dishwashers/all/">Dishwasher<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-188610' id='mega-menu-item-188610'><a class="mega-menu-link" href="https://hisense.com.au/product/hisense-uv-hygiene-guard-black-steel-dishwasher-with-15-place-settings-hsgp15fb/">15 Place Settings Black Steel</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191484' id='mega-menu-item-191484'><a class="mega-menu-link" href="https://hisense.com.au/product/stainless-steel-dishwasher-with-14-place-settings-hsce14fs/">14 Place Settings Stainless</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-191553' id='mega-menu-item-191553'><a class="mega-menu-link" href="https://hisense.com.au/product/stainless-steel-dishwasher-with-15-place-settings-hscm15fs/">15 Place Settings Stainless</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-189044' id='mega-menu-item-189044'><a class="mega-menu-link" href="https://hisense.com.au/appliances/dishwashers/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-185730' id='mega-menu-item-185730'><a class="mega-menu-link" href="/appliances/laundry/">Laundry<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185731' id='mega-menu-item-185731'><a class="mega-menu-link" href="/appliances/laundry/washers/">Front Load Washers</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-186545' id='mega-menu-item-186545'><a class="mega-menu-link" href="/appliances/laundry/dryers/">Dryers</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-192849' id='mega-menu-item-192849'><a class="mega-menu-link" href="https://hisense.com.au/appliances/laundry/all/?filter=stacking-kit">Stacking Kits</a></li><li class='mega-viewall mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185734 viewall' id='mega-menu-item-185734'><a class="mega-menu-link" href="/appliances/laundry/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-columns-1-of-5 mega-menu-item-media_image-3' id='mega-menu-item-media_image-3'><h4 class="mega-block-title">What&#8217;s New</h4><a href="https://hisense.com.au/product/black-steel-dishwasher-with-16-place-settings/"><img width="300" height="240" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20240'%3E%3C/svg%3E" class="image wp-image-189061  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="189061" data-permalink="https://hisense.com.au/?attachment_id=189061" data-orig-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="HOME APPLIANCES_300x240" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" /><noscript><img width="300" height="240" src="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" class="image wp-image-189061  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="189061" data-permalink="https://hisense.com.au/?attachment_id=189061" data-orig-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="HOME APPLIANCES_300x240" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2021/07/HOME-APPLIANCES_300x240.jpg" /></noscript></a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-menu-item-has-children mega-menu-megamenu mega-align-bottom-left mega-menu-megamenu mega-menu-item-185739' id='mega-menu-item-185739'><a class="mega-menu-link" href="https://hisense.com.au/airconditioners/" aria-haspopup="true" aria-expanded="false" tabindex="0">Air Conditioning<span class="mega-indicator"></span></a>
+<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-185876' id='mega-menu-item-185876'><a class="mega-menu-link" href="https://hisense.com.au/airconditioners/">Wall Mounted<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185877' id='mega-menu-item-185877'><a class="mega-menu-link" href="/airconditioners/all/?filter=acsize-small-room">Small Room</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185878' id='mega-menu-item-185878'><a class="mega-menu-link" href="/airconditioners/all/?filter=acsize-medium-room">Medium Room</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-185879' id='mega-menu-item-185879'><a class="mega-menu-link" href="/airconditioners/all/?filter=acsize-large-room">Large Room</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-187071' id='mega-menu-item-187071'><a class="mega-menu-link" href="https://hisense.com.au/airconditioners/all/">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-194693' id='mega-menu-item-194693'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=single-split">Single Split<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194694' id='mega-menu-item-194694'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=ducted">Ducted</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194696' id='mega-menu-item-194696'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=wall-mounted">Wall Mounted</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194695' id='mega-menu-item-194695'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=cassette">Cassette</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194697' id='mega-menu-item-194697'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=single-split">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-columns-1-of-5 mega-menu-item-194698' id='mega-menu-item-194698'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=multi-split">Multi Split<span class="mega-indicator"></span></a>
+	<ul class="mega-sub-menu">
+<li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194699' id='mega-menu-item-194699'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=multi-head">Multi Head</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194700' id='mega-menu-item-194700'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=bulk-head">Bulk Head</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194702' id='mega-menu-item-194702'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=wall-mounted-multi-split">Wall Mounted</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-194701' id='mega-menu-item-194701'><a class="mega-menu-link" href="https://airconditioning.hisense.com.au/airconditioners/?filter=wall-mounted-multi-split">View All</a></li>	</ul>
+</li><li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-columns-1-of-5 mega-menu-item-media_image-4' id='mega-menu-item-media_image-4'><h4 class="mega-block-title">What&#8217;s New</h4><a href="https://hisense.com.au/ac-giveaway-2023/"><img width="300" height="240" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20240'%3E%3C/svg%3E" class="image wp-image-194671  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="194671" data-permalink="https://hisense.com.au/?attachment_id=194671" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" /><noscript><img width="300" height="240" src="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" class="image wp-image-194671  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="194671" data-permalink="https://hisense.com.au/?attachment_id=194671" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/11/Hisense-ANZ_AC-Promotion_Mega-Menu-Title_300x240.jpg" /></noscript></a></li><li class='mega-menu-item mega-menu-item-type-widget widget_media_image mega-menu-columns-1-of-5 mega-menu-item-media_image-5' id='mega-menu-item-media_image-5'><h4 class="mega-block-title">Commercial HVAC</h4><a href="https://airconditioning.hisense.com.au/"><img width="300" height="240" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20240'%3E%3C/svg%3E" class="image wp-image-194707  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="194707" data-permalink="https://hisense.com.au/?attachment_id=194707" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="hvac-tile" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" data-large-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" /><noscript><img width="300" height="240" src="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" class="image wp-image-194707  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async" data-attachment-id="194707" data-permalink="https://hisense.com.au/?attachment_id=194707" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" data-orig-size="300,240" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="hvac-tile" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" data-large-file="https://hisense.com.au/wp-content/uploads/2023/11/hvac-tile.png" /></noscript></a></li></ul>
+</li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-menu-item-185740' id='mega-menu-item-185740'><a class="mega-menu-link" href="https://hisense.com.au/support/" tabindex="0">Support</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-185741' id='mega-menu-item-185741'><a class="mega-menu-link" href="/blog/" tabindex="0">Blog</a></li><li class='mega-nav-highlight-item mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-191363 nav-highlight-item' id='mega-menu-item-191363'><a class="mega-menu-link" href="/Promotions" tabindex="0">Promotions</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-menu-item-194714' id='mega-menu-item-194714'><a target="_blank" class="mega-menu-link" href="https://airconditioning.hisense.com.au/" tabindex="0">For Business</a></li><li class='mega-menu-item mega-menu-item-type-post_type mega-menu-item-object-page mega-align-bottom-left mega-menu-flyout mega-hide-on-desktop mega-menu-item-185742' id='mega-menu-item-185742'><a class="mega-menu-link" href="https://hisense.com.au/contact-us/" tabindex="0">Contact Us</a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-hide-on-desktop mega-menu-item-185743' id='mega-menu-item-185743'><a class="mega-menu-link" href="/" tabindex="0"><a class="button-ghost" href="https://apps.apple.com/au/app/id1456514907" target="_blank" rel="noopener">Download AR App</a></a></li><li class='mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-flyout mega-has-icon mega-icon-left mega-hide-on-desktop mega-disable-link mega-menu-item-185744' id='mega-menu-item-185744'><div class='mega-search-wrap'>    <form class='mega-search expand-to-left mega-search-closed' role='search' action='https://hisense.com.au/'><span tabindex='0' role='button' class='dashicons dashicons-search search-icon' aria-controls='mega-search-185744' aria-label='Search' aria-expanded='false' aria-haspopup='true'></span><input  type='text' tabindex='-1' role='searchbox' id='mega-search-185744' aria-label='Search here' data-placeholder='Search here' name='s' /><input type='submit' value='Search'>    </form></div></li></ul></div>
+				
+<div class="search-form-holder" id="dmc-search">
+	<form action="https://hisense.com.au" id="search-form" method="get">
+		<input type="search" name="s" class="search-input" placeholder="Search here" autofocus>
+		<label class="icn">
+			<input type="submit" value="" id="searchsubmit">
+			<img width="18" height="20" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2018%2020'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/megamenu/search-white.svg"><noscript><img width="18" height="20" src="https://hisense.com.au/wp-content/themes/hisense/source/images/megamenu/search-white.svg"></noscript>
+		</label>
+	</form>
+</div>
+
+				<div class="menu-icons">
+					<a href="#0" class="search-icon search-holder">
+					</a>
+
+					<a href="/contact-us" class="contact-icon">
+					</a>
+
+					<a href="#0" class="region">
+						<img width="140" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20140%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-rounded.png"><noscript><img width="140" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-rounded.png"></noscript>
+					</a>
+				</div>
+			</nav>
+
+		</div>
+	</header>
+
+	
+					
+			<div class="woocommerce-notices-wrapper"></div><div id="product-192105" class="product type-product post-192105 status-publish first instock product_cat-washer has-post-thumbnail virtual product-type-simple">
+
+	<div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+	<div class="woocommerce-product-gallery__wrapper">
+		<div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg"><img width="300" height="178" src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-300x178.jpg" class="wp-post-image" alt="" title="1.Main Image-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-300x178.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-1024x607.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-768x455.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg 1400w" sizes="(max-width: 300px) 100vw, 300px" data-attachment-id="192115" data-permalink="https://hisense.com.au/?attachment_id=192115" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="1.Main Image-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-100x100.jpg" class="" alt="" title="1.Main Image-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192115" data-permalink="https://hisense.com.au/?attachment_id=192115" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="1.Main Image-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 1-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192116" data-permalink="https://hisense.com.au/?attachment_id=192116" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 1-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 2-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192109" data-permalink="https://hisense.com.au/?attachment_id=192109" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 2-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 3-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192110" data-permalink="https://hisense.com.au/?attachment_id=192110" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 3-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 4-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192111" data-permalink="https://hisense.com.au/?attachment_id=192111" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 4-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 5-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192112" data-permalink="https://hisense.com.au/?attachment_id=192112" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 5-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 6-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192113" data-permalink="https://hisense.com.au/?attachment_id=192113" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 6-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB-1024x607.jpg" /></a></div><div data-thumb="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-100x100.jpg" data-thumb-alt="" class="woocommerce-product-gallery__image"><a href="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg"><img width="100" height="100" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-100x100.jpg" class="" alt="" title="Angle 7-HWFS1015AB" data-caption="" data-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" data-large_image="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" data-large_image_width="1400" data-large_image_height="830" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-100x100.jpg 100w, https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-150x150.jpg 150w" sizes="(max-width: 100px) 100vw, 100px" data-attachment-id="192114" data-permalink="https://hisense.com.au/?attachment_id=192114" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" data-orig-size="1400,830" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Angle 7-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-300x178.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB-1024x607.jpg" /></a></div>	</div>
+</div>
+<div class="dmc-product-holder prod-badge-948">		<div class="product-img-container">
+			<div>
+				<div id="product-slider" class="flexslider">
+					<ul class="slides">
+
+						<li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" /></noscript></li>					</ul>
+				</div>
+
+				<div id="navigation-carousel" class="flexslider">
+					<ul class="slides">
+						<li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/1.Main-Image-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-1-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-2-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-3-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-4-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-5-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-6-HWFS1015AB.jpg" /></noscript></li><li><img width="1400" height="830" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201400%20830'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" /><noscript><img width="1400" height="830" src="https://hisense.com.au/wp-content/uploads/2023/04/Angle-7-HWFS1015AB.jpg" /></noscript></li>					</ul>
+				</div>
+
+			</div>
+			
+				<script type="rocketlazyloadscript" data-rocket-src='https://inhaabitcdn.com/clients/hisense/hisense-viewer.min.js' onload="startIHViewer('HWFS1015AB'); "></script>
+
+							<!-- ar script here -->
+
+		</div>
+
+	
+	<div class="summary entry-summary">
+					<div class="ribbon ribbon-horizontal rib-948">
+				<span>
+				New				</span>
+			</div>
+			
+		<h1 class="product_title entry-title">
+			Hisense Front Load Washer 10kg &#8211; Series 7 (2023)		</h1>
+
+		<p class="model">
+			Model No. HWFS1015AB
+					</p>
+
+		
+	<div data-bv-show="rating_summary" data-bv-product-id="HWFS1015AB"></div>
+
+	<div class="sizes-placeholder"></div><p class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">&#36;</span>&nbsp;1,099.00</bdi></span></p>
+<p>Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry!</p>
+<ul>
+<li><strong>Auto Dosing – </strong>This machine can store up to 24 loads worth of detergent and softener and will automatically choose the precise detergent or softener dosage according to the weight of washing.</li>
+<li><strong>UV Hygiene – </strong>This washer utilises Ultra Violet for a next generation clean. The water used to rinse your clothing is cycled through the UV filter, eliminating up to 99.99% of bacteria.</li>
+<li><strong>Let your washer decide – </strong>With the Auto Wash function, the washer automatically senses the weight of your laundry during the wash cycle and adds the optimum amount of water and detergent.</li>
+<li><strong>ConnectLife Enabled – </strong>Connect this washer to Wi-Fi through the ConnectLife app in order to access smart features like energy monitoring, smart wizard and smart link between an eligible Hisense Dryer.</li>
+</ul>
+<p>&nbsp;</p>
+
+			<div class="display-retailers">
+
+				<div class="holder">
+
+					<a href="
+						https://where-to-buy.co/widgets/core/BuyOnlineBuyLocalV2/index.html?pid=12041197&model=9337640008792&campaignTag=productpage						" class="solid-button solid-button--highlight-on-white popup-youtube dmc-prod-card-ean">
+							Where to Buy
+					</a>
+
+				</div>
+			</div>
+
+			
+		</div>
+
+	</div></div>
+
+	<div class="dmc-hero-section" id="nav-hero-section-global">
+		
+								<section class="video-promo">
+									<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/839565569?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Hisense Series 7 Laundry"></iframe></div><script type="rocketlazyloadscript" data-rocket-src="https://player.vimeo.com/api/player.js"></script>								</section>
+
+								
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							A month's washing on one tank						</h2>
+
+													<h3>
+								Auto Dosing							</h3>
+
+							<p>This machine can store up to 24 loads worth of detergent and softener (about a month&#8217;s worth of washing!) and will automatically choose the precise detergent or softener dosage according to the weight of washing.</p>
+								<p class="disclaimer">
+									<small>
+										*Based on the average of 6 loads per week / 5kg load / Medium soil level. Actual results may vary depending on individual use, the washing load and settings.									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192129" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/auto-dosing-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Auto Dosing-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192129" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/auto-dosing-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Auto Dosing-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Dosing-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Ultra Violet for a next generation clean						</h2>
+
+													<h3>
+								UV Hygiene							</h3>
+
+							<p>Using an inbuilt UV light filtration system, the water used to rinse your clothing is cycled through the UV filter, eliminating up to 99.99% of bacteria, ensuring your clothes are pristine at the end of the wash.</p>
+
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192128" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/uv-hygiene-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="UV Hygiene-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192128" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/uv-hygiene-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="UV Hygiene-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/UV-Hygiene-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							The perfect amount every time						</h2>
+
+													<h3>
+								Auto Wash							</h3>
+
+							<p>The Auto Wash function automatically senses the weight of your laundry during the wash cycle and adds the optimum amount of water and detergent, cleaning your clothes efficiently.</p>
+
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192121" data-permalink="https://hisense.com.au/blog/prod-hero-feature/the-perfect-amount-every-time-2/auto-wash-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Auto Wash-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192121" data-permalink="https://hisense.com.au/blog/prod-hero-feature/the-perfect-amount-every-time-2/auto-wash-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Auto Wash-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Auto-Wash-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Gentle steam, strong clean.​						</h2>
+
+													<h3>
+								Steam Function							</h3>
+
+							<p>The high-temperature steam is released from the bottom of the drum, permeating your clothing, eliminating 99.9% of allergens and other microbes while keeping your favourite clothes clean and your skin protected.</p>
+								<p class="disclaimer">
+									<small>
+										*Testing done by SGS on Staphylococcus aureus and Escherichia coli, on Allergy Care mode. Individual results may vary.									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192009" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/steam-function-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Steam Function-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192009" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/steam-function-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Steam Function-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Steam-Function-HWFS1015E-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							The perfect wash for every situation​						</h2>
+
+													<h3>
+								Smart Wizard							</h3>
+
+							<p>By choosing the fabric type, colour, and dirt level of your specific laundry, the washing machine will select the perfect combination of the right temperature, time, and water for your specific load. Thanks to Smart Wizard, Your clothes will always get the perfect wash.</p>
+
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192008" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/smart-wizard-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Smart Wizard-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192008" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/smart-wizard-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Smart Wizard-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Wizard-HWFS1015E-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Efficiency Tracking Made Simple​						</h2>
+
+													<h3>
+								Energy Monitoring							</h3>
+
+							<p>Monitor your energy and water usage with a tap of a button. See how much water and electricity you’ve used per week, month and even year, and check estimated costs for those periods​.</p>
+
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192013" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/energy-monitoring-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Energy Monitoring-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192013" data-permalink="https://hisense.com.au/blog/prod-hero-feature/light-loads-washed-quick/energy-monitoring-hwfs1015e/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Energy Monitoring-HWFS1015E" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Energy-Monitoring-HWFS1015E-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Connect ​intelligently for effortless Laundry​						</h2>
+
+													<h3>
+								Smart Link							</h3>
+
+							<p>The Hisense washing machine sends the current washing program to the eligible Hisense dryer*, which in turn allows the dryer to intelligently choose the correct drying program to match, saving time and negate any need for manual programming.</p>
+								<p class="disclaimer">
+									<small>
+										*Available on Android and iOS. An internet connection is required. Smart Dry is only available when both the Hisense washing machine and Hisense dryer have ConnectLife and are Wi-Fi connected.​									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192090" data-permalink="https://hisense.com.au/blog/prod-hero-feature/connect-intelligently-for-effortless-laundry-2/smart-link-hdfs90hab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Smart Link-HDFS90HAB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192090" data-permalink="https://hisense.com.au/blog/prod-hero-feature/connect-intelligently-for-effortless-laundry-2/smart-link-hdfs90hab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Smart Link-HDFS90HAB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Smart-Link-HDFS90HAB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Enjoy outstanding efficiency						</h2>
+
+													<h3>
+								Super Energy Efficient							</h3>
+
+							<p>Thanks to constant improvements and our Durable Inverter technology, you can get all the benefits of a modern washer while using significantly less energy. This means lower electricity bills, and a step toward helping the environment.</p>
+								<p class="disclaimer">
+									<small>
+										*11 year Part Warranty for the motor only, separate to the standard 3 year product warranty.									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192123" data-permalink="https://hisense.com.au/blog/prod-hero-feature/enjoy-outstanding-efficiency-5/super-energy-efficient-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Super Energy Efficient-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192123" data-permalink="https://hisense.com.au/blog/prod-hero-feature/enjoy-outstanding-efficiency-5/super-energy-efficient-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Super Energy Efficient-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Super-Energy-Efficient-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							For life on the go​						</h2>
+
+													<h3>
+								Quick Wash 15’ & Power 49’​ Modes							</h3>
+
+							<p>This washer provides you with multiple quick washing programs to meet your personalized needs. You can choose either the Quick 15&#8242; program which is perfect for light loads of up to 1kg or choose the Power 49&#8242; for up to half a load of laundry in only 49 minutes!</p>
+								<p class="disclaimer">
+									<small>
+										*Quick Wash 15' can be used for light loads up to 1kg. Power 49' mode can be used for up to half a load of washing.									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192130" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/quick-15-power-49-modes-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Quick 15&#8242; &#038; Power 49&#8242; Modes-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192130" data-permalink="https://hisense.com.au/blog/prod-hero-feature/a-months-washing-on-one-tank/quick-15-power-49-modes-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Quick 15&#8242; &#038; Power 49&#8242; Modes-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Quick-15-Power-49-Modes-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+				
+				<div class="dmc-hero-holder with-image">
+
+					<div class="content-holder">
+						<h2 class="info-header">
+							Maintenance Made Easy						</h2>
+
+													<h3>
+								Hygiene Guard							</h3>
+
+							<p>This washer can remove bacteria during Drum Clean* as well as cleaning the soapbox, keeping your washer in top condition and your clothing more hygienic, and the Pure Jet function can can remove any soap or scum build up around the door which also sports an anti-bacterial seal.</p>
+								<p class="disclaimer">
+									<small>
+										*Drum Clean water temperature can reach above 80 ℃, Individual results may vary.​									</small>
+								</p>
+							
+					</div>
+
+					<img width="1920" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201600'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1536x1280.jpg 1536w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192120" data-permalink="https://hisense.com.au/blog/prod-hero-feature/maintenance-made-easy-2-copy/hygiene-guard-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hygiene Guard-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1024x853.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg" /><noscript><img width="1920" height="1600" src="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg 1920w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-300x250.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1024x853.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-768x640.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1536x1280.jpg 1536w" sizes="(max-width: 1920px) 100vw, 1920px" data-attachment-id="192120" data-permalink="https://hisense.com.au/blog/prod-hero-feature/maintenance-made-easy-2-copy/hygiene-guard-hwfs1015ab/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB.jpg" data-orig-size="1920,1600" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hygiene Guard-HWFS1015AB" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-300x250.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Hygiene-Guard-HWFS1015AB-1024x853.jpg" /></noscript>
+				</div>
+
+								<div class="dmc-hero-section">
+
+					<div class="dmc-hero-holder full-width">
+
+						<img width="2560" height="1440" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202560%201440'%3E%3C/svg%3E" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" data-lazy-srcset="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg 2560w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-300x169.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1024x576.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-768x432.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1536x864.jpg 1536w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-2048x1152.jpg 2048w" data-lazy-sizes="(max-width: 2560px) 100vw, 2560px" data-attachment-id="192084" data-permalink="https://hisense.com.au/blog/prod-hero-feature/lifestyle-hisense-series-7-laundry-range/hisense_series-7_lifestyle_img_3840x2160/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg" data-orig-size="2560,1440" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hisense_Series-7_Lifestyle_Img_3840x2160" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-300x169.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1024x576.jpg" data-lazy-src="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg" /><noscript><img width="2560" height="1440" src="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg" class="tile-hero wp-post-image" alt="" crop="true" decoding="async" srcset="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg 2560w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-300x169.jpg 300w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1024x576.jpg 1024w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-768x432.jpg 768w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1536x864.jpg 1536w, https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-2048x1152.jpg 2048w" sizes="(max-width: 2560px) 100vw, 2560px" data-attachment-id="192084" data-permalink="https://hisense.com.au/blog/prod-hero-feature/lifestyle-hisense-series-7-laundry-range/hisense_series-7_lifestyle_img_3840x2160/" data-orig-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-scaled.jpg" data-orig-size="2560,1440" data-comments-opened="0" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="Hisense_Series-7_Lifestyle_Img_3840x2160" data-image-description="" data-image-caption="" data-medium-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-300x169.jpg" data-large-file="https://hisense.com.au/wp-content/uploads/2023/04/Hisense_Series-7_Lifestyle_Img_3840x2160-1024x576.jpg" /></noscript>
+					</div>
+
+				</div>
+
+					</div>
+
+	
+<section id="specifications" class="over-fixed product-section">
+
+	<h2 class="section-heading">
+		For those all about the <span>details…</span>
+	</h2>
+
+	<div class="holder">
+		<p>
+			Specifications vary from country to country (even though products may have the same model number). We strongly advise to always check the specifications before purchase.
+		</p>
+	</div>
+
+			<div id="cd-specs-table" class="cd-single-spec-table">
+			<div class="cd-header cd-table-column">
+<ul>
+<li>Type</li>
+<li>Colour Finish</li>
+<li>Width x Depth x Height (mm)</li>
+<li>Energy Star Rating</li>
+</ul>
+</div>
+<div class="cd-table-container">
+<div class="cd-table-wrapper">
+<div class="cd-table-column">
+<ul>
+<li>Front Load</li>
+<li>Charcoal Black</li>
+<li>595 X 590 X 845</li>
+<li>5 Stars</li>
+</ul>
+</div>
+</div>
+</div>
+		</div>
+		
+		<div class="cd-full-specs">
+			<a href="https://hisense.com.au/wp-content/uploads/2023/04/HWFS1015AB_Specs.pdf" class="solid-button" target="_blank">
+				Full Specs
+			</a>
+		</div>
+
+		
+</section>
+
+<section id="ownership" class="over-fixed product-section hidden md:block">
+
+	<div class="grid lg:grid-cols-2">
+
+		<div class="flex justify-center items-center bg-hisense-primary-200">
+			<div class="w-full max-w-[595px] text-left py-8 md:py-14 space-y-3 lg:space-y-5">
+
+				<h3 class="text-2xl md:text-4xl xl:text-5xl block text-white">
+					Downloads
+				</h3>
+
+									<ul>
+																<li>
+											<a href="https://hisense.com.au/wp-content/uploads/2023/05/User-Manual-of-HWFS8014AB-HWFS1015AB-1.pdf" target="_blank" class="block py-2.5 px-5 text-white text-xl border-b border-white bg-[url('../images/arrow-down.svg')] bg-[right_center] bg-no-repeat hover:text-black hover:bg-[url('../images/arrow-down-hover.svg')]">
+												Front Load Washer 10kg (HWFS1015AB)												<em class="not-italic">|</em>
+												<em class="not-italic">
+													Product Manual												</em>
+											</a>
+										</li>
+																				<li>
+											<a href="https://hisense.com.au/wp-content/uploads/2023/05/Installation-Guide_-washing-machines_.pdf" target="_blank" class="block py-2.5 px-5 text-white text-xl border-b border-white bg-[url('../images/arrow-down.svg')] bg-[right_center] bg-no-repeat hover:text-black hover:bg-[url('../images/arrow-down-hover.svg')]">
+												Front Load Washer 10kg (HWFS1015AB)												<em class="not-italic">|</em>
+												<em class="not-italic">
+													Installation Guide												</em>
+											</a>
+										</li>
+															</ul>
+									<div class="space-y-2 md:space-y-3">
+					<h4 class="text-black text-base lg:text-2xl">
+						Warranty
+					</h4>
+					<p class="text-lg font-thin text-black">
+						Each Hisense product comes with a warranty to give our customers the peace of mind that, should something go wrong, we will stand behind our products. Because warranties vary by product, please see the warranty card in your product's box for complete details and the most up-to-date information.
+					</p>
+					<p class="text-sm font-thin">
+						* Terms and conditions apply, please call <a href="tel:1 800 447 367">1800 HISENSE (1800 447 367)</a> for further details or download Warranty Terms & Conditions via the links above.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		
+		<div class="flex items-center bg-black w-full bg-[100%] bg-no-repeat" style="background-image: url( https://hisense.com.au/wp-content/themes/hisense/source/images/register-washer.png">
+			<div class="max-w-[595px] text-left px-8 md:px-20 py-8 md:py-14 space-y-3 lg:space-y-5">
+
+				<h3 class="text-2xl md:text-4xl xl:text-5xl block text-hisense-primary-200">
+					Register
+				</h3>
+				<p class="text-lg font-light text-white">
+					Register your Hisense Product.
+				</p>
+				<a href="/product-registration/" class="solid-button solid-button--light">
+					Product Registration
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+</section>
+
+		<section id="reviews" class="product-review">
+			<div data-bv-show="reviews" data-bv-product-id="HWFS1015AB">
+		</section>
+
+	<section class="tools-container">
+
+	<div class="tool-item">
+		<div class="featured-content">
+			<div class="newsletter">
+				<div class="_form_11"></div><script type="rocketlazyloadscript" data-rocket-src="https://hisense.activehosted.com/f/embed.php?id=11" data-rocket-type="text/javascript" charset="utf-8"></script>
+			</div>
+		</div>
+	</div>
+
+	<div class="tools-item">
+		<div class="content">
+			<h4>
+				Hisense Customer Care
+			</h4>
+			<p>
+				Need help or advice on a Hisense product?
+			</p>
+			<p>
+				Choose one of the following ways to contact our Hisense Customer Care team.
+			</p>
+			<div class="holder">
+				<h5>
+					<a href="tel:+1-800-447-367" class="phone">
+						1 800 447 367
+					</a>
+				</h5>
+				<h5 class="email">
+					<a href="/cdn-cgi/l/email-protection#9ceff9eeeaf5fff9b2fde9dcf4f5eff9f2eff9b2fff3f1" class="email">
+						Email Us
+					</a>
+				</h5>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+		
+	
+	
+	<footer>
+		<div class="footer-wrapper">
+
+			<div class="footer-column">
+				<h4>
+					Our Products
+				</h4>
+				<ul>
+					<li>
+						<a href="https://hisense.com.au/electronics/tv/">
+							Televisions
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/electronics/laser-tv/">
+							Laser TV
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/electronics/soundbars/">
+							Sound Bars
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/appliances/fridge/">
+							Fridges
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/appliances/laundry/washers/">
+							Washers
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/appliances/laundry/dryers/">
+							Dryers
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/appliances/wine-cooler/all/">
+							Wine Cabinets
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/airconditioners/">
+							Air Conditioners
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-column">
+				<h4>
+					Support
+				</h4>
+
+				<ul>
+					<li>
+						<a href="/support">
+							Support Center
+						</a>
+					</li>
+					<li>
+						<a href="/manuals">
+							User Manuals
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/product-registration/">
+							Product registration
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-column">
+
+				<h4>
+					About
+				</h4>
+
+				<ul>
+					<li>
+						<a href="https://hisense.com.au/about">
+							About
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/about/#section8">
+							Investors
+						</a>
+					</li>
+					<li>
+						<a href="/blog/category/news">
+							Press
+						</a>
+					</li>
+					<li>
+						<a href="/blog/">
+							Blog
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-column">
+				<h4>
+					Contact
+				</h4>
+
+				<ul>
+					<li>
+						<a href="https://hisense.com.au/contact-us/">
+							Contact us
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/become-a-retailer">
+							Become a retailer
+						</a>
+					</li>
+					<li>
+						<a href="https://hisense.com.au/careers">
+							Careers
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-column cd-socials">
+				<h4>
+					Stay connected with
+					<em>
+						Hisense
+					</em>
+				</h4>
+				<div class="social-holders">
+					<a href="https://facebook.com/hisenseau"  target="_blank" rel="noopener" class="cd-facebook img-replace">
+						Facebook
+					</a>
+					<a href="https://twitter.com/hisenseaus"  target="_blank" rel="noopener" class="cd-twitter img-replace">
+						Twitter
+					</a>
+					<a href="https://youtube.com/hisenseaustralia"  target="_blank" rel="noopener" class="cd-youtube img-replace">
+						Youtube
+					</a>
+					<a href="https://instagram.com/hisenseau"  target="_blank" rel="noopener" class="cd-instagram img-replace">
+						Instagram
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div class="copy-right products-has-lateral-padding over-fixed">
+		<div>
+			<p>
+				<a href="#0" class="region-selection">
+					<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" class="inline-block" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-australia2.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-australia2.png" class="inline-block"></noscript>
+					Australia
+				</a> |
+				<a href="https://hisense.com.au/privacy/">
+					Hisense Privacy Policy and Website Terms of Use
+				</a> |
+				<em>
+					&copy;
+					2023					Hisense, inc. all rights reserved
+				</em>
+			</p>
+
+		</div>
+	</div>
+</div> <!-- .all-content -->
+
+<div id="choose-region">
+	<div class="choose-reagion-header">
+		<div class="cd-container-larger">
+			<p>
+				Choose your region
+			</p>
+			<a class="close-choose-region img-replace" href="#0">
+			</a>
+		</div>
+	</div>
+	<div class="regions-list">
+		<ul class="cd-container-larger">
+				<li>
+		<a href="http://www.hisense.com.ar/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-argentina.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-argentina.png"></noscript>
+			<span>
+				Argentina			</span>
+		</a>
+	</li>
+		<li>
+		<a href="https://hisense.com.au/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-australia2.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-australia2.png"></noscript>
+			<span>
+				Australia			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense-canada.com/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-canada.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-canada.png"></noscript>
+			<span>
+				Canada ENG			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense-canada-fr.com/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-canada.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-canada.png"></noscript>
+			<span>
+				Canada FRENCH			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisense.com/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-china.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-china.png"></noscript>
+			<span>
+				China			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense.de/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-germany.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-germany.png"></noscript>
+			<span>
+				Germany			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisenseil.co.il/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-israel.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-israel.png"></noscript>
+			<span>
+				Israel			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisenseitalia.it/2014/P.asp?">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-italy.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-italy.png"></noscript>
+			<span>
+				Italy			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisense.co.jp/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-japan.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-japan.png"></noscript>
+			<span>
+				Japan			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense.com.my/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-malaysia.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-malaysia.png"></noscript>
+			<span>
+				Malaysia			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisense.co.za/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-southafrica.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-southafrica.png"></noscript>
+			<span>
+				South Africa			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense.pl/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-poland.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-poland.png"></noscript>
+			<span>
+				Poland			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisense.es/en/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-spain.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-spain.png"></noscript>
+			<span>
+				Spain			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://www.hisense-usa.com/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-usa.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-usa.png"></noscript>
+			<span>
+				USA			</span>
+		</a>
+	</li>
+		<li>
+		<a href="http://hisense.uz/">
+			<img width="210" height="140" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20210%20140'%3E%3C/svg%3E" data-lazy-src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-uzbekistan.png"><noscript><img width="210" height="140" src="https://hisense.com.au/wp-content/themes/hisense/source/images/flag-uzbekistan.png"></noscript>
+			<span>
+				Uzbekistan			</span>
+		</a>
+	</li>
+			</ul>
+	</div>
+</div>
+
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script async type="text/javascript">
+			window.bvDCC = {
+			catalogData: {
+				locale: "en_AU",
+				catalogProducts: [{
+				"productId":"HWFS1015AB",
+				"productName":"Hisense Front Load Washer 10kg &#8211; Series 7 (2023)",
+				"productDescription":"Elegance, meet power! This Hisense Series 7 Washer is the perfect combination of style and performance. Packed with great features like Auto Dosing, UV Hygiene and being ConnectLife Enabled this washer is sure to take the chore out of laundry!\r\n\r\n \tAuto Dosing \u2013 This machine can store up to 24 loads worth of detergent and softener and will automatically choose the precise detergent or softener dosage according to the weight of washing.\r\n \tUV Hygiene \u2013 This washer utilises Ultra Violet for a next generation clean. The water used to rinse your clothing is cycled through the UV filter, eliminating up to 99.99% of bacteria.\r\n \tLet your washer decide \u2013 With the Auto Wash function, the washer automatically senses the weight of your laundry during the wash cycle and adds the optimum amount of water and detergent.\r\n \tConnectLife Enabled \u2013 Connect this washer to Wi-Fi through the ConnectLife app in order to access smart features like energy monitoring, smart wizard and smart link between an eligible Hisense Dryer.\r\n\r\n&nbsp;",
+				"productImageURL":"https://hisense.com.au/wp-content/uploads/2023/04/HWFS1015AB-Filter-Page-Image-72dpi-1580x1176px.jpg",
+				"productPageURL":"https://hisense.com.au/product/hisense-front-load-washer-10kg-series-7-hwfs1015ab/",
+				"brandName":"Hisense",
+				"categoryPath" : [
+					{
+						"id" : "84",
+						"Name" : "Washer"
+					},
+					{
+						"id" : "550",
+						"Name" : "10kg"
+					}],
+				// "upcs":["724742001735","724742006907","077320775406","077320775307"],
+				// "manufacturerPartNumbers":["mpn1","mpn2","mpn3","mpn4","mpn5"],
+				"eans":["9337640008792"],
+				// "isbns":["9781891830754","9781603090506","9781891830716","9781603090254"],
+				"modelNumbers":[""],
+				"family": "",
+				"inactive": false,
+				}]
+			}
+			};
+
+			window.bvCallback = function (BV) {
+				BV.pixel.trackEvent("CatalogUpdate", {
+					type: 'Product',
+					locale: window.bvDCC.catalogData.locale,
+					catalogProducts: window.bvDCC.catalogData.catalogProducts
+
+				});
+			};
+		</script>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/51unhech\/|\/appliances\/laundry\/all\/|\/smart-tv\/streaming-services\/|\/electronics\/tv\/all\/|\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/my-account\/??(.*)|\/wc-api\/v(.*)|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/hisense.com.au","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js"></script>
+<script type="text/javascript" id="megamenu-js-extra">
+/* <![CDATA[ */
+var megamenu = {"timeout":"300","interval":"100"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/megamenu/js/maxmegamenu.js?ver=3.2.4" id="megamenu-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/themes/hisense/dist/js/legacy.min.js?ver=1695361328" id="legacy-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/underscore.min.js?ver=1.13.4" id="underscore-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/backbone.min.js?ver=1.5.0" id="backbone-js"></script>
+<script type="text/javascript" id="wp-api-request-js-extra">
+/* <![CDATA[ */
+var wpApiSettings = {"root":"https:\/\/hisense.com.au\/wp-json\/","nonce":"b0e9f9b81c","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/api-request.min.js?ver=6.4.1" id="wp-api-request-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/wp-api.min.js?ver=6.4.1" id="wp-api-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/themes/hisense/dist/js/main.min.js?ver=1698793024" id="main-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/themes/hisense/dist/js/single_product.min.js?ver=1697020565" id="single-product-js-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/themes/hisense/dist/js/product_cards.min.js?ver=1697010906" id="product-cards-js-js"></script>
+<script defer type="text/javascript" src="https://stats.wp.com/e-202349.js" id="jetpack-stats-js"></script>
+<script type="text/javascript" id="jetpack-stats-js-after">
+/* <![CDATA[ */
+_stq = window._stq || [];
+_stq.push([ "view", {v:'ext',blog:'226476379',post:'192105',tz:'10',srv:'hisense.com.au',j:'1:12.8.1'} ]);
+_stq.push([ "clickTrackerInit", "226476379", "192105" ]);
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/plugins/megamenu-pro/assets/public.js?ver=2.3.1" id="megamenu-pro-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/jquery/ui/menu.min.js?ver=1.13.2" id="jquery-ui-menu-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/dom-ready.min.js?ver=392bdd43726760d1f3ca" id="wp-dom-ready-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/hooks.min.js?ver=c6aec9a8d4e5a5d543a1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/i18n.min.js?ver=7701b0c3857f914212ef" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="wp-a11y-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-11-06 06:03:31+0000","generator":"GlotPress\/4.0.0-alpha.11","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"en_AU"},"Notifications":["Notifications"]}},"comment":{"reference":"wp-includes\/js\/dist\/a11y.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/dist/a11y.min.js?ver=7032343a947cfccf5608" id="wp-a11y-js"></script>
+<script type="text/javascript" id="jquery-ui-autocomplete-js-extra">
+/* <![CDATA[ */
+var uiAutocompleteL10n = {"noResults":"No results found.","oneResult":"1 result found. Use up and down arrow keys to navigate.","manyResults":"%d results found. Use up and down arrow keys to navigate.","itemSelected":"Item selected."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.13.2" id="jquery-ui-autocomplete-js"></script>
+<script type="text/javascript" id="acsearch-js-extra">
+/* <![CDATA[ */
+var AcSearch = {"url":"https:\/\/hisense.com.au\/wp-admin\/admin-ajax.php","nonce":"3e84150cbb"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://hisense.com.au/wp-content/themes/hisense/dist/js/acsearch.min.js?ver=1696852667" id="acsearch-js"></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://hisense.com.au/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script>
+</body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

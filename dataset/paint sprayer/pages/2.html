@@ -1,0 +1,503 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Finex FX3000 by Sharpe</title><meta http-equiv="X-UA-Compatible" content="IE=7" />
+<link rel="stylesheet" type="text/css" href="/sharpe/sharpe.nsf/CSS/defaultTemplate.css/$file/defaultTemplate.css">
+<link rel="stylesheet" type="text/css" href="/sharpe/sharpe.nsf/CSS/interiorPages.css/$file/interiorPages.css">
+<link rel="stylesheet" type="text/css" href="/sharpe/sharpe.nsf/CSS/newtabs.css/$file/newtabs.css">
+<link rel="stylesheet" type="text/css" href="/sharpe/sharpe.nsf/CSS/productPages.css/$file/productPages.css">
+<script type="text/javascript" language="JavaScript" src="/sharpe/sharpe.nsf/JS/domtab.js/$file/domtab.js"></script>
+<style type="text/css">
+/* default to every page */
+body {
+		background-color: #ffffff;
+		color: #000000;
+		font-family:Arial, Helvetica, sans-serif; 
+		font-size: 12px; 
+		margin: 0;
+		padding: 0;
+		}
+	
+/* top nav related */
+#masthead{
+	width: 770px;
+	height: 102px;
+background-image:url(http://www.sharpe1.com/sharpe/sharpe.nsf/images/sharpeheader.jpg/$File/sharpeheader.jpg);
+	background-repeat:no-repeat;
+margin: 0;
+}
+#greyNav{
+	width: 770px;
+	height: 26px;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	background-color: #000;
+background-image:url(http://www.sharpe1.com/sharpe/sharpe.nsf/images/sharpetopnav.jpg/$File/sharpetopnav.jpg);
+	background-repeat: no-repeat;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:right;
+font-size: 11px;
+}
+#menu {
+	width: 157px;
+min-height: 450px;
+                float:left;
+	padding: 0;
+	margin: 0px 15px 0 0px;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Lucida, Geneva, Helvetica, Arial, sans-serif;
+	background-color: #0d0660;
+background-image:url(http://www.sharpe1.com/sharpe/sharpe.nsf/images/menugradient.jpg/$File/menugradient.jpg);
+	background-repeat:no-repeat;
+	color: #fff;
+	}
+/* IE hack to handle the min-height issue */	
+* html #menu {height:450px}
+#title{
+      font-family: Verdana, Arial;
+      color: #972b1f;
+      border-bottom: 1px solid gray;
+               width:200px;
+      font-weight: bold;
+      font-size:14px;
+}
+.sc {
+    font-size: 12px;
+}
+#interiorContent	{
+	float:left;
+	width:580px;
+	margin-right:0px !important; 
+	padding-top: 10px;
+padding-bottom:60px;
+}
+.breadCrumb {
+font-size:10px;
+}
+#homePageContent	{
+	width: 770px;
+min-height: 500px;
+	margin: 0;
+	padding: 0;
+	background-image:url(http://www.sharpe1.com/sharpe/sharpe.nsf/images/homebkgd.jpg/$File/homebkgd.jpg);
+	background-repeat: no-repeat;
+}
+/* IE hack to handle the min-height issue */	
+* html #homePageContent {height:500px}
+#footer	{
+	clear: both;
+	width: 770px;
+	height: 63px;
+	margin: 0;
+	padding: 0;
+background-image:url(http://www.sharpe1.com/sharpe/sharpe.nsf/images/sharpefooterbkgd.jpg/$File/sharpefooterbkgd.jpg);
+	background-repeat:no-repeat;
+	background-color: #000;
+}
+.leftFooterContent	{
+	width: 350px;
+	display: inline;
+	float: left;
+	padding-top: 30px;
+	}	
+.rightFooterContent	{
+	width: 350px;
+	float: right;
+	display: inline;
+	text-align: right;
+	}
+#fineprintnav	{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.docdetails	{
+	font-size: 10px;
+	font-style: italic;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#domtabprintview {
+display:none;
+}
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/* end of interior page CSS */
+@media print	{
+	
+#masthead	{
+	display:none;
+}
+#greyNav	{
+	display:none;
+}
+#menu	{
+	display:none;
+}
+#footer	{
+	display:none;
+}
+#mbody	{
+	background-image:none;
+}
+a:link, a:visited	{
+	color:#000000;
+	text-decoration:underline;
+font-weight:normal;
+}
+}
+</style>
+<script language=Javascript>
+function doSearch2(){
+ var s = document.forms[0].searchField.value;
+ if ( s != "" && s != null){ 
+  nsfPos=window.location.pathname.toLowerCase( ).indexOf(".nsf");
+  path=window.location.pathname.substring(0, nsfPos+5);
+  top.location.href = path + "Search?OpenAgent&Query=" + escape( s );
+ }
+}
+function isTrim(str){
+	str = str.replace(/^\s*|\s*$/g,"");
+	if(str == ''){
+		return true;
+	}else{
+		return false;
+	}
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-82854680-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<script language="JavaScript" type="text/javascript">
+<!-- 
+function ifl(divid, iframename){
+	var curFormDiv=document.getElementById(divid);
+	var iFramediv = window.frames[iframename].document.getElementById('viewtemplatedefault');
+	if(curFormDiv && iFramediv){
+		curFormDiv.style.display = '';
+		curFormDiv.innerHTML = iFramediv.innerHTML;
+	}
+}
+// -->
+</script>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+document._domino_target = "_self";
+function _doClick(v, o, t) {
+  var returnValue = false;
+  var url="/sharpe/sharpe.nsf/Page/Finex+FX3000?OpenDocument&Click=" + v;
+  if (o.href != null) {
+    o.href = url;
+    returnValue = true;
+  } else {
+    if (t == null)
+      t = document._domino_target;
+    window.open(url, t);
+  }
+  return returnValue;
+}
+// -->
+</script>
+</head>
+<body text="#000000" bgcolor="#FFFFFF" onload="var x = top.location.href.toString().toLowerCase().indexOf('sharpe.nsf');
+if(x&lt;0){
+	if(document.forms[0].Path_Info.value.toLowerCase().indexOf('sharpe.nsf') &gt; 0){
+		top.location.href=&quot;http://www.sharpe1.com&quot;+document.forms[0].Path_Info.value;
+	}
+}
+">
+
+<form onsubmit="doSearch2();
+return false;
+
+return true;" action=""><div id="masthead"><div id="topNav"><a href="/sharpe/sharpe.nsf/Page/Sharpe+GEDI">GEDI</a> &nbsp;|&nbsp; <a href="/sharpe/sharpe.nsf/ContactUs?OpenAgent">Contact Us</a> &nbsp;|&nbsp; <a href="/sharpe/sharpe.nsf/Page/Sitemap">Sitemap</a></div><div id="searchBox"><div class="searchText">Search Site:</div><div class="searchFields"><input name="searchField" type="text" size="8" maxlength="100" class="searchform"><input name="image" type="image" src="/sharpe/sharpe.nsf/images/goButton_square.gif/$File/goButton_square.gif" alt="GO" border="0" class="searchButton"></div></div></div><div id="greyNav"><div class="navPadding"><a href="/sharpe/sharpe.nsf/Page/Home">HOME</a> | <a href="/sharpe/sharpe.nsf/Page/About+Us">ABOUT US</a> | <a href="/sharpe/sharpe.nsf/Page/Products">PRODUCTS</a> | <a href="/sharpe/sharpe.nsf/Page/Manuals">MANUALS</a> | <a href="/sharpe/sharpe.nsf/Page/Support">SUPPORT</a> | <a href="http://sharpepress.blogspot.com/">PRESS ROOM</a> | <a href="/sharpe/sharpe.nsf/Page/Where+to+Buy">WHERE TO BUY</a> | <a href="http://www.surveymonkey.com/s.aspx?sm=L1mHFPq1aUtVbx1lmVhYKQ_3d_3d" target="_blank">REGISTER PRODUCT</a></div></div><div id="mbody" class="clearfix"><div id="menu"><p class="alignCenter"><a href="/sharpe/sharpe.nsf/Page/Products"><img src="/sharpe/sharpe.nsf/images/subheadProducts.gif/$File/subheadProducts.gif" width="157" height="37" alt="Products" border="0"/></a></p><ul><li><a href="/sharpe/sharpe.nsf/Page/Spray+Guns">Spray Guns</a></li><li><a href="/sharpe/sharpe.nsf/Page/Pressure+Systems">Pressure Systems</a></li><li><a href="/sharpe/sharpe.nsf/Page/Air+Filters,+Coalescers+and+Control+Products">Air Filters, Coalescers & Control Products</a></li><li><a href="/sharpe/sharpe.nsf/Page/Dryaire+Systems">Dryaire Systems</a></li><li><a href="/sharpe/sharpe.nsf/Page/Accessories">Accessories</a></li><li><a href="/sharpe/sharpe.nsf/Page/Sharpe++Catalog">Sharpe Catalog</a></li></ul><p>&nbsp;</p></div><div id="interiorContent"><div class="breadCrumb"><a href="/sharpe/sharpe.nsf/Page/PRODUCTS">PRODUCTS</a> > <a href="/sharpe/sharpe.nsf/Page/SPRAY+GUNS">SPRAY GUNS</a> > Finex FX3000</div> <h1>Finex FX3000</h1> <!-- Start main body content, including image.  Image will automatically appear to the right of the text. -->
+	<img src="../images/FX3000_VIP_rev.jpg/$File/FX3000_VIP_rev.jpg" width="200" height="200" alt="FX3000">
+	<p>The FX3000 is a full size HVLP spray gun for larger jobs and the gun of choice when HVLP is required.</p>
+	<p>Innovations of the Finex gun include 29% fewer parts, precision lids, repair kits, optional 3M<sup>&trade;</sup>
+	PPS<sup>&trade;</sup> adapter, optional interchangeable aluminum cups and lowest trigger pull among all guns in its class.</p>
+	<p id="domtabprintview"></p>
+<!-- Start list of tabs - where they link to and what they say. -->
+	<div class="domtab clearfix">
+		<ul class="domtabs">
+				<li><a href="#tabOne">Features</a></li>
+				<li><a href="#tabTwo">Technical Specs</a></li>	
+				<li><a href="#tabThree">Applications</a></li>
+				<li><a href="#tabFour">Downloads</a></li>					 
+		</ul>
+<!-- Start Tab One -->
+		<div class="tabcontent clearfix">
+			<a id="tabOne" name="tabOne"></a>
+			<img src="../images/exampleapp_fx3000.jpg/$File/exampleapp_fx3000.jpg" width="200" height="200" alt="FX3000">
+			<ul>
+			  <li>Large pattern size, up to 12.5 inches </li>
+			  <li>HVLP gun with multiple nozzles ranging from 1.0 to 1.8 spray primer, base, and clear</li>
+			  <li>Includes FX3000 gun, 600cc aluminum cup, wrench and cleaning brush </li>
+			  <li><a href="../Page/Warranty">One year warranty</a></li>
+			</ul>
+			<div id="backtotopfine"><a href="#top">Back to top</a></div>
+		</div>	
+<!-- Start Tab Two -->
+		<div class="tabcontent clearfix">
+			<a id="tabTwo" name="tabTwo"></a>
+				<ul>
+					<li><b>Fluid Tips:</b> 1.0 mm, 1.3 mm, 1.4 mm, 1.5 mm, 1.8 mm</li>
+					<li><b>Air Consumption (cfm):</b> 9.5 SCFM</li>
+					<li><b>Max Inlet HVLP psi:</b> 29 psi (2.0 bar, 200 kPa)</li>
+					<li><b>Weight With  Cup:</b> 1.11 lb </li>
+					<li><b>Air Inlet npsm:</b> 1/4 in</li>
+					<li><b>Finish:</b> Black Nickel</li>
+					<li><b>Cup Size:</b> 600 cc</li>
+				    <li><b>Pattern Size:</b> 12.5 in</li>
+					<li><b>Warranty:</b> 1 year</li>
+				</ul>	
+			    <table cellpadding="4" cellspacing="0" class="techspecs">
+                  <tr class="techspecsheader">
+                    <td width="134">Tip Size (mm)</td>
+                    <td width="138">Gun Part Number</td>
+                    <td width="248">Needle, Nozzle, Air Cap Kit Part Number</td>
+                  </tr>
+                  <tr>
+                    <td>1.0</td>
+                    <td>288878</td>
+                    <td>289296</td>
+                  </tr>
+                  <tr>
+                    <td>1.3</td>
+                    <td>288879</td>
+                    <td>289297</td>
+                  </tr>
+                  <tr>
+                    <td>1.4</td>
+                    <td>288880</td>
+                    <td>289298</td>
+                  </tr>
+                  <tr>
+                    <td>1.5</td>
+                    <td>288881</td>
+                    <td>289299</td>
+                  </tr>
+                  <tr>
+                    <td>1.8</td>
+                    <td>288882</td>
+                    <td>289300</td>
+                  </tr>
+                </table>
+			    <div id="backtotopfine"><a href="#top">Back to top</a></div>
+		</div>
+<!-- Start Tab Three -->
+		<div class="tabcontent clearfix">
+			<a id="tabThree" name="tabThree"></a>
+				<ul>
+					<li><b>1.0 mm:</b> Light industrial, hobby, spot repair, base coat, clear coat</li>
+					<li><b>1.3 mm:</b> Base coat, high solid, single stages, clear coat</li>
+					<li><b>1.4 mm:</b> Base coat, clear coat single stages, sealers, low solid clear, clear coat</li>
+					<li><b>1.5 mm:</b> Base coat, sealers, enamels, medium to high viscosity, clear coat</li>
+					<li><b>1.8 mm:</b> Primer, high viscosity</li>					
+				</ul>
+			<div id="backtotopfine"><a href="#top">Back to top</a></div>
+		</div>
+<!-- Start Tab Four -->
+		<div class="tabcontent clearfix">
+			<a id="tabFour" name="tabFour"></a>
+		<img src="../images/exampleapp2_fx3000.jpg/$File/exampleapp2_fx3000.jpg" width="200" height="200" alt="FX3000">
+				<ul>
+					
+                                                            <li><a href="../Search?OpenAgent&Query=339241%26Download">Find Literature</a></li>
+					<li><a href="../Search?OpenAgent&Query=312372%26Download">Find Manual</a></li>
+				</ul>
+			<div id="backtotopfine"><a href="#top">Back to top</a></div>
+		</div>
+	</div>
+<!-- End all tab content -->
+<!-- Start list of related items, maximum five -->
+<div id="relatedproducts" class="clearfix">
+	<h2>Accessories</h2>
+	<div class="relatedproduct">
+		<a href="../Page/Finex+Ultra+Mini+Aluminum+Gravity+Cup"><img src="../images/125cc_UltraMini_Cup.jpg/$File/125cc_UltraMini_Cup.jpg" width="75" height="75" alt="125cc Cup"></a>
+		<a href="../Page/Finex+Ultra+Mini+Aluminum+Gravity+Cup">Ultra Mini Aluminum Cup<br>125cc</a><br>PN: 289517
+	</div>
+	<div class="relatedproduct">
+		<a href="../Page/Finex+Mini+Aluminum+Gravity+Cup"><img src="../images/250cc_Mini_Cup.jpg/$File/250cc_Mini_Cup.jpg" width="75" height="75" alt="250cc Cup"></a>
+		<a href="../Page/Finex+Mini+Aluminum+Gravity+Cup">Mini Aluminum Cup<br>250cc</a><br>PN: 289321
+	</div>
+	<div class="relatedproduct">
+		<a href="../Page/PPS+Adapters"><img src="../images/PPS_adaptors.jpg/$File/PPS_adaptors.jpg" width="75" height="75" alt="PPS Adapter"></a>
+		<a href="../Page/PPS+Adapters">3M<sup>&trade;</sup> PPS<sup>&trade;</sup> Adapter</a><br>PN: 289520
+	</div>
+	<div class="relatedproduct">
+		<img src="../images/NeedlePackingKit.jpg/$File/NeedlePackingKit.jpg" width="75" height="75" alt="Needle Packing Kit">
+		Needle Packing Kit<br>PN: 288891
+	</div>
+            <div class="relatedproduct">
+		<a href="../Page/24AAV+Air+Adjusting+Valve+with+Gauge"><img src="../images/th_2210.jpg/$File/th_2210.jpg" width="75" height="75" alt="2210 Air Adjusting Valve"></a>
+		<a href="../Page/24AAV+Air+Adjusting+Valve+with+Gauge">Air Adjusting Valve</a><br>PN: 2210
+	</div>	
+</div>
+<!-- End related products -->
+<!-- End main body content -->  </div></div><div id="footer"> <div id="greyFooterBox">   <div class="leftFooterContent">     Copyright &copy; 2006-2021 Graco Inc. All rights reserved.   </div> <div class="rightFooterContent"><div id="fineprintnav"><a href="https://www.graco.com/us/en/privacy-policy.html" target="_blank">Privacy Policy</a> | <a href="https://www.graco.com/us/en/terms-of-service.html" target="_blank">Terms of Service</a> | <a href="https://www.graco.com/us/en/trademarks.html" target="_blank">Trademarks</a></div>Sharpe Manufacturing Company<br>88-11TH AVENUE NE | Minneapolis, Minnesota | 55413 USA </div> </div> </div><!---->
+<input name="PageTitle" type="hidden" value="Finex FX3000">
+<input name="BrowserTitle" type="hidden" value="Finex FX3000 by Sharpe">
+<input name="Category" type="hidden" value="SPRAY GUNS">
+<input name="subCat" type="hidden" value="PRODUCTS">
+<input name="CategorySort" type="hidden" value="17">
+<input name="ShowMenu" type="hidden" value="Yes">
+<input name="IncludeMenu" type="hidden" value="No">
+<input name="LinkOrder" type="hidden" value="Top Link">
+<input name="MenuOrderNumber" type="hidden" value="000005">
+<input name="IncludeSiteMap" type="hidden" value="No">
+<input name="CSSIncludes" type="hidden" value="defaultTemplate.css, interiorPages.css, newtabs.css, productPages.css">
+<input name="JSIncludes" type="hidden" value="domtab.js">
+<input name="Layout" type="hidden" value="None">
+<input name="G2Logo" type="hidden" value="No">
+<input name="TempBody" type="hidden" value="&lt;!-- Start main body content, including image.  Image will automatically appear to the right of the text. --&gt;">
+<input name="TempBody" type="hidden" value="	&lt;img src=&quot;../images/FX3000_VIP_rev.jpg/$File/FX3000_VIP_rev.jpg&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;FX3000&quot;&gt;">
+<input name="TempBody" type="hidden" value="	&lt;p&gt;The FX3000 is a full size HVLP spray gun for larger jobs and the gun of choice when HVLP is required.&lt;/p&gt;">
+<input name="TempBody" type="hidden" value="	&lt;p&gt;Innovations of the Finex gun include 29% fewer parts, precision lids, repair kits, optional 3M&lt;sup&gt;&amp;trade;&lt;/sup&gt;">
+<input name="TempBody" type="hidden" value="	PPS&lt;sup&gt;&amp;trade;&lt;/sup&gt; adapter, optional interchangeable aluminum cups and lowest trigger pull among all guns in its class.&lt;/p&gt;">
+<input name="TempBody" type="hidden" value="	&lt;p id=&quot;domtabprintview&quot;&gt;&lt;/p&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- Start list of tabs - where they link to and what they say. --&gt;">
+<input name="TempBody" type="hidden" value="	&lt;div class=&quot;domtab clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;ul class=&quot;domtabs&quot;&gt;">
+<input name="TempBody" type="hidden" value="				&lt;li&gt;&lt;a href=&quot;#tabOne&quot;&gt;Features&lt;/a&gt;&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="				&lt;li&gt;&lt;a href=&quot;#tabTwo&quot;&gt;Technical Specs&lt;/a&gt;&lt;/li&gt;	">
+<input name="TempBody" type="hidden" value="				&lt;li&gt;&lt;a href=&quot;#tabThree&quot;&gt;Applications&lt;/a&gt;&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="				&lt;li&gt;&lt;a href=&quot;#tabFour&quot;&gt;Downloads&lt;/a&gt;&lt;/li&gt;					 ">
+<input name="TempBody" type="hidden" value="		&lt;/ul&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- Start Tab One --&gt;">
+<input name="TempBody" type="hidden" value="		&lt;div class=&quot;tabcontent clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="			&lt;a id=&quot;tabOne&quot; name=&quot;tabOne&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="			&lt;img src=&quot;../images/exampleapp_fx3000.jpg/$File/exampleapp_fx3000.jpg&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;FX3000&quot;&gt;">
+<input name="TempBody" type="hidden" value="			&lt;ul&gt;">
+<input name="TempBody" type="hidden" value="			  &lt;li&gt;Large pattern size, up to 12.5 inches &lt;/li&gt;">
+<input name="TempBody" type="hidden" value="			  &lt;li&gt;HVLP gun with multiple nozzles ranging from 1.0 to 1.8 spray primer, base, and clear&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="			  &lt;li&gt;Includes FX3000 gun, 600cc aluminum cup, wrench and cleaning brush &lt;/li&gt;">
+<input name="TempBody" type="hidden" value="			  &lt;li&gt;&lt;a href=&quot;../Page/Warranty&quot;&gt;One year warranty&lt;/a&gt;&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="			&lt;/ul&gt;">
+<input name="TempBody" type="hidden" value="			&lt;div id=&quot;backtotopfine&quot;&gt;&lt;a href=&quot;#top&quot;&gt;Back to top&lt;/a&gt;&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="		&lt;/div&gt;	">
+<input name="TempBody" type="hidden" value="&lt;!-- Start Tab Two --&gt;">
+<input name="TempBody" type="hidden" value="		&lt;div class=&quot;tabcontent clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="			&lt;a id=&quot;tabTwo&quot; name=&quot;tabTwo&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="				&lt;ul&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Fluid Tips:&lt;/b&gt; 1.0 mm, 1.3 mm, 1.4 mm, 1.5 mm, 1.8 mm&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Air Consumption (cfm):&lt;/b&gt; 9.5 SCFM&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Max Inlet HVLP psi:&lt;/b&gt; 29 psi (2.0 bar, 200 kPa)&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Weight With  Cup:&lt;/b&gt; 1.11 lb &lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Air Inlet npsm:&lt;/b&gt; 1/4 in&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Finish:&lt;/b&gt; Black Nickel&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Cup Size:&lt;/b&gt; 600 cc&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="				    &lt;li&gt;&lt;b&gt;Pattern Size:&lt;/b&gt; 12.5 in&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;Warranty:&lt;/b&gt; 1 year&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="				&lt;/ul&gt;	">
+<input name="TempBody" type="hidden" value="			    &lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; class=&quot;techspecs&quot;&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr class=&quot;techspecsheader&quot;&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td width=&quot;134&quot;&gt;Tip Size (mm)&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td width=&quot;138&quot;&gt;Gun Part Number&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td width=&quot;248&quot;&gt;Needle, Nozzle, Air Cap Kit Part Number&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;1.0&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;288878&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;289296&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;1.3&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;288879&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;289297&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;1.4&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;288880&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;289298&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;1.5&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;288881&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;289299&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;tr&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;1.8&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;288882&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                    &lt;td&gt;289300&lt;/td&gt;">
+<input name="TempBody" type="hidden" value="                  &lt;/tr&gt;">
+<input name="TempBody" type="hidden" value="                &lt;/table&gt;">
+<input name="TempBody" type="hidden" value="			    &lt;div id=&quot;backtotopfine&quot;&gt;&lt;a href=&quot;#top&quot;&gt;Back to top&lt;/a&gt;&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="		&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- Start Tab Three --&gt;">
+<input name="TempBody" type="hidden" value="		&lt;div class=&quot;tabcontent clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="			&lt;a id=&quot;tabThree&quot; name=&quot;tabThree&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="				&lt;ul&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;1.0 mm:&lt;/b&gt; Light industrial, hobby, spot repair, base coat, clear coat&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;1.3 mm:&lt;/b&gt; Base coat, high solid, single stages, clear coat&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;1.4 mm:&lt;/b&gt; Base coat, clear coat single stages, sealers, low solid clear, clear coat&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;1.5 mm:&lt;/b&gt; Base coat, sealers, enamels, medium to high viscosity, clear coat&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;b&gt;1.8 mm:&lt;/b&gt; Primer, high viscosity&lt;/li&gt;					">
+<input name="TempBody" type="hidden" value="				&lt;/ul&gt;">
+<input name="TempBody" type="hidden" value="			&lt;div id=&quot;backtotopfine&quot;&gt;&lt;a href=&quot;#top&quot;&gt;Back to top&lt;/a&gt;&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="		&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- Start Tab Four --&gt;">
+<input name="TempBody" type="hidden" value="		&lt;div class=&quot;tabcontent clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="			&lt;a id=&quot;tabFour&quot; name=&quot;tabFour&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="		&lt;img src=&quot;../images/exampleapp2_fx3000.jpg/$File/exampleapp2_fx3000.jpg&quot; width=&quot;200&quot; height=&quot;200&quot; alt=&quot;FX3000&quot;&gt;">
+<input name="TempBody" type="hidden" value="				&lt;ul&gt;">
+<input name="TempBody" type="hidden" value="					">
+<input name="TempBody" type="hidden" value="                                                            &lt;li&gt;&lt;a href=&quot;../Search?OpenAgent&amp;Query=339241%26Download&quot;&gt;Find Literature&lt;/a&gt;&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="					&lt;li&gt;&lt;a href=&quot;../Search?OpenAgent&amp;Query=312372%26Download&quot;&gt;Find Manual&lt;/a&gt;&lt;/li&gt;">
+<input name="TempBody" type="hidden" value="				&lt;/ul&gt;">
+<input name="TempBody" type="hidden" value="			&lt;div id=&quot;backtotopfine&quot;&gt;&lt;a href=&quot;#top&quot;&gt;Back to top&lt;/a&gt;&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="		&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- End all tab content --&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- Start list of related items, maximum five --&gt;">
+<input name="TempBody" type="hidden" value="&lt;div id=&quot;relatedproducts&quot; class=&quot;clearfix&quot;&gt;">
+<input name="TempBody" type="hidden" value="	&lt;h2&gt;Accessories&lt;/h2&gt;">
+<input name="TempBody" type="hidden" value="	&lt;div class=&quot;relatedproduct&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/Finex+Ultra+Mini+Aluminum+Gravity+Cup&quot;&gt;&lt;img src=&quot;../images/125cc_UltraMini_Cup.jpg/$File/125cc_UltraMini_Cup.jpg&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;125cc Cup&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/Finex+Ultra+Mini+Aluminum+Gravity+Cup&quot;&gt;Ultra Mini Aluminum Cup&lt;br&gt;125cc&lt;/a&gt;&lt;br&gt;PN: 289517">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="	&lt;div class=&quot;relatedproduct&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/Finex+Mini+Aluminum+Gravity+Cup&quot;&gt;&lt;img src=&quot;../images/250cc_Mini_Cup.jpg/$File/250cc_Mini_Cup.jpg&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;250cc Cup&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/Finex+Mini+Aluminum+Gravity+Cup&quot;&gt;Mini Aluminum Cup&lt;br&gt;250cc&lt;/a&gt;&lt;br&gt;PN: 289321">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="	&lt;div class=&quot;relatedproduct&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/PPS+Adapters&quot;&gt;&lt;img src=&quot;../images/PPS_adaptors.jpg/$File/PPS_adaptors.jpg&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;PPS Adapter&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/PPS+Adapters&quot;&gt;3M&lt;sup&gt;&amp;trade;&lt;/sup&gt; PPS&lt;sup&gt;&amp;trade;&lt;/sup&gt; Adapter&lt;/a&gt;&lt;br&gt;PN: 289520">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="	&lt;div class=&quot;relatedproduct&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;img src=&quot;../images/NeedlePackingKit.jpg/$File/NeedlePackingKit.jpg&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;Needle Packing Kit&quot;&gt;">
+<input name="TempBody" type="hidden" value="		Needle Packing Kit&lt;br&gt;PN: 288891">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="            &lt;div class=&quot;relatedproduct&quot;&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/24AAV+Air+Adjusting+Valve+with+Gauge&quot;&gt;&lt;img src=&quot;../images/th_2210.jpg/$File/th_2210.jpg&quot; width=&quot;75&quot; height=&quot;75&quot; alt=&quot;2210 Air Adjusting Valve&quot;&gt;&lt;/a&gt;">
+<input name="TempBody" type="hidden" value="		&lt;a href=&quot;../Page/24AAV+Air+Adjusting+Valve+with+Gauge&quot;&gt;Air Adjusting Valve&lt;/a&gt;&lt;br&gt;PN: 2210">
+<input name="TempBody" type="hidden" value="	&lt;/div&gt;	">
+<input name="TempBody" type="hidden" value="&lt;/div&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- End related products --&gt;">
+<input name="TempBody" type="hidden" value="&lt;!-- End main body content --&gt;">
+<input name="Summary" type="hidden" value="">
+<input name="AutoLink" type="hidden" value="No">
+<input name="HomePage" type="hidden" value="No">
+<input name="WhatsNew" type="hidden" value="No">
+<input name="WNOrderNumber" type="hidden" value="000010">
+<input name="QuickLinks" type="hidden" value="No">
+<input name="QLOrderNumber" type="hidden" value="000000">
+<input name="Status" type="hidden" value="Active">
+<input name="SearchKeywords" type="hidden" value="razer, razar, razr, srpay guns, spay gun">
+<input name="Remote_User" type="hidden" value="">
+<input name="Path_Info" type="hidden" value="/sharpe/sharpe.nsf/Page/Finex+FX3000"></form>
+</body>
+</html>

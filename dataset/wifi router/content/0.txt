@@ -1,0 +1,494 @@
+Dream Machine - Ubiquiti Store United States
+Visiting us from 
+?
+Continue to United States Store
+Select Other Country / Region
+Cloud Gateways
+WiFi
+Switching
+Camera Security
+Door Access
+New Integrations
+Accessory Tech
+Identity
+Support
+Store
+Dream Machine
+Dream Machine
+UDM
+$299.00
+All-in-one UniFi Gateway and access point designed to support LAN and WiFi networks.
+ Built-in WiFi 5 AP
+
+
+  Includes UniFi Network for device management
+
+
+ Full Gigabit routing
+
+
+ (4) GbE RJ45 LAN ports
+
+
+Add to Cart
+Installation Guide
+Technical Specifications
+
+
+
+
+
+
+
+
+
+
+Mechanical
+
+
+
+
+
+
+Dimensions
+
+
+Ø110 x 184.1 mm (Ø4.3 x 7.3")
+
+
+
+
+
+
+Weight
+
+
+1.1 kg (2.3 lb)
+
+
+
+
+
+
+Enclosure material
+Polycarbonate
+
+
+
+
+
+
+Hardware
+
+
+
+
+
+
+Processor
+
+
+Quad-core Arm® Cortex® A57 at 1.7 GHz
+
+
+
+
+
+
+System memory
+
+
+2 GB DDR RAM
+
+
+
+
+
+
+Management interface
+
+
+Ethernet
+Bluetooth
+
+
+
+
+
+
+Networking interface
+
+
+LAN: 
+(4) GbE RJ45 ports
+WAN: 
+(1) GbE RJ45 port
+
+
+
+
+
+
+
+Power method
+
+
+ Universal AC input, 100—240V AC, 0.6A Max., 50/60 Hz
+
+
+
+
+
+
+Power supply
+
+
+AC/DC, internal, 50W
+
+
+
+
+
+
+Supported voltage range
+
+
+100—240V AC
+
+
+
+
+
+
+Max. power consumption
+
+
+26W
+
+
+
+
+
+
+Max. TX power
+2.4 GHz
+5 GHz
+
+
+23 dBm
+26 dBm
+
+
+
+
+
+
+MIMO
+2.4 GHz
+5 GHz
+2 x 2
+4 x 4
+
+
+
+
+
+
+Throughput rate
+2.4 GHz
+5 GHz
+300 Mbps
+1.7 Gbps
+
+
+
+
+
+
+Antenna gain
+2.4 GHz
+5 GHz
+
+
+3 dBi
+4.5 dBi
+
+
+
+
+
+
+Antenna
+
+
+(1) Internal, dual-band, quad-polarity antenna
+
+
+
+
+
+
+Button
+
+
+Factory reset
+
+
+
+
+
+
+LEDs
+White/blue
+
+
+
+
+
+
+Ambient operating temperature
+
+
+-10 to 45° C (14 to 113° F)
+
+
+
+
+
+
+Ambient operating humidity
+
+
+5 to 95% Noncondensing
+
+
+
+
+
+
+Certifications
+
+
+CE, FCC, IC
+
+
+
+
+
+
+Gateway Features
+
+
+
+
+
+
+Performance 
+
+WiFi QoS with UniFi APs
+
+Application, domain, and country-based QoS
+
+Application and device type identification
+
+Additional internet failover with LTE Backup
+
+Internet quality and outage reporting
+
+
+
+
+
+
+Next-generation security
+Application-aware firewall rules
+
+Signature-based IPS/IDS threat detection
+
+Content, country, domain, and ad filtering
+
+VLAN/subnet-based traffic segmentation
+
+Full stateful firewall
+
+
+
+
+
+
+Advanced networking
+License-free SD-WAN
+WireGuard, L2TP and OpenVPN server
+
+OpenVPN client
+
+OpenVPN and IPsec site-to-site VPN
+
+One-click Teleport and Identity VPN
+
+Policy-based WAN and VPN routing
+
+DHCP relay
+
+Customizable DHCP server
+
+IGMP proxy
+
+IPv6 ISP support
+
+
+
+
+
+
+
+Software
+
+
+
+
+
+
+WiFi standards
+
+
+802.11a/b/g/n/ac
+
+
+
+
+
+
+Wireless security
+
+
+WEP, WPA-PSK, WPA-Enterprise (WPA/WPA2, TKIP/AES), 802.11w/PMF
+
+
+
+
+
+
+BSSID
+
+
+Up to 8 per radio
+
+
+
+
+
+
+VLAN
+802.1Q
+
+
+
+
+
+
+Advanced QoS
+Per-user rate limiting
+
+
+
+
+
+
+Guest traffic isolation
+Supported
+
+
+
+
+
+
+Concurrent clients
+100+
+
+
+
+
+
+
+Supported Data Rates
+
+
+
+
+
+
+802.11a
+6, 9, 12, 18, 24, 36, 48, 54 Mbps
+
+
+
+
+
+
+802.11b
+1, 2, 5.5, 11 Mbps
+
+
+
+
+
+
+802.11g
+6, 9, 12, 18, 24, 36, 48, 54 Mbps
+
+
+
+
+
+
+802.11n (WiFi 4)
+6.5 Mbps to 300 Mbps (MCS0 - MCS15, HT 20/40)
+
+
+
+
+
+
+802.11ac (WiFi 5)
+6.5 Mbps to 1.7 Gbps (MCS0 - MCS9 NSS1/2/3/4, VHT 20/40/80/160)
+
+
+
+
+
+
+ 
+Company
+Careers
+Contact Us
+Investors
+ 
+Training
+Courses
+Calendar
+Trainers
+Become a Trainer
+ 
+Buy Now
+Find a Distributor
+Stock Locator Tool
+Become a Distributor
+ 
+Tools
+WiFiman
+UISP
+UniFi Design Center
+UISP Design Center
+Stay in Touch
+Subscribe
+Terms and Conditions
+|
+Terms of Service
+|
+Privacy Policy
+|
+Return Policy
+|
+Cookies Settings
+© 2024 Ubiquiti Inc. All rights reserved.

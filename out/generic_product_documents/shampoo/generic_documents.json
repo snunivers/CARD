@@ -1,0 +1,86 @@
+{
+  "category": "shampoo",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 87,
+      "text": "[BRAND] [MODEL] Hydrating Shampoo is designed for dry, brittle hair that needs daily moisture without feeling heavy. The formula combines glycerin, oat protein, and coconut-derived cleansers to lift buildup while helping reduce roughness and static. It creates a soft, creamy lather and rinses clean, leaving hair smoother and easier to comb. Suitable for straight, wavy, or relaxed hair, this shampoo is pH-balanced and gentle enough for frequent use. A subtle fresh scent keeps the wash routine pleasant, while the lightweight finish helps preserve natural movement and shine."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 88,
+      "text": "[BRAND] [MODEL] Clarifying Shampoo targets excess oil, styling residue, and hard-water buildup with a deep-cleaning formula made for weekly or occasional use. Infused with citrus extract and mild purifying agents, it refreshes the scalp without leaving hair overly stripped. This shampoo is ideal for people who use dry shampoo, hairspray, or leave-in products regularly. It produces a rich foam, rinses quickly, and helps restore a lighter, cleaner feel from roots to ends. [BRAND] [MODEL] works well before conditioning treatments or masks, especially on fine to medium hair textures."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 88,
+      "text": "[BRAND] [MODEL] Volumizing Shampoo is created for fine, limp hair that needs body and bounce. Lightweight rice protein and panthenol help support fuller-looking strands while gentle cleansers remove oil that can flatten the roots. The airy formula avoids heavy silicones, making it a good option for daily washing or for anyone seeking a more lifted finish. Hair feels clean, soft, and easier to style after use. [BRAND] [MODEL] also helps improve manageability without sacrificing movement, making blowouts and natural styles appear fresher and more defined throughout the day."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Color Care Shampoo is formulated to cleanse dyed or highlighted hair while helping preserve tone and shine. Sulfate-free surfactants remove daily impurities with a softer touch, and added sunflower seed extract supports color longevity by limiting dullness from repeated washing. The texture is smooth and easy to distribute, creating a gentle lather that rinses clean without weighing hair down. Suitable for chemically treated, bleached, or glossed hair, [BRAND] [MODEL] helps maintain softness and brightness. It is especially useful for extending time between salon visits and reducing faded-looking ends."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Anti-Dandruff Shampoo helps address visible flakes, itchiness, and scalp discomfort with an active formula designed for regular use. It combines a proven anti-flake ingredient with soothing aloe and cooling mint for a refreshed feel after rinsing. The shampoo cleans effectively without making the hair feel stiff, so it suits normal to oily scalps and most hair types. With continued use, [BRAND] [MODEL] helps reduce scalp buildup and leaves hair looking cleaner at the roots. The balanced formula offers a practical option for everyday scalp maintenance and comfort."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Daily Gentle Shampoo is a simple, balanced cleanser for the whole household. Made with mild surfactants and chamomile extract, it removes everyday dirt and oil while helping hair stay soft and manageable. The formula is suitable for normal hair and works well on straight, wavy, or lightly textured strands. It has a light scent, medium lather, and easy-rinse finish that leaves no heavy residue behind. [BRAND] [MODEL] is a dependable choice for frequent washing, gym routines, or anyone who prefers a clean, uncomplicated shampoo with consistent results."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Curl Definition Shampoo is developed for curly and coily hair that needs moisture, slip, and gentle cleansing. Enriched with shea butter, flaxseed extract, and coconut-derived cleansers, it helps remove buildup while keeping natural texture soft and springy. The low-foam formula supports reduced tangling and easier detangling during wash day. Hair feels refreshed without losing shape or becoming overly dry. [BRAND] [MODEL] is suitable for natural, transitioning, or permed curls and can be used as part of a moisture-focused routine to improve softness, shine, and curl pattern clarity."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Repair Shampoo is intended for damaged hair affected by heat styling, coloring, or frequent brushing. The formula includes keratin amino acids, argan oil, and conditioning agents that help smooth rough cuticles and reduce the look of split, fragile ends. It cleans thoroughly while supporting a softer, more resilient texture over time. [BRAND] [MODEL] works well on medium to thick hair and leaves a polished finish without an oily feel. With a warm salon-style fragrance and creamy consistency, it is ideal for users seeking strength, shine, and improved manageability."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Oil Control Shampoo is made for greasy roots and a scalp that feels weighed down quickly. Featuring tea tree extract, niacinamide, and lightweight cleansers, it helps remove excess sebum while maintaining a comfortable, balanced feel. The formula creates a brisk, refreshing lather and is especially useful after workouts or humid days. Hair looks cleaner for longer and feels less flat at the crown. [BRAND] [MODEL] suits fine to medium hair and can be paired with a light conditioner on the ends for a fresher finish without sacrificing softness."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Sensitive Scalp Shampoo offers mild cleansing for users who want fewer irritants in their haircare routine. Free from added dyes and made with oat extract and allantoin, it helps calm the scalp while washing away sweat, dust, and light product residue. The texture is silky and easy to spread, producing a soft lather that rinses with minimal effort. [BRAND] [MODEL] is suitable for normal to dry hair and works well for frequent use. It leaves hair feeling fresh, smooth, and comfortable without an overpowering fragrance or heavy after-feel."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Thickening Shampoo is designed to make thinning or flat hair appear denser and more full-bodied. A blend of biotin, wheat protein, and volumizing polymers helps support stronger-feeling strands while cleansing away oil that can reduce lift. The lightweight formula gives roots a cleaner, more energized look without coating the hair heavily. Ideal for fine or aging hair, [BRAND] [MODEL] can be used daily and pairs well with styling products aimed at fullness. After rinsing, hair feels softer, easier to style, and visibly less limp through the mid-lengths."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] 2-in-1 Shampoo combines cleansing and light conditioning in one step for a faster routine. Suitable for normal to slightly dry hair, it uses gentle surfactants and conditioning agents to remove dirt while helping reduce tangles and static. The formula is especially practical for travel, gym bags, or busy mornings when convenience matters. [BRAND] [MODEL] leaves hair soft, lightly moisturized, and easy to comb without the heaviness of a richer conditioner. A crisp, clean fragrance and quick-rinse texture make it a straightforward choice for everyday maintenance and simple grooming."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 87,
+      "text": "[BRAND] [MODEL] Kids Shampoo is made to cleanse gently while being easy on delicate hair and sensitive scalps. The tear-minimized formula creates a soft lather that lifts away sweat, dust, and playground grime without harsh stripping. Added calendula and glycerin help maintain softness, leaving hair smooth and easier to brush after bath time. [BRAND] [MODEL] has a light fruity scent and rinses quickly, which helps simplify the wash routine for parents. Suitable for fine, straight, or wavy children’s hair, it provides a mild clean for regular use."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 92,
+      "text": "[BRAND] [MODEL] Purple Shampoo is designed for blonde, silver, or highlighted hair that can develop unwanted yellow tones. Violet pigments help neutralize brassiness, while moisturizing ingredients like panthenol and almond oil keep the hair from feeling overly dry after toning. The formula works best when left on for a short period before rinsing, depending on desired results. [BRAND] [MODEL] provides a controlled cleanse and leaves hair looking cooler and brighter with a smoother finish. It is a practical maintenance shampoo for between color appointments and works on natural gray hair as well."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Balance Shampoo is tailored for combination hair, where roots become oily but lengths stay dry. Its dual-action formula uses lightweight purifying cleansers at the scalp and moisture-supporting ingredients such as aloe and provitamin B5 through the ends. This helps deliver a more even, comfortable feel after washing. [BRAND] [MODEL] offers a fresh lather, easy rinse, and a clean finish that does not leave hair squeaky or coated. Suitable for everyday or alternate-day use, it helps improve softness, root freshness, and overall manageability without needing multiple specialized products."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 91,
+      "text": "[BRAND] [MODEL] Shine Enhancing Shampoo is created for dull hair that looks healthy but lacks brightness. Silk protein, apple extract, and smoothing agents help refine the hair surface so it reflects light more evenly after washing. The cleanser removes daily residue gently, leaving strands soft and polished rather than weighed down. [BRAND] [MODEL] is suitable for most hair types, especially straight or blow-dried styles where gloss is more visible. With a refined floral scent and smooth lather, it supports a sleek finish, improved softness, and a cleaner, more radiant overall appearance."
+    }
+  ]
+}

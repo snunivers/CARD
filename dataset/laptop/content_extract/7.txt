@@ -1,0 +1,107 @@
+FUJITSU Notebook LIFEBOOK U9311X
+
+Available in black and red, the new ultra-mobile FUJITSU LIFEBOOK U9311X is an ultra-light 360-degree foldable device. All-day battery runtime ensures all-day productivity, while security features such as the optional integrated PalmSecure™ palm vein sensor keep your business data protected. Powerful performance and full connectivity offer you best-in-class user experience.
+
+Features and Benefits
+
+Maximum security
+
+Protect your notebook and business data from unauthorized access at all times
+
+Optional PalmSecureTM palm vein sensor or Fingerprint sensor
+FHD IR Camera allows face recognition with Windows Hello
+Kensington Lock support
+Smartcard reader and TPM 2.0
+Microsoft Secured-core PC compliant
+
+Ultra-slim and lightweight design
+
+Extraordinarily lightweight design for business professionals who are always on the move
+
+A remarkably slim 16.9 mm convertible weighing from 1015 g with a robust magnesium housing
+Appealing ultra-slim convertible in black or red
+The best viewing experience is guaranteed by a 13.3” FHD (1920 x 1080) display with anti-glare touch
+Support pen input with WACOM AES technology and 4,096 pressure level, delivering ultimate precision and control
+
+Convenient mobility on the go
+
+Highest productivity on business trips
+
+All-day battery runtime offers you the exceptional mobility that you need when on the move
+Anytime USB charge functionality to charge smartphones and other media devices, even when the system is powered off
+Powerful performance, thanks to integrated NVMe SSD, helping to process data faster
+
+Excellent Connectivity
+
+Be flexible and stay productive in a hyper-connected world
+
+Compact and versatile Thunderbolt™ 4 connector to charge your laptop, transfer files at fast speeds, connect external monitors and other peripherals
+Full set of interfaces with a full-sized HDMI and LAN connector
+Embedded WLAN supporting Gigabit Wi-Fi 6, Bluetooth and optional 4G/LTE
+
+Use your device as a Notebook or a Tablet, depending on what you need
+
+Designed to take your productivity to the next level, whether you’re outdoors or indoors
+
+360° foldable 2 in 1 device with 4 functional working modes
+Pen garage with inductive charging function
+5MP rear camera for taking pictures in tablet mode
+Quick Note Taking Button allows users to quickly activate SketchPad or StickyNote through Windows Ink Workspace
+
+Technical Details
+
+Product
+FUJITSU LIFEBOOK U9311X
+Operating System
+Windows 10 Home
+
+Windows 10 Pro
+
+Fujitsu recommends Windows 11 Pro for business.
+Processor
+Intel® Core™ i7-1185G7 Processor (Quad Cores, 12M Cache, 1.2 GHz, up to 4.80 GHz)
+
+Intel® Core™ i7-1165G7 Processor (Quad Cores, 12M Cache, 1.2 GHz, up to 4.70 GHz)
+
+Intel® Core™ i5-1145G7 Processor (Quad Cores, 8M Cache, 1.1 GHz, up to 4.40 GHz)
+
+Intel® Core™ i5-1135G7 Processor (Quad Cores, 8M Cache, 0.9 GHz, up to 4.20 GHz)
+Memory
+Up to 32 GB LPDDR4x-4266
+Storage
+256 GB / 512 GB / 1 TB Value-PCIe 3.0 NVMe M.2 2280 SSD, SED/ OPAL2
+
+512GB/1TB/2TB PCIe 3.0 NVMe M.2 2280 SSD, SED/OPAL2
+
+512 GB Intel® PCIe 3.0 NVMe M.2 2280 SSD with 32 GB Intel® Optane™ memory H10
+Display
+13.3” FHD (1,920 x 1,080) touch, UWVA, antiglare, 1,000:1, 400cd/m²
+Graphics
+Intel® Iris® Xe Graphics
+Camera (Optional)
+FHD IR camera (Supporting Windows Hello)
+Audio
+HD Audio, Realtek ALC255, High quality speakers
+
+Dual-array microphone
+Dimension (W x D x H)
+309 mm x 214.8 mm x 16.9 mm
+Weight
+Starting from 1015 g
+Input/Output Ports
+2x USB 3.2 Gen 1 (1 with Anytime USB Charge) 
+
+2x Thunderbolt™ 4 (with DisplayPort and Power Delivery function) / 2x USB-C™ (1 with DisplayPort and Power Delivery function)
+
+1x HDMI
+
+1x RJ45 
+
+1x Memory card slot (support SD, SDHC, SDXC)
+
+1x Audio Combo (line-in / line-out) 
+
+1x SIM card slot (only for models with integrated WWAN module)
+Keyboard
+US/ Thai Keyboard w/backlit
+

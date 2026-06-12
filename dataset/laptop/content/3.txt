@@ -1,0 +1,1414 @@
+
+
+
+
+
+
+MSI GT76 Titan - Evolve! Be Enchanted with The Dragon Spirit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            {{ item.title }}
+                        
+
+
+
+                            {{ item.title }}
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+{{productLine}}
+
+
+
+
+
+
+
+
+
+
+
+                            {{data.name}}
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{store.name}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {{data.name}}
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Differences are marked in red
+
+
+
+
+
+                        GT76 Titan DT 9SGS                        
+
+
+
+
+
+
+
+
+
+
+
+                        GT76 Titan DT 9SG                        
+
+
+
+
+
+
+
+
+
+
+
+                        GT76 Titan DT 9SFS                        
+
+
+
+
+
+
+
+
+
+
+
+                        GT76 Titan DT 9SF                        
+
+
+
+
+
+
+
+
+
+
+
+                        GT76 Titan 9SG                        
+
+
+
+
+
+
+
+
+
+
+
+                        GT76 Titan 9SF                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CPU
+
+
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+                                                                                                Up to 9th Gen. Intel
+®
+ Core™ i9 Processor
+ 
+
+
+
+
+
+
+OS
+
+
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+                                                                                                Windows 10 Pro
+
+Windows 10 Home
+ 
+
+
+
+
+
+
+Display
+
+
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+                                                                                                17.3" UHD (3840x2160), IPS-Level
+
+17.3" FHD (1920x1080), 240Hz, IPS-Level
+ 
+
+
+
+
+
+
+Chipset
+
+
+
+
+
+                                                                                                Intel
+®
+ Z390
+ 
+
+
+
+                                                                                                Intel
+®
+ Z390
+ 
+
+
+
+                                                                                                Intel
+®
+ Z390
+ 
+
+
+
+                                                                                                Intel
+®
+ Z390
+ 
+
+
+
+                                                                                                Intel
+®
+ CM246
+ 
+
+
+
+                                                                                                Intel
+®
+ CM246
+ 
+
+
+
+
+
+
+Graphics
+
+
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce
+®
+ RTX 2080 SUPER™ With 8GB GDDR6
+ 
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce RTX™ 2080 with 8GB GDDR6
+ 
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce
+®
+ RTX 2070 SUPER™ With 8GB GDDR6
+ 
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce RTX™ 2070 with 8GB GDDR6
+ 
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce RTX™ 2080 with 8GB GDDR6
+ 
+
+
+
+                                                                                                NVIDIA
+®
+ GeForce RTX™ 2070 with 8GB GDDR6
+ 
+
+
+
+
+
+
+Memory
+
+
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                DDR4-2666
+                                                                                                                                4 Slots
+ 
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                DDR4-2666
+                                                                                                                                4 Slots
+ 
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                DDR4-2666
+                                                                                                                                4 Slots
+ 
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                DDR4-2666
+                                                                                                                                4 Slots
+ 
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                DDR4-2666
+                                                                                                                                4 Slots
+ 
+
+
+
+                                                                                                Max 128GB
+                                                                                                                                4 Slots
+ 
+
+
+
+
+
+
+Storage Capability
+
+
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+                                                                                                1x M.2 SSD slot (NVMe PCIe Gen3), 2x M.2 SSD Combo (NVMe PCIe Gen3 / SATA )
+                                                                                                                                1x 2.5" SATA HDD
+ 
+
+
+
+
+
+
+Webcam
+
+
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+                                                                                                HD type (30fps@720p)
+ 
+
+
+
+
+
+
+Keyboard
+
+
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+                                                                                                Per-Key RGB Keyboard
+ 
+
+
+
+
+
+
+Communication
+
+
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+                                                                                                Killer Gb LAN
+                                                                                                                                Killer ax Wi-Fi + Bluetooth v5.1
+ 
+
+
+
+
+
+
+Audio
+
+
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+                                                                                                2x 2W Speaker
+                                                                                                                                1x 3W Woofer
+ 
+
+
+
+
+
+
+Audio Jack
+
+
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+                                                                                                1x Mic-in, 1x Headphone-out (HiFi / SPDIF)
+ 
+
+
+
+
+
+
+I/O Ports
+
+
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+                                                                                                1x Type-C (USB3.2 Gen2 / DP / Thunderbolt™3)
+                                                                                                                                1x Type-C USB3.2 Gen2
+                                                                                                                                4x Type-A USB3.2 Gen2
+                                                                                                                                1x Micro SD Card Reader
+                                                                                                                                1x HDMI™ 2.1 (4K @ 60Hz)
+                                                                                                                                1x Mini-DisplayPort
+                                                                                                                                1x RJ45
+ 
+
+
+
+
+
+
+Battery
+
+
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+                                                                                                8-Cell
+                                                                                                                                90 Battery (Whr)
+ 
+
+
+
+
+
+
+AC Adapter
+
+
+
+
+
+                                                                                                2x 230W adapter
+ 
+
+
+
+                                                                                                2x 230W adapter
+ 
+
+
+
+                                                                                                2x 230W adapter
+ 
+
+
+
+                                                                                                2x 230W adapter
+ 
+
+
+
+                                                                                                2x 230W adapter
+ 
+
+
+
+                                                                                                330W adapter / 2x 230W adapter (for i9 CPU)
+ 
+
+
+
+
+
+
+Weight (w/ Battery)
+
+
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+                                                                                                4.2 kg
+ 
+
+
+
+
+
+
+Dimension (WxDxH)
+
+
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+                                                                                                397 x 330 x 33~42 mm
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*Upgrade timing may vary by device. Features and app availability may vary by region. Certain features require specific hardware (see 
+Windows 11 Specifications
+).
+
+
+Intel, the Intel Logo, Intel Inside, Intel Core, and Core Inside are trademarks of Intel Corporation or its subsidiaries in the U.S. and/or other countries.
+
+
+The terms HDMI™, HDMI™ High-Definition Multimedia Interface, HDMI™ Trade dress and the HDMI™ Logos are trademarks or registered trademarks of HDMI™ Licensing Administrator, Inc.
+
+
+© 2023 NVIDIA Corporation. All rights reserved. NVIDIA, the NVIDIA logo, GeForce, GeForce RTX, and NVIDIA Turing are registered trademarks and/or trademarks of NVIDIA Corporation in the United States and other countries. All other trademarks and copyrights are the property of their respective owners.
+
+
+MSI, MSI gaming, dragon, and dragon shield names and logos, as well as any other MSI service or product names or logos displayed on the MSI website, are registered trademarks or trademarks of MSI. The names and logos of third party products and companies shown on our website and used in the materials are the property of their respective owners and may also be trademarks. MSI trademarks and copyrighted materials may be used only with written permission from MSI. Any rights not expressly granted herein are reserved.
+
+
+
+
+
+
+All images and descriptions are for illustrative purposes only. Visual representation of the products may not be perfectly accurate. Product specification, functions and appearance may vary by models and differ from country to country. All specifications are subject to change without notice. Although we endeavor to present the most precise and comprehensive information at the time of publication, a small number of items may contain typography or photography errors. Some products and configuration may not be available in all markets or launch time differs. Supplies are limited. We recommend you to check with your local supplier for exact offers and detail specifications.
+
+
+Adobe product box shots reprinted with permission from Adobe Systems Incorporated. Adobe® products are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.Autodesk screen shots reprinted courtesy of Autodesk, Inc.
+
+
+MIL-STD 810H or MIL-STD 810G testing is conducted on select MSI products. The testing is not a representation of MSI products satisfying U.S. Department of Defense (DoD) requirements or for military use. Validation process is done in laboratory conditions. Test results do not guarantee future performance under these test conditions. Damage under such test conditions is not covered by MSI’s standard warranty.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

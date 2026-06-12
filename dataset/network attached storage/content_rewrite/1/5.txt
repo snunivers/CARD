@@ -1,0 +1,9 @@
+Fujitsu’s ETERNUS AF250 is a high performance 8-bay network storage solution ideal for businesses and demanding users requiring a reliable RAID-based network storage solution for business critical applications. Increased speed and reliability is achieved with a 10GbE connection and hard drives built for always-on NAS devices. With the powerful Annapurna Labs® Alpine AL314 1.7Ghz Quad-Core processor, ETERNUS AF250 provides exceptional performance during file transfers and everyday NAS functions.
+
+The AF250 model is available in partially-populated units with 16 TB or 32 TB, and fully-populated units with 32TB and 64 TB. Partially populated models are ideal for users needing a small start with less initial investment. Populated with same size Fujitsu OP-HD** only, for full support and warranty.
+
+High transmission speed
+The 10GbE connectivity impresses with exceptional speed.
+
+VMware-ready
+With this device you are supported by VMware if you have an ESX problem because this NA

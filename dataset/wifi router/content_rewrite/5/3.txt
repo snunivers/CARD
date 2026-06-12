@@ -1,0 +1,9 @@
+The Linksys
+®
+ Small Business RV260, RV260P, and WRT3200ACM AC3200 Gigabit Wi-Fi Router VPN routers are high-performance models combining business-class features with performance, security, reliability, and overall value at a great price point. These models are perfect for the small business, small enterprise, branch, or small home office network.
+
+Product overview
+
+Easy to configure and install, the RV260 routers can be remotely deployed using Plug and Play (PnP), are supported by the Linksys FindIT network platform, and feature a new user interface.
+
+These models have a dual-core processor that provides performance usually found only in more expensive solutions. A Small Form-Factor Pluggable (SFP) WAN port provides flexible connectivity and investment protection. Like the other models in the portfolio, the RV260, 260P, and WRT3200ACM AC3200 Gigabit Wi-Fi Router include standard features such as a business-grade Stateful Packet Inspection (SPI) firewall, VPN security (IP Security [IPsec], Point-to-Point Tunneling Protocol [PPTP], and OpenVPN), content f

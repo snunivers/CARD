@@ -1,0 +1,47 @@
+Buffalo’s TeraStation 5810DN is a high performance 8-bay network storage solution ideal for businesses and demanding users requiring a reliable RAID-based network storage solution for business critical applications. Increased speed and reliability is achieved with a 10GbE connection and hard drives built for always-on NAS devices. With the powerful Annapurna Labs® Alpine AL314 1.7Ghz Quad-Core processor, TeraStation 5810DN provides exceptional performance during file transfers and everyday NAS functions.
+
+The TS5810DN model is available in partially-populated units with 16 TB or 32 TB, and fully-populated units with 32TB and 64 TB. Partially populated models are ideal for users needing a small start with less initial investment. Populated with same size Buffalo OP-HD** only, for full support and warranty.
+
+High transmission speed
+The 10GbE connectivity impresses with exceptional speed.
+
+VMware-ready
+With this device you are supported by VMware if you have an ESX problem because this NAS device is VM-ready for NFS and iSCSI.
+
+Rsynch Feature
+Users can make backup copies from TeraStation to a rsync-compatible device from another manufacturer. This function also allows backups to be made from another manufacturer’s rsync-compatible NAS to the TeraStation NAS.
+
+Active Directory
+TeraStation functions as a client of an Active Directory domain, so that domain users and groups can be used. This means that they can be used in domain environments of companies with up to 10,000 users and groups.
+
+Including Buffalo VIP service
+Replacement of defective hard disks within 24 hours
+
+3 year warranty
+This product has a standard warranty of 3 years. Check for other possibilities of warranty extension.
+
+Cloud-ready!
+Buffalo’s TeraStation Series features B-Sync, which allows users to easily synchronize files between their TeraStation and 3rd party cloud services to make backups. The Buffalo NAS supports Amazon S3 Cloud Services, Dropbox, OneDrive and Azure.
+
+Intuitive web management interface
+The web interface has a dashboard that offers the user more effective views of system status, the ability to resize windows (even on the phone) and a more comfortable button layout.
+
+4 GB fast DDR3 ECC memory installed.
+
+iSCSI target support
+Works simultaneously as NAS and iSCSI target.
+
+Replication with TeraStation
+By replication, a folder in two separate TeraStations™ is synchronized almost in real time. This only happens in one direction (not bi-directional) – from the source to the destination. This function can be set up in LAN and WAN. WAN setup includes remote connection via port forwarding and VPN setup.
+
+Hot-swap function increases data security
+With the hot swap function, the TeraStation™ automatically switches off the defective hard disk even if one hard disk fails, so that it can be replaced safely without interrupting work or losing data.
+
+With Annapurna Lab’s quad-core processor
+Faster transfer of large files, faster file access from multiple computers.
+
+NovaStor Backup
+Including 11 licenses NovaBACKUP® Buffalo Edition software. NovaBACKUP® provides small and medium-sized companies that value the protection of their digital data with a complete data security solution in one package.
+
+Allocation of disk quota
+Hard disk quotas prevent the misuse of storage space by allocating appropriate amounts of storage to users.

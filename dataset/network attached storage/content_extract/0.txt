@@ -1,0 +1,162 @@
+218 NAS
+
+Simple and robust. Take a look at what makes our powerful fireproof and waterproof two-drive NAS device so popular. Make sure you buy yours with factory-installed hard drives so you’re covered by the comprehensive ioSafe Data Recovery Service.
+
+$699.00 - $2,928.00
+
+MSRP: 
+
+The fireproof and waterproof ioSafe 218 NAS contains two hard drives configured as a redundant RAID 1 device.
+
+Drive Size
+
+					0TB (Diskless)				
+
+					4TB (Two 2TB Drives)				
+
+					8TB (Two 4TB Drives)				
+
+					12TB (Two 6TB Drives)				
+
+					16TB (Two 8TB Drives)				
+
+					24TB (Two 12TB Drives)				
+
+Warranty and Data Recovery Service (DRS)
+
+					2-Year Coverage (Included, No DRS with Diskless*)				
+
+					5-Year Coverage ($199 Upgrade)				
+
+Specifications
+
+General
+Disaster Proof
+Operating Environment
+Connections
+
+Inside the Box
+
+218 NAS device
+
+Accessory Pack
+
+AC Power Adapter
+
+AC Power Cord
+
+RJ-45 LAN Cable
+
+Quick Installation Guide
+
+Drive Bays
+
+2
+
+Max Internal Capacity
+
+24TB (Capacity may vary by RAID type)
+
+CPU
+
+Realtek RTD1296 Quad Core 1.4 GHz
+
+RAM
+
+2 GB DDR4
+
+Supported Operating Systems
+
+Windows 10 and 8.1
+
+Windows Server 2019, 2016, and 2012 product families
+
+macOS 10.13 High Sierra or newer
+
+Red Hat Enterprise Linux and Ubuntu LTS
+
+NAS OS
+
+Synology DSM*
+
+Product Dimensions
+
+150mm W x 305mm L x 231mm H (5.9in W x 12in L x 9.1in H)
+
+Product Weight
+
+Unpopulated: 14 kg (31 lbs)
+
+Populated: 16-18 kg (36-39 lbs)
+
+Fans
+
+(1) 92 mm x 92 mm
+
+Electrical
+
+60W, 100V to 240V AC, 50/60 Hz, Single Phase
+
+Warranty and Data Recovery Service
+
+2 years hardware warranty standard for all configurations.
+
+Devices that include factory-installed hard drives include two years DRS, extendable to 5 years. DRS upgrade includes 5 years of hardware warranty coverage.
+
+Fire Protection
+
+Up to 1550° F, 30 minutes per ASTM E-119
+
+Water Protection
+
+IP68: Fully submersed, fresh or salt water, 10 foot depth, 72 hours
+
+Theft Protection
+
+Metal Kensington Lock Slot, optional Floor Mount Kit
+
+Tested per UL, FCC and CE Standards
+
+Operating Temperatures
+
+5°C to 35°C (40°F to 95°F)
+
+Non-operating Temperatures
+
+-20°C to 60°C (-5°F to 140°F)
+
+Operating Humidity
+
+5% – 95% Relative Humidity
+
+Non-operating Humidity
+
+100%, Full water immersion, 10 feet, 3 days.
+
+Connections
+
+(1) Ethernet RJ45: up to 1 Gbps
+
+(2) USB 3.0 Type A: up to 5 Gbps
+
+Features
+
+You’re just as likely to find the fireproof and waterproof ioSafe 218 network attached storage (NAS) device in home offices as corner offices. That’s because our versatile and popular backup system creates redundant (RAID 1) copies of data. It also runs the Synology DiskStation Manager (DSM) software, making it perfect for collaboration and data backup. All in a modest package!
+
+IS IT GETTING WARMER AROUND HERE?
+
+If your business or office is threatened by fire, you won’t have time to get out a hard drive and back up your system before walking out the door. Enter the 218, which will withstand up to 1550° for 30 minutes.
+
+KEEP YOUR DATA DRY
+
+Our 218 will protect your data for 3 days when submerged in 10 feet of water. Is that a little overkill for the firefighter’s hose? Yes, probably. But it’ll sure come in handy if your basement floods!
+
+TWO DRIVES GETS HIGH FIVES
+
+Unfortunately, hard drives can fail. It’s not a matter of if but when. To eliminate this risk, the 218 NAS makes two copies of your data simultaneously on two different drives. This ensures that your work is protected no matter the danger.
+
+RUNS SYNOLOGY'S OS
+
+The 218 is powered by Synology’s DiskStation Manager operating system, a popular NAS OS with a thriving app ecosystem. Use your 218 from anywhere as a shared network storage system, find apps for productivity or media management, or create a private cloud.
+
+“I thought the unit was toast. The casing was badly charred and external connectors had melted. However, when I extracted the

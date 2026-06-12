@@ -1,0 +1,34 @@
+Nighthawk 8-Stream Dual-Band WiFi 6 Router, 6Gbps
+
+"The best router any savvy user could ask for." – 
+CNET
+
+"…top picks for VPN routers in 2023." – 
+ZDNet
+
+Features
+
+Powered by Netgear Router Manager (NRM), an intuitive OS built for security and performance
+
+Up to five networks
+Create up to 5 separate networks and 15 Wi-Fi SSIDs to distribute your devices based on their role or purpose.
+
+Network segmentation
+Isolate networks or set one-way access rules to limit connectivity to and from vulnerable devices.
+
+VLAN tagging
+Integrate the Nighthawk 8-Stream Dual-Band WiFi 6 Router, 6Gbps into existing networks with full VLAN support in router, AP, and mesh configurations.
+
+Make everything work together to fit your network needs
+
+Home Network
+
+Guest Network
+
+IoT Network
+
+Office Network
+
+Surveillance Network
+
+Your primary network is probably where most of your devices reside: laptops, tablets, smartphones, and smart TVs or speakers. Using Safe Access, you can easily create a default network profile that blocks malicious content and applies more restrictive filtering on sho

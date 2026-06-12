@@ -1,0 +1,226 @@
+{
+  "category": "blender",
+  "model_name": "gemma3-12b",
+  "rewriter_model": null,
+  "num_brands": 16,
+  "num_docs": 16,
+  "total_combinations": 256,
+  "brands": [
+    {
+      "brand_index": 0,
+      "brand": "Vitamix",
+      "model": "Ascent A3500i",
+      "knowledge_strength": 0.747681619528367,
+      "is_fictional": false,
+      "rank": 1
+    },
+    {
+      "brand_index": 1,
+      "brand": "Blendtec",
+      "model": "Professional 800",
+      "knowledge_strength": 0.9352698133894515,
+      "is_fictional": false,
+      "rank": 2
+    },
+    {
+      "brand_index": 2,
+      "brand": "Ninja",
+      "model": "Professional Plus Kitchen System with Auto-iQ",
+      "knowledge_strength": 0.999644644207703,
+      "is_fictional": false,
+      "rank": 3
+    },
+    {
+      "brand_index": 3,
+      "brand": "KitchenAid",
+      "model": "Artisan K150 Stand Blender",
+      "knowledge_strength": 0.7589459259515928,
+      "is_fictional": false,
+      "rank": 4
+    },
+    {
+      "brand_index": 4,
+      "brand": "Breville",
+      "model": "Super Q Blender",
+      "knowledge_strength": 0.6685518025656547,
+      "is_fictional": false,
+      "rank": 5
+    },
+    {
+      "brand_index": 5,
+      "brand": "Cuisinart",
+      "model": "CBT-1010 Velocity Cordless Rechargeable Blender",
+      "knowledge_strength": 0.6959649616440446,
+      "is_fictional": false,
+      "rank": 6
+    },
+    {
+      "brand_index": 6,
+      "brand": "NutriBullet",
+      "model": "Pro 900",
+      "knowledge_strength": 0.8029502924781845,
+      "is_fictional": false,
+      "rank": 7
+    },
+    {
+      "brand_index": 7,
+      "brand": "Hamilton Beach",
+      "model": "Power Elite Multi-Function Blender",
+      "knowledge_strength": 0.6917255160442084,
+      "is_fictional": false,
+      "rank": 8
+    },
+    {
+      "brand_index": 8,
+      "brand": "S_Brand",
+      "model": "S_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 9,
+      "brand": "T_Brand",
+      "model": "T_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 10,
+      "brand": "U_Brand",
+      "model": "U_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 11,
+      "brand": "V_Brand",
+      "model": "V_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 12,
+      "brand": "W_Brand",
+      "model": "W_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 13,
+      "brand": "X_Brand",
+      "model": "X_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 14,
+      "brand": "Y_Brand",
+      "model": "Y_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 15,
+      "brand": "Z_Brand",
+      "model": "Z_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    }
+  ],
+  "documents": [
+    {
+      "doc_index": 0,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 1,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 2,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 3,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 4,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 5,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 6,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 7,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 8,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 9,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 10,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 11,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 12,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 13,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 14,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 15,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    }
+  ],
+  "combination_mode": "generic_template",
+  "generic_doc_base_dir": "./out/generic_product_documents",
+  "fictional_brands_dir": "out/fictional_brands",
+  "top8_include_fictional": true,
+  "placeholder_brand_token": "[BRAND]",
+  "placeholder_model_token": "[MODEL]"
+}

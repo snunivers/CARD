@@ -1,0 +1,86 @@
+{
+  "category": "lipstick",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Matte Color Lipstick delivers rich, full-coverage color with a lightweight feel. The creamy bullet glides on smoothly, then sets to a soft matte finish that helps reduce shine without looking flat. Formulated with conditioning waxes and vitamin E, it keeps lips comfortable through daily wear. The slim twist-up tube allows precise application along the lip line, even without a separate liner. Available in wearable nude, rose, berry, and red tones, this lipstick is designed for even payoff, minimal feathering, and a polished look for work or evenings out."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 89,
+      "text": "[BRAND] [MODEL] Satin Finish Lipstick is made for users who want color with a touch of moisture and a subtle sheen. Its emollient formula contains shea butter and jojoba oil to soften lips while depositing medium-to-full pigment in one or two swipes. The finish looks smooth and luminous rather than glossy, making it easy to wear every day. A classic bullet shape helps define the cupid’s bow and corners of the mouth. The cap closes securely for travel, and the color wears evenly as it fades without looking patchy."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 90,
+      "text": "[BRAND] [MODEL] Longwear Liquid Lipstick offers intense color in a fluid formula that dries down to a transfer-resistant matte finish. The precision doe-foot applicator distributes product evenly, allowing clean edges and quick coverage. Lightweight film-formers help the color stay in place through meals, coffee, and long workdays, while added glycerin reduces the tight feel often associated with liquid mattes. This lipstick is best applied in thin layers for maximum comfort and durability. The compact tube fits easily in a handbag and includes a wiper insert to prevent excess product buildup."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 92,
+      "text": "[BRAND] [MODEL] Sheer Balm Lipstick combines a tinted lipstick and nourishing lip balm in one easy product. Designed for quick, mirror-free application, it gives lips a wash of buildable color with a fresh, hydrated finish. The formula includes coconut oil, mango butter, and antioxidants to help lips feel soft throughout the day. Its rounded bullet glides over dry areas and smooths the appearance of fine lip lines. Ideal for casual wear, this lipstick can be worn alone for a natural look or layered over liner to add comfortable color and light shine."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 95,
+      "text": "[BRAND] [MODEL] Velvet Cream Lipstick provides a plush texture and highly blendable color that settles into a comfortable semi-matte finish. Created for those who prefer flexibility, the formula allows soft diffusion at the edges or full opacity at the center of the lips. A mix of plant-derived oils and lightweight silicones helps the lipstick feel creamy on application while maintaining decent wear time. The standard twist mechanism is easy to use, and the case is sturdy enough for daily storage in a makeup bag. Shades range from muted mauves to warm terracotta and deep plum."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 94,
+      "text": "[BRAND] [MODEL] Lip Crayon Lipstick pairs the control of a pencil with the payoff of a traditional lipstick. Its retractable design removes the need for sharpening and makes touch-ups simple when traveling. The pointed tip helps outline lips accurately, while the creamy formula fills them in with even, saturated color. A soft matte finish keeps the look modern without emphasizing dryness. Infused with vitamin E and sunflower seed oil, it feels smoother than typical lip pencils. This product is especially useful for defining shape, correcting uneven edges, and creating a polished monochrome makeup look."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 94,
+      "text": "[BRAND] [MODEL] Plumping Shine Lipstick is designed to add visible color, glossy shine, and a fuller-looking effect in one step. The cushiony formula contains hydrating oils, peptides, and a mild warming complex that creates a temporary plumping sensation. Color payoff is medium and buildable, making it suitable for both daytime and evening use. The finish reflects light well, helping lips appear smoother and more voluminous. Packaged in a sleek click-close tube, this lipstick is easy to carry and reapply. It works particularly well on dry lips that need comfort with a polished, luminous look."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 94,
+      "text": "[BRAND] [MODEL] Transfer-Resistant Lipstick combines strong pigment with a flexible finish intended to stay put longer than standard cream formulas. The texture starts smooth and slightly creamy, then settles into a lightweight veil that resists smudging and fading. Added ceramides and synthetic beeswax help maintain comfort, making it practical for extended wear. The bullet has a tapered tip for clean application around the lip contours. Suitable for office days, events, and commutes, this lipstick offers dependable color with less need for frequent touch-ups. It removes best with an oil-based cleanser or makeup remover balm."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 93,
+      "text": "[BRAND] [MODEL] Vegan Color Lipstick offers bold payoff in a formula made without animal-derived ingredients. Designed for users who want performance and ingredient-conscious choices, it features castor seed oil, candelilla wax, and antioxidant-rich botanical extracts. The finish is a balanced soft satin that makes lips look smooth and healthy. It applies evenly, layers well, and remains comfortable for several hours without dragging. The packaging is lightweight and practical, with a secure cap that helps prevent accidental opening. Shades include everyday neutrals, cool pinks, brick reds, and statement wine tones for varied makeup styles."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 96,
+      "text": "[BRAND] [MODEL] Refillable Lipstick is a practical option for beauty users who want a reusable case without giving up rich color. The metal outer component is designed to accept replacement lipstick inserts, reducing waste over time. Inside, the formula delivers creamy, full-coverage pigment with a natural satin finish that suits both casual and formal wear. Conditioning ingredients such as squalane and cocoa butter support a smoother feel on the lips. The bullet shape follows the lip curve for easier application, and the case has a weighted feel that gives the product a more premium, durable impression."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 97,
+      "text": "[BRAND] [MODEL] Metallic Finish Lipstick brings reflective color to the lips with fine shimmer and a smooth cream base. Rather than chunky glitter, the formula uses pearl pigments to create a luminous effect that catches light evenly. It offers medium-to-full coverage and can be worn alone for a statement lip or dabbed over another shade for dimension. The texture remains surprisingly comfortable thanks to added emollients and waxes. Best suited for evening makeup, parties, or editorial looks, this lipstick adds depth without feeling gritty. The slim tube allows precise placement, especially on the center of the lips."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 97,
+      "text": "[BRAND] [MODEL] Soft Stain Lipstick gives the effect of a lip stain in a convenient stick format. The lightweight formula deposits translucent-to-medium color that can be layered gradually, making it easy to customize intensity. Once applied, it leaves behind a diffused finish that looks natural and wears down gracefully. Hyaluronic acid and lightweight oils help prevent lips from feeling overly dry, while the slim bullet supports quick, accurate application. This product is ideal for users who prefer blurred lip looks over sharp edges. It pairs well with minimal makeup and is easy to refresh throughout the day."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 97,
+      "text": "[BRAND] [MODEL] SPF Lipstick combines everyday color with added sun protection for lips exposed to outdoor conditions. The creamy formula contains broad-spectrum SPF along with moisturizing ingredients like lanolin alternatives and seed oils to reduce dryness caused by wind and sun. Coverage is medium, with a smooth finish that sits between balm and classic lipstick. It works well for commuting, weekend errands, and travel when a separate lip SPF may be inconvenient. The twist-up tube is compact and easy to reapply as needed. For best performance, the product should be reapplied after eating or prolonged sun exposure."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 94,
+      "text": "[BRAND] [MODEL] Sensitive Comfort Lipstick is formulated for users who want color with a simpler ingredient profile. Fragrance-free and designed to minimize irritation, it uses soothing emollients and protective waxes to help lips feel soft and calm during wear. The finish is a creamy satin that does not emphasize flakes or texture, making it especially suitable for dry or delicate lips. Pigment payoff is moderate but buildable, allowing both subtle and more defined looks. The tube opens and closes securely, and the lipstick applies smoothly without tugging, even when lips are not perfectly conditioned."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 96,
+      "text": "[BRAND] [MODEL] Dual-End Lipstick features a color stick on one side and a clear conditioning top coat on the other, creating a versatile lip product for longer-looking wear. The color end delivers opaque pigment with a matte base that adheres well, while the top coat adds comfort, flexibility, and a smoother appearance. This two-step format is useful for users who like the staying power of matte lipstick but want a less dry finish. The compact design saves space in a makeup bag and makes touch-ups straightforward. It is especially practical for events, dinners, and all-day schedules."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 97,
+      "text": "[BRAND] [MODEL] Powder Matte Lipstick is designed to create a blurred, modern lip with a lightweight, almost airy feel. The formula uses soft-focus powders and flexible waxes to deliver smooth, diffused color that can be worn sheer or built up for stronger impact. Unlike traditional dry mattes, it includes nourishing oils to improve glide and reduce cracking. The result is a velvety finish that minimizes the appearance of lip lines. Housed in a slim, portable case, this lipstick is easy to apply directly or tap on with fingers for a softer effect. Shades favor muted, trend-driven tones."
+    }
+  ]
+}

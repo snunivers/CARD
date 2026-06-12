@@ -1,0 +1,25 @@
+BX500 512GB
+
+Key Features
+
+Form Factor: 2.5-inch internal SSD
+
+Interface: SATA 6.0Gb/s
+
+Total Capacity: 512GB*
+
+Warranty: Limited 3-year
+
+Sequential Read speed : 530 MB/s**
+
+Sequential Write speed : 500 MB/s**
+
+Toshiba 3D TLC NAND Flash offers blazing speed, high capacity & enhanced reliability
+
+External DDR3 DRAM Cache for Better Sustain Speed
+
+TRIM & S.M.A.R.T supported
+
+* Note: 1GB = 1 billion bytes. Actual useable capacity may vary.
+
+** Speeds based on internal testing. Actual performance may vary.

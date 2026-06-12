@@ -1,0 +1,2543 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EonStor GSe Pro 3000 - Scale-out Rack-Mounted NAS for SMB | Infortrend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            We use cookies on this website. To find out more about cookies and how they are used on this website, see our 
+Privacy Policy
+.
+
+            By clicking ‘Continue’, you hereby agree with our use of cookies.
+        
+
+
+Continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ North America-English
+
+
+
+
+
+
+
+
+
+
+Global-English
+
+
+North America
+
+
+North America-English
+
+
+South America
+
+
+Latin America-Español 
+
+
+Latin America-Português
+
+
+
+
+
+
+Asia Pacific & Oceania
+
+
+China-简体中文
+
+
+India-English
+
+
+Indonesia-Bahasa Indonesia 
+
+
+Japan-日本語
+
+
+Korea-한국어
+
+
+Malaysia-English
+
+
+Middle East-English
+
+
+Oceania-English
+
+
+Philippines-English
+
+
+Singapore-English
+
+
+Taiwan-繁體中文
+
+
+Thailand-ไทย
+
+
+Vietnam-Tiếng Việt
+
+
+
+
+
+
+EMEA
+
+
+Czech Republic-čeština
+
+
+Europe-English
+
+
+France-Français
+
+
+Germany-Deutsch
+
+
+Italy-Italiano
+
+
+Poland-Polska
+
+
+Russia-Русский
+
+
+Spain-Español
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Quick Product Selection
+
+
+
+
+
+
+
+
+
+
+
+
+Products 
+
+
+
+
+
+
+
+
+
+                                                                Scale-out NAS
+                                                                
+
+
+CS
+
+
+
+
+
+
+
+
+Highly scalable storage solutions for agile enterprise environments
+
+
+
+
+
+Unified Storage
+
+
+
+
+
+
+GS
+
+
+
+
+
+
+Scale-out unified storage with high availability for enterprises
+
+
+
+
+
+U.2 NVMe SSD
+
+
+SAS HDD
+
+
+SAS SSD
+
+
+
+
+
+
+
+
+
+
+GSe
+
+
+
+
+
+
+Scale-out unified storage for SMB
+
+
+
+
+
+U.2 NVMe SSD
+
+
+SAS HDD
+
+
+
+
+
+
+
+
+
+
+GSe Pro
+
+
+
+
+Entry-level unified storage
+
+
+
+
+
+
+                                                                SAN Storage
+                                                                
+
+
+DS
+
+
+
+
+
+
+
+
+Cost-effective enterprise hybrid (SSD/HDD) storage with dual active controllers
+
+
+
+
+
+
+
+
+
+
+                                                                Storage Server
+                                                                
+
+
+EonServ
+
+
+
+
+
+
+
+
+Highly integrated storage server with single and dual processors
+
+
+
+
+
+AI Storage Appliance
+
+
+
+
+
+
+GSi
+
+
+
+
+Integrated with GPU, Linux operating system and unified storage
+
+
+
+
+
+
+
+
+
+EVi
+
+
+
+
+Integrated with GPU, Windows operating system and storage
+
+
+
+
+
+
+                                                                Expansion Enclosure
+                                                                
+
+
+JBOD
+
+
+
+
+
+
+
+
+Expansion enclosure with abundant form factors
+
+
+
+
+
+Software
+
+
+
+
+
+
+EonOne for GS
+
+
+
+
+
+
+
+
+
+
+
+
+EonOne for CS
+
+
+
+
+
+
+
+
+
+
+
+
+Applications for GS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vertical Markets
+
+
+
+
+
+
+
+                                                                M&E Shared Storage
+                                                            
+
+
+
+
+
+
+
+                                                                Office Shared Storage
+                                                            
+
+
+
+
+
+
+Tools
+
+
+
+
+
+
+
+                                                                CS Product Configurator
+                                                            
+
+
+
+
+
+
+
+                                                                Capacity Calculator
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Solutions 
+
+
+
+
+
+
+Industry
+
+
+
+
+
+
+
+                                                                Media & Entertainment
+                                                            
+
+
+
+
+
+
+
+                                                                Security & Surveillance
+                                                            
+
+
+
+
+
+
+
+                                                                Government & Public Sector
+                                                            
+
+
+
+
+
+
+
+                                                                Education & Academic
+                                                            
+
+
+
+
+
+
+
+                                                                Financial Services
+                                                            
+
+
+
+
+
+
+
+                                                                Healthcare
+                                                            
+
+
+
+
+
+
+
+
+
+
+Applications
+
+
+
+
+
+
+
+                                                                High Performance Computing (HPC)
+                                                            
+
+
+
+
+
+
+
+                                                                Backup & Restore
+                                                            
+
+
+
+
+
+
+
+                                                                Database
+                                                            
+
+
+
+
+
+
+
+                                                                Virtualization
+                                                            
+
+
+
+
+
+
+
+                                                                Virtual Desktop Infrastructure (VDI)
+                                                            
+
+
+
+
+
+
+
+                                                                Cloud Integrated Solution
+                                                            
+
+
+
+
+
+
+
+
+
+
+Data Service
+
+
+
+
+
+
+
+                                                                EonCloud Gateway
+                                                            
+
+
+
+
+
+
+
+                                                                SSD Cache
+                                                            
+
+
+
+
+
+
+
+                                                                Automated Storage Tiering
+                                                            
+
+
+
+
+
+
+
+                                                                Local/Remote Replication
+                                                            
+
+
+
+
+
+
+
+                                                                Snapshot
+                                                            
+
+
+
+
+
+
+
+                                                                Thin Provisioning
+                                                            
+
+
+
+
+
+
+
+                                                                Intelligent Drive Recovery
+                                                            
+
+
+
+
+
+
+
+
+
+
+Success Stories
+
+
+
+
+
+
+
+                                                                All Regions
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AI 
+
+
+
+
+
+
+AI Computing Storage System
+
+
+
+
+
+
+
+                                                                Integrated with GPU, computing and storage system
+                                                            
+
+
+
+
+
+
+
+
+
+
+Apps Powered by AI
+
+
+
+
+
+
+
+                                                                Integrated with applications on Docker
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Support 
+
+
+
+
+
+
+
+                                                            Technical Support
+                                                        
+
+
+
+
+Installation & maintenance guides / Software, firmware & technical documents / Troubleshooting / Support tickets
+
+
+
+
+
+
+
+
+
+
+                                                            Product Services
+                                                        
+
+
+
+
+Product registration / Licensing services / Product repair / Order status
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Partners 
+
+
+
+
+
+
+Where to Buy
+
+
+
+
+
+
+
+                                                                Contact Us
+                                                            
+
+
+
+
+
+
+
+                                                                Where to Buy
+                                                            
+
+
+
+
+
+
+
+
+
+
+Partners & Associations
+
+
+
+
+
+
+
+                                                                Alliance Partners
+                                                            
+
+
+
+
+
+
+
+                                                                Channel Partners
+                                                            
+
+
+
+
+
+
+
+                                                                ODM Business
+                                                            
+
+
+
+
+
+
+
+                                                                Industry Associations 
+                                                            
+
+
+
+
+
+
+
+
+
+
+Partner Portal
+
+
+
+
+
+
+
+                                                                Partner Portal
+                                                            
+
+
+
+
+
+
+
+                                                                Deal Registration - EonStor DS/EonStor/EonNAS 
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Company 
+
+
+
+
+
+
+About Infortrend
+
+
+
+
+
+
+
+                                                                Infortrend Overview
+                                                            
+
+
+
+
+
+
+
+                                                                Milestones
+                                                            
+
+
+
+
+
+
+
+                                                                Worldwide Offices
+                                                            
+
+
+
+
+
+
+
+
+
+
+News & Events
+
+
+
+
+
+
+
+                                                                What's New
+                                                            
+
+
+
+
+
+
+
+                                                                Press Releases
+                                                            
+
+
+
+
+
+
+
+                                                                Infortrend Newsletter
+                                                            
+
+
+
+
+
+
+
+                                                                Event Calendar
+                                                            
+
+
+
+
+
+
+
+
+
+
+Certifications
+
+
+
+
+
+
+
+                                                                Certifications
+                                                            
+
+
+
+
+
+
+
+                                                                Environment, Health & Safety 
+                                                            
+
+
+
+
+
+
+
+
+
+
+Careers
+
+
+
+
+
+
+
+                                                                Jobs at Infortrend
+                                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Products
+
+
+
+
+
+
+Scale-out NAS
+
+
+EonStor CS
+
+
+
+
+
+
+Unified Storage
+
+
+
+
+EonStor GS
+
+
+EonStor GSe
+
+
+EonStor GSe Pro
+
+
+
+
+
+
+
+
+SAN Storage
+
+
+EonStor DS
+
+
+
+
+
+
+Storage Server
+
+
+EonServ
+
+
+
+
+
+
+AI Storage Appliance
+
+
+
+
+GSi
+
+
+EVi
+
+
+
+
+
+
+
+
+Expansion Enclosure
+
+
+JBOD
+
+
+
+
+
+
+Management Software
+
+
+
+
+EonOne for GS
+
+
+EonOne for CS
+
+
+
+
+
+
+
+
+Vertical Markets
+
+
+
+
+M&E Shared Storage
+
+
+Office Shared Storage
+
+
+
+
+
+
+
+
+Tools
+
+
+
+
+CS Product Configurator
+
+
+Capacity Calculator
+
+
+
+
+
+
+
+
+ Quick Product Selection
+
+
+
+
+
+
+
+
+Solutions
+
+
+
+
+
+
+Industry
+
+
+
+
+Media & Entertainment
+Security & Surveillance
+Government & Public Sector
+Education & Academic
+Financial Services
+Healthcare
+ 
+
+
+
+
+
+
+Applications
+
+
+
+
+High Performance Computing (HPC)
+Backup & Restore
+Database
+Virtualization
+Virtual Desktop Infrastructure (VDI)
+Cloud Integrated Solution
+ 
+
+
+
+
+
+
+Data Service
+
+
+
+
+EonCloud Gateway
+SSD Cache
+Automated Storage Tiering
+Local/Remote Replication
+Snapshot
+Thin Provisioning
+Intelligent Drive Recovery
+ 
+
+
+
+
+
+
+Success Stories
+
+
+
+
+All Regions
+ 
+
+
+
+
+
+
+
+
+
+
+AI
+
+
+
+
+
+
+AI Computing Storage System
+
+
+
+
+Integrated with GPU, computing and storage system
+ 
+
+
+
+
+
+
+Apps Powered by AI
+
+
+
+
+Integrated with applications on Docker
+ 
+
+
+
+
+
+
+
+
+
+
+Support
+
+
+
+
+
+
+Technical Support
+
+
+
+
+Technical Support
+ 
+
+
+
+
+
+
+Product Services
+
+
+
+
+Product Services
+ 
+
+
+
+
+
+
+
+
+
+
+Partners
+
+
+
+
+
+
+Where to Buy
+
+
+
+
+Contact Us
+Where to Buy
+ 
+
+
+
+
+
+
+Partners & Associations
+
+
+
+
+Alliance Partners
+Channel Partners
+ODM Business
+Industry Associations 
+ 
+
+
+
+
+
+
+Partner Portal
+
+
+
+
+Partner Portal
+Deal Registration - EonStor DS/EonStor/EonNAS 
+ 
+
+
+
+
+
+
+
+
+
+
+Company
+
+
+
+
+
+
+About Infortrend
+
+
+
+
+Infortrend Overview
+Milestones
+Worldwide Offices
+ 
+
+
+
+
+
+
+News & Events
+
+
+
+
+What's New
+Press Releases
+Infortrend Newsletter
+Event Calendar
+ 
+
+
+
+
+
+
+Certifications
+
+
+
+
+Certifications
+Environment, Health & Safety 
+ 
+
+
+
+
+
+
+Careers
+
+
+
+
+Jobs at Infortrend
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EonStor GSe Pro  3000
+
+
+Scale-out Rack-Mounted NAS for SMB
+
+
+EonStor GSe Pro 3000 is a unified storage for SMB offering hassle-free management, cloud storage integration, and the scale-out function to linearly expand performance and capacity up to 16PB for future data growth. It provides up to two modular host board slots for more deployment flexibility.
+
+
+
+
+Related Information
+
+
+
+
+GSe Pro Family Datasheet
+Compatibility Guide (QVL)
+Expansion Guide
+Host Board & Memory Guide
+
+
+
+
+
+
+
+
+Other Series
+
+
+
+
+{{Series.SeriesName}}
+
+
+
+
+
+
+
+
+Inquiry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Images
+
+
+
+
+Images
+
+
+
+
+{{ model.ModelName }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+Products
+
+
+EonStor GSe Pro
+
+
+GSe Pro 3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Specifications
+
+
+Purchase Reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{chooseModelName}} ({{chooseFormFactor}} {{chooseDriveBays}}) 
+
+
+
+
+Choose a Model
+
+
+
+
+{{ model.ModelName }} ({{ model.FormFactor }} {{ model.DriveBays }}) 
+
+
+
+
+
+
+
+
+
+
+Filter by ticking your preference
+
+
+
+
+
+Controller                            
+
+
+
+
+-Choose-
+
+
+
+
+
+
+
+
+Performance
+
+
+
+
+-Choose-
+
+
+
+
+
+
+
+
+Memory (per controller)
+
+
+
+
+-Choose-
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+Please at least choose one item.
+
+
+
+
+Request a Quote
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GSe Pro 3008
+Download
+
+
+GSe Pro 3008
+Download
+
+
+GSe Pro 3008
+Download
+
+
+GSe Pro 3008
+Download
+
+
+GSe Pro 3008
+Download
+
+
+GSe Pro 3012
+Download
+
+
+GSe Pro 3012
+Download
+
+
+GSe Pro 3012
+Download
+
+
+GSe Pro 3012
+Download
+
+
+GSe Pro 3012
+Download
+
+
+GSe Pro 3016
+Download
+
+
+GSe Pro 3016
+Download
+
+
+GSe Pro 3016
+Download
+
+
+GSe Pro 3016
+Download
+
+
+GSe Pro 3016
+Download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Capacity Calculator
+
+
+Product Overview
+
+
+Choose Your Storage
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+
+Scale-out NAS
+
+
+Scale-out Unified Storage for Enterprise
+
+
+Scale-out Unified Storage for SMB
+
+
+Entry-level Unified Storage
+
+
+SAN Storage
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+Storage Server
+
+
+AI Computing Storage System
+
+
+Expansion Enclosure
+
+
+EonOne for GS
+
+
+EonOne for CS
+
+
+
+
+
+
+
+
+
+
+Support
+
+
+Technical Support
+
+
+Product Services
+
+
+Warranty Terms & Conditions
+
+
+
+
+
+
+
+
+
+
+About
+
+
+Infortrend Overview
+
+
+Worldwide Offices
+
+
+Press Releases
+
+
+Success Stories
+
+
+Where to Buy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Terms & Conditions
+
+
+Privacy Policies
+
+
+Legal Notice
+
+
+Technical & Organisational Measures
+
+
+Legacy Products
+
+
+Sitemap
+
+
+
+
+
+
+© 2023 Infortrend Technology Inc. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+
+
+
+
+
+
+EonStor CS
+
+
+
+
+CS 4000U
+
+
+CS 4000
+
+
+CS 3000
+
+
+CS 2000
+
+
+CS 4000B
+
+
+
+
+
+
+
+
+EonStor GS
+
+
+
+
+
+
+GS 4000U
+
+
+GS 3000UT
+
+
+GS 3000U
+
+
+GS 2000U
+
+
+GS 4000 G3
+
+
+GS 3000 G3
+
+
+GS 2000
+
+
+GS 1000
+
+
+
+
+
+
+GS 4000B
+
+
+GS 3000B
+
+
+GS 2000B
+
+
+GS 1000B
+
+
+
+
+
+
+
+
+
+
+EonStor GSe
+
+
+
+
+GSe 4000U
+
+
+GSe 3000UT
+
+
+GSe 3000U
+
+
+GSe 2000U
+
+
+GSe 4000 G3
+
+
+GSe 3000 G3
+
+
+GSe 2000
+
+
+GSe 1000
+
+
+
+
+
+
+
+
+EonStor GSe Pro
+
+
+
+
+GSe Pro 3000
+
+
+GSe Pro 1000
+
+
+GSe Pro 200
+
+
+GSe Pro 100
+
+
+
+
+
+
+
+
+EonServ
+
+
+
+
+EonServ 5000
+
+
+
+
+
+
+
+
+EonStor DS
+
+
+
+
+
+
+DS 4000U
+
+
+DS 4000
+
+
+DS 3000
+
+
+DS 2000
+
+
+DS 1000
+
+
+
+
+
+
+DS 4000B
+
+
+DS 3000B
+
+
+DS 2000B
+
+
+DS 1000B
+
+
+
+
+
+
+
+
+
+
+EonStor GSi
+
+
+
+
+GSi 5000
+
+
+
+
+
+
+
+
+EVi
+
+
+
+
+EVi 5000
+
+
+
+
+
+
+
+
+Expansion Enclosure
+
+
+
+
+JB 3000
+
+
+
+
+
+
+
+
+JBOD
+
+
+
+
+JB 300
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Newsletter Subscription
+
+
+Stay up-to-date with Infortrend’s new products and events by subscribing to our newsletter.
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+Language
+
+
+
+
+Select
+
+
+Global-English
+
+
+China-简体中文
+
+
+Japan-日本語
+
+
+
+
+
+
+
+
+
+
+
+
+Subscribe
+
+
+
+
+By giving us your personal data, you agree that your personal information will be collected and used exclusively, protected and treated confidentially in accordance with our 
+Privacy Policy
+.
+
+
+
+
+
+
+
+
+
+Almost There!
+
+
+Check Your Inbox to Complete Your Subscription
+
+
+
+
+
+
+Got It
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

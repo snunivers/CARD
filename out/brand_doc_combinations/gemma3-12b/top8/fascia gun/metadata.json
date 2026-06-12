@@ -1,0 +1,226 @@
+{
+  "category": "fascia gun",
+  "model_name": "gemma3-12b",
+  "rewriter_model": null,
+  "num_brands": 16,
+  "num_docs": 16,
+  "total_combinations": 256,
+  "brands": [
+    {
+      "brand_index": 0,
+      "brand": "Theragun",
+      "model": "Theragun Pro",
+      "knowledge_strength": 0.9703506942891715,
+      "is_fictional": false,
+      "rank": 1
+    },
+    {
+      "brand_index": 1,
+      "brand": "Hypervolt",
+      "model": "Hypervolt 2",
+      "knowledge_strength": 0.9928193874090341,
+      "is_fictional": false,
+      "rank": 2
+    },
+    {
+      "brand_index": 2,
+      "brand": "Renpho",
+      "model": "Renpho Massage Gun",
+      "knowledge_strength": 0.6423205769527278,
+      "is_fictional": false,
+      "rank": 3
+    },
+    {
+      "brand_index": 3,
+      "brand": "Ekrin",
+      "model": "Ekrin Pro 3",
+      "knowledge_strength": 0.6122023143907204,
+      "is_fictional": false,
+      "rank": 4
+    },
+    {
+      "brand_index": 4,
+      "brand": "Gekko",
+      "model": "Gekko Flex",
+      "knowledge_strength": 0.30877305384313514,
+      "is_fictional": false,
+      "rank": 5
+    },
+    {
+      "brand_index": 5,
+      "brand": "Vyper",
+      "model": "Vyper 3",
+      "knowledge_strength": 0.2237273382503938,
+      "is_fictional": false,
+      "rank": 6
+    },
+    {
+      "brand_index": 6,
+      "brand": "Titan",
+      "model": "Titan Deep Muscle Massager",
+      "knowledge_strength": 0.5246267685498887,
+      "is_fictional": false,
+      "rank": 7
+    },
+    {
+      "brand_index": 7,
+      "brand": "Wahl",
+      "model": "Wahl Deep Tissue Massager",
+      "knowledge_strength": 0.31949707496145635,
+      "is_fictional": false,
+      "rank": 8
+    },
+    {
+      "brand_index": 8,
+      "brand": "S_Brand",
+      "model": "S_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 9,
+      "brand": "T_Brand",
+      "model": "T_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 10,
+      "brand": "U_Brand",
+      "model": "U_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 11,
+      "brand": "V_Brand",
+      "model": "V_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 12,
+      "brand": "W_Brand",
+      "model": "W_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 13,
+      "brand": "X_Brand",
+      "model": "X_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 14,
+      "brand": "Y_Brand",
+      "model": "Y_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    },
+    {
+      "brand_index": 15,
+      "brand": "Z_Brand",
+      "model": "Z_Model",
+      "knowledge_strength": 0.0,
+      "is_fictional": true,
+      "rank": null
+    }
+  ],
+  "documents": [
+    {
+      "doc_index": 0,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 1,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 2,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 3,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 4,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 5,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 6,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 7,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 8,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 9,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 10,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 11,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 12,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 13,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 14,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    },
+    {
+      "doc_index": 15,
+      "original_brand": "[BRAND]",
+      "original_model": "[MODEL]"
+    }
+  ],
+  "combination_mode": "generic_template",
+  "generic_doc_base_dir": "./out/generic_product_documents",
+  "fictional_brands_dir": "out/fictional_brands",
+  "top8_include_fictional": true,
+  "placeholder_brand_token": "[BRAND]",
+  "placeholder_model_token": "[MODEL]"
+}

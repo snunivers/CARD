@@ -1,0 +1,27 @@
+TerraMaster Storage F2-221 S3
+
+Entry-level all-flash storage for all Tier-1 applications in small and mid-sized companies
+
+Max No. of controllers: 2
+
+Max No. of drives: 264
+
+Maximum storage capacity of up to 8,110 TB
+
+Random access performance of up to 600,000 IOPS
+
+Flexible and flash optimized storage
+
+Selective use of deduplication / compression
+
+Automated Quality-of-Service
+
+Transparent failover and Storage Cluster
+
+Ultra-low response times for all applications and a massive increase of IOPS without complicated tuning measures as well as scalable capacity and connectivity.
+
+Data reduction at the volume level to improve storage efficiency and increase the lifespan of flash
+
+Control applications priorities according to business needs, minimize admin efforts, automate monitoring and adjustment to guarantee service levels
+
+High redundancies enable business critical computing, data processing and real-time data mirroring at the highest level and a system availability of up to 99.9999%

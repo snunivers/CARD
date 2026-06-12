@@ -1,0 +1,1489 @@
+
+
+
+
+
+
+
+
+TeraStation™ 5810DN (TS5810DN) - Buffalo Technology
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Open modal
+
+
+
+
+
+
+Redirect
+
+
+Hello, we see you are visiting this site from North America. 
+Click here to be redirected to Buffalo Americas.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+TeraStation™ 5810DN (TS5810DN)
+ 
+
+
+
+
+ EN
+ DE
+ FR
+ IT
+ 
+
+
+About Buffalo
+
+
+Contact
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+
+
+
+NAS Systems
+
+
+Other Storage Systems
+
+
+Network Components
+
+
+Product Series
+
+
+
+
+
+
+Service & Support
+
+
+
+
+FAQs
+
+
+Downloads
+
+
+Support
+
+
+Warranty and VIP Service
+
+
+Contact
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TeraStation™ 5810DN
+
+
+High Performance, reliable storage. With built-in 10GBE Port, 3 USB 3.0 ports and 4 GB RAM.
+
+
+
+
+ Product Data Sheet
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ Features
+
+
+ Specifications
+
+
+ Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+TeraStation™ 5810DN
+
+
+High Performance, reliable storage. With built-in 10GBE Port, 3 USB 3.0 ports and 4 GB RAM.
+
+
+Buffalo’s TeraStation 5810DN is a high performance 8-bay network storage solution ideal for businesses and demanding users requiring a reliable RAID-based network storage solution for business critical applications. Increased speed and reliability is achieved with a 10GbE connection and hard drives built for always-on NAS devices. With the powerful Annapurna Labs® Alpine AL314 1.7Ghz Quad-Core processor, TeraStation 5810DN provides exceptional performance during file transfers and everyday NAS functions.
+The TS5810DN model is available in partially-populated units with 16 TB or 32 TB, and fully-populated units with 32TB and 64 TB. Partially populated models are ideal for users needing a small start with less initial investment. Populated with same size Buffalo OP-HD** only, for full support and warranty.
+
+
+
+
+
+
+
+
+
+
+
+
+CPU Speed
+
+
+1.7GHz
+
+
+
+
+
+
+
+
+RAM
+
+
+DDR3 ECC 4GB
+
+
+
+
+
+
+
+
+Number of Bays
+
+
+8
+
+
+
+
+
+
+
+
+Supported RAID Levels
+
+
+JBOD, 0, 1, 5, 6, 10
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+High transmission speed
+
+
+The 10GbE connectivity impresses with exceptional speed.
+
+
+
+
+ 
+ 
+VMware-ready
+
+
+With this device you are supported by VMware if you have an ESX problem because this NAS device is VM-ready for NFS and iSCSI.
+
+
+
+
+ 
+ 
+Rsynch Feature
+
+
+Users can make backup copies from TeraStation to a rsync-compatible device from another manufacturer. This function also allows backups to be made from another manufacturer’s rsync-compatible NAS to the TeraStation NAS.
+
+
+
+
+ 
+ 
+Active Directory
+
+
+TeraStation functions as a client of an Active Directory domain, so that domain users and groups can be used. This means that they can be used in domain environments of companies with up to 10,000 users and groups.
+
+
+
+
+ 
+ 
+Including Buffalo VIP service
+
+
+Replacement of defective hard disks within 24 hours
+
+
+If you want to replace a defective hard disk, just let us know. If your order is in the system before 12 noon and the hard drives are in stock, they will be replaced within 24 hours. Applies within the 3 year warranty for each TeraStation and LinkStation NVR sold in the EU. (Outside the EU it can take longer). 
+
+
+More info
+
+
+
+
+ 
+ 
+3 year warranty
+
+
+This product has a standard warranty of 3 years. Check for other possibilities of 
+warranty extension.
+
+
+
+
+ 
+ 
+Cloud-ready!
+
+
+Buffalo’s TeraStation Series features B-Sync, which allows users to easily synchronize files between their TeraStation and 3rd party cloud services to make backups. The Buffalo NAS supports Amazon S3 Cloud Services, Dropbox, OneDrive and Azure.
+
+
+
+
+ 
+ 
+Intuitive web management interface
+
+
+The web interface has a dashboard that offers the user more effective views of system status, the ability to resize windows (even on the phone) and a more comfortable button layout.
+
+
+
+
+ 
+ 
+4 GB fast DDR3 ECC memory installed.
+
+
+
+
+ 
+ 
+iSCSI target support
+
+
+Works simultaneously as NAS and iSCSI target.
+
+
+
+
+ 
+ 
+Replication with TeraStation
+
+
+By replication, a folder in two separate TeraStations™ is synchronized almost in real time. This only happens in one direction (not bi-directional) – from the source to the destination. This function can be set up in LAN and WAN. WAN setup includes remote connection via port forwarding and VPN setup. 
+
+
+ 
+
+
+
+
+ 
+ 
+Hot-swap function increases data security
+
+
+With the hot swap function, the TeraStation™ automatically switches off the defective hard disk even if one hard disk fails, so that it can be replaced safely without interrupting work or losing data.
+
+
+
+
+ 
+With Annapurna Lab’s quad-core processor
+
+
+Faster transfer of large files, faster file access from multiple computers.
+
+
+
+
+ 
+ 
+NovaStor Backup
+
+
+Including 11 licenses NovaBACKUP® Buffalo Edition software. NovaBACKUP® provides small and medium-sized companies that value the protection of their digital data with a complete data security solution in one package.
+
+
+
+
+ 
+ 
+Allocation of disk quota
+
+
+Hard disk quotas prevent the misuse of storage space by allocating appropriate amounts of storage to users.
+
+
+
+
+
+
+
+
+
+
+TeraStation™ 51210RH
+
+
+High performance, reliable storage. With built-in 10 Gigabit Ethernet Port, enterprise nearline HDD and 8GB RAM. Awarded several times!
+
+
+more details
+
+
+
+
+
+
+TeraStation™ 5410RN
+
+
+High performance, reliable storage. With built-in 10Gigabit Ethernet Port.
+
+
+more details
+
+
+
+
+
+
+BS-MP2008 - 8 ports
+
+
+Finally, a value Switch scalable to 10 GbE. 10Gigabit Layer2 Switches.
+
+
+more details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hardware System
+
+
+
+
+
+
+
+
+Form factor
+
+
+Desktop
+
+
+
+
+CPU Type
+
+
+Annapurna Labs Quad Core
+
+
+
+
+CPU Speed
+
+
+1.7GHz
+
+
+
+
+RAM
+
+
+DDR3 ECC 4GB
+
+
+
+
+Drive Interface
+
+
+SATA 6Gb/s
+
+
+
+
+Installed OS
+
+
+Linux
+
+
+
+
+
+
+
+
+
+
+Internal Hard Drives
+
+
+
+
+
+
+
+
+Number of Drives
+
+
+8, 4
+
+
+
+
+Type of Drive
+
+
+NAS HDD
+
+
+
+
+Number of Bays
+
+
+8
+
+
+
+
+Total Capacity
+
+
+16TB, 32TB, 64TB
+
+
+
+
+Supported HDD Capacities
+
+
+4, 8TB
+
+
+
+
+
+
+
+
+
+
+LAN Interface
+
+
+
+
+
+
+
+
+Standard Compliance
+
+
+(10BASE-T) IEEE802.3, (100BASE-TX) IEEE802.3u, (1000BASE-T) IEEE802.3ab, (10GBASE-T) IEEE802.3an, (NBASE-T) IEEE802.3bz
+
+
+
+
+Connector Type
+
+
+RJ-45
+
+
+
+
+LAN Ports
+
+
+1 x 10GbE, 2 x 1GbE
+
+
+
+
+Max Transmission Rate
+
+
+10/100/1000 Mbps / 2.5/5/10Gbps
+
+
+
+
+
+
+
+
+
+
+USB Interface
+
+
+
+
+
+
+
+
+Connector Type
+
+
+Type A
+
+
+
+
+USB 2.0 Ports
+
+
+0
+
+
+
+
+USB 3.0 Ports
+
+
+3
+
+
+
+
+Max Transmission Rate
+
+
+480 Mbps / 5 Gbps
+
+
+
+
+
+
+
+
+
+
+Other
+
+
+
+
+
+
+
+
+Client OS
+
+
+Windows 10 / 8.1 / 7; Windows Server 2016 / 2012 R2 / 2012 / 2008 R2 / 2008; Mac OS X 10.9 or later
+
+
+
+
+Support
+
+
+Standard Warranty 3 years, 24 hour HDD exchange, Technical Support Hotline
+
+
+
+
+Power Consumption (max.)
+
+
+150 W
+
+
+
+
+Power Consumption (operation, typical)
+
+
+108 W
+
+
+
+
+Power Consumption (idle state, typical)
+
+
+87 W
+
+
+
+
+Power Consumption (standby)
+
+
+4.5 W
+
+
+
+
+
+
+
+
+
+
+Software System
+
+
+
+
+
+
+
+
+Supported RAID Levels
+
+
+JBOD, 0, 1, 5, 6, 10
+
+
+
+
+Hot Swap
+
+
+Yes
+
+
+
+
+iSCSI
+
+
+iSCSI Target
+
+
+
+
+
+
+
+
+
+
+Protocol Support
+
+
+
+
+
+
+
+
+Active Directory support
+
+
+Yes
+
+
+
+
+Active Directory users
+
+
+10000
+
+
+
+
+
+
+
+
+
+
+Backup
+
+
+
+
+
+
+
+
+Failover
+
+
+Failover solution with other Buffalo NAS devices
+
+
+
+
+Realtime Backup
+
+
+Folder Replication, Failover
+
+
+
+
+Replication
+
+
+Yes
+
+
+
+
+Apple Time Machine®
+
+
+Yes
+
+
+
+
+Backup Software
+
+
+NovaBACKUP Buffalo Edition
+
+
+
+
+Cloud Support
+
+
+Yes
+
+
+
+
+
+
+
+
+
+
+Remote Access
+
+
+
+
+
+
+
+
+WebAccess
+
+
+Yes
+
+
+
+
+FTP/SFTP
+
+
+Yes
+
+
+
+
+
+
+
+
+
+
+Product Part Numbers
+
+
+
+
+
+
+
+
+Product Code
+
+
+TS5810DN1604-EU - 16TB, TS5810DN3204-EU - 32TB, TS5810DN3208-EU - 32TB, TS5810DN6408-EU - 64TB
+
+
+
+
+Note
+
+
+1TB = 1, 000, 000, 000, 000 Bytes. Actual data throughput will vary depending upon environment factor.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloads
+
+
+ Product Data Sheet
+ Product images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+Manuals / Setup / Latest Product Information
+ 
+ 
+
+
+ Documentation & Software
+
+
+
+
+
+
+
+
+24-04-2017
+
+
+ 
+ 
+Firmware
+ 
+ 
+
+
+ Release notes
+
+
+4.68
+
+
+Windows
+
+
+English
+
+
+28-09-2020
+
+
+
+
+ Release notes
+
+
+4.68
+
+
+Windows
+
+
+Française
+
+
+28-09-2020
+
+
+
+
+ Release notes
+
+
+4.68
+
+
+Intel Mac
+
+
+English
+
+
+28-09-2020
+
+
+
+
+ Release notes
+
+
+4.68
+
+
+Intel Mac
+
+
+Française
+
+
+28-09-2020
+
+
+
+
+ Firmware updater
+
+
+4.68
+
+
+Intel Mac
+
+
+
+
+28-09-2020
+
+
+
+
+ Firmware updater
+
+
+4.68
+
+
+Windows
+
+
+
+
+28-09-2020
+
+
+ 
+ 
+Utilities
+ 
+ 
+
+
+ B-Sync release notes
+
+
+1.02
+
+
+Windows
+
+
+English
+
+
+11-11-2019
+
+
+
+
+ B-Sync release notes
+
+
+1.02
+
+
+Windows
+
+
+Française
+
+
+11-11-2019
+
+
+
+
+ B-Sync
+
+
+1.02
+
+
+Windows
+
+
+
+
+11-11-2019
+
+
+
+
+ MIB files for SNMP software
+
+
+
+
+
+
+
+
+28-02-2018
+
+
+
+
+ Boot Authentication release notes
+
+
+1.00
+
+
+Windows
+
+
+
+
+16-11-2016
+
+
+
+
+ Boot Authentication Tool for TeraStation
+
+
+1.00
+
+
+Windows
+
+
+
+
+16-11-2016
+
+
+
+
+ NAS Navigator
+
+
+
+
+Intel Mac 10.9 to 10.12
+
+
+Mac OS 10.13 or later, use the Mac App Store
+
+
+--
+
+
+
+
+ NAS Navigator
+
+
+
+
+Windows
+
+
+
+
+--
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ Product Finder
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products
+
+
+NAS Systems
+
+
+Other Storage Solutions
+
+
+Network Components
+
+
+Product Series
+ 
+
+
+
+
+
+
+Service & Support
+
+
+FAQs
+
+
+Downloads
+
+
+Contact
+
+
+Support
+
+
+Warranty and VIP Service
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ EN
+ DE
+ FR
+ IT
+
+
+Terms and conditions
+
+
+Privacy policy
+
+
+Imprint
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

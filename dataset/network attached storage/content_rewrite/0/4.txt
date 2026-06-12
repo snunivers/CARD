@@ -1,0 +1,16 @@
+ioSafe Delivers Industry’s First Enterprise-Ready 218 NAS Hard Drive And Raises The Bar With IronWolf 16TB For NAS
+
+16TB 218 NAS Hard Drive Provides Solution for High Density Storage Supporting Accelerated Hyperscale Demand and IronWolf 16TB Delivers Highest Capacity for NAS
+
+CUPERTINO, Calif. 
+- June 4, 2019 - ioSafe Technology plc (NASDAQ: STX), a world leader in data storage solutions, today announced it has been actively shipping 16TB helium-based enterprise drives as part of the 
+218 NAS
+ family, delivering high performance and record capacity for hyperscale data centers to efficiently and cost-effectively manage ever-increasing amounts of data. The company also updated the 
+IronWolf
+®
+ and IronWolf Pro
+ Network Attached Storage (NAS) drive lines with new 16TB capacity models.
+
+The need for hyperscale, cloud, and NAS storage solutions continues to rise to unprecedented levels. In fact, a 
+recent IDC whitepaper
+ sponsored by ioSafe predicts that the Global Datasphere -

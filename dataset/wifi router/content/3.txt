@@ -1,0 +1,1762 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cisco RV260 VPN Routers Data Sheet - Cisco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to content
+
+
+Skip to search
+
+
+Skip to footer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cisco.com Worldwide
+
+
+Products and Services
+
+
+Solutions
+
+
+Support
+
+
+Learn
+
+
+Explore Cisco
+
+
+How to Buy
+
+
+Partners Home
+
+
+Partner Program
+
+
+Support
+
+
+Tools
+
+
+Find a Cisco Partner
+
+
+Meet our Partners
+
+
+Become a Cisco Partner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products & Services
+Routers
+End-of-Sale and End-of-Life Products
+Data Sheets
+
+
+
+
+
+
+
+
+Cisco RV260 VPN Routers Data Sheet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Save
+
+
+
+
+
+
+
+
+Log in
+ to Save Content
+    
+
+
+
+
+
+
+
+
+Download
+
+
+Print
+
+
+
+
+
+
+
+
+
+
+
+
+Available Languages
+
+
+
+
+
+
+
+
+
+
+
+
+Download Options
+
+
+
+
+
+
+
+
+PDF
+
+
+(362.6 KB)
+
+
+
+
+View with Adobe Reader on a variety of devices
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Updated:
+October 24, 2018
+
+
+Document ID:
+1540240291900374
+
+
+
+
+
+
+
+
+
+
+Bias-Free Language
+
+
+
+
+
+
+
+
+Bias-Free Language
+
+
+The documentation set for this product strives to use bias-free language. For the purposes of this documentation set, bias-free is defined as language that does not imply discrimination based on age, disability, gender, racial identity, ethnic identity, sexual orientation, socioeconomic status, and intersectionality. Exceptions may be present in the documentation due to language that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that is used by a referenced third-party product. 
+Learn more
+ about how Cisco is using Inclusive Language.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+The Cisco
+®
+ Small Business RV260, RV260P, and RV260W VPN routers are high-performance models combining business-class features with performance, security, reliability, and overall value at a great price point. These models are perfect for the small business, small enterprise, branch, or small home office network.
+ 
+Product overview
+ 
+Easy to configure and install, the RV260 routers can be remotely deployed using Plug and Play (PnP), are supported by the Cisco FindIT network platform, and feature a new user interface.
+ 
+These models have a dual-core processor that provides performance usually found only in more expensive solutions. A Small Form-Factor Pluggable (SFP) WAN port provides flexible connectivity and investment protection. Like the other models in the portfolio, the RV260, 260P, and 260W include standard features such as a business-grade Stateful Packet Inspection (SPI) firewall, VPN security (IP Security [IPsec], Point-to-Point Tunneling Protocol [PPTP], and OpenVPN), content filtering, and device wizards to make an easy setup even easier.
+ 
+The wired RV260 offers a high-performance user experience at an attractive cost point. The RV260P adds Power over Ethernet (PoE) to four of the eight ports. The RV260W adds 3x3 wireless 802.11ac. Like the RV160W but with better performance and more ports, this network-in-a-box offers fantastic wireless performance and range for the small business and teleworker network solution.
+ 
+These models come with one year of web filtering service. This feature provides the ability to categorize different types of websites at different levels, and keeps your business users away from harmful websites.
+ 
+Prominent feature/Differentiator/Capability
+ 
+The Cisco Small Business RV260 VPN routers are high-performance models combining business-class features with performance, security, reliability, and overall value at a great price point. They are perfect for the small business, small enterprise, branch, or small home office network.
+ 
+A new graphical user interface helps you get your VPN router up and running in minutes. Your business will enjoy reliable, highly secure connectivity that is so transparent you may not be aware of it.
+ 
+Features and benefits
+ 
+●
+   
+The RV260 provides wired connectivity with eight Gigabit Ethernet ports
+ 
+●
+   
+The RV260P has eight Gigabit Ethernet ports with four ports of PoE and a 60W power budget
+ 
+●
+   
+The RV260W is a wireless VPN router with 3x3 802.11ac Wave 2 wireless and a switch with eight Gigabit Ethernet ports 
+ 
+●
+   
+Flexible SFP/RJ-45 combination WAN ports
+ 
+●
+   
+High-performance Gigabit Ethernet ports, enabling large file transfers and multiple users 
+ 
+ 
+●
+   
+Includes one year of web filtering to keep users and the business away from harmful websites and maintain a high level of productivity
+ 
+●
+   
+IPsec, PPTP, and OpenVPN server enable secure connectivity for remote employees and multiple office sites
+ 
+●
+   
+Strong security: Proven SPI firewall and hardware encryption
+ 
+●
+   
+New user interface design for easier configuration and device management
+ 
+●
+   
+Simple setup with wizard-based configuration 
+ 
+ 
+●
+   
+Updated with a new hardware enclosure design
+ 
+●
+   
+FindIT network management support
+ 
+Product specifications
+ 
+ 
+ 
+ 
+ 
+ 
+Description
+ 
+ 
+ 
+Specification
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ethernet WAN 
+ 
+ 
+ 
+1 RJ-45 SFP Gigabit combination port
+ 
+ 
+ 
+ 
+ 
+Ethernet LAN
+ 
+ 
+ 
+8 RJ-45 Gigabit Ethernet ports
+ 
+RV260P has 4 PoE ports with a 60W power budget
+ 
+ 
+ 
+ 
+ 
+Console port
+ 
+ 
+ 
+1 RJ-45 port
+ 
+ 
+ 
+ 
+ 
+Switch
+ 
+ 
+ 
+Power on/off
+ 
+ 
+ 
+ 
+ 
+Cabling type
+ 
+ 
+ 
+Category 5 or better
+ 
+ 
+ 
+ 
+ 
+LEDs
+ 
+ 
+ 
+Power, VPN, WAN, LAN
+ 
+ 
+ 
+ 
+ 
+Operating system
+ 
+ 
+ 
+Linux
+ 
+ 
+ 
+ 
+ 
+LAN
+ 
+ 
+ 
+ 
+ 
+VLANs
+ 
+ 
+ 
+16
+ 
+ 
+ 
+ 
+ 
+Port security
+ 
+ 
+ 
+Yes, 802.1X
+ 
+ 
+ 
+ 
+ 
+IPv6
+ 
+ 
+ 
+Dual stack, 6rd,6in4
+ 
+ 
+ 
+ 
+ 
+WAN
+ 
+ 
+ 
+Dynamic Host Configuration Protocol (DHCP) client, static IP, Point-to-Point Protocol over Ethernet (PPPoE), PPTP, Layer 2 Tunneling Protocol (L2TP)
+ 
+ 
+ 
+ 
+ 
+WLAN
+ 
+ 
+ 
+3x3 802.11ac Wave 2
+ 
+ 
+ 
+ 
+ 
+Security
+ 
+ 
+ 
+ 
+ 
+Firewall
+ 
+ 
+ 
+SPI firewall
+ 
+Port forwarding and triggering
+ 
+Denial-of-Service prevention (DoS)
+ 
+ 
+ 
+ 
+ 
+Access control
+ 
+ 
+ 
+IP access control lists
+ 
+ 
+ 
+ 
+ 
+Secure management
+ 
+ 
+ 
+HTTPS, username/password complexity
+ 
+ 
+ 
+ 
+ 
+User privileges
+ 
+ 
+ 
+Two levels of access: Admin and guest
+ 
+ 
+ 
+ 
+ 
+Network
+ 
+ 
+ 
+ 
+ 
+Network protocols
+ 
+ 
+ 
+ 
+●
+  
+Dynamic Host Configuration Protocol (DHCP) server      
+ 
+ 
+●
+  
+Point-to-Point Protocol over Ethernet (PPPoE)      
+ 
+ 
+●
+  
+Point-to-Point Tunneling Protocol (PPTP)      
+ 
+ 
+◦
+   
+Layer 2 Tunneling Protocol (L2TP)       
+ 
+ 
+●
+  
+DNS proxy      
+ 
+ 
+●
+  
+DHCP relay agent      
+ 
+ 
+●
+  
+Internet Group Management Protocol (IGMP) proxy and multicast forwarding      
+ 
+ 
+●
+  
+Rapid Spanning Tree Protocol (RSTP)      
+ 
+ 
+●
+  
+Dynamic DNS (DynDNS, No-IP, ChangeIP)      
+ 
+ 
+●
+  
+Network Address Translation (NAT), Port Address Translation (PAT)      
+ 
+ 
+●
+  
+One-to-one NAT      
+ 
+ 
+●
+  
+Port management      
+ 
+ 
+●
+  
+Port mirroring      
+ 
+ 
+●
+  
+Software-configurable DMZ to any LAN IP address      
+ 
+ 
+◦
+   
+Session Initiation Protocol (SIP) Application Layer Gateways (ALG)       
+ 
+ 
+ 
+ 
+ 
+Routing protocols
+ 
+ 
+ 
+ 
+●
+  
+Static routing, IGMP proxy      
+ 
+ 
+●
+  
+Dynamic routing      
+ 
+ 
+●
+  
+Routing Information Protocol (RIP) v1 and v2      
+ 
+ 
+●
+  
+RIP for IPv6 (RIPng)      
+ 
+ 
+◦
+   
+Inter-VLAN routing       
+ 
+ 
+ 
+ 
+ 
+NAT protocol
+ 
+ 
+ 
+Port Address Translation (PAT), Network Address Port Translation (NAPT) 
+ 
+ 
+ 
+ 
+ 
+Port forwarding, One-to-one NAT, VPN NAT Traversal, Session Initiation Protocol (SIP), ALG, FTP ALG
+ 
+ 
+ 
+ 
+ 
+VPN
+ 
+ 
+ 
+ 
+ 
+Gateway-to-gateway IPsec VPN
+ 
+ 
+ 
+20 IPsec tunnels
+ 
+ 
+ 
+ 
+ 
+Client-to-gateway IPsec VPN
+ 
+ 
+ 
+20 IPsec tunnels
+ 
+ 
+ 
+ 
+ 
+IPsec VPN
+ 
+ 
+ 
+Internet Key Exchange (IKE) v2, Generic Routing Encapsulation (GRE), hub and spoke supported
+ 
+ 
+ 
+ 
+ 
+PPTP VPN
+ 
+ 
+ 
+20 PPTP VPN tunnels
+ 
+ 
+ 
+ 
+ 
+OpenVPN
+ 
+ 
+ 
+Support for the OpenVPN server
+ 
+ 
+ 
+ 
+ 
+Encryption
+ 
+ 
+ 
+Triple Data Encryption Standard (3DES), Advanced Encryption Standard (AES) with 128, 192, and 256-bit keys encryption
+ 
+ 
+ 
+ 
+ 
+VPN pass-through
+ 
+ 
+ 
+IPsec, PPTP, and L2TP pass-through
+ 
+ 
+ 
+ 
+ 
+Quality of Service (QoS)
+ 
+ 
+ 
+ 
+ 
+QoS
+ 
+ 
+ 
+ 
+●
+  
+802.1p port-based priority on LAN port, application-based priority on WAN port      
+ 
+ 
+●
+  
+4 queues
+ 
+ 
+ 
+ 
+●
+  
+Differentiated Services Code Point (DSCP) support
+ 
+ 
+ 
+ 
+●
+  
+Class of Service (CoS)      
+ 
+ 
+●
+  
+Bandwidth management for service prioritization      
+ 
+ 
+ 
+ 
+ 
+Jumbo frame support
+ 
+ 
+ 
+Supports jumbo frames on Gigabit ports – at least 1536B
+ 
+ 
+ 
+ 
+ 
+Performance
+ 
+ 
+ 
+ 
+ 
+NAT throughput
+ 
+ 
+ 
+800+ Mbps
+ 
+ 
+ 
+ 
+ 
+Concurrent sessions
+ 
+ 
+ 
+25,000
+ 
+ 
+ 
+ 
+ 
+IPsec VPN throughput
+ 
+ 
+ 
+75+ Mbps
+ 
+ 
+ 
+ 
+ 
+Configuration
+ 
+ 
+ 
+ 
+ 
+Web-based user interface
+ 
+ 
+ 
+Browser-based configuration (HTTP/HTTPS)
+ 
+ 
+ 
+ 
+ 
+Management
+ 
+ 
+ 
+Web-based user interface, Simple Network Management Protocol (SNMP) v3, Bonjour, PnP
+ 
+Command-line interface via console – limited configuration command support
+ 
+FindIT support for monitoring and management
+ 
+ 
+ 
+ 
+ 
+Event logging
+ 
+ 
+ 
+Local, syslog, email alerts
+ 
+ 
+ 
+ 
+ 
+Network diagnostics
+ 
+ 
+ 
+Ping, traceroute, DNS lookup
+ 
+ 
+ 
+ 
+ 
+Upgradability
+ 
+ 
+ 
+Firmware upgradable via browser UI, imported/exported file, USB, Cisco FindIT
+ 
+ 
+ 
+ 
+ 
+System time
+ 
+ 
+ 
+Network Time Protocol (NTP), Daylight Savings, manual entry
+ 
+ 
+ 
+ 
+ 
+Language support
+ 
+ 
+ 
+User interface support for English
+ 
+ 
+ 
+ 
+ 
+Environmental
+ 
+ 
+ 
+ 
+ 
+Power
+ 
+ 
+ 
+RV260: 12VDC/2A
+ 
+RV260P: 54VDC/1.67A
+ 
+RV260W: 12VDC/2.5A
+ 
+ 
+ 
+ 
+ 
+Operating temperature
+ 
+ 
+ 
+0° to 40°C (32° to 104°F)
+ 
+ 
+ 
+ 
+ 
+Storage temperature
+ 
+ 
+ 
+-20° to 70°C (-4° to 158°F)
+ 
+ 
+ 
+ 
+ 
+Operating humidity
+ 
+ 
+ 
+10% to 85% noncondensing
+ 
+ 
+ 
+ 
+ 
+Storage humidity
+ 
+ 
+ 
+5% to 90% noncondensing
+ 
+ 
+ 
+ 
+ 
+Certifications
+ 
+ 
+ 
+Safety:
+ 
+ 
+●
+  
+UL 60950-1      
+ 
+ 
+●
+  
+CAN/CSA-C22.2 No. 60950-1      
+ 
+ 
+●
+  
+IEC 60950-1      
+ 
+ 
+●
+  
+EN 60950-1      
+ 
+Radio approvals:
+ 
+ 
+●
+  
+FCC Part 15.247, 15.407      
+ 
+ 
+●
+  
+RSS-210 (Canada)      
+ 
+ 
+●
+  
+EN 300.328, EN 301.893 (Europe)      
+ 
+ 
+●
+  
+AS/NZS 4268.2003 (Australia and New Zealand)      
+ 
+EMI and susceptibility:
+ 
+ 
+●
+  
+FCC Part 15.107 and 15.109      
+ 
+ 
+●
+  
+ICES-003 (Canada)      
+ 
+ 
+●
+  
+EN 301.489-1 and -17 (Europe)      
+ 
+ 
+◦
+   
+RV260/RV260P rackmount: Class A       
+ 
+ 
+ 
+ 
+ 
+ 
+Ordering Information
+ 
+ 
+ 
+ 
+ 
+ 
+Part number
+ 
+ 
+ 
+Product description
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RV260 and RV260P
+ 
+ 
+ 
+ 
+ 
+RV260-K9-NA, RV260P-K9-NA
+ 
+ 
+ 
+United States, Canada, Columbia, Mexico, Chile, Taiwan
+ 
+ 
+ 
+ 
+ 
+RV260-K9-G5, RV260P-K9-G5
+ 
+ 
+ 
+EU (CE Mark) 32 countries, Ukraine, Hong Kong, Singapore, Thailand, Vietnam, Philippines, Indonesia, Malaysia, Saudi Arabia, UAE, South Africa 
+ 
+ 
+ 
+ 
+ 
+RV260-K9-AU, RV260P-K9-AU
+ 
+ 
+ 
+Australia, New Zealand
+ 
+ 
+ 
+ 
+ 
+RV260-K9-AR, RV260P-K9-AR
+ 
+ 
+ 
+Argentina
+ 
+ 
+ 
+ 
+ 
+RV260-K9-BR, RV260P-K9-BR
+ 
+ 
+ 
+Brazil
+ 
+ 
+ 
+ 
+ 
+RV260-K9-CN, RV260P-K9-CN
+ 
+ 
+ 
+China
+ 
+ 
+ 
+ 
+ 
+RV260-K9-IN, RV260P-K9-IN
+ 
+ 
+ 
+India
+ 
+ 
+ 
+ 
+ 
+RV260-K9-JP, RV260P-K9-JP
+ 
+ 
+ 
+Japan
+ 
+ 
+ 
+ 
+ 
+R260-K9-KR, R260P-K9-KR
+ 
+ 
+ 
+Korea
+ 
+ 
+ 
+ 
+ 
+RV260-K8-RU, RV260P-K8-RU
+ 
+ 
+ 
+Russian Federation
+ 
+ 
+ 
+ 
+ 
+RV260W
+ 
+ 
+ 
+ 
+ 
+RV260W-A-K9-NA
+ 
+ 
+ 
+United States, Canada, Columbia, Mexico
+ 
+ 
+ 
+ 
+ 
+RV260W-E-K9-G5
+ 
+ 
+ 
+EU (CE Mark) 32 countries, Hong Kong, Singapore, Thailand, Vietnam, Philippines
+ 
+ 
+ 
+ 
+ 
+RV260W-A-K9-AU
+ 
+ 
+ 
+Australia, New Zealand
+ 
+ 
+ 
+ 
+ 
+RV260W-A-K9-AR
+ 
+ 
+ 
+Argentina
+ 
+ 
+ 
+ 
+ 
+RV260W-A-K9-BR
+ 
+ 
+ 
+Brazil
+ 
+ 
+ 
+ 
+ 
+RV260W-C-K9-CN
+ 
+ 
+ 
+China
+ 
+ 
+ 
+ 
+ 
+RV260W-I-K9-IN
+ 
+ 
+ 
+India
+ 
+ 
+ 
+ 
+ 
+RV260W-E-K9-JP
+ 
+ 
+ 
+Japan
+ 
+ 
+ 
+ 
+ 
+RV260W-R-K8-RU
+ 
+ 
+ 
+Russian Federation
+ 
+ 
+ 
+ 
+ 
+ 
+Dimensions
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+RV260
+ 
+ 
+ 
+RV260W
+ 
+ 
+ 
+RV260P
+ 
+ 
+ 
+ 
+ 
+Device Dimension/Weight
+ 
+ 
+ 
+Size L x W x H:
+ 279.4x170x38.5 mm
+ 
+ 
+ 
+Size L x W x H:
+ 279x170x38.5 mm
+ 
+ 
+ 
+Size L x W x H:
+ 279.4x170x38.5mm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Weight: 1230 g
+ 
+ 
+ 
+Weight: 1360 g
+ 
+ 
+ 
+Weight: 1260 g
+ 
+ 
+ 
+ 
+ 
+Single Box Dimension/Weight
+ 
+ 
+ 
+Size L x W x H: 376x266x127 mm
+ 
+ 
+ 
+Size L x W x H: 388x271x126 mm
+ 
+ 
+ 
+Size L x W x H: 261x453x106 mm
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Weight: 2.33 kg
+ 
+ 
+ 
+Weight: 2.18 kg
+ 
+ 
+ 
+Weight: 2.72 kg
+ 
+ 
+ 
+ 
+ 
+ 
+For more information 
+ 
+For more information on the Cisco RV260, RV260P, and RV260W VPN routers, visit 
+https://www.cisco.com/go/rv260
+.
+ 
+Warranty Information
+ 
+Cisco limited lifetime warranty for Cisco products
+ 
+This Cisco product comes with a limited lifetime hardware warranty. Product warranty terms and other information applicable to Cisco products are available at 
+https://www.cisco.com/go/warranty
+.
+ 
+Cisco Support Service
+ 
+Cisco Support Service offers an affordable, subscription-based support service that helps protect your investment and derive maximum value from Cisco products. Delivered and backed by Cisco, this comprehensive service includes software updates, extended access to the Cisco Support Center, and expedited hardware replacement, if required.
+ 
+Cisco Capital
+ 
+Flexible payment solutions to help you achieve your objectives
+ 
+Cisco Capital
+ 
+makes it easier to get the right technology to achieve your objectives, enable business transformation and help you stay competitive. We can help you reduce the total cost of ownership, conserve capital, and accelerate growth. In more than 100 countries, our flexible payment solutions can help you acquire hardware, software, services and complementary third-party equipment in easy, predictable payments. 
+Learn more
+.
+ 
+For more information
+ 
+For more information on the Cisco RV260, RV260P, and RV260W VPN routers, visit 
+https://www.cisco.com/go/rv160
+.
+ 
+Firmware
+ 
+To download firmware for the routers, visit Cisco Software Central.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contact Cisco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get a call from Sales
+
+
+
+
+
+
+
+
+Call Sales:
+
+
+
+
+
+
+
+                            
+                            1-800-553-6387
+                            
+                        
+
+
+
+
+US/CAN | 5am-5pm PT
+
+
+
+
+
+
+Product / Technical Support
+
+
+
+
+
+
+
+
+
+
+Training & Certification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Was this Document Helpful?
+
+
+
+
+Yes
+
+
+No
+
+
+
+
+
+
+
+
+Feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

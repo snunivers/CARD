@@ -1,0 +1,1 @@
+NAS326 is a unified storage for SMB offering hassle-free management, cloud storage integration, and the scale-out function to linearly expand performance and capacity up to 16PB for future data growth. It provides up to two modular host board slots for more deployment flexibility.

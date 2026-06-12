@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Snugpak | BASECAMP OPS NAVIGATOR</title>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="theme/snugpak/img/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="theme/snugpak/img/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="theme/snugpak/img/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="theme/snugpak/img/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="theme/snugpak/img/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="theme/snugpak/img/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="theme/snugpak/img/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="theme/snugpak/img/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="theme/snugpak/img/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="theme/snugpak/img/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="theme/snugpak/img/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="theme/snugpak/img/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="theme/snugpak/img/favicon/favicon-16x16.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="theme/snugpak/img/favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+
+    <link href="theme/snugpak/css/style.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <style>
+        @media only screen and (max-width: 992px) {
+            .menu-bar {
+                margin-bottom: 8px;
+            }
+        }
+
+        #item-no-btn {
+            cursor: pointer;
+        }
+
+        #item-no-btn-cross {
+            cursor: pointer;
+        }
+
+        .lower {
+            text-transform: capitalize !important;
+        }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H4Y55Z8CJ5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-H4Y55Z8CJ5');
+</script>
+
+
+<div class="adpopover">
+	<div class="prel">
+		<div class="popup">
+			<div class="popupRel">
+				<div class="popupClose">CLOSE<img src="https://snugpakusa.com/theme/snugpak/img/close.svg"></div>
+				<div class="popNav">
+					<div style="position: relative;">
+						<img src="img/popNext.svg" id="popNext" class="popNext">
+						<img src="img/popPrev.svg" id="popPrev" class="popPrev">
+					</div>
+				</div>
+
+							</div>
+		</div>
+	</div>
+</div>
+
+<header>
+    <!-- <div class="top-header-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="top-header">
+                        <a href="sign-in.php">Login</a> / <a href="sign-in.php">Register</a> | <a href="cart.php">View Cart</a>
+                        <input type="text" class="header-search" placeholder="search"><input type="submit" class="header-submit" value="" />
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Stops 2nd tagline to load below first cause header loading issue -->
+    <style>
+        .tag-header.tag2 {
+            display: none;
+        }
+
+        .search-button {
+            position: absolute;
+            z-index: 999;
+            top: 8px;
+            right: 11px;
+            cursor: pointer;
+        }
+
+        .search-button svg#search-effect {
+            width: 27px;
+            fill: black;
+        }
+
+        .search-button svg#search-effect:hover {
+            fill: white;
+        }
+
+        .menu-bar.no-bar .search-button {
+            left: 11px;
+            width: 33px;
+        }
+
+        @media only screen and (min-width: 856px) {
+            .menu-bar.no-bar .search-button {
+                display: none;
+            }
+        }
+    </style>
+
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="https://snugpakusa.com" target="_top">
+                        <div class="logo"><img src="https://snugpakusa.com/theme/snugpak/img/logo-header.png" class="img-responsive"></div>
+                    </a>
+
+                    <div id="slideshow">
+    <div class="tag-header tag1">
+        <img src="https://snugpakusa.com/img/with-you.svg" class="img-responsive" />
+    </div>
+    <div class="tag-header tag2">
+        <img src="https://snugpakusa.com/img/we-go.svg" class="img-responsive" />
+    </div>
+</div>
+
+                    <ul class="header-options">
+                        <a href="https://snugpakusa.com/dealer-locator.php" class="product-buttons header-btn" target="_top">Dealer Locator<img src="https://snugpakusa.com/theme/snugpak/img/find-dealer.svg"></a>
+                        <a href="https://portal.nowcommerce.com/CustSignIn.aspx?ID=6419" class="product-buttons header-btn portal" target="_blank">Dealer Portal<img src="https://snugpakusa.com/theme/snugpak/img/find-dealer.svg"></a>
+                        <a href="https://snugpakusa.com/dealer-inquiry.php" class="product-buttons header-btn" target="_top">Dealer Inquiry<img src="https://snugpakusa.com/theme/snugpak/img/plus-icon.svg" style="height:26px;"></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-bar remove">
+        <div class="container">
+            <div class="col-md-12">
+                <ul class="header-menu">
+                    <li class="drop">Products
+                        <div class="dropdown-desktop">
+                            <div class="dropdown-area">
+                                <div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=9" target="_top">
+            <div class="drop-cat-head">SLEEPING BAGS</div>
+        </a><a href="https://snugpakusa.com/range.php?id=8" target="_top">
+                    <div class="drop-list-item">BASECAMP OPS RANGE</div>
+                </a><a href="https://snugpakusa.com/range.php?id=9" target="_top">
+                    <div class="drop-list-item">JUNGLE BAG/BLANKETS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=6" target="_top">
+                    <div class="drop-list-item">TRAVELPAK RANGE</div>
+                </a><a href="https://snugpakusa.com/range.php?id=10" target="_top">
+                    <div class="drop-list-item">SOFTIE ORIGINAL RANGE</div>
+                </a><a href="https://snugpakusa.com/range.php?id=15" target="_top">
+                    <div class="drop-list-item">SOFTIE TACTICAL RANGE</div>
+                </a><a href="https://snugpakusa.com/category.php?id=9" target="_top">
+                    <div class="drop-list-item"><b>VIEW ALL</b> ...</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=11" target="_top">
+            <div class="drop-cat-head">TENTS/SHELTERS</div>
+        </a><a href="https://snugpakusa.com/range.php?id=23" target="_top">
+                    <div class="drop-list-item">TENTS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=48" target="_top">
+                    <div class="drop-list-item">TENT  FOOTPRINTS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=24" target="_top">
+                    <div class="drop-list-item">SHELTERS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=45" target="_top">
+                    <div class="drop-list-item">TENT ACCESSORIES</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=12" target="_top">
+            <div class="drop-cat-head">HAMMOCKS/NETS</div>
+        </a><a href="https://snugpakusa.com/range.php?id=25" target="_top">
+                    <div class="drop-list-item">HAMMOCKS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=26" target="_top">
+                    <div class="drop-list-item">HAMMOCK ACCESSORIES</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=13" target="_top">
+            <div class="drop-cat-head">CLOTHING</div>
+        </a><a href="https://snugpakusa.com/range.php?id=35" target="_top">
+                    <div class="drop-list-item">JACKETS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=36" target="_top">
+                    <div class="drop-list-item">PANTS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=41" target="_top">
+                    <div class="drop-list-item">RAIN WEAR</div>
+                </a><a href="https://snugpakusa.com/range.php?id=40" target="_top">
+                    <div class="drop-list-item">HEAD WEAR</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=16" target="_top">
+            <div class="drop-cat-head">LINERS/BIVVIS</div>
+        </a><a href="https://snugpakusa.com/range.php?id=19" target="_top">
+                    <div class="drop-list-item">LINERS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=20" target="_top">
+                    <div class="drop-list-item">BIVVIS</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=17" target="_top">
+            <div class="drop-cat-head">MATS/PILLOWS/BLANKETS</div>
+        </a><a href="https://snugpakusa.com/range.php?id=21" target="_top">
+                    <div class="drop-list-item">MATS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=22" target="_top">
+                    <div class="drop-list-item">PILLOWS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=46" target="_top">
+                    <div class="drop-list-item">BLANKETS</div>
+                </a></div><div class="drop-cat"><a href="https://snugpakusa.com/category.php?id=15" target="_top">
+            <div class="drop-cat-head">ACCESSORIES</div>
+        </a><a href="https://snugpakusa.com/range.php?id=34" target="_top">
+                    <div class="drop-list-item">DRI-SAKS</div>
+                </a><a href="https://snugpakusa.com/range.php?id=44" target="_top">
+                    <div class="drop-list-item">COMPRESSION STUFF SACKS</div>
+                </a></div>                            </div>
+                        </div>
+                    </li>
+
+                    <a href="https://snugpakusa.com/virtual-catalogues.php" target="_top">
+                        <li class="virt-menu">Virtual Catalogs</li>
+                    </a>
+
+                    <a class="menu-techs" href="https://snugpakusa.com/technologies.php" target="_top">
+                        <li>Technologies</li>
+                    </a>
+
+                    <a href="https://snugpakusa.com/about.php" target="_top">
+                        <li>About Us</li>
+                    </a>
+
+                    <a href="https://snugpakusa.com/contact.php" target="_top">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+        <div class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="search-effect" x="0px" y="0px" width="27px" height="27px" viewBox="0 0 30.239 30.239" style="enable-background:new 0 0 30.239 30.239;" xml:space="preserve"><g><path d="M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735   c4.108,4.107,10.506,4.547,15.116,1.34c0.097,0.459,0.319,0.897,0.676,1.254l6.718,6.718c0.979,0.977,2.561,0.977,3.535,0   c0.978-0.978,0.978-2.56,0-3.535l-6.718-6.72c-0.355-0.354-0.794-0.577-1.253-0.674C24.743,13.967,24.303,7.57,20.194,3.46z    M18.073,18.074c-3.444,3.444-9.049,3.444-12.492,0c-3.442-3.444-3.442-9.048,0-12.492c3.443-3.443,9.048-3.443,12.492,0   C21.517,9.026,21.517,14.63,18.073,18.074z" /></g></svg>
+        </div>
+    </div>
+
+    <style>
+        li.downarrow {
+            background-image: url(img/down-arrow.svg);
+            background-size: 24px;
+            background-repeat: no-repeat;
+            background-position: 97.7%;
+        }
+
+        .search-area {
+            width: 100%;
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.8705882352941177);
+            z-index: 999;
+            padding: 54px 0px 60px 0px;
+            display: none;
+        }
+
+        .search-area form {
+            width: 500px;
+            margin: auto;
+        }
+
+        .search-area input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            width: 100%;
+            margin: auto;
+            color: white;
+            font-size: 47px;
+            font-weight: 400;
+        }
+
+        .search-area input:focus {
+            outline: none;
+        }
+    </style>
+
+    <div class="menu-bar no-bar">
+        <nav>
+            <a class="icon">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </a>
+        </nav>
+
+        <div class="search-button">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="search-effect" x="0px" y="0px" width="27px" height="27px" viewBox="0 0 30.239 30.239" style="enable-background:new 0 0 30.239 30.239;" xml:space="preserve"><g><path d="M20.194,3.46c-4.613-4.613-12.121-4.613-16.734,0c-4.612,4.614-4.612,12.121,0,16.735   c4.108,4.107,10.506,4.547,15.116,1.34c0.097,0.459,0.319,0.897,0.676,1.254l6.718,6.718c0.979,0.977,2.561,0.977,3.535,0   c0.978-0.978,0.978-2.56,0-3.535l-6.718-6.72c-0.355-0.354-0.794-0.577-1.253-0.674C24.743,13.967,24.303,7.57,20.194,3.46z    M18.073,18.074c-3.444,3.444-9.049,3.444-12.492,0c-3.442-3.444-3.442-9.048,0-12.492c3.443-3.443,9.048-3.443,12.492,0   C21.517,9.026,21.517,14.63,18.073,18.074z" /></g></svg>
+        </div>
+    </div>
+
+    <ul class="mob-menu">
+        <a href="#" id="mob-cata-active">
+            <li class="downarrow">Products</li>
+        </a>
+
+        <ul class="cata-mob-menu">
+            <a href="https://snugpakusa.com/category.php?id=9" target="_top"><li>SLEEPING BAGS</li></a><a href="https://snugpakusa.com/category.php?id=11" target="_top"><li>TENTS/SHELTERS</li></a><a href="https://snugpakusa.com/category.php?id=12" target="_top"><li>HAMMOCKS/NETS</li></a><a href="https://snugpakusa.com/category.php?id=13" target="_top"><li>CLOTHING</li></a><a href="https://snugpakusa.com/category.php?id=16" target="_top"><li>LINERS/BIVVIS</li></a><a href="https://snugpakusa.com/category.php?id=17" target="_top"><li>MATS/PILLOWS/BLANKETS</li></a><a href="https://snugpakusa.com/category.php?id=15" target="_top"><li>ACCESSORIES</li></a>        </ul>
+
+        <a href="https://snugpakusa.com/virtual-catalogues.php" target="_top"><li>Virtual Catalogues</li></a>
+        <a class="menu-techs" href="https://snugpakusa.com/technologies.php" target="_top"><li>Technologies</li></a>
+        <a href="https://snugpakusa.com/about.php" target="_top"><li>About Us</li></a>
+        <a href="https://snugpakusa.com/contact.php" target="_top"><li>Contact Us</li></a>
+    </ul>
+
+    <div class="search-area">
+        <form action="https://snugpakusa.com/search-results.php">
+            <input type="text" class="search-input" name="q" placeholder="Search" /> 
+       </form>
+    </div>
+</header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="product-slider">
+                    <ul id="imageGallery">
+                                                    <li data-thumb="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator1.jpg" class="slider-slide" data-src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator1.jpg">
+                                <img src="" class="slider-slide" />
+                            </li>
+                                                    <li data-thumb="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator3.jpg" class="slider-slide" data-src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator3.jpg">
+                                <img src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator3.jpg" class="slider-slide" />
+                            </li>
+                                                    <li data-thumb="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator2.jpg" class="slider-slide" data-src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator2.jpg">
+                                <img src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator2.jpg" class="slider-slide" />
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="prod-details-area">
+                    <h2>BASECAMP OPS <br>NAVIGATOR</h2>
+
+                    <h3>
+                        MSRP $79.95                    </h3>
+
+                    <p class="desc">
+                        The Basecamp Range is an ideal introduction to Snugpak's range of sleeping bags. These chunky, warm and comfortable bags are made to the same exact standards as the rest of the range, with an Isofibre...                    </p>
+
+                    <a href="#product-description" class="learn-more">Learn More ></a>
+
+                    <!-- Retail Code -->
+                    <!--<div class="order-variables">
+
+                        <div class="product-variable">
+                            <label>Size:</label>
+                            <select>
+                                <option>yellow</option>
+                            </select>
+                        </div>
+                        <div class="product-variable">
+                            <label>Color:</label>
+                            <select>
+                                <option>yellow</option>
+                            </select>
+                        </div>
+                        <div class="product-variable">
+                            <label>Quanitity:</label>
+                            <select>
+                                <option>yellow</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div style="clear: both"></div>
+
+                    <a href="#" class="add-to-cart">Add to Cart</a>-->
+
+                    <!-- Dealer Links Code -->
+
+                    <div style="clear: both"></div>
+
+                                            <a id="video-btn" class="product-buttons prods html5lightbox"
+                            data-group="product-videos"
+                            href="https://www.youtube.com/watch?v=GTCbVcmrQgw"
+                            data-thumbnail="https://img.youtube.com/vi/GTCbVcmrQgw/default.jpg">
+                            Product Videos<img src="https://snugpakusa.com/theme/snugpak/img/play-button.svg" />
+                        </a>
+                        
+                    <a id="item-no-btn" class="product-buttons prods">
+                        Item Numbers<img src="https://snugpakusa.com/theme/snugpak/img/hash-icon.svg" />
+                    </a>
+
+                    <a href="dealer-locator.php" class="product-buttons prods">
+                        Find a Dealer<img src="https://snugpakusa.com/theme/snugpak/img/find-dealer.svg" />
+                    </a>
+
+                                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prod-table-overlay">
+        <div class="table-placer">
+            <div class="close-btn">
+                <a id="item-no-btn-cross" class="close-table">
+                    <div class="close-table">Close</div>
+                </a>
+            </div>
+
+            <table class="prod-table">
+                <tr class="top-row">
+                    <th>ITEM #</th>
+                    <th>UPC #</th>
+                                            <th>COLOR(S)</th>
+                                            <th>ZIP</th>
+                                        <th>Price</th>
+                </tr>
+                                        <tr>
+                            <td>98300</td>
+                            <td>8211650020139</td>
+                                                            <td>OLIVE</td>
+                                                            <td>LEFT SIDE</td>
+                                                        <td>79.95</td>
+                        </tr>
+                                            <tr>
+                            <td>98305</td>
+                            <td>8211650020122</td>
+                                                            <td>OLIVE</td>
+                                                            <td>RIGHT SIDE</td>
+                                                        <td>79.95</td>
+                        </tr>
+                                </table>
+        </div>
+    </div>
+
+    <div id="product-description" class="menu-bar">
+        <h2>Full Product Details</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="prod-spec">
+                    <p class="features desc-title">Description:</p>
+                    <p>The Basecamp Range is an ideal introduction to Snugpak's range of sleeping bags. These chunky, warm and comfortable bags are made to the same exact standards as the rest of the range, with an Isofibre® filling that provides considerable warmth. Highly siliconised synthetic fibres give a soft touch and prolonged lifespan compared to traditional fibre filled products. The Square Foot Navigator can be opened to make a square quilt or blanket. In addition, the Left & Right Hand zip bags can be zipped together to make a large 2 person sleeping bag.</p>
+
+                                            <p class="features">Features:</p>
+                        <ul style="-webkit-padding-start: 16px; font-weight: normal;">
+                                                            <li>Compression stuff sack</li>
+                                                            <li>Draft Collar / Snugfit Hood</li>
+                                                            <li>Anti-Snag Two-Way Zipper / Zip Baffle</li>
+                                                            <li>Hanging Dry Tabs</li>
+                                                            <li>Reinforced Foot Lining</li>
+                                                            <li>Left & Right Hand zip bags can be zipped together to make a large 2 person sleeping bag</li>
+                                                    </ul>
+                    
+                    
+                    
+                                            <div class="spec-features useful-links">
+                            <h4>Useful Links</h4>
+                                                            <p class="pdf-p"><a target="_blank" href="https://snugpakusa.com/admin/uploads/pdfs/Snugpak-Care_Washing_Instructions.pdf">CARE & WASHING INSTRUCTIONS</a></p>
+                                                            <p class="pdf-p"><a target="_blank" href="https://snugpakusa.com/admin/uploads/pdfs/Temperature_Ratings_for_Sleeping_Bags.pdf">TEMP RATINGS FOR SLEEPING BAGS</a></p>
+                                                    </div>
+                                    </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="spec-features temps">
+                    
+                                            <h4>Temp Range (Comfort / Low )</h4>
+                        <p>28°F / 19°F (-2°C / -7°C)</p>
+                    
+                    
+                                            <h4>Weight</h4>
+                        <p>62oz (1750g)</p>
+                    
+                                            <h4>Dimensions</h4>
+                        <p>87 x 31in (220 x 80cm)</p>
+                    
+                                            <h4>Pack Size</h4>
+                        <p>11 x 9in (28 x 24cm)</p>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                    </div>
+
+                                    <div class="spec-features tech-area">
+                        <h4>Technology</h4>
+
+                                                    <div class="tech-box">
+                                <h3>Shell</h3>
+
+                                                                    <img src="https://snugpakusa.com/admin/uploads/techs/2/aqualight.jpg" title="AQUA LIGHT" class="tech-icon techThumb" data-file="https://snugpakusa.com/admin/uploads/techs/2/aqualight_infolarge.jpg" />
+                                                            </div>
+                                                    <div class="tech-box">
+                                <h3>Fill</h3>
+
+                                                                    <img src="https://snugpakusa.com/admin/uploads/techs/3/isofibre.jpg" title="ISOFIBRE" class="tech-icon techThumb" data-file="https://snugpakusa.com/admin/uploads/techs/3/isofibre_infolarge.jpg" />
+                                                            </div>
+                                                    <div class="tech-box">
+                                <h3>Lining</h3>
+
+                                                                    <img src="https://snugpakusa.com/admin/uploads/techs/12/supersoft.jpg" title="SUPERSOFT" class="tech-icon techThumb" data-file="https://snugpakusa.com/admin/uploads/techs/12/supersoft_infolarge.jpg" />
+                                                            </div>
+                                                    <div style="clear:both"></div>
+                         <p>Click thumbnails for more details</p>
+                    </div>
+                    
+                
+                    <!-- The Modal -->
+                    <div id="techModal" class="modal">
+                        <span class="close-tech">&times;</span>
+                        <img class="modal-content" id="techModalImg" />
+                        <!-- <div id="techCaption"></div> -->
+                    </div>
+                               
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-bar related">
+        <h2>Customers Also Considered</h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <section class="regular slider">
+                                    <div>
+                        <a href="product.php?id=143">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/143/CSS-1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">COMPRESSION STUFF SACKS</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $32.95                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=102">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/102/DRI-SAK-1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">DRI-SAK</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $24.00 - $40.00                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=20">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/20/BasecampOPS-Nautilus1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">BASECAMP OPS <br>NAUTILUS</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $69.95                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=21">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">BASECAMP OPS <br>NAVIGATOR</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $79.95                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=146">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/146/Liner-Bivvi-Hanger-Single-Curved.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">SLEEPING BAG HANGER <br> SINGLE CURVED</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $25.00                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=87">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/87/JungleHammock-1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">JUNGLE HAMMOCK W/MOSQUITO NET WGTE</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $109.00                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=169">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/169/Parallax_Pants_Front_Olive.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">PARALLAX INSULATED PANTS</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $249.00 - $299.00                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=123">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/123/PonchoLiner-1.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">PONCHO LINER</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $79.95                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=142">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/142/SnuggyPillow-2.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">SNUGGY PILLOW</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $20.00                            </p>
+                        </a>
+                    </div>
+                                    <div>
+                        <a href="product.php?id=39">
+                            <img style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0; margin-bottom: 5px;" src="https://snugpakusa.com/admin/uploads/products/39/JungleBag-Olive.jpg" />
+                            <h3 style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-title">JUNGLE BAG</h3>
+                            <p style="width: 100%; padding-left: 5%; padding-right: 5%; margin-left: 0; margin-right: 0;" class="popu-price">
+                                $79.95                            </p>
+                        </a>
+                    </div>
+                            </section>
+        </div>
+    </div>
+
+    
+<footer>
+            <style>
+            .grecaptcha-badge {
+                right: -254px !important;
+                bottom: -13px !important;
+            }
+
+            .grecaptcha-badge:hover {
+                right: -65px !important;
+            }
+        </style>
+    
+    <style>
+        .grecaptcha-badge {
+            z-index: 2;
+        }
+
+        @media only screen and (max-width: 950px) {
+            .grecaptcha-badge {
+                bottom: -71px !important;
+            }
+        }
+
+        @media only screen and (max-width: 767px) {
+            .grecaptcha-badge {
+                right: -186px !important;
+                bottom: -62px !important;
+            }
+
+            .grecaptcha-badge:hover {
+                right: 0px !important;
+            }
+        }
+    </style>
+
+    <div class="menu-bar newsletter">
+        <div class="animation-element slide-left testimonial" style="z-index: 2;"><span>Sign Up for our newsletter and New product Announcements</span>
+            <form id="newsletter_signup" class="inline" method="POST" action="https://snugpakusa.com/inc/submitNewsletter.php">
+                <input type="email" id="news-email" class="news-email" name="email" placeholder="Email Address..." required />
+
+                
+
+                <input type="submit" class="news-email" style="z-index: 1;" />
+            </form>
+            <div id="newsletterRecaptcha"></div>
+        </div>
+    </div>
+
+    <div class="container footer-home-area">
+        <div class="row">
+            <div class="col-xs-4 burb-area footer-sep">
+                <div class="blurb">
+                    <img src="https://snugpakusa.com/theme/snugpak/img/logo-header.png" />
+<p>Founded in 1977, Snugpak products have been used on every permanently inhabited continent and the company enjoys long standing contract with many government defense agencies for both sleeping bags and clothing. This is due not only to the performance of our products but also our quality workmanship materials that go into every item Snugpak proudly puts their name on. Snugpaks reputation for quality and on time delivery ensure their standing as an international brand leader.</p>
+                </div>
+            </div>
+
+            <div class="col-xs-4 v-cats footer-sep">
+                <h5 class="cata">View/Download Catalogues</h5>
+                <div class="cata-holder-footer">
+                    <a href="https://snugpakusa.com/pdf/catalog/index.html" target="_blank">
+    <img src="https://snugpakusa.com/theme/snugpak/img/SNUGPAK_EXTREME_Catalog.jpg" class="right-cata" />
+</a>
+
+<a href="https://snugpakusa.com/pdf/2023_catalog/index.html" target="_blank">
+    <img src="https://snugpakusa.com/theme/snugpak/img/snugpak2023-cover-sm.jpg" class="right-cata" />
+</a>                </div>
+            </div>
+
+            <div class="col-xs-4 company-links">
+                <h5>Company</h5>
+
+                <ul class="footer-links" style="text-align: left;">
+    <li><a href="https://snugpakusa.com/about.php" target="_top">About Us</a></li>
+    <li><a href="https://snugpakusa.com/contact.php" target="_top">Contact Us</a></li>
+    <li><a href="https://snugpakusa.com/privacy-policy.php" target="_top">Privacy Policy</a></li>
+    <li><a href="https://snugpakusa.com/warranty.php" target="_top">Warranty</a></li>
+</ul>
+
+<ul class="header-options onfooter">
+    <a href="https://snugpakusa.com/dealer-locator.php" target="_top" class="product-buttons footer-buttons header-btn">
+        Dealer Locator<img src="https://snugpakusa.com/theme/snugpak/img/find-dealer.svg" />
+    </a>
+
+    <a href="https://portal.nowcommerce.com/CustSignIn.aspx?ID=6419" target="_blank" class="product-buttons footer-buttons header-btn portal">
+        Dealer Portal<img src="https://snugpakusa.com/theme/snugpak/img/find-dealer.svg" />
+    </a>
+
+    <a href="https://snugpakusa.com/dealer-inquiry.php" target="_top" class="product-buttons footer-buttons header-btn">
+        Dealer Inquiry<img src="https://snugpakusa.com/theme/snugpak/img/plus-icon.svg" />
+    </a>
+</ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bar"></div>
+
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="disclaimer" style="text-align: left;">
+    Snugpak® is a registered trademark of Snugpak Ltd UK.<br />
+    Snugpak® products are exclusively distributed in North and South America by:<br />
+    Proforce Equipment, Inc.<br />305.436.7984 / 800.259.5962 | <a href="http://www.proforceequipment.com" target="_blank">www.ProforceEquipment.com</a>
+</p>
+
+<p>Copyright 2024 Snugpak USA | Web Design By <a href="http://www.getonit.co.uk" target="_blank" style="color: white;">GetOnIT</a></p>
+
+<div class="social-footer">
+    <p>Connect With Us</p>
+    <ul class="social-icons">
+		<li><a href="https://www.facebook.com/snugpak" target="_blank"><img src="https://snugpakusa.com/theme/snugpak/img/facebook-footer.png" class="img-responsive" /></a></li>
+        <li><a href="https://www.instagram.com/snugpakuk/" target="_blank"><img src="https://snugpakusa.com/theme/snugpak/img/instagram-footer.png" class="img-responsive" /></a></li>
+        <li><a href="https://twitter.com/snugpak" target="_blank"><img src="https://snugpakusa.com/theme/snugpak/img/twitter-footer.png" class="img-responsive" /></a></li>
+        <li><a href="https://www.youtube.com/user/Snugpak1" target="_blank"><img src="https://snugpakusa.com/theme/snugpak/img/youtube-footer.png" class="img-responsive" /></a></li>
+    </ul>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".icon").click(function() {
+            $("ul.mob-menu").slideToggle("fast");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $(".search-button").click(function() {
+            $(".search-area").fadeToggle("slow");
+            $('.search-input').focus();
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#mob-cata-active").click(function() {
+            $("ul.cata-mob-menu").slideToggle("fast");
+        });
+    });
+</script>
+
+<script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        $(document).ready(function() {
+            $("li.drop").on('tap', function() {
+                $(".dropdown-desktop").fadeToggle("slow");
+            });
+        });
+    }
+</script>
+
+<script>
+    $(document).ready(function(){
+        setInterval(function() {
+            $('#slideshow > div:first')
+                .fadeOut(2000)
+                .next()
+                .fadeIn(2000)
+                .end()
+                .appendTo('#slideshow');
+        }, 7000);
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        //window and animation items
+        var animation_elements = $.find('.animation-element');
+        var web_window = $(window);
+
+        //check to see if any animation containers are currently in view
+        function check_if_in_view() {
+            //get current window information
+            var window_height = web_window.height();
+            var window_top_position = web_window.scrollTop();
+            var window_bottom_position = (window_top_position + window_height);
+
+            //iterate through elements to see if its in view
+            $.each(animation_elements, function() {
+                //get the element sinformation
+                var element = $(this);
+                var element_height = $(element).outerHeight();
+                var element_top_position = $(element).offset().top;
+                var element_bottom_position = (element_top_position + element_height);
+
+                //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
+                if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+                    element.addClass('in-view');
+                } else {
+                    element.removeClass('in-view');
+                }
+            });
+        }
+
+        //on or scroll, detect elements in view
+        $(window).on('scroll resize', function() {
+            check_if_in_view();
+        })
+
+        //trigger our scroll event on initial load
+        $(window).trigger('scroll');
+    });
+</script>
+
+<script type="text/javascript">
+    var newsletterRecaptcha;
+
+    $('#newsletter_signup').submit(function(e) {
+        console.log('Validation completed.');
+
+        e.preventDefault();
+        console.log('pre-ex');
+        grecaptcha.execute(newsletterRecaptcha);
+        console.log('post-ex');
+    });
+
+    function onloadCallback() {
+        newsletterRecaptcha = grecaptcha.render(
+            'newsletterRecaptcha',
+            {
+                'sitekey': '6LfmwV4UAAAAAMqK7nsUCbrMOKF_leZlV1akpgNS',
+                'callback': onSubmitNewsletter,
+                'size': 'invisible'
+            }
+        );
+    }
+
+    function onSubmitNewsletter() {
+        var email = $('.news-email[type=email]').val();
+
+        $.ajax({
+            url: 'inc/submitNewsletter.php',
+            method: 'POST',
+            data: {
+                'email': email,
+                'g-recaptcha-response': grecaptcha.getResponse(newsletterRecaptcha)
+            },
+            success: function(data) {
+                console.log(data);
+                alert('Your e-mail address has been added to our mailing-list.');
+            }
+        });
+    };
+</script>
+
+<script src='https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit' async defer></script>
+
+<script src="js/popup.js"></script>
+
+<script>
+    $("span.close-tech").click(function(){
+          $('.vidPOP').hide();
+    });
+</script>
+
+<script>
+    $(document).ready(function() {
+        if(document.URL.indexOf("product.php?id=76") >= 0) {
+            $(".prod-details-area h2").addClass("lower");
+        }
+
+        if(document.URL.indexOf("product.php?id=78") >= 0) {
+            $(".prod-details-area h2").addClass("lower");
+        }
+
+        if(document.URL.indexOf("product.php?id=79") >= 0) {
+            $(".prod-details-area h2").addClass("lower");
+        }
+    });
+</script>
+
+    <script type="text/javascript" src="js/slick.min.js"></script> <!-- v1.6.0 -->
+    <script src="js/lightslider.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#item-no-btn').on('click', function() {
+                $('.prod-table-overlay').fadeToggle();
+
+                var tablewidth = $('.table-placer').outerWidth(); {}
+                var tbhalf = (tablewidth / 2);
+                var tbhalf13 = (tbhalf + 9);
+
+                $('.table-placer').css({
+                    marginLeft: -tbhalf13
+                });
+
+                var tableheight = $('.table-placer').height(); {}
+                var tbhalfheight = (tableheight / 2);
+                var tbhalfheight13 = (tbhalfheight + 13);
+
+                $('.table-placer').css({
+                    marginTop: -tbhalfheight13
+                });
+            });
+        });
+
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('#item-no-btn-cross').on('click', function() {
+                $('.prod-table-overlay').fadeToggle()
+            });
+        });
+    </script>
+
+    <script>
+        window.onload = function() {
+            var modal = document.getElementById('techModal');
+
+            var imgThumbs = document.getElementsByClassName('techThumb');
+            var modalImg = document.getElementById("techModalImg");
+            // var captionText = document.getElementById("techCaption");
+
+            for(var i = 0; i < imgThumbs.length; i++) {
+                var imgThumb = imgThumbs[i];
+                imgThumb.onclick = function() {
+                    modal.style.display = "block";
+                    modalImg.src = this.getAttribute('data-file');
+                    // captionText.innerHTML = this.alt;
+                };
+            }
+
+            var span = document.getElementsByClassName("close-tech")[0];
+
+            span.onclick = function() {
+                modal.style.display = "none";
+            };
+        };
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('a[href*="#"]')
+            .not('[href="#"]')
+            .not('[href="#0"]')
+            .click(function(event) {
+                if (
+                    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                    location.hostname == this.hostname
+                ) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        event.preventDefault();
+                        $('html, body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000, function() {
+                            var $target = $(target);
+                            $target.focus();
+                            if ($target.is(":focus")) {
+                                return false;
+                            } else {
+                                $target.attr('tabindex', '-1');
+                                $target.focus();
+                            };
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+
+    <script type="text/javascript">
+        $('#imageGallery li:first img').on('load', function() {
+            var slider = $('#imageGallery').lightSlider({
+                gallery: true,
+                item: 1,
+                loop: true,
+                thumbItem: 5,
+                slideMargin: 0,
+                enableDrag: false,
+                currentPagerPosition: 'left',
+                adaptiveHeight: true,
+                vThumbWidth: 100,
+                onAfterSlide: function (el) {
+                    $('#imageGallery li').each(function() {
+                        var youtubePlayer = $(this).find('iframe').get(0);
+                        if (youtubePlayer) {
+                            youtubePlayer.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+                        }
+                    });
+                }
+            });
+        });
+
+        $('#imageGallery li:first img').attr('src', 'https://snugpakusa.com/admin/uploads/products/21/BasecampOPS-Navigator1.jpg');
+    </script>
+
+    <script type="text/javascript">
+        $(document).on('ready', function() {
+            $(".regular").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 7000,
+                responsive: [
+                    {
+                        breakpoint: 993,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 690,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 550,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    },
+                    {
+                        breakpoint: 450,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+            <script type="text/javascript">
+            var lightbox_options = {
+                showplaybutton: false
+            };
+        </script>
+
+        <script type="text/javascript" src="js/lightbox/lightbox.js"></script>
+    </body>
+</html>

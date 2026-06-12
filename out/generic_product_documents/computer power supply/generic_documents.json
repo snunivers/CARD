@@ -1,0 +1,86 @@
+{
+  "category": "computer power supply",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 89,
+      "text": "The [BRAND] [MODEL] is a 450W ATX power supply designed for everyday desktop builds and office systems. It delivers stable output on a single +12V rail and includes an 80 PLUS Bronze efficiency rating to reduce wasted energy and excess heat. A quiet 120 mm cooling fan adjusts speed automatically for balanced airflow and low noise. Standard protections include OVP, UVP, SCP, OPP, and OTP for safer operation. The unit provides a 24-pin motherboard connector, 4+4 CPU power, two SATA chains, and one PCIe connector for entry-level graphics cards."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 91,
+      "text": "Built for compact gaming PCs, the [BRAND] [MODEL] is a 550W SFX power supply with fully modular cabling for cleaner routing in small cases. Its 80 PLUS Gold certification helps maintain efficient power conversion, while the compact housing leaves more room for airflow. A fluid dynamic bearing fan remains quiet under light loads and ramps smoothly during demanding sessions. The unit supports modern GPUs with dual 6+2 pin PCIe connectors and includes two EPS connectors for current mini-ITX and micro-ATX motherboards. Comprehensive protection circuits guard against overload, short circuit, and overheating."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 87,
+      "text": "The [BRAND] [MODEL] offers 650W of reliable output for mid-range gaming systems and content creation desktops. This semi-modular ATX design keeps essential cables attached while allowing optional leads to be added only when needed, improving internal airflow. Certified 80 PLUS Bronze, it balances efficiency and value for builders seeking dependable everyday performance. A temperature-controlled 140 mm fan helps limit noise during normal use. Connectivity includes a 24-pin ATX cable, 8-pin EPS, two 6+2 PCIe connectors, and multiple SATA and peripheral plugs for storage drives, fans, and accessories."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 90,
+      "text": "Designed for performance-focused users, the [BRAND] [MODEL] is a 750W fully modular ATX power supply with 80 PLUS Gold efficiency. Its DC-to-DC design helps maintain tight voltage regulation across demanding workloads, from gaming to streaming and workstation tasks. A 135 mm low-noise fan supports semi-passive operation, staying off at low power draw for quieter idle performance. The package includes sleeved modular cables, two EPS connectors, four PCIe 6+2 connectors, and ample SATA leads for larger systems. Built-in OCP, OVP, SCP, OPP, UVP, and OTP protection adds confidence over long-term use."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 88,
+      "text": "The [BRAND] [MODEL] is an 850W power supply created for high-end gaming rigs with power-hungry graphics hardware. It features 80 PLUS Gold certification, a fully modular layout, and a strong single +12V rail for stable delivery under heavy load. Native support for current-generation graphics cards is provided through a 12VHPWR connector alongside traditional PCIe 6+2 cables. The 140 mm fan uses a quiet bearing design and a zero-RPM mode at low temperatures. Premium capacitors, active PFC, and complete safety protections help ensure efficient, dependable operation in demanding systems."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 94,
+      "text": "For workstation and enthusiast platforms, the [BRAND] [MODEL] delivers 1000W of continuous power in a standard ATX form factor. This fully modular unit carries an 80 PLUS Platinum rating for high efficiency during sustained rendering, simulation, or multi-GPU workloads. A digital monitoring circuit improves voltage stability and supports consistent output across the single +12V rail. The silent 135 mm fan uses smart thermal control to balance cooling and acoustics. Included connectors cover dual EPS, multiple PCIe leads, abundant SATA outputs, and a native high-power GPU cable, making the unit suitable for expansive, upgrade-ready systems."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a 300W TFX power supply intended for slim desktops, home office PCs, and replacement upgrades in compact enclosures. Its narrow form factor fits systems where standard ATX units cannot be installed. With 80 PLUS efficiency, it helps lower power consumption during routine tasks such as browsing, document work, and media playback. A built-in 80 mm fan provides steady airflow while keeping noise at a practical level for everyday use. The unit includes a 24-pin motherboard connector, CPU power lead, SATA connectors, and basic peripheral support with essential safety protections."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] provides 500W of dependable power for mainstream PCs that need a straightforward, cost-conscious upgrade. This non-modular ATX unit is easy to install and comes with fixed flat cables that simplify routing compared with older sleeved designs. An 80 PLUS White efficiency rating supports stable day-to-day operation for family desktops, student systems, and casual gaming builds. The 120 mm fan uses automatic speed control to reduce unnecessary noise. Standard connectors include 24-pin ATX, 4+4 CPU, one 6+2 PCIe lead, SATA power for multiple drives, and classic peripheral plugs."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 92,
+      "text": "Created for silent PC enthusiasts, the [BRAND] [MODEL] is a 600W fanless power supply that cools passively through a ventilated aluminum housing. It is ideal for noise-sensitive workstations, audio production setups, and living-room PCs where acoustic output matters. The 80 PLUS Platinum certification helps minimize heat generation by improving conversion efficiency. Fully modular cabling keeps installation clean and reduces clutter in compact or airflow-focused builds. Despite its silent design, the unit delivers stable power through a robust +12V rail and includes comprehensive protections, dual CPU support, PCIe connectors, and multiple SATA outputs."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is a 700W ATX power supply tailored for gaming systems that need a balance of clean power, quiet operation, and practical pricing. Its 80 PLUS Gold rating improves efficiency during long sessions, while the semi-modular cable system helps reduce unused wiring inside the case. A 120 mm hydraulic bearing fan is tuned for low vibration and consistent cooling. The unit supports modern components with dual EPS connectors, four PCIe 6+2 connectors, and ample SATA power for SSDs and hard drives. Safety features include short-circuit, overload, over-voltage, and over-temperature protection."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 94,
+      "text": "With a compact 125 mm depth, the [BRAND] [MODEL] is a 650W ATX power supply well suited for smaller mid-tower and micro-ATX cases. It combines an 80 PLUS Gold efficiency level with fully modular flat black cables, making cable management easier in tighter spaces. The LLC and DC-to-DC platform helps maintain stable voltage under rapidly changing loads from modern CPUs and GPUs. A 120 mm fan offers a quiet profile at low to moderate demand. The package includes dual 4+4 CPU connectors, three PCIe 6+2 leads, SATA power chains, and complete electrical protection circuitry."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a 1200W power supply aimed at advanced gaming, overclocking, and professional workstation builds. Its 80 PLUS Platinum efficiency rating helps reduce energy loss even when the system is under sustained stress. Fully modular cables include multiple EPS connectors, several PCIe 6+2 leads, and native support for newer high-power graphics cards. A large 140 mm fan with semi-passive mode keeps thermal performance under control without constant noise. High-quality internal components, low ripple output, and layered protection features make this unit suitable for users planning demanding hardware configurations and future upgrades."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 89,
+      "text": "Engineered for value-oriented builders, the [BRAND] [MODEL] is a 400W micro-ATX power supply for budget desktops and light-duty home systems. Its compact dimensions suit smaller cases, while the fixed cable design keeps setup simple for straightforward builds. The unit uses active PFC and delivers dependable output for integrated graphics platforms, basic office work, and entry-level components. A temperature-sensitive fan helps maintain reasonable cooling without excessive noise during regular use. Included connectors cover 24-pin ATX, CPU power, SATA, and peripheral devices, with essential protections against over-voltage, overload, and short circuit."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] offers 900W of power in an SFX-L form factor, giving compact enthusiasts extra capacity for premium GPUs and high-core-count processors. Its larger SFX-L chassis allows a quieter 120 mm fan, improving acoustic performance compared with many standard SFX units. Fully modular short cables are included for small-form-factor builds, and an 80 PLUS Gold rating supports efficient thermal behavior. The design features a strong single +12V rail, dual EPS support, multiple PCIe connections, and a native high-power graphics connector. Full safety protections help maintain reliability inside dense, high-performance systems."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a 550W ATX power supply designed for dependable everyday gaming and productivity use. It meets 80 PLUS Bronze standards and uses a semi-modular layout that leaves only the essential motherboard and CPU cables permanently attached. This setup reduces clutter while keeping installation straightforward for first-time builders. A 120 mm fan with optimized blade geometry helps move air efficiently and stay relatively quiet under moderate load. The unit includes two PCIe 6+2 connectors, several SATA plugs for storage, and standard protections to guard against voltage irregularities, overload, and short circuits."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 93,
+      "text": "Built for efficient mainstream and enthusiast systems, the [BRAND] [MODEL] is a 750W ATX 3.0 power supply prepared for modern transient load demands. It carries an 80 PLUS Gold certification and includes a native 12VHPWR cable in addition to traditional PCIe connectors, offering flexibility for current and previous-generation graphics cards. The fully modular design simplifies custom cable routing and improves case airflow. A 135 mm fan supports quiet operation with a zero-RPM mode at low loads. Inside, high-grade capacitors and multiple protection systems help deliver stable, long-lasting performance for gaming or workstation builds."
+    }
+  ]
+}

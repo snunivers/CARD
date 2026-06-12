@@ -1,0 +1,31 @@
+4 station base capability, expandable up to 22 stations using hot-swappable 3- or 6-station expansion modules (sold separately)
+
+Comes with power plug and outdoor cabinet for indoor or outdoor installation.
+
+WiFi Connectivity -- compatible with the new Rain Bird LNK WiFi module (sold separately). Simply plug in the module to access, operate and monitor your irrigation system from any mobile device.
+
+Flow monitoring.  Use with wired flow sensor (sold separately) to monitor flows, get notifications and prevent water waste from broken pipes and leaks.
+
+Easy to read, large backlit 3" screen 
+
+4 individual programs with 6 independent start times per program
+
+One-Touch manual watering
+
+Add a rain sensor (sold separately) to automatically prevent watering when it rains.
+
+Non-volatile (100 year) storage memory saves current programming, no battery required
+
+10 year life lithium battery saves controller time and date during power outages
+
+Delay watering up to 14 days
+
+Water-saving, one-touch seasonal adjustment from 5% to 200%
+
+Master valve/pump start circuit
+
+ESP-ME3 Advanced User Manual
+
+ESP-ME3 Technical Specifications
+
+ESP-ME3 Advanced Residential Irrigation Control

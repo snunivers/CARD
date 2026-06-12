@@ -1,0 +1,3452 @@
+{
+  "laser measure": {
+    "category": "laser measure",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "hammock": {
+    "category": "hammock",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "computer power supply": {
+    "category": "computer power supply",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "cordless drill": {
+    "category": "cordless drill",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "smartphone": {
+    "category": "smartphone",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "hedge trimmer": {
+    "category": "hedge trimmer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "wood router": {
+    "category": "wood router",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "wet-dry vacuum": {
+    "category": "wet-dry vacuum",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "pressure washer": {
+    "category": "pressure washer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "network attached storage": {
+    "category": "network attached storage",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "hair dryer": {
+    "category": "hair dryer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "skin cleansing brush": {
+    "category": "skin cleansing brush",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "air compressor": {
+    "category": "air compressor",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "beard trimmer": {
+    "category": "beard trimmer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "paint sprayer": {
+    "category": "paint sprayer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "eyeshadow": {
+    "category": "eyeshadow",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "tent": {
+    "category": "tent",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "robot vacuum": {
+    "category": "robot vacuum",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "lawn mower": {
+    "category": "lawn mower",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "blender": {
+    "category": "blender",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "pool cleaner": {
+    "category": "pool cleaner",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "tool chest": {
+    "category": "tool chest",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "tablet": {
+    "category": "tablet",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "slow cooker": {
+    "category": "slow cooker",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "leaf blower": {
+    "category": "leaf blower",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "shampoo": {
+    "category": "shampoo",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "barbecue grill": {
+    "category": "barbecue grill",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "hair straightener": {
+    "category": "hair straightener",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "dishwasher": {
+    "category": "dishwasher",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "computer monitor": {
+    "category": "computer monitor",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "curling iron": {
+    "category": "curling iron",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "space heater": {
+    "category": "space heater",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "electric toothbrush": {
+    "category": "electric toothbrush",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "coffee maker": {
+    "category": "coffee maker",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "lipstick": {
+    "category": "lipstick",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "washing machine": {
+    "category": "washing machine",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "portable air conditioner": {
+    "category": "portable air conditioner",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "wifi router": {
+    "category": "wifi router",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "noise-canceling headphone": {
+    "category": "noise-canceling headphone",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "air purifier": {
+    "category": "air purifier",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "screw driver": {
+    "category": "screw driver",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "laptop": {
+    "category": "laptop",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "electric sander": {
+    "category": "electric sander",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "microwave oven": {
+    "category": "microwave oven",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "fascia gun": {
+    "category": "fascia gun",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "solid state drive": {
+    "category": "solid state drive",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "portable speaker": {
+    "category": "portable speaker",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "sleeping bag": {
+    "category": "sleeping bag",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "automatic garden watering system": {
+    "category": "automatic garden watering system",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  },
+  "string trimmer": {
+    "category": "string trimmer",
+    "fictional_brands": [
+      {
+        "brand": "S_Brand",
+        "model": "S_Model",
+        "brand_code": "S",
+        "model_code": "S",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "T_Brand",
+        "model": "T_Model",
+        "brand_code": "T",
+        "model_code": "T",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "U_Brand",
+        "model": "U_Model",
+        "brand_code": "U",
+        "model_code": "U",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "V_Brand",
+        "model": "V_Model",
+        "brand_code": "V",
+        "model_code": "V",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "W_Brand",
+        "model": "W_Model",
+        "brand_code": "W",
+        "model_code": "W",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "X_Brand",
+        "model": "X_Model",
+        "brand_code": "X",
+        "model_code": "X",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Y_Brand",
+        "model": "Y_Model",
+        "brand_code": "Y",
+        "model_code": "Y",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      },
+      {
+        "brand": "Z_Brand",
+        "model": "Z_Model",
+        "brand_code": "Z",
+        "model_code": "Z",
+        "is_fictional": true,
+        "knowledge_strength": 0.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+24” In-Cell Touch Monitor with USB Type-C Input and Advanced Ergonomics
+Versatile touch applications
+Efficient multitasking
+Touch annotation for presentations
+Accurate yet smooth touch experience
+Comfortable working angles & quickly start your work
+Touch support with Windows, Android, Chrome, Linux and Raspberry Pi
+*Due to a hardware incompatibility with macOS USB stack, TD2455 cannot support touch functions by vTouch temporarily.
+
+With responsive in-cell touch technology and an advanced ergonomic design, the ViewSonic® TD2455 touch monitor delivers hands-on control for more productive workspaces and collaborative classrooms. With high-performance in-cell touch technology, this 24” (23.8” viewable) Full HD display provides smooth and responsive touch tracking, along with amazing screen performance, within a sleek and bezel-less design. USB Type-C connectivity offers a single-cable plug-and-play solution for laptops, while DisplayPort output enables easy screen mirroring or extended desktops ideal for office productivity and podium touch applications such as conference rooms or classrooms. A magnetic stylus pen lets you write or draw on screen, and easily attaches to the display stand for secure storage. So whether used on its own on office desktops, as a presentation station in corporate meeting spaces, or as a front-of-classroom interactive teaching hub, the TD2455 helps to boost efficiency and productivity. *Some laptops may need to enter BIOS mode and change the power management setting to “tap-to-wake”.
+
+Versatile Touch Applications
+Whether used as a check-in kiosk at reception, as a collaboration station with co-workers and colleagues at the office, or as a touch podium for front-facing teaching, this sleek and slim touch display seamlessly integrates into your workflow for boosted efficiency and productivity.
+Agile yet Scalable Touch Display
+Efficient Multitasking
+With advanced DisplayPort Multi-Stream technology and support for up to 4-screen daisy chaining*, this display can transform into the ultimate touch screen workstation – in mirror and extended modes – for increased productivity. *up to 4 with a PC; up to 3 with a laptop
+DisplayPort Multi-Stream Transport (MST)
+Touch Annotation for Presentations
+An included stylus pen easily attaches to the magnetic base of the display, and allows you to draw, write notes, or perform other detailed tasks that require more accuracy than your fingertips alone. The pen is especially useful during presentations when the TD2455 is attached to a projector.
+Fine Writing Stylus
+Accurate yet Smooth Touch Experience
+Powered by in-cell touch technology, the TD2455 offers sensitive yet smooth touch response for detailed content editing with fingertips or the touch pen.
+10-Point In-Cell Projected Capacitive (PCAP) Touch Technology
+Quickly Start Your Work
+The latest USB Type-C input transforms this display into a powerful hub by enabling easy connectivity to PC, laptop, and Chrome systems. In addition, it delivers charging power, video, and audio over a single cable.
+USB Type-C
+Comfortable Working Angles
+Designed with an ergonomically advanced dual-hinge stand, this display can be tilted and adjusted to deliver a more comfortable user experience.
+Ergonomic Dual-Hinge Design
+Incredible Images, Sleek Design
+With high-performance in-cell touch technology, this display provides smooth and responsive touch tracking, along with amazing screen performance, within a sleek and bezel-less design.
+In-Cell Projected Capacitive (PCAP) Touch Technology
+Minimal Design Concept
+The ergonomic stand features an integrated client mount for quick installation of optional mini PC mount on the back of the display. Cable management features also keep your workspace neat.
+Optional Mini PC Mount
+Touch support with Windows, Android, Chrome, Linux and Raspberry Pi
+Extra Features
+VESA compatibility, low energy consumption with Energy Star, SuperClear® IPS technology, blue light filter, and flicker-free

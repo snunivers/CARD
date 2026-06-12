@@ -1,0 +1,61 @@
+World Class Quiet and Efficiency
+
+be quiet! Straight Power 11 750
+W
+ raises the bar for systems that demand virtually inaudible operation without power quality compromises.
+
+Virtually inaudible Silent Wings 3 135mm fan
+Funnel-shaped fan opening of the PSU case for high airflow intake
+Wire-free inside the PSU on the DC side for enhanced cooling and longevity
+Modular cables for maximum build flexibility
+80 PLUS Gold efficiency (up to 93%)
+4 PCIe connectors for overclocked high-end GPUs
+Japanese 105°C-rated capacitors ensure stability and reliability
+ErP and Energy Star 6.1 ready
+5-year manufacturer’s warranty
+
+SILENT WINGS 3 FAN
+
+Provides virtually inaudible operation
+
+The high-end Silent Wings 3 fan delivers best-of-class airflow yet produces very little noise. This is thanks to its unique, optimized fan blade design along with an advanced fluid-dynamic bearing and 6-pole fan motor that largely eliminates operational noise, has a super-long life and minimal power consumption.
+
+FUNNEL-SHAPED FAN OPENING
+
+Higher cooling performance
+
+The fan inlet of the Straight Power 11 750
+W is funnel-shaped. It causes an increased throughput of air which benefits to a higher cooling performance.
+
+WIRE-FREE INSIDE THE PSU
+
+Pushing the longevity of components to a maximum
+
+An absolute innovation: The Straight Power 11 750
+W is wire-free on the DC side inside the PSU body. This results in improved cooling airflow and less signal disturbance, simply because of a lack of wiring, and ultimately pushes the lifetimes of the components to a maximum.
+
+MODULAR CABLES
+
+Utmost convenience and compatibility
+
+Thanks to the modular cables, all cables that serve no purpose in the system are left out. For this reason, systems always appear very tidy. At the same time installation is performed much more conveniently. A smoother airflow results from the uncluttered layout of the system, which means lower noise and temperatures prevail inside the case.
+
+80 PLUS GOLD CERTIFIED
+
+Impressively high efficiency
+
+Straight Power 11 750
+W is certified with 80 PLUS Gold efficiency, reaching up to 93%. This gives less power consumption and a cooler and quieter operation. Truly a benefit for any system.
+
+HIGH-CLASS TECHNOLOGIES
+
+Compatibility for the systems of tomorrow
+
+The use of LLC and Synchronous Rectifier (SR) provides very stable operation and enhanced voltage regulation. The PSU is equipped with DC-to-DC conversion for tight voltage regulation even under heavy cross-loading conditions. This ensures reliable operation with the next generation of processors and graphics cards.
+
+JAPANESE 105° CAPACITORS
+
+A testament to high quality
+
+Only the best components are used in Straight Power 11 750
+W. That is why we have built only high-quality Japanese capacitors into the PSU chassis. They are rated to 105°C, ensuring stability, reliability and a long operating life.

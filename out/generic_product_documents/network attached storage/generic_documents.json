@@ -1,0 +1,86 @@
+{
+  "category": "network attached storage",
+  "num_documents": 16,
+  "documents": [
+    {
+      "doc_index": 0,
+      "word_count": 89,
+      "text": "The [BRAND] [MODEL] is a 2-bay network attached storage system designed for home users who want centralized file storage, media streaming, and automatic backup. It supports SATA HDDs and SSDs, RAID 0, RAID 1, and JBOD, with hot-swappable drive trays for easy maintenance. A dual-core processor and 2 GB of memory keep everyday tasks responsive, while Gigabit Ethernet ensures stable network access. The [BRAND] [MODEL] also includes USB ports for external backups, mobile app access, user permission controls, and basic private cloud features for photos, documents, and shared folders."
+    },
+    {
+      "doc_index": 1,
+      "word_count": 89,
+      "text": "Built for small offices, the [BRAND] [MODEL] offers four drive bays, expandable storage capacity, and dependable data protection. It supports RAID 0, 1, 5, 6, 10, and single-disk modes, making it flexible for growing teams. A quad-core processor, 4 GB RAM, and dual Gigabit LAN ports provide smooth multi-user performance and link aggregation support. The [BRAND] [MODEL] includes snapshot protection, scheduled backups, AES hardware encryption, and remote access tools. It works well for file sharing, department archives, and collaborative projects, with a straightforward web interface for setup and monitoring."
+    },
+    {
+      "doc_index": 2,
+      "word_count": 88,
+      "text": "The [BRAND] [MODEL] is a compact single-bay NAS aimed at apartment users, students, or anyone needing simple network storage without complex setup. It supports one 3.5-inch or 2.5-inch SATA drive and offers file sharing over a home network with low power consumption and quiet operation. Useful features include automatic photo backup from phones, DLNA media serving, USB copy, and scheduled sync to cloud services. The [BRAND] [MODEL] is ideal for storing documents, music, and video libraries, and its intuitive management software helps first-time NAS buyers get started quickly."
+    },
+    {
+      "doc_index": 3,
+      "word_count": 89,
+      "text": "For creative professionals, the [BRAND] [MODEL] delivers fast network storage with six bays, SSD cache support, and dual 2.5GbE ports for higher throughput. A powerful quad-core platform with 8 GB of expandable memory helps handle large image libraries, video projects, and multi-user editing workflows. The [BRAND] [MODEL] supports RAID 5, RAID 6, RAID 10, snapshots, and real-time folder synchronization to protect active work. It also includes HDMI output for local playback, multiple USB ports for direct imports, and permission management for studios that need secure shared access across teams."
+    },
+    {
+      "doc_index": 4,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is a 4-bay desktop NAS built for family media storage and personal cloud access. It supports up to four SATA drives, hot swap installation, and RAID 1, 5, and JBOD configurations. With a low-noise cooling design, it fits easily in a living room or home office. The [BRAND] [MODEL] offers multimedia indexing, smart TV streaming, automatic PC backup, and secure remote login through web and mobile apps. Two USB 3.0 ports simplify external archiving, while user accounts and folder quotas help separate personal files from shared household content."
+    },
+    {
+      "doc_index": 5,
+      "word_count": 91,
+      "text": "Designed for business continuity, the [BRAND] [MODEL] combines eight drive bays with redundant power supply support and advanced backup features. It runs on a six-core processor with 8 GB ECC memory for improved reliability during continuous workloads. Dual 10GbE-ready expansion options and multiple LAN ports allow the [BRAND] [MODEL] to scale for virtualization storage, surveillance recording, and large file repositories. It supports iSCSI targets, VMware-compatible snapshots, AES encryption, cloud replication, and central user management. This model suits companies that need dependable uptime, strong data integrity, and room to expand over time."
+    },
+    {
+      "doc_index": 6,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is a value-focused 2-bay NAS that balances affordability with useful backup and sharing tools. It supports RAID 1 mirroring for safer storage, plus single-disk and striped modes for users prioritizing capacity or speed. A power-efficient processor and 1 GB memory are suitable for document storage, home backups, and light media streaming. The [BRAND] [MODEL] provides browser-based management, USB backup, download station features, and support for Windows, macOS, and Linux clients. It is a practical choice for first-time NAS owners who want simple setup and dependable everyday network access."
+    },
+    {
+      "doc_index": 7,
+      "word_count": 88,
+      "text": "The [BRAND] [MODEL] is a rackmount NAS with 12 bays, created for IT rooms handling centralized backup, shared storage, and surveillance archives. It supports high-capacity SATA or nearline drives, RAID 5, 6, 50, and hot spare options for stronger fault tolerance. Equipped with a multi-core processor, 16 GB memory, and dual 10GbE networking, the [BRAND] [MODEL] is built for high concurrent access. Administrators can manage snapshots, replication jobs, Active Directory integration, and alert notifications from a unified dashboard. Tool-less trays and front-access maintenance simplify deployment in professional environments."
+    },
+    {
+      "doc_index": 8,
+      "word_count": 88,
+      "text": "Small teams needing secure collaboration will appreciate the [BRAND] [MODEL], a 4-bay NAS with built-in file synchronization and versioning. It features a quad-core processor, 4 GB RAM, two Gigabit ports, and NVMe cache slots to accelerate frequent file access. The [BRAND] [MODEL] supports RAID 0, 1, 5, 10, encrypted shared folders, and remote worker access through a secure portal. Integrated office-style collaboration apps, calendar syncing, and permission-based sharing help organize projects without relying entirely on public cloud subscriptions. It is well suited for agencies, consultants, and distributed teams."
+    },
+    {
+      "doc_index": 9,
+      "word_count": 91,
+      "text": "The [BRAND] [MODEL] is a quiet 5-bay NAS optimized for mixed home and office use, offering a strong balance of capacity, performance, and ease of use. It includes a quad-core processor, 8 GB memory, dual 2.5GbE ports, and support for SSD read/write caching. RAID 5 and RAID 6 options help protect valuable files, while scheduled snapshots add another layer of recovery. The [BRAND] [MODEL] supports media streaming, Time Machine-style backups, virtualization storage, and container-based apps. Its clean operating interface makes it easy to create users, manage quotas, and monitor drive health."
+    },
+    {
+      "doc_index": 10,
+      "word_count": 89,
+      "text": "For users building a private multimedia server, the [BRAND] [MODEL] offers 2 bays, hardware-assisted transcoding support, and HDMI output for direct display connection. It can store movies, music, photos, and backups in one central location, while RAID 1 helps safeguard important personal data. The [BRAND] [MODEL] includes mobile uploads, remote streaming, automatic library indexing, and USB expansion for portable drives. A dual-core processor and 2 GB of RAM keep daily tasks smooth, and the compact chassis is designed for quiet running. It is a sensible choice for entertainment-focused households."
+    },
+    {
+      "doc_index": 11,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] is an expandable 6-bay NAS intended for growing businesses that need both storage performance and long-term flexibility. Powered by a six-core processor and 8 GB of memory, it supports multiple file services, block-level iSCSI storage, and high-speed network upgrades through PCIe expansion. The [BRAND] [MODEL] can use RAID 5, 6, and 10, along with SSD caching and automated tiering to improve response times. Built-in snapshot replication, cloud sync, antivirus tools, and role-based access controls make it suitable for accounting data, team shares, and backup consolidation across offices."
+    },
+    {
+      "doc_index": 12,
+      "word_count": 90,
+      "text": "The [BRAND] [MODEL] targets photographers and small studios with a 4-bay design, two 2.5GbE ports, and support for large-capacity drives. It features 4 GB RAM, expandable memory, and optional SSD cache to speed thumbnail generation and catalog access. The [BRAND] [MODEL] offers RAID 1, 5, and 10, plus snapshot recovery and offsite replication for better protection of client work. USB front copy lets users import from external drives quickly after a shoot. With organized sharing links, album access controls, and broad operating system compatibility, it fits collaborative creative workflows well."
+    },
+    {
+      "doc_index": 13,
+      "word_count": 92,
+      "text": "The [BRAND] [MODEL] is a compact business NAS with 2 bays and emphasis on secure file storage for remote and hybrid teams. It includes a dual-core processor, 2 GB RAM, one 2.5GbE port, and hardware encryption support for sensitive data. Despite its smaller size, the [BRAND] [MODEL] provides snapshot scheduling, secure VPN-friendly access, cloud backup integration, and user-level permissions. RAID 1 mirroring protects against a single drive failure, while email alerts and drive health monitoring help reduce maintenance surprises. It is a strong fit for legal offices, clinics, and small administrative departments."
+    },
+    {
+      "doc_index": 14,
+      "word_count": 92,
+      "text": "Engineered for surveillance and archive workloads, the [BRAND] [MODEL] combines eight bays with large storage pools and continuous recording support. It uses a multi-core processor, 8 GB memory, and dual LAN connectivity to handle multiple IP camera streams alongside general file services. The [BRAND] [MODEL] supports RAID 5, 6, and hot spare configurations, plus motion event indexing and retention policies for organized footage management. Beyond security use, it can serve as a departmental backup target with rsync, cloud replication, and external USB copy. The chassis includes efficient cooling for reliable 24/7 operation."
+    },
+    {
+      "doc_index": 15,
+      "word_count": 93,
+      "text": "The [BRAND] [MODEL] is a premium 4-bay NAS for users who want private cloud convenience with advanced data protection. It pairs a quad-core processor with 8 GB RAM, dual 2.5GbE networking, and M.2 slots for SSD cache acceleration. The [BRAND] [MODEL] supports RAID 1, 5, and 10, immutable snapshots, encrypted folders, and one-touch USB backup. It also includes app support for notes, mail, file synchronization, and virtual machine storage, making it versatile for both home labs and professional use. The polished management software simplifies deployment while offering detailed control over storage and services."
+    }
+  ]
+}

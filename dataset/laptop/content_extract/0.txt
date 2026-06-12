@@ -1,0 +1,138 @@
+Invest in the Future You Want to See.
+A First Public Offering of Purism Stock on StartEngine. Minimum $500.
+Invest Now
+
+The Road Warrior
+
+The first 14” laptop designed to protect your digital life
+
+Ultra-portable workstation laptop that was designed chip-by-chip, line-by-line, to respect your rights to privacy, security, and freedom.
+
+Order Now
+
+Intel 
+Core i7
+ 10710U Comet Lake Processor
+Up to 
+64 GB
+ DDR4 memory
+Output 
+4K
+ Video to two displays
+GNU/Linux 
+PureOS
+ Free, Private & Secure
+
+Hardware
+
+With an Intel processor you get years of coreboot development and a disabled Intel Management engine. Energy efficient Intel UHD Graphics powerful enough for 4K video, light graphics processing and 3D gaming.
+Up to 64GB DDR4 memory
+CPU – 6 cores & 12 threads
+Memory card reader, USB 3.1 type-A and USB 3.1 type-C w/ PD, HDMI 2
+High quality aluminum chassis
+Full size backlit keyboard with plenty of key travel
+
+Tenth Generation Intel Processor
+
+Six Cores, Twelve Threads, 4.70Ghz i7-10710U
+
+Processors are essential—they are called 
+central processing units
+, for a reason. Selecting Intel based processors, the tenth generation mobile version, offers the best battery life while not compromising speed and supporting the 
+open source coreboot BIOS
+. In using the latest from Intel, processor-hungry applications finish at lightning speed.
+Kill Switches
+Our unique hardware kill switches to physically disconnect the camera and mic (including the headphone jack mic) or wireless and Bluetooth
+
+No more tape over your web cam
+Be confident that no one is listening or watching
+PureBoot and Librem Key
+Unprecedented security, no other laptop comes close to the protection offered by a Librem
+
+Disabled the Intel Management engine
+Less binary blob firmware and disabled manufacturer backdoors
+Write-protected BIOS and EC chips
+ using hardware switches
+Detect software and hardware tampering with 
+PureBoot
+ and the 
+Librem Key
+Anti-Interdiction Services
+Unique security service 
+to detect interdiction
+ and hardware and software tampering from our door to yours
+
+Tamper evident packaging, tape and screws
+Photographic evidence of your secure setup
+All communication taking place over GPG encrypted email
+PureOS
+
+An enhanced private, secure and stable GNU/Linux distribution with FSF endorsement
+ Based off Debian stable and testing branches. Giving you the option of battle-tested stability or cutting-edge tech. 
+Better security defaults
+Apparmor sandboxed debs and Flatpak
+HTTPS everywhere
+Ad blocking and tracking protection
+PureBoot and Librem Key integration
+Free and open source software
+Same Footprint, Larger Display
+The same, perfect laptop size – now with a bigger screen.
+
+Librem 13
+13.3″ Matte Screen
+Core i7 7500U (Kabylake) Processor, 2 cores & 4 threads
+1x SO-DIMM slot, 32GB RAM max
+325mm x 18mm x 219mm
+1.4 kg
+
+Librem 14
+14″ Matte Screen
+Core i7-10710U (Comet Lake) Processor, 6 cores & 12 threads
+2x SO-DIMM slots, 64GB RAM max
+322mm x 17mm x 220mm
+1.4 kg
+Laptop Accessories
+
+Privacy Screen
+$29.00
+Keep spying eyes away with custom privacy screens for the Librem 14.
+
+Buy Now
+
+Power Adapter
+$59.00
+Power adapter for Librem 14. These ship separately from your main laptop order.
+
+Buy Now
+
+Travel Power Adapter
+$39.00
+65W Travel Power adapter for Librem 14. These ship separately from your main laptop order.
+Hardware Specifications: Librem 14
+Processor
+Core i7-10710U (Comet Lake)
+Display
+14″ Matte (1920×1080)
+Graphics
+Intel UHD Graphics 620
+Memory
+2x SO-DIMM slots, up to 64GB, DDR4
+Storage
+2 SATA + NVMe-capable 80mm M.2 slots
+Video
+1 HDMI Port (4K capable @60Hz max)
+USB Type-C Video Out (4K capable)
+USB Ports
+USB 3 (Type A)
+Up to 10 Gbit/s
+2 Ports
+USB 3 (Type C)
+Up to 10 Gbit/s
+1 Port (supports Power Delivery sink for charging the laptop / Display Port alt mode, video output up to 4k @ 60Hz)
+USB 3 (Type C)
+Up to 10 Gbit/s
+1 Port (data transfer only)
+Audio
+3.5mm AudioJack (Mic-in & Headphone-out combo)
+Networking
+Gigabit Ethernet Adapter with Integrated RJ45 Connector

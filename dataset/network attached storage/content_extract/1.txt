@@ -1,0 +1,139 @@
+Fujitsu Storage ETERNUS AF250 S3
+
+Entry-level all-flash storage for all Tier-1 applications in small and mid-sized companies
+
+Max No. of controllers: 2
+
+Max No. of drives: 264
+
+Maximum storage capacity of up to 8,110 TB
+
+Random access performance of up to 600,000 IOPS
+
+Flexible and flash optimized storage
+
+Selective use of deduplication / compression
+
+Automated Quality-of-Service
+
+Transparent failover and Storage Cluster
+
+Ultra-low response times for all applications and a massive increase of IOPS without complicated tuning measures as well as scalable capacity and connectivity.
+
+Data reduction at the volume level to improve storage efficiency and increase the lifespan of flash
+
+Control applications priorities according to business needs, minimize admin efforts, automate monitoring and adjustment to guarantee service levels
+
+High redundancies enable business critical computing, data processing and real-time data mirroring at the highest level and a system availability of up to 99.9999%.
+
+Tech Specs
+
+Type
+
+All-Flash Array
+
+Latency
+
+140µsec (Read), 60µsec (Write)
+
+Sequential access performance
+
+11,000 MB/s (128KB Read) 5,300 MB/s (128KB Write)
+
+Random access performance
+
+600,000 IOPS (8KB Read) 480,000 IOPS (8KB Write)
+
+Host Interfaces
+
+Fibre Channel (16 Gbit/s, 32Gbit/s) iSCSI (10 Gbit/s [10GBase-SR, 10GBase-CR, 10GBase-T], 1 Gbit/s)
+
+Maximum Disk Drives
+
+264
+
+Maximum Storage Capacity
+
+8,110 TB
+
+No. of host interfaces
+
+4-16 ports [FC16Gbit/s)], 4/8 ports [FC(32Gbit/s), iSCSI(10Gbit/s,1Gbit/s)]
+
+Max. no. of hosts
+
+1,024
+
+Supported RAID levels
+
+0, 1, 1+0, 5, 5+0, 6
+
+Drive interface
+
+Serial Attached SCSI (12 Gbit/s)
+
+Thin Provisioning
+
+Yes
+
+Automated Storage Tiering
+
+Yes
+
+Remote Copy functionality
+
+Synchronous and asynchronous
+
+Support Pack Options
+
+Available in major metropolitan areas: 9x5, Next Business Day Onsite Response Time 9x5, 4h Onsite Response Time (depending on country) 24x7, 4h Onsite Response Time (depending on country)
+
+Recommended Service
+
+24x7, Onsite Response Time: 4h
+
+Support Pack Options
+
+Available in major metropolitan areas: 9x5, Next Business Day Onsite Response Time 9x5, 4h Onsite Response Time (depending on country) 24x7, 4h Onsite Response Time (depending on country)
+
+Recommended Service
+
+24x7, Onsite Response Time: 4h
+
+Resources
+
+Data Sheets
+
+ETERNUS AF250 S3
+
+ETERNUS AF150 S3
+
+Brochures & Flyers
+
+Brochure: ETERNUS AF - All-Flash Storage System
+
+Flyer: Top Reasons to invest in ETERNUS AF
+
+Infographic: ETERNUS All-Flash Storage
+
+Brochure: ETERNUS Primary Storage Family
+
+Fujitsu Storage Portfolio
+
+White Papers
+
+ETERNUS AF and ETERNUS DX Feature Set
+
+ETERNUS AF and ETERNUS DX Optimization Features: Automated Storage Tiering and Automated Quality of Service
+
+ETERNUS AF and ETERNUS DX Storage Cluster
+
+Software
+
+FUJITSU ETERNUS SF V16.9 Storage Management Software
+
+ETERNUS SF storage management software supports overall daily operations within the entire ETERNUS AF and ETERNUS DX storage infrastructure by offering an easy-to-use graphical user interface for all management tasks, like health monitoring, capacity management, provisioning, local and remote replication and disaster recovery as well as the management of unified storage. At the same time it reduces significantly administrator’s training efforts with regards to cost and time.
+
+Fujitsu Storage ETERNUS Multipath Driver (only available for APAC region)
+
+ETERNUS Multipath Driver software achieves high-reliability and performance systems due to multipath connection between storages and servers. In case of path failure ETERNUS Mutpath Driver switches the access path to improves system reliability. In addition, further improved system performance is ensured by the load balancing function between multiple paths.

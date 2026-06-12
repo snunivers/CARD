@@ -1,0 +1,3873 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Synology Inc.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FlashStation 
+
+
+
+	FS3600
+
+
+
+
+
+
+
+
+
+
+
+
+		Performance
+			
+
+
+
+		Compatibility
+			
+
+
+
+		Downloads
+			
+
+
+
+		Compare
+				
+
+
+
+
+
+					Buy
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		Performance
+			
+
+
+
+		Compatibility
+			
+
+
+
+		Downloads
+			
+
+
+
+		Compare
+				
+
+
+
+
+
+						Buy
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FlashStation 
+
+
+
+	FS3600
+
+
+
+
+				Accelerate your business with an affordable all-flash solution
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							Features
+						
+
+
+
+
+
+
+
+							Specs
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fast and scalable all-flash NAS
+FS3600 is a 24-bay all-flash Synology NAS for enterprise use that boosts the performance of I/O sensitive applications, such as databases, virtual machines, or online transaction processing (OLTP). Featuring a 12-core CPU and high-speed network connection, FS3600 delivers over 195,000 iSCSI 4K random write IOPS
+1
+ to satisfy enterprise demand for high-speed infrastructure.
+Download Datasheet
+CPU
+Intel
+®
+ Xeon
+®
+ D-1567 12-core 2.1 GHz
+Memory
+16 GB DDR4 ECC RDIMM, up to 128 GB
+Scalability
+Up to 72 x SAS/SATA drives
+2
+PCIe expansion
+High-performance NIC support
+Who is using Synology?
+Watch how our solutions empower businesses around the world with limitless possibilities.
+The storage array has been proven to be more than capable of going toe-to-toe with what would be classed as an enterprise-class all flash array for a fraction of the cost.    
+Mark Pearce, IT Infrastructure Manager, Mantra Group
+Learn more
+By using Synology systems within our hospital networks, we can enjoy secure, fast, and stable solutions for backup, file, and cloud services as well as virtual server environments.    
+Artemis IT Department
+Learn more
+Fully certified storage virtualization solutions
+Synology iSCSI storage fully supports most virtualization solutions to enhance work efficiency with easy management interface. VMware vSphere 6 and VAAI integration helps offload storage operations and optimizes computation efficiency. Windows Offloaded Data Transfer (ODX) speeds up data transfer and migration rate. OpenStack Cinder support turns your Synology NAS into a block-based storage component.
+Real-time collaboration on your private cloud
+Synology Office is a collaboration package combining the convenience and usability of the public cloud with private cloud privacy and security. It enables seamless collaboration on documents and spreadsheets in a protected environment.
+ 
+Learn more
+Real-time collaboration on the same online documents to boost productivity,
+Instant communication on Synology Chat during the editing of documents or spreadsheets
+Version control for you to navigate all the changes and retrieve previous versions with just a click
+Real-time collaboration on the same online documents to boost productivity,
+Instant communication on Synology Chat during the editing of documents or spreadsheets
+Version control for you to navigate all the changes and retrieve previous versions with just a click
+Next-generation file system for better data protection
+The Btrfs file system introduces advanced storage technologies and optimized snapshots to prevent data corruption and reduce maintenance overheads. It offers flexible, efficient data protection and recovery tools while ensuring high-level data integrity.
+ 
+Learn more
+Flexible Shared Folder/User Quota System provides comprehensive quota control on all user accounts and shared folders
+Snapshot Replication provides schedulable and storage capacity-saving data protection with 1,024 shared folder backups and 65,000 system-wide snapshots
+File- or folder-level data restoration accelerates data recovery and provides more flexibility for businesses
+Automatic file self-healing detects and recovers corrupted files without user intervention
+Flash volume deduplication
+Remove duplicate data on all-flash arrays with volume-wide deduplication to greatly increase storage efficiency. Eliminate redundant data to save up to 65% in storage space use in applications like virtual desktop infrastructure, and virtual machine.
+3
+5-year warranty
+At Synology, we are committed to product innovation and quality. Synology guarantees a robust and reliable data management experience with a 5-year limited warranty, providing responsive technical support and hardware replacement services to maximize your return on investment.
+ 
+Learn more
+Powered by Synology DiskStation Manager
+Synology High Availability
+Seamless transition between clustered servers in the event of a server failure to minimize the impact on applications.
+Learn more
+Active Backup Suite
+Integrated, modern, and license-free backup & instant recovery solution for VMware, Windows, Microsoft 365, and Google Workspace.
+Learn more
+Virtual Machine Manager
+Run various operating systems in isolated sandboxes. Seamlessly clone, store, and migrate virtual machines.
+Learn more
+Synology MailPlus
+Secure, reliable, and private mail server solution with an intuitive and modern mail client.
+Learn more
+Security
+Shield your Synology NAS from the most sophisticated threats with industry-leading security solutions.
+Learn more
+Snapshot Replication
+Schedulable and instantaneous data protection of shared folders and iSCSI LUNs for quick disaster recovery.
+Learn more
+Performance backed by Synology drives
+Engineered to handle high-intensity workloads, Synology hard drives consistently deliver top-grade performance.
+4
+
+    SSD
+  
+Enterprise Series 2.5" SATA
+FlashStation 
+
+	FS3600
+
+1
+Power button and indicator
+2
+Beep off button
+3
+Drive status indicator
+4
+Drive tray
+5
+Power port
+6
+PSU indicator
+7
+PSU fan
+8
+Console port
+9
+1GbE RJ-45 port
+10
+10GbE RJ-45 port
+11
+USB 3.0 port
+12
+PCIe expansion slot
+13
+Expansion port
+14
+Reset button
+Notes:
+Performance figures may vary depending on environment, usage, and configuration.
+FS3600 can scale up to 72 drives with 2 x FX2421/48 drives with 2 x RX1217sas, sold separately.
+Flash volume deduplication is available on flash-only volumes comprised of 
+compatible
+ Synology SSD. Synology measured a data reduction ratio of over 3.15:1 based on 10 VMs configured for remote desktop with two operating systems and enterprise applications installed.
+Storage drives are sold separately. Refer to the 
+compatibility list
+ for compatible devices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Hardware Specs
+							
+
+
+
+
+
+
+
+								Software Specs
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Hardware Specifications
+
+
+
+
+ 
+CPU
+
+
+
+
+
+
+
+
+CPU
+
+
+
+
+CPU Model
+
+
+
+															Intel Xeon D-1567
+													
+
+
+
+
+
+
+
+
+
+
+CPU Quantity
+
+
+
+															1
+													
+
+
+
+
+
+
+
+
+
+
+CPU Architecture
+
+
+
+															64-bit
+													
+
+
+
+
+
+
+
+
+
+
+CPU Frequency
+
+
+
+															12-core 2.1 (base) / 2.7 (turbo) GHz
+													
+
+
+
+
+
+
+
+
+
+
+Hardware Encryption Engine (AES-NI)
+
+
+
+
+
+
+
+
+
+
+ 
+Memory
+
+
+
+
+
+
+
+
+Memory
+
+
+
+
+System Memory
+
+
+
+															16 GB DDR4 ECC RDIMM
+													
+
+
+
+
+
+
+
+
+
+
+Memory Module Pre-installed
+
+
+
+															16 GB (16 GB x 1)
+													
+
+
+
+
+
+
+
+
+
+
+Total Memory Slots
+
+
+
+															4
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Memory Capacity
+
+
+
+															128 GB (32 GB x 4)
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Synology reserves the right to replace memory modules with the same or higher frequency based on supplier's product life cycle status. Rest assured that the compatibility and stability have been strictly verified with the same benchmark to ensure identical performance.
+Please select Synology memory modules for optimum compatibility and reliability. Synology will not provide complete product warranty or technical support if non-Synology memory modules are used for memory expansion.
+For more information on memory upgrade limitations, visit 
+here
+.
+For more information on the recommended memory configurations, visit 
+here
+.
+
+
+
+
+
+
+ 
+Storage
+
+
+
+
+
+
+
+
+Storage
+
+
+
+
+Drive Bays
+
+
+
+															24
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Drive Bays with Expansion Unit
+
+
+
+															48 (RX1217sas x 2) / 72 (FX2421* x 2)
+													
+
+
+
+
+
+
+
+
+
+
+Compatible Drive Type* 
+ (See all supported drives)
+
+
+
+
+2.5" SAS HDD*
+2.5" SAS SSD*
+2.5" SATA SSD
+
+
+
+
+
+
+
+
+
+
+
+
+Hot Swappable Drive*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+2.5" SAS HDD and 2.5" SAS SSD only indicate the drive types that may be compatible with Synology devices. For supported drive models, please refer to the device’s 
+compatibility list
+.
+"Compatible drive type" indicates drives that have been tested to be compatible with Synology products. This term does not indicate the maximum connection speed of each drive bay.
+
+
+
+
+
+
+ 
+External Ports
+
+
+
+
+
+
+
+
+External Ports
+
+
+
+
+RJ-45 1GbE LAN Port
+
+
+
+															4 (with Link Aggregation / Failover support)
+													
+
+
+
+
+
+
+
+
+
+
+RJ-45 10GbE LAN Port
+
+
+
+															2 (with Link Aggregation / Failover support)
+													
+
+
+
+
+
+
+
+
+
+
+USB 3.2 Gen 1 Port*
+
+
+
+															2
+													
+
+
+
+
+
+
+
+
+
+
+Expansion Port
+
+
+
+															1
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															The USB 3.0 standard was renamed to USB 3.2 Gen 1 by the USB Implementers Forum (USB-IF) in 2019.
+													
+
+
+
+
+ 
+PCIe
+
+
+
+
+
+
+
+
+PCIe
+
+
+
+
+PCIe Expansion
+
+
+
+															1 x Gen3 x8 slot (x8 link)
+													
+
+
+
+
+ 
+File System
+
+
+
+
+
+
+
+
+File System
+
+
+
+
+Internal Drives
+
+
+
+
+Btrfs
+EXT4
+
+
+
+
+
+
+
+
+
+
+
+
+External Drives
+
+
+
+
+Btrfs
+EXT4
+EXT3
+FAT
+NTFS
+HFS+
+exFAT
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															exFAT Access can be installed for free from Package Center in DSM 7.0. In DSM 6.2 or earlier versions, exFAT Access needs to be purchased in Package Center.
+													
+
+
+
+
+ 
+Appearance
+
+
+
+
+
+
+
+
+Appearance
+
+
+
+
+Form Factor (RU)
+
+
+
+															2U
+													
+
+
+
+
+
+
+
+
+
+
+Size (Height x Width x Depth)
+
+
+
+															88 mm x 482 mm x 724 mm
+													
+
+
+
+
+
+
+
+
+
+
+Weight
+
+
+
+															14.9 kg
+													
+
+
+
+
+
+
+
+
+
+
+Rack Installation Support*
+
+
+
+															4-post 19" rack (Synology Rail Kit - 
+RKS-02
+)
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															The rail kit is sold separately
+													
+
+
+
+
+ 
+Others
+
+
+
+
+
+
+
+
+Others
+
+
+
+
+System Fan
+
+
+
+															80 mm x 80 mm x 4 pcs
+													
+
+
+
+
+
+
+
+
+
+
+Fan Speed Mode
+
+
+
+
+Full-Speed Mode
+Cool Mode
+Quiet Mode
+
+
+
+
+
+
+
+
+
+
+
+
+Easy Replacement System Fan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Power Recovery
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Noise Level*
+
+
+
+															57 dB(A)
+													
+
+
+
+
+
+
+
+
+
+
+Scheduled Power On / Off
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Wake on LAN / WAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Power Supply Unit / Adapter
+
+
+
+															500 W
+													
+
+
+
+
+
+
+
+
+
+
+Redundant Power Supply
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AC Input Power Voltage
+
+
+
+															100V to 240V AC
+													
+
+
+
+
+
+
+
+
+
+
+Power Frequency
+
+
+
+															50/60 Hz, Single Phase
+													
+
+
+
+
+
+
+
+
+
+
+Power Consumption
+
+
+
+															258.23 W (Access) 
+127.99 W (HDD Hibernation)
+													
+
+
+
+
+
+
+
+
+
+
+British Thermal Unit
+
+
+
+															881.12 BTU/hr (Access) 
+436.72 BTU/hr (HDD Hibernation)
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Power consumption is measured when it is fully loaded with HGST 1.8TB HUC101818CS4204 hard drive(s).
+Noise Level Testing Environment: Fully loaded with Toshiba 600GB AL14SEB060N hard drive(s) in the idle state. Two G.R.A.S. Type 40AE microphones, each set up 1 meter away from the Synology NAS at the front and rear. Background noise: 16.49-17.51 dB(A); Temperature: 24.25-25.75˚C; Humidity: 58.2-61.8%
+
+
+
+
+
+
+ 
+Temperature
+
+
+
+
+
+
+
+
+Temperature
+
+
+
+
+Operating Temperature
+
+
+
+															0°C to 35°C (32°F to 95°F)
+													
+
+
+
+
+
+
+
+
+
+
+Storage Temperature
+
+
+
+															-20°C to 60°C (-5°F to 140°F)
+													
+
+
+
+
+
+
+
+
+
+
+Relative Humidity
+
+
+
+															5% to 95% RH
+													
+
+
+
+
+ 
+Certification
+
+
+
+
+
+
+
+
+Certification
+
+
+
+
+
+
+FCC
+CE
+BSMI
+EAC
+CCC
+VCCI
+RCM
+
+
+
+
+
+
+ 
+Warranty
+
+
+
+
+
+
+
+
+Warranty
+
+
+
+
+
+															5  Years
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															The warranty period starts from the purchase date as stated on your purchase receipt. 
+(Learn more)
+
+
+
+
+
+
+ 
+Environment
+
+
+
+
+
+
+
+
+Environment
+
+
+
+
+
+															RoHS Compliant
+													
+
+
+
+
+ 
+Packaging Content
+
+
+
+
+
+
+
+
+Packaging Content
+
+
+
+
+
+
+Main Unit X 1
+Accessory Pack X 1
+AC Power Cord X 2
+Quick Installation Guide X 1
+
+
+
+
+
+
+ 
+Optional Accessories
+
+
+
+
+
+
+
+
+Optional Accessories
+
+
+
+
+
+
+DDR4 ECC RDIMM: 
+D4RD-2666-16G*
+/
+D4RD-2666-32G
+Expansion Units: 
+FX2421*
+/
+RX1217sas
+2.5" SATA SSD: 
+SAT5210
+25GbE Network Interface Card: 
+E25G30-F2
+10GbE Network Interface Card: 
+E10G21-F2
+/
+E10G18-T2
+/
+E10G18-T1
+Rail Kit Sliding: 
+RKS-02
+Surveillance Device License Pack
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+It is required to use D4RD-2666-16G with identical memory modules of the same capacity and frequency. For more information, visit 
+here
+.
+Expansion Unit FX2421 can only be used with identical expansion units.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+DSM Specifications
+
+
+
+
+ 
+Storage Management
+
+
+
+
+
+
+
+
+Storage Management
+
+
+
+
+Maximum Single Volume Size
+
+
+
+
+1 PB (64 GB memory required, for RAID 6 groups only)
+200 TB (32 GB memory required)
+108 TB
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum Internal Volume Number
+
+
+
+															256
+													
+
+
+
+
+
+
+
+
+
+
+SSD Read / Write Cache 
+ (White Paper) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SSD TRIM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAID Group
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Supported RAID Type
+
+
+
+
+RAID F1
+Basic
+JBOD
+RAID 0
+RAID 1
+RAID 5
+RAID 6
+RAID 10
+
+
+
+
+
+
+
+
+
+
+
+
+RAID Migration
+
+
+
+
+Basic to RAID 1
+Basic to RAID 5
+RAID 1 to RAID 5
+RAID 5 to RAID 6
+
+
+
+
+
+
+
+
+
+
+
+
+Volume Expansion with Larger HDDs
+
+
+
+
+RAID F1
+RAID 1
+RAID 5
+RAID 6
+RAID 10
+
+
+
+
+
+
+
+
+
+
+
+
+Volume Expansion by Adding a HDD
+
+
+
+
+RAID F1
+JBOD
+RAID 5
+RAID 6
+
+
+
+
+
+
+
+
+
+
+
+
+Global Hot Spare Supported RAID Type
+
+
+
+
+RAID F1
+RAID 1
+RAID 5
+RAID 6
+RAID 10
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Usable capacity for each volume will be lower than the maximum volume size and is dependent on the filesystem and the amount of system metadata stored.
+When Peta Volume is enabled, validated services and packages are required. Please refer to 
+this article
+ for more information on limitations.
+Actual maximum storage pool and volume sizes depend on drive sizes used, the number of drive bays available, and the RAID configuration.
+Volumes over 108 TB require 32 GB of memory or more.
+
+
+
+
+
+
+ 
+File Services
+
+
+
+
+
+
+
+
+File Services
+
+
+
+
+File Protocol
+
+
+
+															SMB/AFP/NFS/FTP/WebDAV
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Concurrent SMB/AFP/FTP Connections
+
+
+
+															4,000
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Concurrent SMB/AFP/FTP Connections (with RAM expansion)
+
+
+
+															10,000
+													
+
+
+
+
+
+
+
+
+
+
+Windows Access Control List (ACL) Integration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NFS Kerberos Authentication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Regarding data concerning tests with RAM expansion, all memory slots are installed with the maximum capacity of supported RAM.
+During testing, the maximum number of SSDs supported by this model is installed in a RAID 5 configuration.
+The testing standard was based on the maximum number of concurrent connections supported by this model. During the testing, 25% of the connections were used to transfer files concurrently. The transfer process guaranteed that the connections were not interrupted; the minimum transfer speed was not guaranteed.
+
+
+
+
+
+
+ 
+Account & Shared Folder
+
+
+
+
+
+
+
+
+Account & Shared Folder
+
+
+
+
+Maximum Local User Accounts
+
+
+
+															16,000
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Local Groups
+
+
+
+															512
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Shared Folder
+
+
+
+															512
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Shared Folder Sync Tasks
+
+
+
+															32
+													
+
+
+
+
+ 
+Hybrid Share
+
+
+
+
+
+
+
+
+Hybrid Share
+
+
+
+
+Maximum Hybrid Share Folders
+
+
+
+															30
+													
+
+
+
+
+ 
+Hyper Backup
+
+
+
+
+
+
+
+
+Hyper Backup
+
+
+
+
+Folder and Package Backup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entire System Backup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															Full-system backup requires DSM 7.2 or later.
+													
+
+
+
+
+ 
+High Availability
+
+
+
+
+
+
+
+
+High Availability
+
+
+
+
+Synology High Availability
+
+
+
+
+
+
+
+
+
+
+ 
+Log Center
+
+
+
+
+
+
+
+
+Log Center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Syslog Events per Second
+
+
+
+															3,000
+													
+
+
+
+
+ 
+Virtualization
+
+
+
+
+
+
+
+
+Virtualization
+
+
+
+
+VMware ESXi 6.5 and VAAI
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows Server 2016
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows Server 2019
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Windows Server 2022
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Citrix Ready
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OpenStack
+
+
+
+
+
+
+
+
+
+
+ 
+General Specifications
+
+
+
+
+
+
+
+
+General Specifications
+
+
+
+
+Networking Protocols
+
+
+
+															SMB1 (CIFS), SMB2, SMB3, NFSv3, NFSv4, NFSv4.1, NFS Kerberized sessions, iSCSI, Fibre Channel, HTTP, HTTPs, FTP, SNMP, LDAP, CalDAV
+													
+
+
+
+
+
+
+
+
+
+
+Supported Browsers
+
+
+
+
+Google Chrome
+Firefox
+Microsoft Edge
+Safari
+
+
+
+
+
+
+
+
+
+
+
+
+Supported Language
+
+
+
+															English, Deutsch, Français, Italiano, Español, Dansk, Norsk, Svenska, Nederlands, Русский, Polski, Magyar, Português do Brasil, Português Europeu, Türkçe, Český, ภาษาไทย, 日本語, 한국어, 繁體中文, 简体中文
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															For an updated list of supported browser versions, check the
+ DSM Technical Specifications
+.
+													
+
+
+
+
+ 
+Add-on Packages 
+view the complete package list
+
+
+
+
+ 
+Antivirus by McAfee (Trial)
+
+
+
+
+
+
+
+
+Antivirus by McAfee (Trial)
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Central Management System
+
+
+
+
+
+
+
+
+Central Management System
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+Synology Chat
+
+
+
+
+
+
+
+
+Synology Chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suggested Maximum Users
+
+
+
+															6,000
+													
+
+
+
+
+
+
+
+
+
+
+Suggested Concurrent Users
+
+
+
+															600
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															When applicable, systems are tested configured with maximum memory and set to allow the maximum number of connections.
+													
+
+
+
+
+ 
+Document Viewer
+
+
+
+
+
+
+
+
+Document Viewer
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+SAN Manager
+
+
+
+
+
+
+
+
+SAN Manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum iSCSI Target Number
+
+
+
+															256
+													
+
+
+
+
+
+
+
+
+
+
+Maximum LUN
+
+
+
+															512
+													
+
+
+
+
+
+
+
+
+
+
+LUN Clone/Snapshot, Windows ODX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															iSCSI Manager has been renamed to SAN Manager in DSM 7.0.
+													
+
+
+
+
+ 
+Synology MailPlus / MailPlus Server
+
+
+
+
+
+
+
+
+Synology MailPlus / MailPlus Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Free Email Accounts
+
+
+
+															5
+ (Additional accounts require purchase of licenses)
+
+
+
+
+
+
+
+
+
+
+
+
+Suggested Maximum Users
+
+
+
+															12,000
+													
+
+
+
+
+
+
+
+
+
+
+Suggested Concurrent Users
+
+
+
+															2,400
+													
+
+
+
+
+
+
+
+
+
+
+Maximum Server Performance
+
+
+
+															5,040,000 emails per day, approx. 151 GB
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+FS series were installed with 12 SSDs in RAID F1 configuration.
+For tested models with expandable memory, the maximum amount of RAM was installed.
+The performance of the mail system will slightly decrease in high-availability mode due to data synchronization between the two servers.
+Functions that were enabled in all of the tests above: anti-spam, anti-virus, DNSBL, greylist, content scan, full-text search (English only).
+
+
+
+
+
+
+ 
+Snapshot Replication
+
+
+
+
+
+
+
+
+Snapshot Replication
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum Snapshots per Shared Folder
+
+
+
+															1,024
+													
+
+
+
+
+
+
+
+
+
+
+Maximum of System Snapshots
+
+
+
+															65,536
+													
+
+
+
+
+ 
+Surveillance Station
+
+
+
+
+
+
+
+
+Surveillance Station
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Default Licenses
+
+
+
+															2 
+ (Additional cameras require purchase of licenses)
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum IP Cameras and Total FPS (H.264)
+
+
+
+
+720p: 128 channels,  3840 FPS
+1080p: 128 channels,  3840 FPS
+3M: 120 channels,  1200 FPS
+5M: 70 channels,  700 FPS
+4K: 50 channels,  500 FPS
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum IP Cameras and Total FPS (H.265)
+
+
+
+
+720p: 128 channels,  3840 FPS
+1080p: 128 channels,  3840 FPS
+3M: 128 channels,  2400 FPS
+5M: 128 channels,  1300 FPS
+4K: 80 channels,  800 FPS
+
+
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Performance figures are obtained from testing conducted with the device fully populated with drives under a continuous recording setup. Actual system capabilities may vary based on configuration, drive performance, enabled features, and the presence of additional workloads.
+Use 
+NVR Selector
+ to quickly find a suitable model based on your requirements.
+
+
+
+
+
+
+ 
+Synology Drive
+
+
+
+
+
+
+
+
+Synology Drive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recommended Number of Concurrent Sync Clients
+
+
+
+															2,000 (the number of connections that can be maintained when the recommended number of hosted files was reached)
+													
+
+
+
+
+
+
+
+
+
+
+Recommended Number of Hosted Files
+
+
+
+															50,000,000 (applies to files indexed or hosted by 
+Synology Drive
+. For file access through other standard protocols, refer to the File Services section above)
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Exceeding the recommended numbers above will not block application operations, but may result in longer response time.
+Utilizing SSD cache can significantly improve performance.
+For tested models with expandable memory, the maximum amount of RAM was installed.
+Btrfs file system and non-encrypted shared folders were used during the aforementioned testing.
+
+
+
+
+
+
+ 
+Synology Office
+
+
+
+
+
+
+
+
+Synology Office
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Suggested Maximum Users
+
+
+
+															15,000
+													
+
+
+
+
+
+
+
+
+
+
+Suggested Concurrent Users
+
+
+
+															6,000
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+
+Multiple files were opened for testing and each file was edited by 30 users simultaneously.
+For tested models with expandable memory, the maximum amount of RAM was installed.
+Client performance may affect maximum simultaneous editing users. Client PCs used for testing: Intel Core i3-3220 / 8GB RAM
+
+
+
+
+
+
+ 
+Virtual Machine Manager
+
+
+
+
+
+
+
+
+Virtual Machine Manager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recommended Virtual Machine Instances
+
+
+
+															24 
+ (Learn more)
+
+
+
+
+
+
+
+
+
+
+
+
+Recommended Virtual DSM Number 
+ (Licenses required) 
+
+
+
+															24 (including 1 Free License)
+													
+
+
+
+
+
+
+
+
+
+
+Notes
+
+
+
+															The specifications vary depending on system configuration and memory size.
+													
+
+
+
+
+ 
+VPN Server
+
+
+
+
+
+
+
+
+VPN Server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Maximum Connections
+
+
+
+															60
+													
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Notes:
+
+
+
+
+
+
+Model specifications are subject to change without prior notice.
+
+
+The figures are based on Synology internal testing. Each performance test is done individually. No other services or applications are processed at the same time.
+
+
+The actual performance may be lower than lab testing figure due to differences in server configuration, deployment, and the number of active operations.
+
+
+If usage requirements exceed the specifications above, please contact our 
+regional partners
+ for professional advice.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What can we do for you?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAS Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAID Calculator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NVR Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Knowledge Center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NAS Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RAID Calculator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NVR Selector
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Knowledge Center
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Company
+								
+
+
+
+
+
+
+
+
+
+
+About Synology
+
+
+
+
+
+
+
+
+
+
+Blog
+
+
+
+
+
+
+
+
+
+
+Newsroom
+
+
+
+
+
+
+
+
+
+
+Media Coverage
+
+
+
+
+
+
+
+
+
+
+Customer Stories
+
+
+
+
+
+
+
+
+
+
+Office Locations
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Sales
+								
+
+
+
+
+
+
+
+
+
+
+Where to Buy
+
+
+
+
+
+
+
+
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+
+Become a Partner
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Compatibility
+								
+
+
+
+
+
+
+
+
+
+
+HDD/SSD
+
+
+
+
+
+
+
+
+
+
+IP Camera
+
+
+
+
+
+
+
+
+
+
+Router
+
+
+
+
+
+
+
+
+
+
+Network Card
+
+
+
+
+
+
+
+
+
+
+I/O Module & IP Speaker
+
+
+
+
+
+
+
+
+
+
+Other Devices
+
+
+
+
+
+
+
+
+
+
+
+
+
+								Resources
+								
+
+
+
+
+
+
+
+
+
+
+Products A-Z
+
+
+
+
+
+
+
+
+
+
+Beta Program
+
+
+
+
+
+
+
+
+
+
+Bounty Program
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright © 2023 Synology Inc. All rights reserved.
+
+
+
+
+Terms & Conditions
+
+							 | 
+Privacy
+
+							 | 
+Cookie Preference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Global - English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
