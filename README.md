@@ -317,17 +317,16 @@ python poisoned_context_eval.py \
 │   └── tap_attacks/                 # TAP adversarial prompts and optimized docs
 ├── plots/                           # generated figures
 ├── logs/                            # run logs
-├── vllm_patches/                    # files to copy into vLLM 0.18.1
-│   └── vllm/
-│       └── v1/
-│           ├── core/sched/scheduler.py       # paired-request scheduling patch
-│           ├── request.py                     # extra-args request plumbing patch
-│           ├── sample/logits_processor/
-│           │   ├── paired_logits.py           # shared paired-logits helpers
-│           │   ├── ck_pair.py                 # CK logits processor
-│           │   └── global_card_pair.py        # Global CARD logits processor
-│           └── worker/gpu_model_runner.py     # paired-logits runner patch
-└── EMNLP_2026_Debias/               # paper source
+└── vllm_patches/                    # files to copy into vLLM 0.18.1
+    └── vllm/
+        └── v1/
+            ├── core/sched/scheduler.py       # paired-request scheduling patch
+            ├── request.py                     # extra-args request plumbing patch
+            ├── sample/logits_processor/
+            │   ├── paired_logits.py           # shared paired-logits helpers
+            │   ├── ck_pair.py                 # CK logits processor
+            │   └── global_card_pair.py        # Global CARD logits processor
+            └── worker/gpu_model_runner.py     # paired-logits runner patch
 ```
 
 The `out/` tree contains both reusable experiment inputs and generated outputs;

@@ -36,8 +36,6 @@ DEFAULT_CK_VLLM_ADAPTIVE = False
 
 _ck_vllm_model_cache: t.Dict[t.Tuple[t.Any, ...], t.Tuple[t.Any, t.Any, int]] = {}
 _ck_vllm_generate_kwargs_logged: bool = False
-_ck_vllm_custom_all_reduce_notice_logged: bool = False
-_ck_vllm_nccl_p2p_notice_logged: bool = False
 
 
 def _count_visible_gpus(gpu_ids: t.Optional[str]) -> int:
@@ -53,47 +51,9 @@ def _resolve_effective_gpu_ids(gpu_ids: t.Optional[str]) -> t.Optional[str]:
     return stripped if stripped else None
 
 
-def _should_disable_vllm_custom_all_reduce(gpu_ids: t.Optional[str]) -> bool:
-    from models import (
-        _should_disable_vllm_custom_all_reduce as should_disable_custom_all_reduce,
-    )
-
-    return should_disable_custom_all_reduce(gpu_ids)
-
-
-def _should_disable_vllm_nccl_p2p(gpu_ids: t.Optional[str]) -> bool:
-    from models import _should_disable_vllm_nccl_p2p as should_disable_nccl_p2p
-
-    return should_disable_nccl_p2p(gpu_ids)
-
-
 def _should_skip_vllm_mm_profiling(model_path: str) -> bool:
     normalized_path = str(model_path).lower()
     return "gemma3" in normalized_path or "gemma-3" in normalized_path
-
-
-def _log_vllm_custom_all_reduce_notice(gpu_ids: t.Optional[str]) -> None:
-    global _ck_vllm_custom_all_reduce_notice_logged
-    if _ck_vllm_custom_all_reduce_notice_logged:
-        return
-    print(
-        "CK vLLM detected target GPU set "
-        f"{gpu_ids}; explicitly setting disable_custom_all_reduce=True",
-        flush=True,
-    )
-    _ck_vllm_custom_all_reduce_notice_logged = True
-
-
-def _log_vllm_nccl_p2p_notice(gpu_ids: t.Optional[str]) -> None:
-    global _ck_vllm_nccl_p2p_notice_logged
-    if _ck_vllm_nccl_p2p_notice_logged:
-        return
-    print(
-        "CK vLLM detected target GPU set "
-        f"{gpu_ids}; explicitly setting NCCL_P2P_DISABLE=1",
-        flush=True,
-    )
-    _ck_vllm_nccl_p2p_notice_logged = True
 
 
 def _resolve_vllm_gpu_memory_utilization(
@@ -126,8 +86,6 @@ def _build_ck_vllm_cache_key(
         max_model_len,
         max_num_seqs,
         max_num_batched_tokens,
-        _should_disable_vllm_custom_all_reduce(effective_gpu_ids),
-        _should_disable_vllm_nccl_p2p(effective_gpu_ids),
     )
 
 
@@ -428,16 +386,11 @@ def _load_ck_vllm_model(
         max_model_len,
         max_num_seqs,
         max_num_batched_tokens,
-        _should_disable_vllm_custom_all_reduce(effective_gpu_ids),
-        _should_disable_vllm_nccl_p2p(effective_gpu_ids),
     )
     if cache_key not in _ck_vllm_model_cache:
         if effective_gpu_ids is not None:
             os.environ["CUDA_VISIBLE_DEVICES"] = effective_gpu_ids
         os.environ.setdefault("CUDA_DEVICE_ORDER", "PCI_BUS_ID")
-        if _should_disable_vllm_nccl_p2p(effective_gpu_ids):
-            os.environ["NCCL_P2P_DISABLE"] = "1"
-            _log_vllm_nccl_p2p_notice(effective_gpu_ids)
 
         from vllm import LLM
 
@@ -466,9 +419,6 @@ def _load_ck_vllm_model(
             llm_kwargs["max_num_batched_tokens"] = max_num_batched_tokens
         if _should_skip_vllm_mm_profiling(model_path):
             llm_kwargs["skip_mm_profiling"] = True
-        if _should_disable_vllm_custom_all_reduce(effective_gpu_ids):
-            llm_kwargs["disable_custom_all_reduce"] = True
-            _log_vllm_custom_all_reduce_notice(effective_gpu_ids)
 
         llm = LLM(**llm_kwargs)
         vocab_size = _get_vllm_vocab_size(llm, tokenizer)
